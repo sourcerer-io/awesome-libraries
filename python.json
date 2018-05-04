@@ -1,0 +1,69 @@
+{
+ "celery": {"imports": ["celery"], "tech": ["queue"], "repo": "celery/celery"}
+ "theano": {"imports": ["theano"], "tech": ["computations"], "repo": "Theano/Theano"}
+ "mxnet": {"imports": ["mxnet"], "tech": ["dl"], "repo": "apache/incubator-mxnet"}
+ "scrapy": {"imports": ["scrapy"], "tech": ["scraping"], "repo": "scrapy/scrapy"}
+ "tensorflow": {"imports": ["tensorflow"], "tech": ["dl"], "repo": "tensorflow/tensorflow"}
+ "itchat": {"imports": ["itchat"], "tech": ["chat bot"], "repo": "littlecodersh/ItChat"}
+ "tweepy": {"imports": ["tweepy"], "tech": ["api"], "repo": "tweepy/tweepy"}
+ "localstack": {"imports": ["localstack"], "tech": ["dev ops"], "repo": "localstack/localstack"}
+ "jieba": {"imports": ["jieba"], "tech": ["nlp"], "repo": "fxsjy/jieba"}
+ "IPython": {"imports": ["IPython"], "tech": ["data analysis"], "repo": "ipython/ipython"}
+ "bottle": {"imports": ["bottle"], "tech": ["web"], "repo": "bottlepy/bottle"}
+ "lasagne": {"imports": ["lasagne"], "tech": ["dl"], "repo": "Lasagne/Lasagne"}
+ "gensim": {"imports": ["gensim"], "tech": ["ml"], "repo": "RaRe-Technologies/gensim"}
+ "pandas": {"imports": ["pandas"], "tech": ["data analysis"], "repo": "pandas-dev/pandas"}
+ "requests": {"imports": ["requests"], "tech": ["networking"], "repo": "requests/requests"}
+ "fabric": {"imports": ["fabric"], "tech": ["dev ops"], "repo": "fabric/fabric"}
+ "gooey": {"imports": ["gooey"], "tech": ["gui"], "repo": "chriskiehl/Gooey"}
+ "matplotlib": {"imports": ["matplotlib"], "tech": ["data visualization"], "repo": "matplotlib/matplotlib"}
+ "zappa": {"imports": ["zappa"], "tech": ["devops"], "repo": "Miserlou/Zappa"}
+ "jinja2": {"imports": ["jinja2"], "tech": ["templating"], "repo": "pallets/jinja"}
+ "faker": {"imports": ["faker"], "tech": ["testing"], "repo": "joke2k/faker"}
+ "AlphaGo": {"imports": ["AlphaGo"], "tech": ["dl"], "repo": "Rochester-NRT/RocAlphaGo"}
+ "universe": {"imports": ["universe"], "tech": ["rl"], "repo": "openai/universe"}
+ "flask": {"imports": ["flask"], "tech": ["web"], "repo": "pallets/flask"}
+ "fblldbbase": {"imports": ["fblldbbase"], "tech": ["debugging"], "repo": "facebook/chisel"}
+ "spacy": {"imports": ["spacy"], "tech": ["nlp"], "repo": "explosion/spaCy"}
+ "locust": {"imports": ["locust"], "tech": ["load-testing"], "repo": "locustio/locust"}
+ "sonnet": {"imports": ["sonnet"], "tech": ["dl"], "repo": "deepmind/sonnet"}
+ "numpy": {"imports": ["numpy"], "tech": ["computations"], "repo": "numpy/numpy"}
+ "models": {"imports": ["models"], "tech": ["dl"], "repo": "tensorflow/models"}
+ "airflow": {"imports": ["airflow"], "tech": ["monitoring"], "repo": "apache/incubator-airflow"}
+ "cookiecutter": {"imports": ["cookiecutter"], "tech": ["templating"], "repo": "audreyr/cookiecutter"}
+ "kivy": {"imports": ["kivy"], "tech": ["uqi"], "repo": "kivy/kivy"}
+ "keras": {"imports": ["keras"], "tech": ["dl"], "repo": "fchollet/keras"}
+ "pyspider": {"imports": ["pyspider"], "tech": ["scraping"], "repo": "binux/pyspider"}
+ "sklearn": {"imports": ["sklearn"], "tech": ["ml"], "repo": "scikit-learn/scikit-learn"}
+ "sqlalchemy": {"imports": ["sqlalchemy"], "tech": ["db"], "repo": "zzzeek/sqlalchemy"}
+ "nltk": {"imports": ["nltk"], "tech": ["nlp"], "repo": "nltk/nltk"}
+ "tornado": {"imports": ["tornado"], "tech": ["web"], "repo": "tornadoweb/tornado"}
+ "yowsup": {"imports": ["yowsup"], "tech": ["app"], "repo": "tgalal/yowsup"}
+ "rest_framework": {"imports": ["rest_framework"], "tech": ["web"], "repo": "encode/django-rest-framework"}
+ "yapf": {"imports": ["yapf"], "tech": ["formatting"], "repo": "google/yapf"}
+ "luigi": {"imports": ["luigi"], "tech": ["map reduce"], "repo": "spotify/luigi"}
+ "hub": {"imports": ["hub"], "tech": ["api"], "repo": "timothycrosley/hug"}
+ "magenta": {"imports": ["magenta"], "tech": ["dl"], "repo": "tensorflow/magenta"}
+ "face_recognition": {"imports": ["face_recognition"], "tech": ["computer vision"], "repo": "ageitgey/face_recognition"}
+ "PIL": {"imports": ["PIL"], "tech": ["image"], "repo": "python-pillow/Pillow"}
+ "arrow": {"imports": ["arrow"], "tech": ["time"], "repo": "crsmithdev/arrow"}
+ "homeassistant": {"imports": ["homeassistant"], "tech": ["iot"], "repo": "home-assistant/home-assistant"}
+ "xgboost": {"imports": ["xgboost"], "tech": ["ml"], "repo": "dmlc/xgboost"}
+ "protobuf": {"imports": ["pb", "pb2"], "tech": ["serialization"], "repo": "google/protobuf"}
+ "newspaper": {"imports": ["newspaper"], "tech": ["scraping"], "repo": "codelucas/newspaper"}
+ "fire": {"imports": ["fire"], "tech": ["cli"], "repo": "google/python-fire"}
+ "gflags": {"imports": ["gflags"], "tech": ["arg parse"], "repo": "gflags/gflags"}
+ "opencv": {"imports": ["cv", "cv2"], "tech": ["computer vision"], "repo": "opencv/opencv"}
+ "bokeh": {"imports": ["bokeh"], "tech": ["data visualization"], "repo": "bokeh/bokeh"}
+ "zipline": {"imports": ["zipline"], "tech": ["algorithmic trading"], "repo": "quantopian/zipline"}
+ "boto3": {"imports": ["boto3"], "tech": ["aws"], "repo": "boto/boto"}
+ "nupic": {"imports": ["nupic"], "tech": ["ml"], "repo": "numenta/nupic"}
+ "tflearn": {"imports": ["tflearn"], "tech": ["dl"], "repo": "tflearn/tflearn"}
+ "torch": {"imports": ["torch"], "tech": ["dl"], "repo": "pytorch/pytorch"}
+ "gym": {"imports": ["gym"], "tech": ["rl"], "repo": "openai/gym"}
+ "sanic": {"imports": ["sanic"], "tech": ["web"], "repo": "channelcat/sanic"}
+ "django": {"imports": ["django"], "tech": ["web"], "repo": "django/django"}
+ "redis": {"imports": ["redis"], "tech": ["db"], "repo": "andymccurdy/redis-py"}
+ "pattern": {"imports": ["pattern"], "tech": ["nlp", " scraping"], "repo": "clips/pattern"}
+ "web": {"imports": ["web"], "tech": ["web"], "repo": "webpy/webpy"}
+}

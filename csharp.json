@@ -1,0 +1,53 @@
+{
+ "Senparc": {"imports": ["Senparc"], "tech": ["wechat"], "repo": "JeffreySu/WeiXinMPSDK"}
+ "Polly": {"imports": ["Polly"], "tech": ["fault-handling"], "repo": "App-vNext/Polly"}
+ "MonoGame": {"imports": ["MonoGame"], "tech": ["games"], "repo": "MonoGame/MonoGame"}
+ "Microsoft.AspNet.SignalR": {"imports": ["Microsoft.AspNet.SignalR"], "tech": ["web"], "repo": "SignalR/SignalR"}
+ "Accord": {"imports": ["Accord"], "tech": ["ml"], "repo": "accord-net/framework"}
+ "Quartz": {"imports": ["Quartz"], "tech": ["scheduler"], "repo": "quartznet/quartznet"}
+ "IdentityServer3": {"imports": ["IdentityServer3"], "tech": ["auth"], "repo": "IdentityServer/IdentityServer3"}
+ "Humanizer": {"imports": ["Humanizer"], "tech": ["data manipulation"], "repo": "Humanizr/Humanizer"}
+ "Massive": {"imports": ["Massive"], "tech": ["db"], "repo": "FransBouma/Massive"}
+ "PushSharp": {"imports": ["PushSharp"], "tech": ["messaging"], "repo": "Redth/PushSharp"}
+ "Microsoft.Bot": {"imports": ["Microsoft.Bot"], "tech": ["bot"], "repo": "Microsoft/BotBuilder"}
+ "AutoMapper": {"imports": ["AutoMapper"], "tech": ["object mapper"], "repo": "AutoMapper/AutoMapper"}
+ "CefSharp": {"imports": ["CefSharp"], "tech": ["web"], "repo": "cefsharp/CefSharp"}
+ "LanguageExt": {"imports": ["LanguageExt"], "tech": ["functional"], "repo": "louthy/language-ext"}
+ "Abp": {"imports": ["Abp"], "tech": ["web"], "repo": "aspnetboilerplate/aspnetboilerplate"}
+ "RestSharp": {"imports": ["RestSharp"], "tech": ["http"], "repo": "restsharp/RestSharp"}
+ "StackExchange.Redis": {"imports": ["StackExchange.Redis"], "tech": ["nosql"], "repo": "StackExchange/StackExchange.Redis"}
+ "System.Reactive": {"imports": ["System.Reactive"], "tech": ["reactive"], "repo": "Reactive-Extensions/Rx.NET"}
+ "Akka": {"imports": ["Akka"], "tech": ["distributed-systems"], "repo": "akkadotnet/akka.net"}
+ "EventStore": {"imports": ["EventStore"], "tech": ["db"], "repo": "EventStore/EventStore"}
+ "Swashbuckle": {"imports": ["Swashbuckle"], "tech": ["rest"], "repo": "domaindrivendev/Swashbuckle"}
+ "Avalonia": {"imports": ["Avalonia"], "tech": ["ui"], "repo": "AvaloniaUI/Avalonia"}
+ "MongoDB.Driver": {"imports": ["MongoDB.Driver"], "tech": ["db"], "repo": "mongodb/mongo-csharp-driver"}
+ "Dapper": {"imports": ["Dapper"], "tech": ["db"], "repo": "StackExchange/Dapper"}
+ "Microsoft.AspNetCore.Mvc": {"imports": ["Microsoft.AspNetCore.Mvc"], "tech": ["web"], "repo": "aspnet/Mvc"}
+ "Microsoft.Toolkit": {"imports": ["Microsoft.Toolkit"], "tech": ["toolkit"], "repo": "Microsoft/UWPCommunityToolkit"}
+ "ServiceStack": {"imports": ["ServiceStack"], "tech": ["web"], "repo": "ServiceStack/ServiceStack"}
+ "Microsoft.EntityFrameworkCore": {"imports": ["Microsoft.EntityFrameworkCore"], "tech": ["db"], "repo": "aspnet/EntityFrameworkCore"}
+ "MaterialDesign": {"imports": ["MaterialDesign"], "tech": ["gui"], "repo": "ButchersBoy/MaterialDesignInXamlToolkit"}
+ "Hangfire": {"imports": ["Hangfire"], "tech": ["async"], "repo": "HangfireIO/Hangfire"}
+ "MailKit": {"imports": ["MailKit"], "tech": ["email"], "repo": "jstedfast/MailKit"}
+ "DotNetOpenAuth": {"imports": ["DotNetOpenAuth"], "tech": ["authorization"], "repo": "DotNetOpenAuth/DotNetOpenAuth"}
+ "Autofac": {"imports": ["Autofac"], "tech": ["dev ops"], "repo": "autofac/Autofac"}
+ "Orleans": {"imports": ["Orleans"], "tech": ["computing"], "repo": "dotnet/orleans"}
+ "ImageProcessor": {"imports": ["ImageProcessor"], "tech": ["graphics"], "repo": "JimBobSquarePants/ImageProcessor"}
+ "Refit": {"imports": ["Refit"], "tech": ["rest"], "repo": "paulcbetts/refit"}
+ "Newtonsoft.Json": {"imports": ["Newtonsoft.Json"], "tech": ["serialization"], "repo": "JamesNK/Newtonsoft.Json"}
+ "Stateless": {"imports": ["Stateless"], "tech": ["misc"], "repo": "dotnet-state-machine/stateless"}
+ "NLog": {"imports": ["NLog"], "tech": ["logging"], "repo": "NLog/NLog"}
+ "Nancy": {"imports": ["Nancy"], "tech": ["http"], "repo": "NancyFx/Nancy"}
+ "Ninject": {"imports": ["Ninject"], "tech": ["injection"], "repo": "ninject/Ninject"}
+ "Jil": {"imports": ["Jil"], "tech": ["json"], "repo": "kevin-montrose/Jil"}
+ "MvvmCross": {"imports": ["MvvmCross"], "tech": ["apps"], "repo": "MvvmCross/MvvmCross"}
+ "ReactiveUI": {"imports": ["ReactiveUI"], "tech": ["reactive"], "repo": "reactiveui/ReactiveUI"}
+ "OpenRA": {"imports": ["OpenRA"], "tech": ["games"], "repo": "OpenRA/OpenRA"}
+ "FluentValidation": {"imports": ["FluentValidation"], "tech": ["validation"], "repo": "JeremySkinner/FluentValidation"}
+ "CommandLine": {"imports": ["CommandLine"], "tech": ["arg parse"], "repo": "gsscoder/commandline"}
+ "BenchmarkDotNet": {"imports": ["BenchmarkDotNet"], "tech": ["benchmarking"], "repo": "dotnet/BenchmarkDotNet"}
+ "Moq": {"imports": ["Moq"], "tech": ["testing"], "repo": "moq/moq4"}
+ "LiteDB": {"imports": ["LiteDB"], "tech": ["db"], "repo": "mbdavid/LiteDB"}
+ "Prism": {"imports": ["Prism"], "tech": ["misc"], "repo": "PrismLibrary/Prism"}
+}
