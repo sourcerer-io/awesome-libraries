@@ -43,7 +43,7 @@
  "vue": {"repo": "vuejs/vue", "imports": ["vue"], "tech": ["web"]},
  "wtf": {"repo": "denysdovhan/wtfjs", "imports": ["wtf"], "tech": ["web"]},
  "pjax": {"repo": "defunkt/jquery-pjax", "imports": ["pjax"], "tech": ["web"]},
- "browserify": {"repo": "substack/node-browserify", "imports": ["browserify"], "tech": ["utils"]},
+ "browserify": {"repo": "substack/node-browserify", "imports": ["browserify"], "tech": ["web"]},
  "postcss": {"repo": "postcss/postcss", "imports": ["postcss"], "tech": ["build"]},
  "jquery-mobile": {"repo": "jquery/jquery-mobile", "imports": ["jquery-mobile"], "tech": ["web"]},
  "ng-file-upload": {"repo": "danialfarid/ng-file-upload", "imports": ["ng-file-upload"], "tech": ["web"]},
@@ -64,5 +64,16 @@
  "mongoose": {"repo": "Automattic/mongoose", "imports": ["mongoose"], "tech": ["odbc"]},
  "three": {"repo": "mrdoob/three.js", "imports": ["three"], "tech": ["graphics"]},
  "uglify": {"repo": "mishoo/UglifyJS", "imports": ["uglify"], "tech": ["utils"]},
- "ember": {"repo": "emberjs/ember.js", "imports": ["ember"], "tech": ["web"]}
+ "ember": {"repo": "emberjs/ember.js", "imports": ["ember"], "tech": ["web"]},
+ "gulp": {"repo": "gulpjs/gulp", "imports": ["gulp"], "tech": ["task runner"]},
+ "grunt": {"repo": "gruntjs/grunt", "imports": [], "tech": ["task runner"]},
+ "pug": {"repo": "pugjs/pug", "imports": ["pug", "jade"], "tech": ["templater"]},
+ "bower": {"repo": "bower/bower", "imports": ["bower"], "tech": ["package manager"]},
+ "gpujs": {"repo": "gpujs/gpu.js", "imports": ["gpu.js"], "tech": ["gpgpu"]},
+ "tether": {"repo": "HubSpot/tether", "imports": ["tether"], "tech": ["web"]},
+ "modernizr": {"repo": "Modernizr/Modernizr", "imports": ["modernizr"], "tech": ["web"]},
+ "js-yaml": {"repo": "nodeca/js-yaml", "imports": ["js-yaml"], "tech": ["markup"]},
+ "signalr": {"repo": "SignalR/SignalR", "imports": ["jquery.signalR"], "tech": ["dotnet", "web"]},
+ "rickshaw": {"repo": "shutterstock/rickshaw", "imports": ["rickshaw"], "tech": ["web"]},
+ "rxjs": {"repo": "ReactiveX/RxJS", "imports": ["rxjs"], "tech": ["reactive"]}
 }
