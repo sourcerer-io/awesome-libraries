@@ -1,0 +1,680 @@
+{
+  "iot": {
+    "tags": [
+      "automation",
+      "object-discovery"
+    ]
+  },
+  "faster-code": {
+    "tags": [
+      "immutable-data",
+      "caching",
+      "connection-pool",
+      "concurrency"
+    ]
+  },
+  "networking": {
+    "tags": [
+      "dns",
+      "message-transport",
+      "sockets",
+      "vpn",
+      "framework"
+    ]
+  },
+  "images": {
+    "tags": [
+      "colors",
+      "cropping",
+      "hashing",
+      "image-formats",
+      "placeholders",
+      "processing",
+      "scaling",
+      "thumbnails",
+      "bar-codes",
+      "download",
+      "gpu-processing",
+      "manipulation"
+    ]
+  },
+  "configuration": {
+    "tags": [
+      "annotations",
+      "distributed",
+      "java-json",
+      "properties",
+      "ucl"
+    ]
+  },
+  "e-commerce": {
+    "tags": [
+      "payments"
+    ]
+  },
+  "app-arch": {
+    "tags": [
+      "adr",
+      "algebraic-types",
+      "android",
+      "android-eventbus",
+      "android-reactive",
+      "api-framework",
+      "async",
+      "db-queries",
+      "dispatcher",
+      "functional-errors",
+      "gui",
+      "inversion-of-control",
+      "lambdas",
+      "mvvm",
+      "observable",
+      "reactive-framework",
+      "state-machines",
+      "stream-processing",
+      "xaml",
+      "components",
+      "events",
+      "framework",
+      "async-observable",
+      "query-language",
+      "reactive",
+      "functional",
+      "injection",
+      "toolkit"
+    ]
+  },
+  "graphics-gaming": {
+    "tags": [
+      "3d-engine",
+      "3d-library",
+      "android-charts",
+      "animation",
+      "chess",
+      "direct3d-opengl",
+      "directx",
+      "framework",
+      "game-framework",
+      "opengl",
+      "text-adventures",
+      "toolkit",
+      "android-effects",
+      "engine",
+      "android-images"
+    ]
+  },
+  "android-ui": {
+    "tags": [
+      "dialogs",
+      "framework",
+      "image-view",
+      "menus",
+      "paging",
+      "pull-to-refresh",
+      "reactive",
+      "recycler-view",
+      "swipe-layout",
+      "view-binding"
+    ]
+  },
+  "dotnet-web": {
+    "tags": [
+      "json",
+      "mvc",
+      "open-api",
+      "real-time",
+      "rest",
+      "rest-client",
+      "web-services",
+      "framework",
+      "oauth"
+    ]
+  },
+  "app-blocks": {
+    "tags": [
+      "deamons",
+      "embedded-browser",
+      "html-renderer",
+      "misc",
+      "pdf-generator",
+      "pdf-reader",
+      "process-manager",
+      "server-side",
+      "sitemaps",
+      "termination",
+      "validation",
+      "rate-limiter",
+      "excel",
+      "scheduler"
+    ]
+  },
+  "code-processing": {
+    "tags": [
+      "git",
+      "github-api",
+      "mercurial",
+      "vcs"
+    ]
+  },
+  "security": {
+    "tags": [
+      "cryptography",
+      "password-strength",
+      "self-protection",
+      "oauth-client"
+    ]
+  },
+  "reliable-code": {
+    "tags": [
+      "circuit-breaker",
+      "fault-tolerance",
+      "resilience"
+    ]
+  },
+  "computational-science": {
+    "tags": [
+      "computing",
+      "expressions",
+      "graph-visualization",
+      "matrices",
+      "optimization",
+      "toolkit",
+      "graphs"
+    ]
+  },
+  "eng-tools": {
+    "tags": [
+      "acceptance",
+      "aws-mocking",
+      "binary-patch",
+      "cmd-finder",
+      "code-analysis",
+      "css-processing",
+      "db-cli",
+      "debugger",
+      "debugging",
+      "distribution",
+      "email-parser",
+      "fake-data",
+      "filtering",
+      "formatter",
+      "git",
+      "http-inspector",
+      "ios-debugging",
+      "leak-detection",
+      "make",
+      "metrics",
+      "minification",
+      "mutability",
+      "parse-todo",
+      "pretty-output",
+      "profiler",
+      "python-formatting",
+      "random-data",
+      "recompile",
+      "reflection",
+      "supervisor",
+      "timing",
+      "tunnels",
+      "type-info",
+      "unused-code",
+      "unused-css",
+      "assertions",
+      "build",
+      "ci",
+      "class-reloading",
+      "generate",
+      "profiling",
+      "project-templates",
+      "css-processor",
+      "code-generators"
+    ]
+  },
+  "storage": {
+    "tags": [
+      "distributed-fs",
+      "in-memory",
+      "mobile",
+      "mongodb",
+      "embedded",
+      "s3",
+      "orm",
+      "sql",
+      "nosql"
+    ]
+  },
+  "nlp": {
+    "tags": [
+      "chinese",
+      "embeddings",
+      "extraction",
+      "web-mining,scraping",
+      "toolkit"
+    ]
+  },
+  "fintech": {
+    "tags": [
+      "algo-trading"
+    ]
+  },
+  "java-web": {
+    "tags": [
+      "applications",
+      "apps",
+      "java2js",
+      "json",
+      "jwt",
+      "oauth",
+      "rest-json",
+      "framework",
+      "rest",
+      "templates"
+    ]
+  },
+  "media": {
+    "tags": [
+      "gstreamer",
+      "video4linux",
+      "subtitles",
+      "ffmpeg"
+    ]
+  },
+  "cloud": {
+    "tags": [
+      "aws",
+      "deployment",
+      "distributed-kernel",
+      "edge-service",
+      "event-broker",
+      "gcloud",
+      "job-queue",
+      "load-balancing",
+      "platform",
+      "service-discovery",
+      "api",
+      "cluster-computing",
+      "distributed-apps",
+      "message-queue",
+      "microservices",
+      "rpc"
+    ]
+  },
+  "dl": {
+    "tags": [
+      "alpha-go",
+      "complex-nn",
+      "models",
+      "music",
+      "theano",
+      "high-level-api",
+      "framework"
+    ]
+  },
+  "android": {
+    "tags": [
+      "hotfix",
+      "utils"
+    ]
+  },
+  "ios-ui": {
+    "tags": [
+      "auto-layout",
+      "calendar",
+      "forms",
+      "framework",
+      "messages",
+      "tab-bar",
+      "cards",
+      "effects"
+    ]
+  },
+  "go-web": {
+    "tags": [
+      "go-php",
+      "livereload",
+      "local-web-server",
+      "rest-json",
+      "routing",
+      "web-server",
+      "rest",
+      "framework",
+      "templates"
+    ]
+  },
+  "big-data": {
+    "tags": [
+      "distributed-computing",
+      "pipelines",
+      "distributed-sql",
+      "map-reduce"
+    ]
+  },
+  "javascript-web": {
+    "tags": [
+      "angular-widget",
+      "browser-modules",
+      "cookies",
+      "dom-manipulation",
+      "fullstack",
+      "jquery-ajax",
+      "jquery-validation",
+      "jquery-widget",
+      "mvvm",
+      "networking",
+      "nodejs-auth",
+      "nodejs-parser",
+      "nodejs-proxy",
+      "react-ui",
+      "responsive",
+      "routing",
+      "ui",
+      "ui-widget",
+      "web-requests",
+      "nodejs-framework",
+      "react-components",
+      "ui-library",
+      "state-management",
+      "templates",
+      "ui-framework"
+    ]
+  },
+  "swift-web": {
+    "tags": [
+      "framework",
+      "templates"
+    ]
+  },
+  "api": {
+    "tags": [
+      "advertising",
+      "adwords",
+      "asterisk",
+      "beer",
+      "facebook",
+      "ga",
+      "google",
+      "google-email-audit",
+      "google-translate",
+      "gumblr",
+      "hacknews",
+      "imdb",
+      "imgur",
+      "jira",
+      "lyrics",
+      "marathon",
+      "medium-oauth",
+      "mixpanel",
+      "musicbrainz",
+      "myanimelist",
+      "patreon",
+      "playlyfe",
+      "shopify",
+      "smite-game",
+      "spotify",
+      "status-page",
+      "steam",
+      "stripe",
+      "telegraph",
+      "textbelt",
+      "trello",
+      "twitch",
+      "unsplash",
+      "webhooks",
+      "xkcd",
+      "zooz",
+      "github",
+      "twitter"
+    ]
+  },
+  "mobile": {
+    "tags": [
+      "messaging",
+      "push-notifications"
+    ]
+  },
+  "data-structures": {
+    "tags": [
+      "algebraic",
+      "high-performance",
+      "mem-map-queue",
+      "queues",
+      "collections"
+    ]
+  },
+  "cli": {
+    "tags": [
+      "cli-for-objects",
+      "progress-indicator"
+    ]
+  },
+  "gui": {
+    "tags": [
+      "layouts",
+      "library",
+      "framework",
+      "toolkit"
+    ]
+  },
+  "software-distribution": {
+    "tags": [
+      "executable-jar"
+    ]
+  },
+  "utils": {
+    "tags": [
+      "cli2gui",
+      "copy-paste",
+      "dry",
+      "env-vars",
+      "http",
+      "promises",
+      "regex",
+      "helpers",
+      "strings",
+      "argument-parsing",
+      "toolkit",
+      "date-time"
+    ]
+  },
+  "kotlin-web": {
+    "tags": [
+      "server-dom",
+      "single-page",
+      "rest",
+      "http-framework",
+      "framework"
+    ]
+  },
+  "ml": {
+    "tags": [
+      "framework",
+      "large-scale",
+      "numenta-htm",
+      "topic-modeling",
+      "gradient-boost",
+      "toolkit"
+    ]
+  },
+  "geo-maps": {
+    "tags": [
+      "android-maps",
+      "geohashing",
+      "geospatial",
+      "google-maps",
+      "openstreetmap"
+    ]
+  },
+  "enterprise": {
+    "tags": [
+      "platform"
+    ]
+  },
+  "app-data": {
+    "tags": [
+      "collection-queries",
+      "copying",
+      "core-data",
+      "json-core-data",
+      "json-transformation",
+      "json-xpath",
+      "kton",
+      "mime-types",
+      "model",
+      "money",
+      "properties",
+      "rails-csv",
+      "reactive",
+      "json-parser",
+      "streams",
+      "filesystem",
+      "csv",
+      "formats",
+      "validation",
+      "mapping",
+      "transformations",
+      "json"
+    ]
+  },
+  "data-science": {
+    "tags": [
+      "interactive-shell",
+      "data-analysis",
+      "visualization"
+    ]
+  },
+  "computer-vision": {
+    "tags": [
+      "clarfiai-api",
+      "face-recognition",
+      "cv",
+      "ocr"
+    ]
+  },
+  "python-web": {
+    "tags": [
+      "async-framework",
+      "django-rest",
+      "serverless",
+      "templates",
+      "micro-framework",
+      "framework"
+    ]
+  },
+  "windows": {
+    "tags": [
+      "ole"
+    ]
+  },
+  "rl": {
+    "tags": [
+      "environments"
+    ]
+  },
+  "testing": {
+    "tags": [
+      "architecture-rules",
+      "assertions",
+      "async-testing",
+      "concolic-testing",
+      "concurrency-testing",
+      "fake-objects",
+      "functional-testing",
+      "junit-data",
+      "junit-runner",
+      "load-testing",
+      "mocks",
+      "mocks-stubs",
+      "nodejs-testing",
+      "raml",
+      "rest-http-testing",
+      "stubs-mocks",
+      "throwaway-db",
+      "fake-data",
+      "matchers",
+      "mocking",
+      "bdd-testing",
+      "specification-framework",
+      "unit-testing",
+      "framework"
+    ]
+  },
+  "php-web": {
+    "tags": [
+      "framework",
+      "micro-framework",
+      "routing",
+      "templates"
+    ]
+  },
+  "parsing": {
+    "tags": [
+      "ast-analysis",
+      "java"
+    ]
+  },
+  "chat-ux": {
+    "tags": [
+      "android-xmpp",
+      "bots",
+      "chatbots",
+      "discord",
+      "messenger",
+      "slack",
+      "snap",
+      "vk-bots",
+      "wechat",
+      "whatsapp",
+      "hipchat",
+      "telegram"
+    ]
+  },
+  "diagnostics": {
+    "tags": [
+      "alarms",
+      "benchmarking",
+      "byte-code",
+      "jvm-control",
+      "metrics",
+      "tracing",
+      "logging",
+      "monitoring"
+    ]
+  },
+  "interoperability": {
+    "tags": [
+      "go-x86",
+      "java-cpp",
+      "kotlin-spring",
+      "java-native"
+    ]
+  },
+  "ruby-web": {
+    "tags": [
+      "framework",
+      "templates"
+    ]
+  },
+  "internet": {
+    "tags": [
+      "email",
+      "embedded-http-server",
+      "http-json",
+      "json-api",
+      "multiprotocol",
+      "reactive-alamofire",
+      "urls",
+      "web-scraper",
+      "rest-client",
+      "web-crawler",
+      "http-client"
+    ]
+  },
+  "efficient-data": {
+    "tags": [
+      "object-mapper",
+      "io-streams",
+      "compression",
+      "encoding"
+    ]
+  }
+}
