@@ -64,5 +64,12 @@
  "mongoose": {"repo": "Automattic/mongoose", "imports": ["mongoose"], "tech": ["odbc"]},
  "three": {"repo": "mrdoob/three.js", "imports": ["three"], "tech": ["graphics"]},
  "uglify": {"repo": "mishoo/UglifyJS", "imports": ["uglify"], "tech": ["utils"]},
- "ember": {"repo": "emberjs/ember.js", "imports": ["ember"], "tech": ["web"]}
+ "ember": {"repo": "emberjs/ember.js", "imports": ["ember"], "tech": ["web"]},
+ "jquery.signalR": {"repo": "SignalR/bower-signalr", "imports": ["jquery.signalR"], "tech": ["web"]},
+ "rx.lite": {"repo": "Reactive-Extensions/RxJS", "imports": ["rx"], "tech": ["utils"]},
+ "modernizr": {"repo": "Modernizr/Modernizr", "imports": ["modernizr"], "tech": ["utils"]},
+ "rickshaw": {"repo": "shutterstock/rickshaw", "imports": ["rickshaw"], "tech": ["data visualization"]},
+ "yaml": {"repo": "jeremyfa/yaml.js", "imports": ["yaml"], "tech": ["utils"]},
+ "html5shiv": {"repo": "aFarkas/html5shiv", "imports": ["html5shiv"], "tech": ["utils"]},
+ "tether": {"repo": "HubSpot/tether", "imports": ["tether"], "tech": ["utils"]}
 }

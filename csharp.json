@@ -49,5 +49,21 @@
  "BenchmarkDotNet": {"imports": ["BenchmarkDotNet"], "tech": ["benchmarking"], "repo": "dotnet/BenchmarkDotNet"},
  "Moq": {"imports": ["Moq"], "tech": ["testing"], "repo": "moq/moq4"},
  "LiteDB": {"imports": ["LiteDB"], "tech": ["db"], "repo": "mbdavid/LiteDB"},
- "Prism": {"imports": ["Prism"], "tech": ["misc"], "repo": "PrismLibrary/Prism"}
+ "Prism": {"imports": ["Prism"], "tech": ["misc"], "repo": "PrismLibrary/Prism"},
+ "Owin": {"imports": ["Owin"], "tech": ["http"], "repo": "owin/owin.dll"},
+ "Microsoft.Owin": {"imports": ["Microsoft.Owin"], "tech": ["http"], "repo": "aspnet/AspNetKatana"},
+ "LinqKit": {"imports": ["LinqKit"], "tech": ["db"], "repo": "scottksmith95/LINQKit"},
+ "SQLProvider": {"imports": ["FSharp.Data.Sql"], "tech": ["db"], "repo": "fsprojects/SQLProvider"},
+ "Logary": {"imports": ["Logary"], "tech": ["logging"], "repo": "logary/logary"},
+ "NBitcoin": {"imports": ["NBitcoin"], "tech": ["misc"], "repo": "MetacoSA/NBitcoin"},
+ "SSH.NET": {"imports": ["Renci.SshNet"], "tech": ["misc"], "repo": "sshnet/SSH.NET"},
+ "Stripe.net": {"imports": ["Stripe"], "tech": ["payments"], "repo": "stripe/stripe-dotnet"},
+ "TextmagicRest": {"imports": ["TextmagicRest"], "tech": ["misc"], "repo": "textmagic/textmagic-rest-csharp"},
+ "Fake": {"imports": ["Fake"], "tech": ["misc"], "repo": "fsharp/FAKE"},
+ "Paket": {"imports": ["Paket"], "tech": ["misc"], "repo": "fsprojects/Paket"},
+ "FSharp.Data": {"imports": ["FSharp.Data"], "tech": ["data"], "repo": "fsharp/FSharp.Data"},
+ "canopy": {"imports": ["canopy"], "tech": ["testing"], "repo": "lefthandedgoat/canopy"},
+ "nunit": {"imports": ["NUnit"], "tech": ["testing"], "repo": "nunit/nunit"},
+ "xunit": {"imports": ["Xunit"], "tech": ["testing"], "repo": "xunit/xunit"},
+ "castle.windsor": {"imports": ["Castle"], "tech": ["misc"], "repo": "castleproject/Windsor"}
 }
