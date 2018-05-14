@@ -14,5 +14,3 @@ To add support for a new library:
 At `names in imports` list all possible imports for the library. If the library is being used without importing, leave the list empty.
 `tech` - add technology from [`technologies.json`](technologies.json). 
 1. Open a pull request. It will take us a couple of days to update classifiers for your libraries.
-
-## Adding new technology
