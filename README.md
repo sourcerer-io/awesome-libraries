@@ -19,11 +19,11 @@ The result is used to produce library statistics in Tech section and the technol
 
 If Sourcerer doesn't know about library you work with, consider [contributing](CONTRIBUTING.md) to Libraries by opening a pull request to add support for your library.
 
-### My profile shows libraries I don't work with.
+### My profile shows libraries I don't work with
 
 Sourcerer relies on statistical classifier to predict library for a code line, so mistakes are possible. Search for [open issues][issues] to see if anyone else has already reported the issue. Any information you can add, especially links to public repositories, is helpful.
 
-### My repository has label of wrong technology.
+### My repository has label of wrong technology
 
 It could be for a few reasons:
 
