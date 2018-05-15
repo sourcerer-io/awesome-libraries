@@ -1,0 +1,18 @@
+{
+ "zmq": {"tech": ["cloud"], "tags": ["message-queue"], "repo": "zeromq/rbzmq", "imports": ["zmq"]},
+ "datashift": {"tech": ["app-data"], "tags": ["rails-csv"], "repo": "autotelik/datashift", "imports": ["datashift"]},
+ "yajl": {"tech": ["app-data"], "tags": ["json"], "repo": "brianmario/yajl-ruby", "imports": ["yajl"]},
+ "mocha": {"tech": ["testing"], "tags": ["mocks-stubs"], "repo": "freerange/mocha", "imports": ["mocha"]},
+ "rails": {"tech": ["ruby-web"], "tags": ["framework"], "repo": "rails/rails", "imports": [""]},
+ "json": {"tech": ["app-data"], "tags": ["json"], "repo": "flori/json", "imports": ["json"]},
+ "rails_helper": {"tech": ["testing"], "tags": ["framework"], "repo": "rspec/rspec-rails", "imports": ["rails_helper"]},
+ "thread": {"tech": ["faster-code"], "tags": ["concurrency"], "repo": "meh/ruby-thread", "imports": ["thread"]},
+ "zip": {"tech": ["efficient-data"], "tags": ["compression"], "repo": "rubyzip/rubyzip", "imports": ["zip"]},
+ "active_merchant": {"tech": ["e-commerce"], "tags": ["payments"], "repo": "activemerchant/active_merchant", "imports": ["active_merchant"]},
+ "rspec": {"tech": ["testing"], "tags": ["framework"], "repo": "rspec/rspec-core", "imports": ["rspec"]},
+ "psd": {"tech": ["app-data"], "tags": ["formats"], "repo": "layervault/psd.rb", "imports": ["psd"]},
+ "paypal-sdk-rest": {"tech": ["e-commerce"], "tags": ["payments"], "repo": "paypal/PayPal-Ruby-SDK", "imports": ["paypal-sdk-rest"]},
+ "mustache": {"tech": ["ruby-web"], "tags": ["templates"], "repo": "mustache/mustache", "imports": ["mustache"]},
+ "MiniMagick": {"tech": ["images"], "tags": ["manipulation"], "repo": "minimagick/minimagick", "imports": ["MiniMagick"]},
+ "RMagick": {"tech": ["images"], "tags": ["manipulation"], "repo": "rmagick-temp/rmagick", "imports": ["RMagick"]}
+}
