@@ -49,5 +49,21 @@
  "Bot Framework": {"tech": ["chat-ux"], "tags": ["bots"], "repo": "Microsoft/BotBuilder", "imports": ["Microsoft.Bot"]},
  "ImageProcessor": {"tech": ["images"], "tags": ["processing"], "repo": "JimBobSquarePants/ImageProcessor", "imports": ["ImageProcessor"]},
  "Json.NET": {"tech": ["dotnet-web"], "tags": ["json"], "repo": "JamesNK/Newtonsoft.Json", "imports": ["Newtonsoft.Json"]},
- "RestSharp": {"tech": ["dotnet-web"], "tags": ["rest-client"], "repo": "restsharp/RestSharp", "imports": ["RestSharp"]}
+ "RestSharp": {"tech": ["dotnet-web"], "tags": ["rest-client"], "repo": "restsharp/RestSharp", "imports": ["RestSharp"]},
+ "Owin": {"tech": ["dotnet-web"], "tags": ["http-middleware"], "repo": "owin/owin.dll", "imports": ["Owin"]},
+ "Katana": {"tech": ["dotnet-web"], "tags": ["components"], "repo": "aspnet/AspNetKatana", "imports": ["Microsoft.Owin"]},
+ "LINQKit": {"tech": ["storage"], "tags": ["linq-sql"], "repo": "scottksmith95/LINQKit", "imports": ["LinqKit"]},
+ "SQLProvider": {"tech": ["storage"], "tags": ["sql-client"], "repo": "fsprojects/SQLProvider", "imports": ["FSharp.Data.Sql"] },
+ "Logary": {"tech": ["diagnostics"], "tags": ["logging"], "repo": "logary/logary", "imports": ["Logary"]},
+ "NBitcoin": {"tech": ["blockchain"], "tags": ["bitcoin-lib"], "repo": "MetacoSA/NBitcoin", "imports": ["NBitcoin"]},
+ "SSH.NET": {"tech": ["networking"], "tags": ["ssh-lib"], "repo": "sshnet/SSH.NET", "imports": ["Renci.SshNet"]},
+ "Stripe.net": {"tech": ["e-commerce"], "tags": ["payments"], "repo": "stripe/stripe-dotnet", "imports": ["Stripe"] },
+ "TextmagicRest": {"tech": ["internet"], "tags": ["sms-gateway"], "repo": "textmagic/textmagic-rest-csharp", "imports": ["TextmagicRest"]},
+ "Fake": {"tech": ["eng-tools"], "tags": ["build"], "repo": "fsharp/FAKE", "imports": ["Fake"]},
+ "Paket": {"tech": ["eng-tools"], "tags": ["dependency"], "repo": "fsprojects/Paket", "imports": ["Paket"]},
+ "FSharp.Data": {"tech": ["app-data"], "tags": ["formats"], "repo": "fsharp/FSharp.Data", "imports": ["FSharp.Data"]},
+ "canopy": {"tech": ["testing"], "tags": ["web/testing"], "repo": "lefthandedgoat/canopy", "imports": ["canopy"]},
+ "nunit": {"tech": ["testing"], "tags": ["unit-testing"], "repo": "nunit/nunit", "imports": ["NUnit"]},
+ "xunit": {"tech": ["testing"], "tags": ["unit-testing"], "repo": "xunit/xunit", "imports": ["Xunit"]},
+ "castle.windsor": {"tech": ["app-arch"], "tags": ["inversion-of-control"], "repo": "castleproject/Windsor", "imports": ["Castle"]}
 }

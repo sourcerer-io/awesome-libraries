@@ -63,5 +63,13 @@
  "tesseract": {"tech": ["computer-vision"], "tags": ["ocr"], "repo": "naptha/tesseract.js", "imports": ["tesseract"]},
  "winston": {"tech": ["diagnostics"], "tags": ["logging"], "repo": "winstonjs/winston", "imports": ["winston"]},
  "lodash": {"tech": ["utils"], "tags": ["toolkit"], "repo": "lodash/lodash", "imports": ["lodash"]},
- "material-ui": {"tech": ["javascript-web"], "tags": ["react-components"], "repo": "callemall/material-ui", "imports": ["material-ui"]}
+ "material-ui": {"tech": ["javascript-web"], "tags": ["react-components"], "repo": "callemall/material-ui", "imports": ["material-ui"]},
+ "ember": {"tech": ["javascript-web"], "tags": ["frontend-framework"], "repo": "emberjs/ember.js", "imports": ["ember"]},
+ "jquery.signalR": {"tech": ["javascript-web"], "tags": ["signalr-client"], "repo": "SignalR/bower-signalr", "imports": ["jquery.signalR"]},
+ "rx.lite": {"tech": ["javascript-web"], "tags": ["reactive"], "repo": "Reactive-Extensions/RxJS", "imports": ["rx"]},
+ "modernizr": {"tech": ["javascript-web"], "tags": ["html5-css3"], "repo": "Modernizr/Modernizr", "imports": ["modernizr"]},
+ "rickshaw": {"tech": ["data-science"], "tags": ["visualization"], "repo": "shutterstock/rickshaw", "imports": ["rickshaw"]},
+ "yaml": {"tech": ["app-data"], "tags": ["json-yaml"], "repo": "jeremyfa/yaml.js", "imports": ["yaml"]},
+ "html5shiv": {"tech": ["javascript-web"], "tags": ["ie-html5"], "repo": "aFarkas/html5shiv", "imports": ["html5shiv"]},
+ "tether": {"tech": ["javascript-web"], "tags": ["frontend-positioning"], "repo": "HubSpot/tether", "imports": ["tether"]}
 }
