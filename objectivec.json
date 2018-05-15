@@ -1,0 +1,11 @@
+{
+ "FBShimmering": {"tech": ["graphics-gaming"], "tags": ["animation"], "repo": "facebook/Shimmer", "imports": ["FBShimmering"]},
+ "FMDB": {"tech": ["storage"], "tags": ["sql"], "repo": "ccgus/fmdb", "imports": ["FMDB"]},
+ "SDWebImage": {"tech": ["images"], "tags": ["download"], "repo": "rs/SDWebImage", "imports": ["SDWebImage"]},
+ "Masonry": {"tech": ["gui"], "tags": ["layouts"], "repo": "SnapKit/Masonry", "imports": ["Masonry"]},
+ "AFNetworking": {"tech": ["networking"], "tags": ["framework"], "repo": "AFNetworking/AFNetworking", "imports": ["AFNetworking"]},
+ "JSQMessages": {"tech": ["ios-ui"], "tags": ["messages"], "repo": "jessesquires/JSQMessagesViewController", "imports": ["JSQMessages"]},
+ "Realm": {"tech": ["storage"], "tags": ["mobile"], "repo": "realm/realm-cocoa", "imports": ["Realm"]},
+ "YYKit": {"tech": ["app-arch"], "tags": ["components"], "repo": "ibireme/YYKit", "imports": ["YYKit"]},
+ "GPUImage": {"tech": ["images"], "tags": ["gpu-processing"], "repo": "BradLarson/GPUImage", "imports": ["GPUImage"]}
+}

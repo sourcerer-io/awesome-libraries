@@ -179,7 +179,8 @@
       "matrices",
       "optimization",
       "toolkit",
-      "graphs"
+      "graphs",
+      "differentiation"
     ]
   },
   "eng-tools": {
