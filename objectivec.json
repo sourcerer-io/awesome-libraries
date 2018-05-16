@@ -1,11 +1,11 @@
-{
- "FBShimmering": {"tech": ["graphics-gaming"], "tags": ["animation"], "repo": "facebook/Shimmer", "imports": ["FBShimmering"]},
- "FMDB": {"tech": ["storage"], "tags": ["sql"], "repo": "ccgus/fmdb", "imports": ["FMDB"]},
- "SDWebImage": {"tech": ["images"], "tags": ["download"], "repo": "rs/SDWebImage", "imports": ["SDWebImage"]},
- "Masonry": {"tech": ["gui"], "tags": ["layouts"], "repo": "SnapKit/Masonry", "imports": ["Masonry"]},
- "AFNetworking": {"tech": ["networking"], "tags": ["framework"], "repo": "AFNetworking/AFNetworking", "imports": ["AFNetworking"]},
- "JSQMessages": {"tech": ["ios-ui"], "tags": ["messages"], "repo": "jessesquires/JSQMessagesViewController", "imports": ["JSQMessages"]},
- "Realm": {"tech": ["storage"], "tags": ["mobile"], "repo": "realm/realm-cocoa", "imports": ["Realm"]},
- "YYKit": {"tech": ["app-arch"], "tags": ["components"], "repo": "ibireme/YYKit", "imports": ["YYKit"]},
- "GPUImage": {"tech": ["images"], "tags": ["gpu-processing"], "repo": "BradLarson/GPUImage", "imports": ["GPUImage"]}
-}
+[
+  {"id": "objc.fbshimmering", "imports": ["FBShimmering"], "name": "FBShimmering", "repo": "facebook/Shimmer", "tags": ["animation"], "tech": ["graphics-gaming"]},
+  {"id": "objc.fmdb", "imports": ["FMDB"], "name": "FMDB", "repo": "ccgus/fmdb", "tags": ["sql"], "tech": ["storage"]},
+  {"id": "objc.sdweb-image", "imports": ["SDWebImage"], "name": "SDWebImage", "repo": "rs/SDWebImage", "tags": ["download"], "tech": ["images"]},
+  {"id": "objc.masonry", "imports": ["Masonry"], "name": "Masonry", "repo": "SnapKit/Masonry", "tags": ["layouts"], "tech": ["gui"]},
+  {"id": "objc.afnetworking", "imports": ["AFNetworking"], "name": "AFNetworking", "repo": "AFNetworking/AFNetworking", "tags": ["framework"], "tech": ["networking"]},
+  {"id": "objc.jsqmessages", "imports": ["JSQMessages"], "name": "JSQMessages", "repo": "jessesquires/JSQMessagesViewController", "tags": ["messages"], "tech": ["ios-ui"]},
+  {"id": "objc.realm", "imports": ["Realm"], "name": "Realm", "repo": "realm/realm-cocoa", "tags": ["mobile"], "tech": ["storage"]},
+  {"id": "objc.yykit", "imports": ["YYKit"], "name": "YYKit", "repo": "ibireme/YYKit", "tags": ["components"], "tech": ["app-arch"]},
+  {"id": "objc.gpuimage", "imports": ["GPUImage"], "name": "GPUImage", "repo": "BradLarson/GPUImage", "tags": ["gpu-processing"], "tech": ["images"]}
+]
