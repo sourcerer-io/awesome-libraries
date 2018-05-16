@@ -10,7 +10,8 @@ To add support for a new library:
 
 Look at `language.json` files in this repository for your favorite languages. See if your favorite library is listed there. If not, add it to the list. For each library you will need to provide the following information:
 
-* Library `name`: as used to commonly refer to a library, e.g. Tensorflow
+* Library `name`: as used to commonly refer to a library, e.g. "TensorFlow" or "Laravel Lumen".
+* Library `id`: this should be a unique ID prefixed with a language code, and generally repeating the library name, e.g. "cpp.tensor-flow" or "php.laravel-lumen".
 * Library technology group (`tech`): look at [technologies.json](technologies.json) for existing categories ("iot", "faster-code", etc). If none is fitting feel free to add yours. Technology groups are used to group libraries together on profiles.
 * A compact and descriptive `tag` for a library: see [technologies.json](technologies.json) again for examples of tags. Tags are more or less free form, and are used next to library name in Sourcerer to give reader an idea of what the library is about.
 * Library repository URL (`repo`): If it's GitHub, you can just use a relative path.
