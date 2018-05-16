@@ -1,17 +1,12 @@
-# Libraries
+# Sourcerer libraries
 
-Libraries that are being shown in Sourcerer profiles.
-
-[issues]: https://github.com/sourcerer-io/libraries/issues
-[new-issue]: https://github.com/sourcerer-io/libraries/issues/new
-
-See [Troubleshooting](#troubleshooting) and [`CONTRIBUTING.md`](CONTRIBUTING.md) before filing an issue or creating a pull request.
+Sourcerer is looking to understand engineer's work from source code, and connect engineers via expertise. An important part of our effort is analysis of library use. This repository maintains list of libraries that Sourcerer recognizes. If you have a minute, please make a PR that adds your favorite libraries. Our comminity will appreciate it.
 
 ## How Sourcerer works
 
-Sourcerer takes a list of libraries it knows from `language`.json and tries to determine the library used by each line of code.
-The result is used to produce library statistics in Tech section and the technology with the largest number of code lines in Repository facts section.
+Sourcerer analyses commits in a variety of ways. It detects programming languages, uses various heuristics to discover interesting facts about an engineer, looks into team work, and so on. What Sourcerer finds can be easily seen in a Sourcerer profile, for example https://sourcerer.io/adnanrahic or https://sourcerer.io/sergey . A big part of what Sourcerer does is library analysis. For every line of code that Sourcerer looks at, it runs a machine learning algorithm that detects if this line uses any particular library. It allows to present library stats, but it also tells Sourcerer a lot about the purpose of the code. For instance, if it sees you you use node.js a lot, you probably do web developemnt work. Similarly, tensorflow use points to neural networks, etc.
 
+There are a lot of libraries out there, and it's nearly impossible for our group to discover and list them all. So we welcome community [contributions](CONTRIBUTING.md). Adding a library to our list only takes a few minutes, but it improves Sourcerer for everybody, makes profiles reacher, and magnifies Sourcerer ability to correctly interpret code.
 
 ## Troubleshooting
 
