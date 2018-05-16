@@ -15,7 +15,7 @@ Look at `language.json` files in this repository for your favorite languages. Se
 * Library technology group (`tech`): look at [technologies.json](technologies.json) for existing categories ("iot", "faster-code", etc). If none is fitting feel free to add yours. Technology groups are used to group libraries together on profiles.
 * A compact and descriptive `tag` for a library: see [technologies.json](technologies.json) again for examples of tags. Tags are more or less free form, and are used next to library name in Sourcerer to give reader an idea of what the library is about.
 * Library repository URL (`repo`): If it's GitHub, you can just use a relative path.
-* Library `imports`: a common prefix for files you import when using a library. If the library is used without imports, leave the list empty.
+* Library `imports`: a list of common prefixes for files you import when using a library. If the library is used without imports, leave the list empty. For example, when importing OpenCV in python, you can use `import cv2` or `import cv`, so you would list `["cv2", "cv"]` in imports.
 * A path to `examples` of library use (optional): This is optional, but if present it will make it much faster for library to appear in Sourcerer. We use examples to train our classifiers for library detection.
 
 Open a pull request. It will take us a couple of days to update classifiers for your libraries.
