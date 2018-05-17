@@ -1,18 +1,18 @@
-{
- "zmq": {"tech": ["cloud"], "tags": ["message-queue"], "repo": "zeromq/rbzmq", "imports": ["zmq"]},
- "datashift": {"tech": ["app-data"], "tags": ["rails-csv"], "repo": "autotelik/datashift", "imports": ["datashift"]},
- "yajl": {"tech": ["app-data"], "tags": ["json"], "repo": "brianmario/yajl-ruby", "imports": ["yajl"]},
- "mocha": {"tech": ["testing"], "tags": ["mocks-stubs"], "repo": "freerange/mocha", "imports": ["mocha"]},
- "rails": {"tech": ["ruby-web"], "tags": ["framework"], "repo": "rails/rails", "imports": [""]},
- "json": {"tech": ["app-data"], "tags": ["json"], "repo": "flori/json", "imports": ["json"]},
- "rails_helper": {"tech": ["testing"], "tags": ["framework"], "repo": "rspec/rspec-rails", "imports": ["rails_helper"]},
- "thread": {"tech": ["faster-code"], "tags": ["concurrency"], "repo": "meh/ruby-thread", "imports": ["thread"]},
- "zip": {"tech": ["efficient-data"], "tags": ["compression"], "repo": "rubyzip/rubyzip", "imports": ["zip"]},
- "active_merchant": {"tech": ["e-commerce"], "tags": ["payments"], "repo": "activemerchant/active_merchant", "imports": ["active_merchant"]},
- "rspec": {"tech": ["testing"], "tags": ["framework"], "repo": "rspec/rspec-core", "imports": ["rspec"]},
- "psd": {"tech": ["app-data"], "tags": ["formats"], "repo": "layervault/psd.rb", "imports": ["psd"]},
- "paypal-sdk-rest": {"tech": ["e-commerce"], "tags": ["payments"], "repo": "paypal/PayPal-Ruby-SDK", "imports": ["paypal-sdk-rest"]},
- "mustache": {"tech": ["ruby-web"], "tags": ["templates"], "repo": "mustache/mustache", "imports": ["mustache"]},
- "MiniMagick": {"tech": ["images"], "tags": ["manipulation"], "repo": "minimagick/minimagick", "imports": ["MiniMagick"]},
- "RMagick": {"tech": ["images"], "tags": ["manipulation"], "repo": "rmagick-temp/rmagick", "imports": ["RMagick"]}
-}
+[
+  {"id": "rb.zmq", "imports": ["zmq"], "name": "zmq", "repo": "zeromq/rbzmq", "tags": ["message-queue"], "tech": ["cloud"]},
+  {"id": "rb.datashift", "imports": ["datashift"], "name": "datashift", "repo": "autotelik/datashift", "tags": ["rails-csv"], "tech": ["app-data"]},
+  {"id": "rb.yajl", "imports": ["yajl"], "name": "yajl", "repo": "brianmario/yajl-ruby", "tags": ["json"], "tech": ["app-data"]},
+  {"id": "rb.mocha", "imports": ["mocha"], "name": "mocha", "repo": "freerange/mocha", "tags": ["mocks-stubs"], "tech": ["testing"]},
+  {"id": "rb.rails", "imports": [""], "name": "rails", "repo": "rails/rails", "tags": ["framework"], "tech": ["ruby-web"]},
+  {"id": "rb.json", "imports": ["json"], "name": "json", "repo": "flori/json", "tags": ["json"], "tech": ["app-data"]},
+  {"id": "rb.rails-helper", "imports": ["rails_helper"], "name": "rails_helper", "repo": "rspec/rspec-rails", "tags": ["framework"], "tech": ["testing"]},
+  {"id": "rb.thread", "imports": ["thread"], "name": "thread", "repo": "meh/ruby-thread", "tags": ["concurrency"], "tech": ["faster-code"]},
+  {"id": "rb.zip", "imports": ["zip"], "name": "zip", "repo": "rubyzip/rubyzip", "tags": ["compression"], "tech": ["efficient-data"]},
+  {"id": "rb.active-merchant", "imports": ["active_merchant"], "name": "active_merchant", "repo": "activemerchant/active_merchant", "tags": ["payments"], "tech": ["e-commerce"]},
+  {"id": "rb.rspec", "imports": ["rspec"], "name": "rspec", "repo": "rspec/rspec-core", "tags": ["framework"], "tech": ["testing"]},
+  {"id": "rb.psd", "imports": ["psd"], "name": "psd", "repo": "layervault/psd.rb", "tags": ["formats"], "tech": ["app-data"]},
+  {"id": "rb.paypal-sdk-rest", "imports": ["paypal-sdk-rest"], "name": "paypal-sdk-rest", "repo": "paypal/PayPal-Ruby-SDK", "tags": ["payments"], "tech": ["e-commerce"]},
+  {"id": "rb.mustache", "imports": ["mustache"], "name": "mustache", "repo": "mustache/mustache", "tags": ["templates"], "tech": ["ruby-web"]},
+  {"id": "rb.mini-magick", "imports": ["MiniMagick"], "name": "MiniMagick", "repo": "minimagick/minimagick", "tags": ["manipulation"], "tech": ["images"]},
+  {"id": "rb.rmagick", "imports": ["RMagick"], "name": "RMagick", "repo": "rmagick-temp/rmagick", "tags": ["manipulation"], "tech": ["images"]}
+]
