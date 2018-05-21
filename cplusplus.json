@@ -133,7 +133,7 @@
   {"id": "cpp.cupla", "name": "cupla", "tech": ["faster-code"], "tags": ["cuda", "high-performance"], "repo": "ComputationalRadiationPhysics/cupla",
   "imports": ["cuda_to_cupla.hpp"], "examples": ["https://github.com/ComputationalRadiationPhysics/cupla/tree/dev/example/CUDASamples"]},
   {"id": "cpp.cpp-react", "name": "C++React",  "tech": ["app-arch"], "tags": ["reactive"], "repo": "schlangster/cpp.react",
-  "imports": ["react/", "react/algorithm.h"], "examples": ["https://github.com/schlangster/cpp.react/tree/master/examples"]},
+  "imports": ["react/"], "examples": ["https://github.com/schlangster/cpp.react/tree/master/examples"]},
   {"id": "cpp.parallel-stl", "name": "Parallel STL", "tech": ["faster-code"], "tags": ["concurrency", "high-performance"], "repo": "intel/parallelstl",
   "imports": ["pstl/"], "examples": ["https://github.com/intel/parallelstl/tree/master/examples"]},
   {"id": "cpp.junction", "name": "Junction", "tech": ["data-structures"], "tags": ["high-performance", "concurrency"], "repo": "preshing/junction",
@@ -166,7 +166,7 @@
   "imports": ["vexcl/"], "examples": ["https://github.com/ddemidov/vexcl/tree/master/examples"]},
 
   {"id": "cpp.cpp-btree", "name": "cpp-btree", "tech": ["storage"], "tags": ["in-memory"], "repo": "https://code.google.com/archive/p/cpp-btree/",
-  "imports": ["btree_h"], "examples": ["https://code.google.com/archive/p/cpp-btree/wikis/UsageInstructions.wiki"]},
+  "imports": ["btree_"], "examples": ["https://code.google.com/archive/p/cpp-btree/wikis/UsageInstructions.wiki"]},
   {"id": "cpp.plf_colony", "name": "plf_colony", "tech": ["data-structures"], "tags": ["high-performance"], "repo": "mattreecebentley/plf_colony",
   "imports": ["plf_colony.h"], "examples": ["http://www.plflib.org/colony.htm#functions"]},
   {"id": "cpp.plf_list", "name": "plf_list", "tech": ["data-structures"], "tags": ["list", "high-performance"], "repo": "mattreecebentley/plf_list",
