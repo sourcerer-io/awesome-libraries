@@ -189,7 +189,7 @@
   "imports": ["blowfish.h"]},
   {"id": "cpp.beecrypt", "name": "BeeCrypt", "tech": ["security"], "tags": ["cryptography"], "repo": "http://beecrypt.sourceforge.net/",
   "imports": ["beecrypt/"], "examples": ["http://beecrypt.sourceforge.net/doxygen/c++/index.html"]},
-  {"id": "cpp.botan", "name": "Botan", "tech": ["security"], "tags": ["cryptography"], "repo": "https://github.com/randombit/botan",
+  {"id": "cpp.botan", "name": "Botan", "tech": ["security"], "tags": ["cryptography"], "repo": "randombit/botan",
   "imports": ["botan/"], "examples": ["https://github.com/randombit/botan/tree/master/src/tests"]},
   {"id": "cpp.cryptopp", "name": "Crypto++", "tech": ["security"], "tags": ["cryptography"], "repo": "weidai11/cryptopp",
   "imports": ["cryptopp/"]},
@@ -203,7 +203,7 @@
   "imports": ["gcrypt.h"], "examples": ["https://github.com/gpg/libgcrypt/tree/master/tests"]},
   {"id": "cpp.libhydrogen", "name": "LibHydrogen", "tech": ["security"], "tags": ["cryptography"], "repo": "jedisct1/libhydrogen",
   "imports": ["hydrogen.h"], "examples": ["https://github.com/jedisct1/libhydrogen/tree/master/tests"]},
-  {"id": "cpp.libressl", "name": "LibreSSL", "tech": ["security"], "tags": ["ssl"], "repo": "https://github.com/libressl-portable/portable",
+  {"id": "cpp.libressl", "name": "LibreSSL", "tech": ["security"], "tags": ["ssl"], "repo": "libressl-portable/portable",
   "imports": ["openssl/"], "examples": ["https://github.com/libressl-portable/portable/tree/master/tests"]},
   {"id": "cpp.libsodium", "name": "libsodium", "tech": ["security"], "tags": ["cryptography"], "repo": "jedisct1/libsodium",
   "imports": ["sodium.h"], "examples": ["https://github.com/jedisct1/libsodium/tree/master/test"]},
@@ -226,7 +226,7 @@
   "imports": ["hiberlite.h"], "examples": ["https://github.com/paulftw/hiberlite/blob/master/sample.cpp"]},
   {"id": "cpp.hiredis", "name": "HIREDIS", "tech": ["storage"], "tags": ["nosql", "in-memory"], "repo": "redis/hiredis",
   "imports": ["hiredis.h"], "examples": ["https://github.com/redis/hiredis/tree/master/examples"]},
-  {"id": "cpp.lmdb", "name": "LMDB", "tech": ["storage"], "tags": ["embedded", "nosql"], "repo": "https://github.com/LMDB/lmdb",
+  {"id": "cpp.lmdb", "name": "LMDB", "tech": ["storage"], "tags": ["embedded", "nosql"], "repo": "LMDB/lmdb",
   "imports": ["lmdb.h"], "examples": ["https://github.com/LMDB/lmdb/tree/mdb.master/libraries/liblmdb"]},
   {"id": "cpp.lmdbxx", "name": "lmdb++", "tech": ["storage"], "tags": ["embedded", "nosql"], "repo": "bendiken/lmdbxx",
   "imports": ["lmdb++.h"], "examples": ["https://github.com/bendiken/lmdbxx/blob/master/example.cc"]},
@@ -289,5 +289,5 @@
   {"id": "cpp.zstd", "name": "Zstandard", "tech": ["efficient-data"], "tags": ["compression"], "repo": "facebook/zstd",
   "imports": ["zstd.h"], "examples": ["https://github.com/facebook/zstd/tree/dev/examples"]},
   {"id": "cpp.zziplib", "name": "ZZIPlib", "tech": ["efficient-data"], "tags": ["compression"], "repo": "gdraheim/zziplib",
-  "imports": ["zzip/zzip.h"], "examples": ["https://github.com/gdraheim/zziplib/tree/master/test"]},
+  "imports": ["zzip/zzip.h"], "examples": ["https://github.com/gdraheim/zziplib/tree/master/test"]}
 ]
