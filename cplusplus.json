@@ -257,7 +257,7 @@
   "imports": ["ups/upscaledb.h"], "examples": ["https://github.com/cruppstahl/upscaledb/tree/master/samples"]},
 
   {"id": "cpp.brotli", "name": "Brotli", "tech": ["efficient-data"], "tags": ["compression"], "repo": "google/brotli",
-  "imports": ["brotli/decode.h", "brotli/encode.h"], "examples": ["https://github.com/google/brotli/blob/master/python/_brotli.cc"]},
+  "imports": ["brotli/"], "examples": ["https://github.com/google/brotli/blob/master/python/_brotli.cc"]},
   {"id": "cpp.bzip2", "name": "bzip2", "tech": ["efficient-data"], "tags": ["compression"], "repo": "http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz",
   "imports": ["bzlib.h"], "examples": ["http://www.bzip.org/1.0.5/bzip2-manual-1.0.5.html"]},
   {"id": "cpp.finite-state-entropy", "name": "FiniteStateEntropy", "tech": ["efficient-data"], "tags": ["compression"], "repo": "Cyan4973/FiniteStateEntropy",
@@ -277,7 +277,7 @@
   {"id": "cpp.miniz", "name": "miniz", "tech": ["efficient-data"], "tags": ["compression"], "repo": "https://storage.googleapis.com/google-code-archive-source/v2/code.google.com/miniz/source-archive.zip",
   "imports": ["miniz.h"], "examples": ["https://storage.googleapis.com/google-code-archive-source/v2/code.google.com/miniz/source-archive.zip"]},
   {"id": "cpp.minizip", "name": "Minizip", "tech": ["efficient-data"], "tags": ["compression"], "repo": "nmoinvaz/minizip",
-  "imports": ["mz"], "examples": ["https://github.com/nmoinvaz/minizip/blob/master/test/test.c"]},
+  "imports": ["mz.h", "mz_"], "examples": ["https://github.com/nmoinvaz/minizip/blob/master/test/test.c"]},
   {"id": "cpp.smaz", "name": "SMAZ", "tech": ["efficient-data"], "tags": ["compression"], "repo": "antirez/smaz",
   "imports": ["smaz.h"], "examples": ["https://github.com/antirez/smaz/blob/master/smaz_test.c"]},
   {"id": "cpp.snappy", "name": "Snappy", "tech": ["efficient-data"], "tags": ["compression"], "repo": "google/snappy",
