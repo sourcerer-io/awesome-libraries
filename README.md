@@ -1,6 +1,6 @@
 # Sourcerer libraries
 
-Sourcerer is looking to understand engineer's work from source code, and connect engineers via expertise. An important part of our effort is analysis of library use. This repository maintains list of libraries that Sourcerer recognizes. If you have a minute, please make a PR that adds your favorite libraries. Our comminity will appreciate it.
+Sourcerer is looking to understand engineer's work from source code, and connect engineers via expertise. An important part of our effort is analysis of library use. This repository maintains list of libraries that Sourcerer recognizes. If you have a minute, please make a PR that adds your favorite libraries. Our community will appreciate it.
 
 ## How Sourcerer works
 
