@@ -666,7 +666,7 @@
   "imports": ["dAnimation/", "dCompilerKit/", "dContainers/", "dCustomJoints/", "dLanguageBinding/", "dMath/", "dNewton/", "dScene/", "dWrappers/", "dgCore/",
   "dgMeshUtil/", "dgNewton/", "dgNewtonCpu/", "dgPhysics/"], "examples": ["https://github.com/MADEAPPS/newton-dynamics/tree/master/applications"]},
   {"id": "cpp.ode", "name": "ODE", "tech": ["graphics-gaming"], "tags": ["physics-simulation"], "repo": "https://sourceforge.net/p/opende/code/HEAD/tree/trunk/",
-  "imports": ["ode.h"]},
+  "imports": ["ode.h"], "examples": ["https://sourceforge.net/p/opende/code/HEAD/tree/trunk/tests/"]},
   {"id": "cpp.ofx-box2d", "name": "ofxBox2d", "tech": ["graphics-gaming"], "tags": ["physics-simulation"], "repo": "vanderlin/ofxBox2d",
   "imports": ["ofxBox2d.h"], "examples": ["https://github.com/vanderlin/ofxBox2d"]},
   {"id": "cpp.simbody", "name": "Simbody", "tech": ["graphics-gaming"], "tags": ["physics-simulation"], "repo": "simbody/simbody",
