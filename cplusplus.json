@@ -824,7 +824,7 @@
 
   {"id": "cpp.civetweb", "name": "CivetWeb", "tech": ["cpp-web"], "tags": ["web-server"], "repo": "civetweb/civetweb",
   "imports": ["CivetServer.h", "civetweb.h"], "examples": ["https://github.com/civetweb/civetweb/tree/master/examples"]},
-  {"id": "cpp.cppcms", "name": "CppCMS", "tech": ["cpp-web"], "tags": ["high-performance-web"], "repo": "artyom-beilis/cppcms",
+  {"id": "cpp.cppcms", "name": "CppCMS", "tech": ["cpp-web"], "tags": ["high-perf-web"], "repo": "artyom-beilis/cppcms",
   "imports": ["cppcms/"], "examples": ["https://github.com/artyom-beilis/cppcms/tree/master/examples"]},
   {"id": "cpp.crow", "name": "Crow", "tech": ["cpp-web"], "tags": ["microframework"], "repo": "ipkn/crow",
   "imports": ["crow.h"], "examples": ["https://github.com/ipkn/crow/tree/master/examples"]},
@@ -928,7 +928,7 @@
   "imports": ["nih/"], "examples": ["https://github.com/keybuk/libnih/tree/master/nih/tests"]},
   {"id": "cpp.libusb", "name": "libusb", "tech": ["peripheral"], "tags": ["usb"], "repo": "libusb/libusb",
   "imports": ["libusb.h"], "examples": ["https://github.com/libusb/libusb/tree/master/examples"]},
-  {"id": "cpp.mach7", "name": "Mach7", "tech": ["app-arch"], "tags": ["design-patterns"], "repo": "solodon4/Mach7",
+  {"id": "cpp.mach7", "name": "Mach7", "tech": ["functional"], "tags": ["pattern-matching"], "repo": "solodon4/Mach7",
   "imports": ["mach7/"], "examples": ["https://github.com/solodon4/Mach7/tree/master/code/test/examples"]},
   {"id": "cpp.pdqsort", "name": "pdqsort", "tech": ["algorithms"], "tags": ["sort"], "repo": "orlp/pdqsort",
   "imports": ["pdqsort.h"], "examples": ["https://github.com/orlp/pdqsort/tree/master/bench"]},
