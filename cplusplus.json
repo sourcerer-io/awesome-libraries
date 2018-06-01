@@ -593,7 +593,7 @@
   {"id": "cpp.armadillo", "name": "Armadillo", "tech": ["computational-science"], "tags": ["linear-algebra"], "repo": "conradsnicta/armadillo-code/",
   "imports": ["armadillo"], "examples": ["https://github.com/conradsnicta/armadillo-code/tree/unstable/examples"]},
   {"id": "cpp.blaze", "name": "blaze", "tech": ["computational-science"], "tags": ["math"], "repo": "https://bitbucket.org/blaze-lib/blaze/src",
-  "imports": ["blaze/"], "examples": ["https://bitbucket.org/blaze-lib/blaze/src/d60bb63d7b621a6442df753f5b216641ae271844/blazemark/src/blaze/?at=master"]}
+  "imports": ["blaze/"], "examples": ["https://bitbucket.org/blaze-lib/blaze/src/d60bb63d7b621a6442df753f5b216641ae271844/blazemark/src/blaze/?at=master"]},
   {"id": "cpp.boost-multiprecision", "name": "Boost.Multiprecision", "tech": ["computational-science"], "tags": ["multiprecision"], "repo": "boostorg/multiprecision",
   "imports": ["boost/multiprecision/"], "examples": ["https://github.com/boostorg/multiprecision/tree/develop/example"]},
   {"id": "cpp.ceres-solver", "name": "Ceres Solver", "tech": ["computational-science"], "tags": ["optimization"], "repo": "ceres-solver/ceres-solver",
