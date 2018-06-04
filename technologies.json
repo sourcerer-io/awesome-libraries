@@ -1,5 +1,6 @@
 {
   "iot": {
+    "name": "Internet of Things",
     "tags": [
       "automation",
       "object-discovery"
@@ -48,11 +49,13 @@
     ]
   },
   "e-commerce": {
+    "name": "E–commerce",
     "tags": [
       "payments"
     ]
   },
   "app-arch": {
+    "name": "Application Architecture",
     "tags": [
       "adr",
       "algebraic-types",
@@ -85,6 +88,7 @@
     ]
   },
   "graphics-gaming": {
+    "name": "Graphics and Gaming",
     "tags": [
       "3d-engine",
       "3d-library",
@@ -104,6 +108,7 @@
     ]
   },
   "android-ui": {
+    "name": "Android UI",
     "tags": [
       "dialogs",
       "framework",
@@ -118,6 +123,7 @@
     ]
   },
   "dotnet-web": {
+    "name": ".NET Web",
     "tags": [
       "json",
       "mvc",
@@ -131,6 +137,7 @@
     ]
   },
   "app-blocks": {
+    "name": "Application Building Blocks",
     "tags": [
       "deamons",
       "embedded-browser",
@@ -184,6 +191,7 @@
     ]
   },
   "eng-tools": {
+    "name": "Engineering Tools",
     "tags": [
       "acceptance",
       "aws-mocking",
@@ -245,6 +253,7 @@
     ]
   },
   "nlp": {
+    "name": "Natural Language Processing",
     "tags": [
       "chinese",
       "embeddings",
@@ -301,6 +310,7 @@
     ]
   },
   "dl": {
+    "name": "Deep Learning",
     "tags": [
       "alpha-go",
       "complex-nn",
@@ -318,6 +328,7 @@
     ]
   },
   "ios-ui": {
+    "name": "iOS UI",
     "tags": [
       "auto-layout",
       "calendar",
@@ -386,6 +397,7 @@
     ]
   },
   "api": {
+    "name": "APIs",
     "tags": [
       "advertising",
       "adwords",
@@ -443,12 +455,14 @@
     ]
   },
   "cli": {
+    "name": "Command Line Interface",
     "tags": [
       "cli-for-objects",
       "progress-indicator"
     ]
   },
   "gui": {
+    "name": "Graphical User Interface",
     "tags": [
       "layouts",
       "library",
@@ -462,6 +476,7 @@
     ]
   },
   "utils": {
+    "name": "Utilities",
     "tags": [
       "cli2gui",
       "copy-paste",
@@ -487,6 +502,7 @@
     ]
   },
   "ml": {
+    "name": "Machine Learning",
     "tags": [
       "framework",
       "large-scale",
@@ -511,6 +527,7 @@
     ]
   },
   "app-data": {
+    "name": "Application Data",
     "tags": [
       "collection-queries",
       "copying",
@@ -567,6 +584,7 @@
     ]
   },
   "rl": {
+    "name": "Reinforcement Learning",
     "tags": [
       "environments"
     ]
@@ -614,6 +632,7 @@
     ]
   },
   "chat-ux": {
+    "name": "Conversational UX",
     "tags": [
       "android-xmpp",
       "bots",
