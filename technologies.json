@@ -10,7 +10,8 @@
       "immutable-data",
       "caching",
       "connection-pool",
-      "concurrency"
+      "concurrency",
+      "algorithms"
     ]
   },
   "networking": {
@@ -474,7 +475,15 @@
       "strings",
       "argument-parsing",
       "toolkit",
-      "date-time"
+      "date-time",
+      "bitflags",
+      "data-serialization",
+      "lazy-static",
+      "math",
+      "system",
+      "numbers",
+      "pattern-match",
+      "interpolation"
     ]
   },
   "kotlin-web": {
@@ -646,7 +655,10 @@
       "go-x86",
       "java-cpp",
       "kotlin-spring",
-      "java-native"
+      "java-native",
+      "rust-c",
+      "rust-winapi",
+      "rust-memrchr"
     ]
   },
   "ruby-web": {
@@ -676,6 +688,11 @@
       "io-streams",
       "compression",
       "encoding"
+    ]
+  },
+  "rust": {
+    "tags": [
+      "rust-parser"
     ]
   }
 }
