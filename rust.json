@@ -16,7 +16,7 @@
   {"id": "rust.thread-local", "imports": ["thread_local"], "name": "thread-local", "repo": "Amanieu/thread_local-rs", "tags": ["concurrency"], "tech": ["faster-code"]},
   {"id": "rust.unicode-xid", "imports": ["unicode_xid"], "name": "unicode-xid", "repo": "unicode-rs/unicode-xid", "tags": ["strings"], "tech": ["utils"]},
   {"id": "rust.utf8-ranges", "imports": ["utf8_ranges"], "name": "utf8-ranges", "repo": "BurntSushi/utf8-ranges", "tags": ["strings"], "tech": ["utils"]},
-  {"id": "rust.url", "imports": ["url"], "name": "rust-url", "repo": "servo/rust-url", "tags": ["urls"], "tech": ["internet"]},
+  {"id": "rust.rust-url", "imports": ["url"], "name": "rust-url", "repo": "servo/rust-url", "tags": ["urls"], "tech": ["internet"]},
   {"id": "rust.byteorder", "imports": ["byteorder"], "name": "byteorder", "repo": "BurntSushi/byteorder", "tags": ["encoding"], "tech": ["efficient-data"]},
   {"id": "rust.num_cpus", "imports": ["num_cpus"], "name": "num-cpus", "repo": "seanmonstar/num_cpus", "tags": ["system"], "tech": ["utils"]},
   {"id": "rust.serde-json", "imports": ["serde_json"], "name": "serde-json", "repo": "serde-rs/json", "tags": ["json"], "tech": ["app-data"]},
