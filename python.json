@@ -23,7 +23,7 @@
   {"id": "py.spacy", "imports": ["spacy"], "name": "spacy", "repo": "explosion/spaCy", "tags": ["extraction"], "tech": ["nlp"]},
   {"id": "py.homeassistant", "imports": ["homeassistant"], "name": "homeassistant", "repo": "home-assistant/home-assistant", "tags": ["automation"], "tech": ["iot"]},
   {"id": "py.pandas", "imports": ["pandas"], "name": "pandas", "repo": "pandas-dev/pandas", "tags": ["data-analysis"], "tech": ["data-science"]},
-  {"id": "py.gflags", "imports": ["gflags"], "name": "gflags", "repo": "gflags/gflags", "tags": ["argument-parsing"], "tech": ["utils"]},
+  {"id": "py.gflags", "imports": ["gflags"], "name": "gflags", "repo": "google/python-gflags", "tags": ["argument-parsing"], "tech": ["utils"]},
   {"id": "py.itchat", "imports": ["itchat"], "name": "itchat", "repo": "littlecodersh/ItChat", "tags": ["messenger"], "tech": ["chat-ux"]},
   {"id": "py.tensorflow", "imports": ["tensorflow"], "name": "tensorflow", "repo": "tensorflow/tensorflow", "tags": ["framework"], "tech": ["dl"]},
   {"id": "py.theano", "imports": ["theano"], "name": "theano", "repo": "Theano/Theano", "tags": ["expressions"], "tech": ["computational-science"]},
