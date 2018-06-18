@@ -140,7 +140,7 @@
   {"id": "java.glide", "imports": ["com.bumptech.glide."], "name": "Glide", "repo": "bumptech/glide", "tags": ["android-images"], "tech": ["graphics-gaming"]},
   {"id": "java.spatial4j", "imports": ["org.locationtech.spatial4j."], "name": "Spatial4j", "repo": "locationtech/spatial4j", "tags": ["geospatial"], "tech": ["geo-maps"]},
   {"id": "java.thumbnailator", "imports": ["net.coobird.thumbnailator."], "name": "Thumbnailator", "repo": "coobird/thumbnailator", "tags": ["thumbnails"], "tech": ["images"]},
-  {"id": "java.hamcrest", "imports": ["org.hamcrest."], "name": "Hamcrest", "repo": "hamcrest.org/JavaHamcrest", "tags": ["matchers"], "tech": ["testing"]},
+  {"id": "java.hamcrest", "imports": ["org.hamcrest."], "name": "Hamcrest", "repo": "hamcrest/JavaHamcrest", "tags": ["matchers"], "tech": ["testing"]},
   {"id": "java.redisson", "imports": ["org.redisson."], "name": "Redisson", "repo": "mrniko/redisson", "tags": ["nosql"], "tech": ["storage"]},
   {"id": "java.reactive-streams", "imports": ["org.reactivestreams."], "name": "Reactive Streams", "repo": "reactive-streams/reactive-streams-jvm", "tags": ["stream-processing"], "tech": ["app-arch"]},
   {"id": "java.protocol-buffers", "imports": ["com.google.protobuf."], "name": "Protocol Buffers", "repo": "google/protobuf", "tags": ["encoding"], "tech": ["efficient-data"]},
