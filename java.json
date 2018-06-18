@@ -70,7 +70,7 @@
   {"id": "java.dex", "imports": ["com.dexvis.dex."], "name": "Dex", "repo": "PatMartin/Dex", "tags": ["visualization"], "tech": ["data-science"]},
   {"id": "java.jsat", "imports": ["jsat."], "name": "JSAT", "repo": "EdwardRaff/JSAT", "tags": ["toolkit"], "tech": ["ml"]},
   {"id": "java.dagger", "imports": ["dagger"], "name": "Dagger", "repo": "square/dagger", "tags": ["injection"], "tech": ["app-arch"]},
-  {"id": "java.jmapper", "imports": ["com.googlecode.jmapper."], "name": "JMapper", "repo": "jmapper-framework.github.io/jmapper-core", "tags": ["mapping"], "tech": ["app-data"]},
+  {"id": "java.jmapper", "imports": ["com.googlecode.jmapper."], "name": "JMapper", "repo": "jmapper-framework/jmapper-core", "tags": ["mapping"], "tech": ["app-data"]},
   {"id": "java.rest-assured", "imports": ["io.restassured."], "name": "REST-assured", "repo": "jayway/rest-assured", "tags": ["rest-http-testing"], "tech": ["testing"]},
   {"id": "java.maria-db4j", "imports": ["ch.vorburger.mariadb4j."], "name": "MariaDB4j", "repo": "vorburger/MariaDB4j", "tags": ["sql"], "tech": ["storage"]},
   {"id": "java.nifty", "imports": ["com.facebook.nifty."], "name": "Nifty", "repo": "facebook/nifty", "tags": ["rpc"], "tech": ["cloud"]},
