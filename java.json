@@ -64,7 +64,7 @@
   {"id": "java.sbe", "imports": ["uk.co.real_logic.sbe."], "name": "SBE", "repo": "real-logic/simple-binary-encoding", "tags": ["encoding"], "tech": ["efficient-data"]},
   {"id": "java.java-poet", "imports": ["com.squareup.javapoet."], "name": "JavaPoet", "repo": "square/javapoet", "tags": ["code-generators"], "tech": ["eng-tools"]},
   {"id": "java.tablesaw", "imports": ["tech.tablesaw."], "name": "Tablesaw", "repo": "lwhite1/tablesaw", "tags": ["data-analysis"], "tech": ["data-science"]},
-  {"id": "java.joda-time", "imports": ["org.joda.time."], "name": "Joda-Time", "repo": "www.joda.org/joda-time", "tags": ["date-time"], "tech": ["utils"]},
+  {"id": "java.joda-time", "imports": ["org.joda.time."], "name": "Joda-Time", "repo": "JodaOrg/joda-time", "tags": ["date-time"], "tech": ["utils"]},
   {"id": "java.testcontainers", "imports": ["org.testcontainers."], "name": "Testcontainers", "repo": "testcontainers/testcontainers-java", "tags": ["throwaway-db"], "tech": ["testing"]},
   {"id": "java.jfairy", "imports": ["io.codearte.jfairy."], "name": "JFairy", "repo": "Codearte/jfairy", "tags": ["fake-data"], "tech": ["testing"]},
   {"id": "java.dex", "imports": ["com.dexvis.dex."], "name": "Dex", "repo": "PatMartin/Dex", "tags": ["visualization"], "tech": ["data-science"]},
