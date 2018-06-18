@@ -65,5 +65,10 @@
   {"id": "py.jieba", "imports": ["jieba"], "name": "jieba", "repo": "fxsjy/jieba", "tags": ["chinese"], "tech": ["nlp"]},
   {"id": "py.django", "imports": ["django"], "name": "django", "repo": "django/django", "tags": ["framework"], "tech": ["python-web"]},
   {"id": "py.rest-framework", "imports": ["rest_framework"], "name": "rest_framework", "repo": "encode/django-rest-framework", "tags": ["django-rest"], "tech": ["python-web"]},
-  {"id": "py.matplotlib", "imports": ["matplotlib"], "name": "matplotlib", "repo": "matplotlib/matplotlib", "tags": ["visualization"], "tech": ["data-science"]}
+  {"id": "py.matplotlib", "imports": ["matplotlib"], "name": "matplotlib", "repo": "matplotlib/matplotlib", "tags": ["visualization"], "tech": ["data-science"]},
+
+  {"id": "py.django-suit", "imports": ["suit"], "name": "Django Suit", "repo": "darklow/django-suit", "tags": ["django-admin"], "tech": ["app-blocks"]},
+  {"id": "py.django-xadmin", "imports": ["xadmin"], "name": "Xadmin", "repo": "sshwsfc/xadmin", "tags": ["django-admin"], "tech": ["app-blocks"]},
+  {"id": "py.flask-admin", "imports": ["flask_admin"], "name": "Flask-Admin", "repo": "flask-admin/flask-admin", "tags": ["flask-admin"], "tech": ["app-blocks"]},
+  {"id": "py.django-grappelli", "imports": ["grappelli"], "name": "Django Grappelli", "repo": "sehmaschine/django-grappelli", "tags": ["django-admin"], "tech": ["app-blocks"]}
 ]
