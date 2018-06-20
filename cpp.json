@@ -16,7 +16,7 @@
   {"id": "cpp.dlib", "imports": ["dlib"], "name": "Dlib", "repo": "davisking/dlib", "tags": ["toolkit"], "tech": ["ml"]},
   {"id": "cpp.cpp-ad", "imports": ["cppad"], "name": "CppAD", "repo": "coin-or/CppAD", "tags": ["differentiation"], "tech": ["computational-science"]},
   {"id": "cpp.cinder", "imports": ["cinder"], "name": "Cinder", "repo": "cinder/Cinder", "tags": ["toolkit"], "tech": ["graphics-gaming"]},
-  {"id": "cpp.qt", "imports": ["qt"], "name": "Qt", "repo": "qt/qt", "tags": ["framework"], "tech": ["gui"]},
+  {"id": "cpp.qt", "imports": ["Q"], "name": "Qt", "repo": "qt/qt", "tags": ["framework"], "tech": ["gui"]},
   {"id": "cpp.fast-text", "imports": ["fasttext"], "name": "fastText", "repo": "facebookresearch/fastText", "tags": ["embeddings"], "tech": ["nlp"]},
   {"id": "cpp.boost", "imports": ["boost"], "name": "Boost", "repo": "boostorg/thread", "tags": ["toolkit"], "tech": ["app-arch"]},
   {"id": "cpp.gflags", "imports": ["gflags"], "name": "gflags", "repo": "gflags/gflags", "tags": ["argument-parsing"], "tech": ["utils"]},
