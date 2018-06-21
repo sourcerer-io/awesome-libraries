@@ -94,5 +94,19 @@
   {"id": "py.pydub", "imports": ["pydub"], "name": "Pydub", "repo": "jiaaro/pydub", "tags": ["toolkit"], "tech": ["audio"]},
   {"id": "py.pyechonest", "imports": ["pyechonest"], "name": "Pyechonest", "repo": "echonest/pyechonest", "tags": ["music-search"], "tech": ["api"]},
   {"id": "py.timeside", "imports": ["timeside"], "name": " TimeSide", "repo": "Parisson/TimeSide", "tags": ["web-audio"], "tech": ["audio"]},
-  {"id": "py.tinytag", "imports": ["tinytag"], "name": "tinytag", "repo": "devsnd/tinytag", "tags": ["metadata"], "tech": ["audio"]}
+  {"id": "py.tinytag", "imports": ["tinytag"], "name": "tinytag", "repo": "devsnd/tinytag", "tags": ["metadata"], "tech": ["audio"]},
+
+  {"id": "py.authomatic", "imports": ["authomatic"], "name": "Authomatic", "repo": "authomatic/authomatic", "tags": ["oauth-openid"], "tech": ["python-web"]},
+  {"id": "py.django-allauth", "imports": ["allauth"], "name": "django-allauth", "repo": "pennersr/django-allauth", "tags": ["auth-toolkit"], "tech": ["python-web"]},
+  {"id": "py.django-oauth-toolkit", "imports": ["oauth2_provider"], "name": "Django OAuth Toolkit", "repo": "jazzband/django-oauth-toolkit", "tags": ["oauth"], "tech": ["python-web"]},
+  {"id": "py.flask-oauthlib", "imports": ["flask_oauthlib"], "name": "Flask-OAuthlib", "repo": "lepture/flask-oauthlib", "tags": ["oauth"], "tech": ["python-web"]},
+  {"id": "py.oauthlib", "imports": ["oauthlib"], "name": "OAuthLib", "repo": "oauthlib/oauthlib", "tags": ["oauth"], "tech": ["internet"]},
+  {"id": "py.python-oauth2", "imports": ["oauth2"], "name": "python-oauth2", "repo": "joestump/python-oauth2", "tags": ["oauth"], "tech": ["internet"]},
+  {"id": "py.python-social-auth", "imports": ["social", "social_"], "name": "Python Social Auth", "repo": "python-social-auth/*", "tags": ["oauth"], "tech": ["python-web"]},
+  {"id": "py.rauth", "imports": ["rauth"], "name": "Rauth", "repo": "litl/rauth", "tags": ["oauth"], "tech": ["internet"]},
+  {"id": "py.sanction", "imports": ["sanction"], "name": "sanction", "repo": "demianbrecht/sanction", "tags": ["oauth"], "tech": ["internet"]},
+  {"id": "py.jose", "imports": ["jose"], "name": "jose", "repo": "demonware/jose", "tags": ["jws-jwe"], "tech": ["internet"]},
+  {"id": "py.pyjwt", "imports": ["jwt"], "name": "PyJWT", "repo": "jpadilla/pyjwt", "tags": ["jwt"], "tech": ["internet"]},
+  {"id": "py.python-jws", "imports": ["jws"], "name": "python-jws", "repo": "brianloveswords/python-jws", "tags": ["jws"], "tech": ["internet"]},
+  {"id": "py.python-jwt", "imports": ["python_jwt"], "name": "python-jwt", "repo": "davedoesdev/python-jwt", "tags": ["jwt"], "tech": ["internet"]}
 ]
