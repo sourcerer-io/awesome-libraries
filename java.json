@@ -130,7 +130,7 @@
   {"id": "java.adt4j", "imports": ["com.github.sviperll.adt4j."], "name": "adt4j", "repo": "sviperll/adt4j", "tags": ["algebraic"], "tech": ["data-structures"]},
   {"id": "java.ja-co-p", "imports": ["org.jacop."], "name": "JaCoP", "repo": "radsz/jacop", "tags": ["optimization"], "tech": ["computational-science"]},
   {"id": "java.caffeine", "imports": ["com.github.benmanes.caffeine."], "name": "Caffeine", "repo": "ben-manes/caffeine", "tags": ["caching"], "tech": ["faster-code"]},
-  {"id": "java.com-google-common", "imports": ["com.google.common."], "name": "com.google.common", "repo": "google/guava", "tags": ["toolkit"], "tech": ["utils"]},
+  {"id": "java.com-google-common", "imports": ["com.google.common."], "name": "Guava", "repo": "google/guava", "tags": ["toolkit"], "tech": ["utils"]},
   {"id": "java.brvah", "imports": ["com.chad.library."], "name": "BRVAH", "repo": "CymChad/BaseRecyclerViewAdapterHelper", "tags": ["recycler-view"], "tech": ["android-ui"]},
   {"id": "java.circuit-breakerresilience4j", "imports": ["io.github.resilience4j.circuitbreaker."], "name": "Circuit Breaker(resilience4j)", "repo": "javaslang/javaslang-circuitbreaker", "tags": ["circuit-breaker"], "tech": ["reliable-code"]},
   {"id": "java.fresco", "imports": ["com.facebook.fresco."], "name": "Fresco", "repo": "facebook/fresco", "tags": ["android-images"], "tech": ["graphics-gaming"]},
