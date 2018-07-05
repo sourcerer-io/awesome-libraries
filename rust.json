@@ -22,8 +22,8 @@
   {"id": "rust.serde-json", "imports": ["serde_json"], "name": "serde-json", "repo": "serde-rs/json", "tags": ["json"], "tech": ["app-data"]},
   {"id": "rust.semver", "imports": ["semver"], "name": "semver", "repo": "steveklabnik/semver", "tags": ["semantic-versions"], "tech": ["utils"]},
   {"id": "rust.pkg-config", "imports": ["pkg_config"], "name": "pkg-config", "repo": "alexcrichton/pkg-config-rs", "tags": ["build"], "tech": ["eng-tools"]},
-  {"id": "rust.syn", "imports": ["syn"], "name": "syn", "repo": "dtolnay/syn", "tags": ["parsing"], "tech": ["rust"]},
+  {"id": "rust.syn", "imports": ["syn"], "name": "syn", "repo": "dtolnay/syn", "tags": ["parsing"], "tech": ["parsing"]},
   {"id": "rust.num", "imports": ["num"], "name": "num", "repo": "rust-num/num", "tags": ["numbers"], "tech": ["computational-science"]},
   {"id": "rust.matches", "imports": ["matches"], "name": "matches", "repo": "SimonSapin/rust-std-candidates", "tags": ["stl-candidates"], "tech": ["app-arch"]},
-  {"id": "rust.quote", "imports": ["quote"], "name": "quote", "repo": "dtolnay/quote", "tags": ["interpolation"], "tech": ["utils"]}
+  {"id": "rust.quote", "imports": ["quote"], "name": "quote", "repo": "dtolnay/quote", "tags": ["quasi-quoting"], "tech": ["utils"]}
 ]
