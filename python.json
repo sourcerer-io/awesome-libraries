@@ -108,6 +108,6 @@
   {"id": "py.jose", "imports": ["jose"], "name": "jose", "repo": "demonware/jose", "tags": ["jws-jwe"], "tech": ["internet"]},
   {"id": "py.pyjwt", "imports": ["jwt"], "name": "PyJWT", "repo": "jpadilla/pyjwt", "tags": ["jwt"], "tech": ["internet"]},
   {"id": "py.python-jws", "imports": ["jws"], "name": "python-jws", "repo": "brianloveswords/python-jws", "tags": ["jws"], "tech": ["internet"]},
-  {"id": "py.python-jwt", "imports": ["python_jwt"], "name": "python-jwt", "repo": "davedoesdev/python-jwt", "tags": ["jwt"], "tech": ["internet"]}
+  {"id": "py.python-jwt", "imports": ["python_jwt"], "name": "python-jwt", "repo": "davedoesdev/python-jwt", "tags": ["jwt"], "tech": ["internet"]},
   {"id": "py.ply", "imports": ["ply"], "name": "PLY", "repo": "dabeaz/ply", "tags": ["lexing"], "tech": ["parsing"]}
 ]
