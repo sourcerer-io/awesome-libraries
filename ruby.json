@@ -5,7 +5,7 @@
   {"id": "rb.mocha", "imports": ["mocha"], "name": "mocha", "repo": "freerange/mocha", "tags": ["mocks-stubs"], "tech": ["testing"]},
   {"id": "rb.rails", "imports": [""], "name": "rails", "repo": "rails/rails", "tags": ["framework"], "tech": ["ruby-web"]},
   {"id": "rb.json", "imports": ["json"], "name": "json", "repo": "flori/json", "tags": ["json"], "tech": ["app-data"]},
-  {"id": "rb.rails-helper", "imports": ["rails_helper"], "name": "rails_helper", "repo": "rspec/rspec-rails", "tags": ["framework"], "tech": ["testing"]},
+  {"id": "rb.rails-helper", "imports": ["rails_helper"], "name": "rspec-rails", "repo": "rspec/rspec-rails", "tags": ["framework"], "tech": ["testing"]},
   {"id": "rb.thread", "imports": ["thread"], "name": "thread", "repo": "meh/ruby-thread", "tags": ["concurrency"], "tech": ["faster-code"]},
   {"id": "rb.zip", "imports": ["zip"], "name": "zip", "repo": "rubyzip/rubyzip", "tags": ["compression"], "tech": ["efficient-data"]},
   {"id": "rb.active-merchant", "imports": ["active_merchant"], "name": "active_merchant", "repo": "activemerchant/active_merchant", "tags": ["payments"], "tech": ["e-commerce"]},
