@@ -1,5 +1,9 @@
 # Sourcerer libraries
 
+<p align="center">
+  <img alt="screenshot" width="600" src="https://user-images.githubusercontent.com/20287615/42361444-5b193e3a-80a3-11e8-9728-5daa61772be7.png">
+</p>
+
 Sourcerer is looking to understand engineer's work from source code, and connect engineers via expertise. An important part of our effort is analysis of library use. This repository maintains list of libraries that Sourcerer recognizes. If you have a minute, please make a PR that adds your favorite libraries. Our community will appreciate it.
 
 ## How Sourcerer works
