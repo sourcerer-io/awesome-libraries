@@ -619,7 +619,8 @@
   "parsing": {
     "tags": [
       "ast-analysis",
-      "java"
+      "java",
+      "lexing"
     ]
   },
   "chat-ux": {
