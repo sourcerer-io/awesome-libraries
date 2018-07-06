@@ -124,7 +124,7 @@
   {"id": "java.android-swipe-layout", "imports": ["com.daimajia.swipelayout"], "name": "Android Swipe Layout", "repo": "daimajia/AndroidSwipeLayout", "tags": ["swipe-layout"], "tech": ["android-ui"]},
   {"id": "java.burst", "imports": ["com.squareup.burst."], "name": "Burst", "repo": "square/burst", "tags": ["unit-testing"], "tech": ["testing"]},
   {"id": "java.lib-gdx", "imports": ["com.badlogic.gdx."], "name": "libGDX", "repo": "libgdx/libgdx", "tags": ["game-framework"], "tech": ["graphics-gaming"]},
-  {"id": "java.rest-ql-core", "imports": ["restql.core."], "name": "restQL-Core", "repo": "B2W-BIT/restQL-core", "tags": ["microservices"], "tech": ["cloud"]},
+  {"id": "java.rest-ql-core", "imports": ["restql.core."], "name": "restQL-Core", "repo": "B2W-BIT/restQL-core-java", "tags": ["microservices"], "tech": ["cloud"]},
   {"id": "java.guice", "imports": ["com.google.inject."], "name": "Guice", "repo": "google/guice", "tags": ["injection"], "tech": ["app-arch"]},
   {"id": "java.java-jwt", "imports": ["io.jsonwebtoken."], "name": "Java JWT", "repo": "jwtk/jjwt", "tags": ["jwt"], "tech": ["java-web"]},
   {"id": "java.adt4j", "imports": ["com.github.sviperll.adt4j."], "name": "adt4j", "repo": "sviperll/adt4j", "tags": ["algebraic"], "tech": ["data-structures"]},
