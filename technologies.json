@@ -78,14 +78,18 @@
       "api-framework",
       "async",
       "async-observable",
+      "biz-transaction-dsl",
       "callbacks",
+      "command-pattern",
       "components",
+      "containers",
       "core-utils",
       "cross-platform",
       "cross-platform-clib",
       "db-queries",
       "design-patterns",
       "dispatcher",
+      "dsl-schema",
       "eventing",
       "events",
       "framework",
@@ -104,6 +108,7 @@
       "mvvm",
       "observable",
       "patterns",
+      "pubsub",
       "query-language",
       "reactive",
       "reactive-framework",
@@ -115,6 +120,7 @@
       "stl-extension",
       "stream-processing",
       "toolkit",
+      "views",
       "xaml"
     ]
   },
@@ -148,6 +154,7 @@
       "copying",
       "core-data",
       "csv",
+      "dsl-schema",
       "filesystem",
       "formats",
       "json",
@@ -471,8 +478,14 @@
       "algo-trading"
     ]
   },
+  "funcional": {
+    "tags": [
+      "pattern-matching"
+    ]
+  },
   "functional": {
     "tags": [
+      "monads",
       "pattern-matching",
       "readable-code"
     ]
@@ -833,8 +846,11 @@
   },
   "ruby-web": {
     "tags": [
+      "controller-interfaces",
       "framework",
-      "templates"
+      "rails-components",
+      "templates",
+      "view-components"
     ]
   },
   "security": {
@@ -927,16 +943,21 @@
       "backporting",
       "bitflags",
       "cli2gui",
+      "compare",
+      "configuration",
       "cpu",
       "date-time",
       "dry",
+      "dsl",
       "enums",
       "env-vars",
       "formatter",
       "helpers",
       "http",
+      "inflector",
       "lazy-eval",
       "misc",
+      "predicate-logic",
       "pretty-output",
       "promises",
       "quasi-quoting",
@@ -945,6 +966,7 @@
       "strings",
       "system",
       "toolkit",
+      "types",
       "version-library"
     ]
   },
