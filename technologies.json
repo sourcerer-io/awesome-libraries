@@ -362,6 +362,16 @@
       "tree"
     ]
   },
+  "database": {
+    "tags": [
+      "ms-sql",
+      "mysql",
+      "postgres",
+      "query",
+      "sql",
+      "sqlite",
+    ]
+  },
   "diagnostics": {
     "tags": [
       "alarms",
@@ -417,6 +427,17 @@
       "io-streams",
       "object-mapper",
       "serialization"
+    ]
+  },
+  "elixir-web": {
+    "tags": [
+      "components",
+      "framework",
+      "http-middleware",
+      "json",
+      "mvc",
+      "real-time",
+      "web-sockets"
     ]
   },
   "eng-tools": {
