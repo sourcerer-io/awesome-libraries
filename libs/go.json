@@ -1,4 +1,5 @@
 [
+  {"id": "go.docker", "imports": ["github.com/docker/docker"], "name": "docker", "repo": "docker/docker", "tags": ["docker"], "tech": ["containers"]},
   {"id": "go.go-shopify", "imports": ["github.com/rapito/go-shopify"], "name": "go-shopify", "repo": "rapito/go-shopify", "tags": ["shopify"], "tech": ["api"]},
   {"id": "go.go-razor", "imports": ["github.com/sipin/gorazor"], "name": "GoRazor", "repo": "sipin/gorazor", "tags": ["templates"], "tech": ["go-web"]},
   {"id": "go.jsongo", "imports": ["github.com/ricardolonga/jsongo"], "name": "Jsongo", "repo": "ricardolonga/jsongo", "tags": ["json"], "tech": ["app-data"]},
