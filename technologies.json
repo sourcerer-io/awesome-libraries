@@ -254,7 +254,8 @@
       "platform",
       "rpc",
       "serialization",
-      "service-discovery"
+      "service-discovery",
+      "docker"
     ]
   },
   "code-processing": {
