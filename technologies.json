@@ -927,8 +927,10 @@
       "stubs-mocks",
       "testing",
       "throwaway-db",
+      "test-reports",
       "unit-testing",
-      "web/testing"
+      "web/testing",
+      "mobile-testing"
     ]
   },
   "text": {
