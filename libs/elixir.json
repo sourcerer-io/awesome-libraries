@@ -1,4 +1,4 @@
 [
   {"id": "elixir.phoenix", "imports": ["phoenix"], "name": "phoenix", "repo": "phoenixframework/phoenix", "tags": ["framework"], "tech": ["elixir-web"]},
-  {"id": "elixir.ecto", "imports": ["ecto"], "name": "ecto", "repo": "elixir-ecto/ecto", "tags": ["sql"], "tech": ["database"]}
+  {"id": "elixir.ecto", "imports": ["ecto"], "name": "ecto", "repo": "elixir-ecto/ecto", "tags": ["sql"], "tech": ["storage"]}
 ]
