@@ -362,16 +362,6 @@
       "tree"
     ]
   },
-  "database": {
-    "tags": [
-      "ms-sql",
-      "mysql",
-      "postgres",
-      "query",
-      "sql",
-      "sqlite",
-    ]
-  },
   "diagnostics": {
     "tags": [
       "alarms",
@@ -431,13 +421,7 @@
   },
   "elixir-web": {
     "tags": [
-      "components",
-      "framework",
-      "http-middleware",
-      "json",
-      "mvc",
-      "real-time",
-      "web-sockets"
+      "framework"
     ]
   },
   "eng-tools": {
