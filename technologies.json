@@ -420,6 +420,11 @@
       "serialization"
     ]
   },
+  "elixir-web": {
+    "tags": [
+      "framework"
+    ]
+  },
   "eng-tools": {
     "tags": [
       "acceptance",

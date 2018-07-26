@@ -24,5 +24,7 @@
   {"id": "app-data", "name": "Application Data"},
   {"id": "rl", "name": "Reinforcement Learning"},
   {"id": "php-web", "name": "PHP Web"},
-  {"id": "chat-ux", "name": "Conversational UX"}
+  {"id": "chat-ux", "name": "Conversational UX"},
+  {"id": "db", "name": "Database"},
+  {"id": "elixir-web", "name": "Elixir Web"}
 ]
