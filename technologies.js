@@ -18,8 +18,15 @@ let techs = new Map();
 let files = fs.readdirSync(dir);
 for (let filename of files) {
   let content = fs.readFileSync(path.join(dir, filename), 'utf-8');
-  let libs = JSON.parse(content);
-  
+
+  let libs = null;
+  try {
+    libs = JSON.parse(content);
+  }
+  catch(e) {
+    throw new Error(`${filename} not valid JSON; ${e.toString()}`);
+  }
+
   for (let lib of libs) {
     if (!Array.isArray(lib.tech) || lib.tech.length == 0) {
       throw new Error(`${filename}: no tech for ${lib.id}`);
@@ -51,5 +58,6 @@ let output = `${JSON.stringify(techs_json, null, '  ')}
 `;
 
 fs.writeFileSync(`technologies.json`, output);
+console.log(`SUCCESS: technologies.json was updated`);
 
 }());
