@@ -18,7 +18,7 @@ Check out `libs` directory of this repository to find out whether your favorite 
 * Library `imports`: a list of common prefixes for files you import when using a library. If the library is used without imports, leave the list empty. For example, when importing OpenCV in python, you can use `import cv2` or `import cv`, so you would list `["cv2", "cv"]` in imports.
 * A path to `examples` of library use (optional): This is optional, but if present it will make it much faster for library to appear in Sourcerer. We use examples to train our classifiers for library detection.
 
-Run node `technology.js` to update `technologies.json` file, which also will check whether the changes make valid JSON.
+Run `node technology.js` to update `technologies.json` file, which also will check whether the changes make valid JSON.
 
 Open a pull request. Note, it will take us a couple of days after the pull requrest is merged to update classifiers for your libraries.
 
