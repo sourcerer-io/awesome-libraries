@@ -56,6 +56,7 @@
       "playlyfe",
       "shopify",
       "smite-game",
+      "spi",
       "spotify",
       "status-page",
       "steam",
@@ -89,6 +90,7 @@
       "core-utils",
       "cross-platform",
       "cross-platform-clib",
+      "db-link",
       "db-queries",
       "design-patterns",
       "dispatcher",
@@ -141,6 +143,7 @@
       "misc",
       "pdf-generator",
       "pdf-reader",
+      "plpgsql-admin",
       "process-manager",
       "rate-limiter",
       "scheduler",
@@ -178,6 +181,11 @@
       "transformations",
       "validation",
       "xml-parser"
+    ]
+  },
+  "app-date": {
+    "tags": [
+      "xml"
     ]
   },
   "audio": {
@@ -292,6 +300,7 @@
       "graph-visualization",
       "graphs",
       "integers",
+      "large-objects",
       "linear-algebra",
       "math",
       "matrices",
@@ -301,6 +310,7 @@
       "random",
       "real-time-dsp",
       "statistics",
+      "text-search",
       "toolkit"
     ]
   },
@@ -339,6 +349,11 @@
       "web-server"
     ]
   },
+  "cryptography": {
+    "tags": [
+      "security"
+    ]
+  },
   "data-science": {
     "tags": [
       "astronomy",
@@ -351,6 +366,7 @@
   "data-structures": {
     "tags": [
       "algebraic",
+      "b-tree",
       "buffer-view",
       "collections",
       "concurrency",
@@ -358,7 +374,9 @@
       "cuda",
       "hashmap",
       "high-performance",
+      "intervals",
       "list",
+      "ltree",
       "mem-map-queue",
       "point-cloud",
       "queues",
@@ -441,11 +459,15 @@
       "code-generators",
       "css-processing",
       "css-processor",
+      "db-analysis",
+      "db-explain",
+      "db-indexes-integrity",
       "debugger",
       "debugging",
       "dependency",
       "deprecation-patterns",
       "fake-data",
+      "free-space-map",
       "generate",
       "ios-debugging",
       "leak-detection",
@@ -482,6 +504,7 @@
       "immutable-data",
       "simd",
       "smart-pointer",
+      "string-search",
       "variable-types"
     ]
   },
@@ -639,6 +662,7 @@
       "java-native",
       "kotlin-spring",
       "multi-language",
+      "plpgsql-c",
       "rust-c",
       "rust-memrchr",
       "rust-winapi",
@@ -863,11 +887,14 @@
   },
   "security": {
     "tags": [
+      "access-control",
+      "auth-attack-protection",
       "cryptography",
       "oauth-client",
       "password-strength",
       "self-protection",
       "ssl",
+      "store-passwords",
       "tls",
       "tls-security",
       "tls-ssl"
@@ -954,6 +981,7 @@
       "argument-parsing",
       "backporting",
       "bitflags",
+      "bloom-filters",
       "cli2gui",
       "compare",
       "configuration",
@@ -964,6 +992,7 @@
       "enums",
       "env-vars",
       "formatter",
+      "geo-coords",
       "helpers",
       "http",
       "inflector",
@@ -974,11 +1003,17 @@
       "promises",
       "quasi-quoting",
       "regex",
+      "remote-control",
       "semantic-versions",
+      "string",
+      "string-distance",
       "strings",
       "system",
+      "system-time",
       "toolkit",
+      "triggers",
       "types",
+      "uuid",
       "version-library"
     ]
   },
