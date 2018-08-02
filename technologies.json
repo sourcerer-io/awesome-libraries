@@ -7,7 +7,9 @@
   "android": {
     "tags": [
       "hotfix",
-      "utils"
+      "utils",
+      "database",
+      "reactive"
     ]
   },
   "android-ui": {
@@ -21,7 +23,8 @@
       "reactive",
       "recycler-view",
       "swipe-layout",
-      "view-binding"
+      "view-binding",
+      "utils"
     ]
   },
   "api": {
