@@ -236,5 +236,14 @@
   {"id": "java.packr", "imports": ["com.badlogicgames.packr."], "name": "packr", "repo": "libgdx/packr", "tags": ["executable-jar"], "tech": ["software-distribution"]},
   {"id": "java.nudge4j", "imports": ["nudge4j."], "name": "nudge4j", "repo": "lorenzoongithub/nudge4j", "tags": ["jvm-control"], "tech": ["diagnostics"]},
   {"id": "java.sliding-menu", "imports": ["com.jeremyfeinstein.slidingmenu."], "name": "SlidingMenu", "repo": "jfeinstein10/SlidingMenu", "tags": ["menus"], "tech": ["android-ui"]},
-  {"id": "java.resilience4j", "imports": ["io.github.resilience4j."], "name": "Resilience4j", "repo": "resilience4j/resilience4j", "tags": ["fault-tolerance"], "tech": ["reliable-code"]}
+  {"id": "java.resilience4j", "imports": ["io.github.resilience4j."], "name": "Resilience4j", "repo": "resilience4j/resilience4j", "tags": ["fault-tolerance"], "tech": ["reliable-code"]},
+  {"id": "java.materialdrawer", "imports": ["com.mikepenz.materialdrawer."], "name": "MaterialDrawer", "repo": "mikepenz/MaterialDrawer", "tags": ["menus"], "tech": ["android-ui"]},
+  {"id": "java.calligraphy", "imports": ["uk.co.chrisjenx.calligraphy.","io.github.inflationx.calligraphy3."], "name": "Calligraphy", "repo": "InflationX/Calligraphy", "tags": ["custom-fonts"], "tech": ["android-ui"]},
+  {"id": "java.timber", "imports": ["timber.log."], "name": "Timber", "repo": "JakeWharton/timber", "tags": ["android-logging"], "tech": ["diagnostics"]},
+  {"id": "java.android-image-cropper", "imports": ["com.theartofdev.edmodo.cropper."], "name": "Android Image Cropper", "repo": "ArthurHub/Android-Image-Cropper", "tags": ["android-images"], "tech": ["images"]},
+  {"id": "java.easypermissions", "imports": ["pub.devrel.easypermissions."], "name": "EasyPermissions", "repo": "googlesamples/easypermissions", "tags": ["permissions"], "tech": ["android"]},
+  {"id": "java.storio", "imports": ["com.pushtorefresh.storio3."], "name": "StorIO", "repo": "pushtorefresh/storio", "tags": ["android-sql","reactive"], "tech": ["storage"]},
+  {"id": "java.sqlbrite", "imports": ["com.squareup.sqlbrite3."], "name": "SQL Brite", "repo": "square/sqlbrite", "tags": ["android-sql"], "tech": ["storage"]},
+  {"id": "java.toothpick", "imports": ["toothpick."], "name": "Toothpick", "repo": "stephanenicolas/toothpick", "tags": ["injection"], "tech": ["app-arch"]},
+  {"id": "java.parceler", "imports": ["org.parceler."], "name": "Parceler", "repo": "johncarl81/parceler", "tags": ["android-serialization"], "tech": ["efficient-data"]},
 ]

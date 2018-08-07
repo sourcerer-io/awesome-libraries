@@ -54,5 +54,9 @@
   {"id": "kt.imgui", "imports": ["imgui"], "name": "imgui", "repo": "kotlin-graphics/imgui", "tags": ["toolkit"], "tech": ["gui"]},
   {"id": "kt.kspec", "imports": ["io.polymorphicpanda.kspec"], "name": "KSpec", "repo": "raniejade/kspec", "tags": ["specification-framework"], "tech": ["testing"]},
   {"id": "kt.fun-ktionale", "imports": ["org.funktionale"], "name": "funKTionale", "repo": "MarioAriasC/funKTionale", "tags": ["functional"], "tech": ["app-arch"]},
-  {"id": "kt.vert-x", "imports": ["io.vertx"], "name": "Vert.x", "repo": "vert-x3/vertx-lang-kotlin", "tags": ["reactive"], "tech": ["app-arch"]}
+  {"id": "kt.vert-x", "imports": ["io.vertx"], "name": "Vert.x", "repo": "vert-x3/vertx-lang-kotlin", "tags": ["reactive"], "tech": ["app-arch"]},
+  {"id": "kt.anko", "imports": ["org.jetbrains.anko."], "name": "Anko", "repo": "Kotlin/anko", "tags": ["toolkit"], "tech": ["android"]},
+  {"id": "kt.kotlinpoet", "imports": ["com.squareup.kotlinpoet."], "name": "Anko", "repo": "square/kotlinpoet", "tags": ["code-generators"], "tech": ["eng-tools"]},
+  {"id": "kt.koin", "imports": ["org.koin."], "name": "Koin", "repo": "InsertKoinIO/koin", "tags": ["injection"], "tech": ["app-arch"]},
+  {"id": "kt.kodein-di", "imports": ["org.kodein.di."], "name": "Kodein-DI", "repo": "Kodein-Framework/Kodein-DI", "tags": ["injection"], "tech": ["app-arch"]}
 ]

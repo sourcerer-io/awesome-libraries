@@ -7,7 +7,9 @@
   "android": {
     "tags": [
       "hotfix",
-      "utils"
+      "utils",
+      "permissions",
+      "toolkit"
     ]
   },
   "android-ui": {
@@ -21,7 +23,8 @@
       "reactive",
       "recycler-view",
       "swipe-layout",
-      "view-binding"
+      "view-binding",
+      "custom-fonts"
     ]
   },
   "api": {
@@ -372,7 +375,8 @@
       "logging",
       "metrics",
       "monitoring",
-      "tracing"
+      "tracing",
+      "android-logging"
     ]
   },
   "dl": {
@@ -417,7 +421,8 @@
       "encoding",
       "io-streams",
       "object-mapper",
-      "serialization"
+      "serialization",
+      "android-serialization"
     ]
   },
   "elixir-web": {
@@ -592,7 +597,8 @@
       "point-cloud",
       "processing",
       "scaling",
-      "thumbnails"
+      "thumbnails",
+      "android-images"
     ]
   },
   "internet": {
@@ -896,7 +902,8 @@
       "orm",
       "s3",
       "sql",
-      "sql-client"
+      "sql-client",
+      "android-sql"
     ]
   },
   "swift-web": {
