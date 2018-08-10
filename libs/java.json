@@ -245,5 +245,5 @@
   {"id": "java.storio", "imports": ["com.pushtorefresh.storio3."], "name": "StorIO", "repo": "pushtorefresh/storio", "tags": ["android-sql","reactive"], "tech": ["storage"]},
   {"id": "java.sqlbrite", "imports": ["com.squareup.sqlbrite3."], "name": "SQL Brite", "repo": "square/sqlbrite", "tags": ["android-sql"], "tech": ["storage"]},
   {"id": "java.toothpick", "imports": ["toothpick."], "name": "Toothpick", "repo": "stephanenicolas/toothpick", "tags": ["injection"], "tech": ["app-arch"]},
-  {"id": "java.parceler", "imports": ["org.parceler."], "name": "Parceler", "repo": "johncarl81/parceler", "tags": ["android-serialization"], "tech": ["efficient-data"]},
+  {"id": "java.parceler", "imports": ["org.parceler."], "name": "Parceler", "repo": "johncarl81/parceler", "tags": ["android-serialization"], "tech": ["efficient-data"]}
 ]

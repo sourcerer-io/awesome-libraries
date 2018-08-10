@@ -7,13 +7,14 @@
   "android": {
     "tags": [
       "hotfix",
-      "utils",
       "permissions",
-      "toolkit"
+      "toolkit",
+      "utils"
     ]
   },
   "android-ui": {
     "tags": [
+      "custom-fonts",
       "dialogs",
       "framework",
       "image-view",
@@ -23,8 +24,7 @@
       "reactive",
       "recycler-view",
       "swipe-layout",
-      "view-binding",
-      "custom-fonts"
+      "view-binding"
     ]
   },
   "api": {
@@ -246,6 +246,7 @@
       "deployment",
       "distributed-apps",
       "distributed-kernel",
+      "docker",
       "edge-service",
       "event-broker",
       "gcloud",
@@ -257,8 +258,7 @@
       "platform",
       "rpc",
       "serialization",
-      "service-discovery",
-      "docker"
+      "service-discovery"
     ]
   },
   "code-processing": {
@@ -369,14 +369,14 @@
   "diagnostics": {
     "tags": [
       "alarms",
+      "android-logging",
       "benchmarking",
       "byte-code",
       "jvm-control",
       "logging",
       "metrics",
       "monitoring",
-      "tracing",
-      "android-logging"
+      "tracing"
     ]
   },
   "dl": {
@@ -417,12 +417,12 @@
   },
   "efficient-data": {
     "tags": [
+      "android-serialization",
       "compression",
       "encoding",
       "io-streams",
       "object-mapper",
-      "serialization",
-      "android-serialization"
+      "serialization"
     ]
   },
   "elixir-web": {
@@ -488,11 +488,6 @@
   "fintech": {
     "tags": [
       "algo-trading"
-    ]
-  },
-  "funcional": {
-    "tags": [
-      "pattern-matching"
     ]
   },
   "functional": {
@@ -582,6 +577,7 @@
   },
   "images": {
     "tags": [
+      "android-images",
       "bar-codes",
       "barcode-scanner",
       "colors",
@@ -597,8 +593,7 @@
       "point-cloud",
       "processing",
       "scaling",
-      "thumbnails",
-      "android-images"
+      "thumbnails"
     ]
   },
   "internet": {
@@ -890,6 +885,7 @@
   },
   "storage": {
     "tags": [
+      "android-sql",
       "array",
       "concurrency",
       "distributed-fs",
@@ -900,10 +896,10 @@
       "mongodb",
       "nosql",
       "orm",
+      "reactive",
       "s3",
       "sql",
-      "sql-client",
-      "android-sql"
+      "sql-client"
     ]
   },
   "swift-web": {
@@ -930,6 +926,7 @@
       "junit-runner",
       "load-testing",
       "matchers",
+      "mobile-testing",
       "mocking",
       "mocks",
       "mocks-stubs",
@@ -938,12 +935,11 @@
       "rest-http-testing",
       "specification-framework",
       "stubs-mocks",
+      "test-reports",
       "testing",
       "throwaway-db",
-      "test-reports",
       "unit-testing",
-      "web/testing",
-      "mobile-testing"
+      "web/testing"
     ]
   },
   "text": {

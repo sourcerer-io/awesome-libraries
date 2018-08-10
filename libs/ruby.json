@@ -25,7 +25,7 @@
   {"id": "rb.dry-schema", "imports": ["dry_schema"], "name": "dry-schema", "repo": "dry-rb/dry-schema", "tags": ["dsl-schema"], "tech": ["app-arch"]},
   {"id": "rb.dry-system", "imports": ["dry_system"], "name": "dry-system", "repo": "dry-rb/dry-system", "tags": ["components"], "tech": ["app-arch"]},
   {"id": "rb.dry-container", "imports": ["dry-container"], "name": "dry-container", "repo": "dry-rb/dry-container", "tags": ["containers"], "tech": ["app-arch"]},
-  {"id": "rb.dry-matcher", "imports": ["dry-matcher"], "name": "dry-matcher", "repo": "dry-rb/dry-matcher", "tags": ["pattern-matching"], "tech": ["funcional"]},
+  {"id": "rb.dry-matcher", "imports": ["dry-matcher"], "name": "dry-matcher", "repo": "dry-rb/dry-matcher", "tags": ["pattern-matching"], "tech": ["functional"]},
   {"id": "rb.dry-transaction", "imports": ["dry/transaction"], "name": "dry-transaction", "repo": "dry-rb/dry-transaction", "tags": ["biz-transaction-dsl"], "tech": ["app-arch"]},
   {"id": "rb.dry-types", "imports": ["dry-types"], "name": "dry-types", "repo": "dry-rb/dry-types", "tags": ["types"], "tech": ["utils"]},
   {"id": "rb.dry-monads", "imports": ["dry-monads"], "name": "dry-monads", "repo": "dry-rb/dry-monads", "tags": ["monads"], "tech": ["functional"]},
