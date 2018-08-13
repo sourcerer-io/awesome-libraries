@@ -12,7 +12,7 @@
   {"id": "plpgsql.dblink", "imports": ["dblink"], "name": "dblink", "repo": "postgres/postgres/tree/master/contrib/dblink", "tags": ["db-link"], "tech": ["app-blocks"]},
   {"id": "plpgsql.dict-int", "imports": ["dict_int"], "name": "dict_int", "repo": "postgres/postgres/tree/master/contrib/dict_int", "tags": ["text-search"], "tech": ["information-retrieval"]},
   {"id": "plpgsql.dict-xsyn", "imports": ["dict_xsyn"], "name": "dict_xsyn", "repo": "postgres/postgres/tree/master/contrib/dict_xsyn", "tags": ["text-search"], "tech": ["information-retrieval"]},
-  {"id": "plpgsql.earthdistance", "imports": ["earthdistance"], "name": "earthdistance", "repo": "postgres/postgres/tree/master/contrib/earthdistance", "tags": ["geo-maps"], "tech": ["utils"]},
+  {"id": "plpgsql.earthdistance", "imports": ["earthdistance"], "name": "earthdistance", "repo": "postgres/postgres/tree/master/contrib/earthdistance", "tags": ["geo-coords"], "tech": ["geo-maps"]},
   {"id": "plpgsql.file-fdw", "imports": ["file_fdw"], "name": "file_fdw", "repo": "postgres/postgres/tree/master/contrib/file_fdw", "tags": ["file-access"], "tech": ["utils"]},
   {"id": "plpgsql.fuzzystrmatch", "imports": ["fuzzystrmatch"], "name": "fuzzystrmatch", "repo": "postgres/postgres/tree/master/contrib/fuzzystrmatch", "tags": ["string-distance"], "tech": ["utils"]},
   {"id": "plpgsql.hstore", "imports": ["hstore"], "name": "hstore", "repo": "postgres/postgres/tree/master/contrib/hstore", "tags": ["hashmap"], "tech": ["data-structures"]},

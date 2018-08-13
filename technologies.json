@@ -56,7 +56,6 @@
       "playlyfe",
       "shopify",
       "smite-game",
-      "spi",
       "spotify",
       "status-page",
       "steam",
@@ -90,7 +89,6 @@
       "core-utils",
       "cross-platform",
       "cross-platform-clib",
-      "db-link",
       "db-queries",
       "design-patterns",
       "dispatcher",
@@ -119,12 +117,14 @@
       "reactive-framework",
       "run-time",
       "signal-slots",
+      "spi",
       "state-machines",
       "stl",
       "stl-candidates",
       "stl-extension",
       "stream-processing",
       "toolkit",
+      "triggers",
       "views",
       "xaml"
     ]
@@ -132,6 +132,7 @@
   "app-blocks": {
     "tags": [
       "captcha",
+      "db-link",
       "deamons",
       "django-admin",
       "editor",
@@ -180,12 +181,8 @@
       "streams",
       "transformations",
       "validation",
+      "xml",
       "xml-parser"
-    ]
-  },
-  "app-date": {
-    "tags": [
-      "xml"
     ]
   },
   "audio": {
@@ -300,15 +297,16 @@
       "graph-visualization",
       "graphs",
       "integers",
-      "large-objects",
       "linear-algebra",
       "math",
       "matrices",
       "multiprecision",
+      "ndim-cubes",
       "numbers",
       "optimization",
       "random",
       "real-time-dsp",
+      "row-sampling",
       "statistics",
       "text-search",
       "toolkit"
@@ -349,11 +347,6 @@
       "web-server"
     ]
   },
-  "cryptography": {
-    "tags": [
-      "security"
-    ]
-  },
   "data-science": {
     "tags": [
       "astronomy",
@@ -366,7 +359,9 @@
   "data-structures": {
     "tags": [
       "algebraic",
+      "array",
       "b-tree",
+      "bloom-filters",
       "buffer-view",
       "collections",
       "concurrency",
@@ -375,6 +370,7 @@
       "hashmap",
       "high-performance",
       "intervals",
+      "large-objects",
       "list",
       "ltree",
       "mem-map-queue",
@@ -390,6 +386,9 @@
       "android-logging",
       "benchmarking",
       "byte-code",
+      "db-analysis",
+      "db-explain",
+      "free-space-map",
       "jvm-control",
       "logging",
       "metrics",
@@ -460,14 +459,12 @@
       "css-processing",
       "css-processor",
       "db-analysis",
-      "db-explain",
-      "db-indexes-integrity",
+      "db-index-integrity",
       "debugger",
       "debugging",
       "dependency",
       "deprecation-patterns",
       "fake-data",
-      "free-space-map",
       "generate",
       "ios-debugging",
       "leak-detection",
@@ -523,6 +520,7 @@
   "geo-maps": {
     "tags": [
       "android-maps",
+      "geo-coords",
       "geohashing",
       "geospatial",
       "google-maps",
@@ -619,6 +617,11 @@
       "thumbnails"
     ]
   },
+  "information-retrieval": {
+    "tags": [
+      "text-search"
+    ]
+  },
   "internet": {
     "tags": [
       "async-web",
@@ -662,7 +665,6 @@
       "java-native",
       "kotlin-spring",
       "multi-language",
-      "plpgsql-c",
       "rust-c",
       "rust-memrchr",
       "rust-winapi",
@@ -888,7 +890,7 @@
   "security": {
     "tags": [
       "access-control",
-      "auth-attack-protection",
+      "auth-attempt-delay",
       "cryptography",
       "oauth-client",
       "password-strength",
@@ -976,12 +978,16 @@
       "utf8"
     ]
   },
+  "util": {
+    "tags": [
+      "plpgsql-c"
+    ]
+  },
   "utils": {
     "tags": [
       "argument-parsing",
       "backporting",
       "bitflags",
-      "bloom-filters",
       "cli2gui",
       "compare",
       "configuration",
@@ -991,19 +997,19 @@
       "dsl",
       "enums",
       "env-vars",
+      "file-access",
       "formatter",
-      "geo-coords",
       "helpers",
       "http",
       "inflector",
       "lazy-eval",
       "misc",
+      "numbers",
       "predicate-logic",
       "pretty-output",
       "promises",
       "quasi-quoting",
       "regex",
-      "remote-control",
       "semantic-versions",
       "string",
       "string-distance",
@@ -1011,7 +1017,6 @@
       "system",
       "system-time",
       "toolkit",
-      "triggers",
       "types",
       "uuid",
       "version-library"
