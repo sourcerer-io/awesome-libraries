@@ -117,12 +117,14 @@
       "reactive-framework",
       "run-time",
       "signal-slots",
+      "spi",
       "state-machines",
       "stl",
       "stl-candidates",
       "stl-extension",
       "stream-processing",
       "toolkit",
+      "triggers",
       "views",
       "xaml"
     ]
@@ -130,6 +132,7 @@
   "app-blocks": {
     "tags": [
       "captcha",
+      "db-link",
       "deamons",
       "django-admin",
       "editor",
@@ -141,6 +144,7 @@
       "misc",
       "pdf-generator",
       "pdf-reader",
+      "plpgsql-admin",
       "process-manager",
       "rate-limiter",
       "scheduler",
@@ -177,6 +181,7 @@
       "streams",
       "transformations",
       "validation",
+      "xml",
       "xml-parser"
     ]
   },
@@ -296,11 +301,14 @@
       "math",
       "matrices",
       "multiprecision",
+      "ndim-cubes",
       "numbers",
       "optimization",
       "random",
       "real-time-dsp",
+      "row-sampling",
       "statistics",
+      "text-search",
       "toolkit"
     ]
   },
@@ -351,6 +359,9 @@
   "data-structures": {
     "tags": [
       "algebraic",
+      "array",
+      "b-tree",
+      "bloom-filters",
       "buffer-view",
       "collections",
       "concurrency",
@@ -358,7 +369,10 @@
       "cuda",
       "hashmap",
       "high-performance",
+      "intervals",
+      "large-objects",
       "list",
+      "ltree",
       "mem-map-queue",
       "point-cloud",
       "queues",
@@ -372,6 +386,9 @@
       "android-logging",
       "benchmarking",
       "byte-code",
+      "db-analysis",
+      "db-explain",
+      "free-space-map",
       "jvm-control",
       "logging",
       "metrics",
@@ -441,6 +458,8 @@
       "code-generators",
       "css-processing",
       "css-processor",
+      "db-analysis",
+      "db-index-integrity",
       "debugger",
       "debugging",
       "dependency",
@@ -482,6 +501,7 @@
       "immutable-data",
       "simd",
       "smart-pointer",
+      "string-search",
       "variable-types"
     ]
   },
@@ -500,6 +520,7 @@
   "geo-maps": {
     "tags": [
       "android-maps",
+      "geo-coords",
       "geohashing",
       "geospatial",
       "google-maps",
@@ -594,6 +615,11 @@
       "processing",
       "scaling",
       "thumbnails"
+    ]
+  },
+  "information-retrieval": {
+    "tags": [
+      "text-search"
     ]
   },
   "internet": {
@@ -863,11 +889,14 @@
   },
   "security": {
     "tags": [
+      "access-control",
+      "auth-attempt-delay",
       "cryptography",
       "oauth-client",
       "password-strength",
       "self-protection",
       "ssl",
+      "store-passwords",
       "tls",
       "tls-security",
       "tls-ssl"
@@ -949,6 +978,11 @@
       "utf8"
     ]
   },
+  "util": {
+    "tags": [
+      "plpgsql-c"
+    ]
+  },
   "utils": {
     "tags": [
       "argument-parsing",
@@ -963,22 +997,28 @@
       "dsl",
       "enums",
       "env-vars",
+      "file-access",
       "formatter",
       "helpers",
       "http",
       "inflector",
       "lazy-eval",
       "misc",
+      "numbers",
       "predicate-logic",
       "pretty-output",
       "promises",
       "quasi-quoting",
       "regex",
       "semantic-versions",
+      "string",
+      "string-distance",
       "strings",
       "system",
+      "system-time",
       "toolkit",
       "types",
+      "uuid",
       "version-library"
     ]
   },
