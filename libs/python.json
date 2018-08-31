@@ -110,5 +110,9 @@
   {"id": "py.python-jws", "imports": ["jws"], "name": "python-jws", "repo": "brianloveswords/python-jws", "tags": ["jws"], "tech": ["internet"]},
   {"id": "py.python-jwt", "imports": ["python_jwt"], "name": "python-jwt", "repo": "davedoesdev/python-jwt", "tags": ["jwt"], "tech": ["internet"]},
   {"id": "py.ply", "imports": ["ply"], "name": "PLY", "repo": "dabeaz/ply", "tags": ["lexing"], "tech": ["parsing"], "examples": ["http://www.dabeaz.com/ply/example.html"]},
-  {"id": "py.debtcollector", "imports": ["debtcollector"], "name": "debtcollector", "repo": "openstack/debtcollector", "tags": ["deprecation-patterns"], "tech": ["eng-tools"], "examples": ["https://docs.openstack.org/debtcollector/latest/user/usage.html"]}
+  {"id": "py.debtcollector", "imports": ["debtcollector"], "name": "debtcollector", "repo": "openstack/debtcollector", "tags": ["deprecation-patterns"], "tech": ["eng-tools"], "examples": ["https://docs.openstack.org/debtcollector/latest/user/usage.html"]},
+  {"id": "py.attrs", "imports": ["attr"], "name": "attrs", "repo": "python-attrs/attrs", "tags": ["better-classes"], "tech": ["eng-tools"]},
+  {"id": "py.bidict", "imports": ["bidict"], "name": "bidict", "repo": "jab/bidict", "tags": ["bidirectional-maps"], "tech": ["data-structures"]},
+  {"id": "py.box", "imports": ["box"], "name": "Box", "repo": "cdgriffith/Box", "tags": ["dictionaries"], "tech": ["data-structures"]},
+  {"id": "py.dotted", "imports": ["dotted"], "name": "dotted", "repo": "carlosescri/DottedDict", "tags": ["dict-list"], "tech": ["data-structures"]}
 ]
