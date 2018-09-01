@@ -1,4 +1,4 @@
 [
-  {"id": "elixir.phoenix", "imports": ["Phoenix"], "name": "phoenix", "repo": "phoenixframework/phoenix", "tags": ["framework"], "tech": ["elixir-web"]},
-  {"id": "elixir.ecto", "imports": ["Ecto"], "name": "ecto", "repo": "elixir-ecto/ecto", "tags": ["sql"], "tech": ["storage"]}
+  {"id": "elixir.phoenix", "imports": ["Phoenix"], "name": "phoenix", "repo": "phoenixframework/phoenix", "tags": ["framework"], "tech": ["elixir-web"], "status": "model-ready"},
+  {"id": "elixir.ecto", "imports": ["Ecto"], "name": "ecto", "repo": "elixir-ecto/ecto", "tags": ["sql"], "tech": ["storage"], "status": "model-ready"}
 ]
