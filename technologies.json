@@ -850,12 +850,16 @@
     "tags": [
       "async-framework",
       "auth-toolkit",
+      "caching",
+      "django-caching",
       "django-rest",
       "framework",
+      "memcached-client",
       "micro-framework",
       "oauth",
       "oauth-openid",
       "serverless",
+      "sessions-caching",
       "templates"
     ]
   },
