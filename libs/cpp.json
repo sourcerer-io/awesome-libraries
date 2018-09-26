@@ -11,7 +11,7 @@
   {"id": "cpp.intel-tbb", "imports": ["tbb"], "name": "Intel TBB", "repo": "01org/tbb", "tags": ["concurrency"], "tech": ["faster-code"]},
   {"id": "cpp.google-test", "imports": ["gtest"], "name": "Google Test", "repo": "google/googletest", "tags": ["framework"], "tech": ["testing"]},
   {"id": "cpp.json", "imports": ["nlohmann", "json"], "name": "JSON", "repo": "nlohmann/json", "tags": ["json"], "tech": ["app-data"]},
-  {"id": "cpp.open-cv", "imports": ["opencv2"], "name": "OpenCV", "repo": "opencv/opencv", "tags": ["cv"], "tech": ["computer-vision"]},
+  {"id": "cpp.open-cv", "imports": ["opencv/", "opencv2/"], "name": "OpenCV", "repo": "opencv/opencv", "tags": ["cv"], "tech": ["computer-vision"]},
   {"id": "cpp.protocol-buffers", "imports": ["google/protobuf"], "name": "Protocol Buffers", "repo": "google/protobuf", "tags": ["encoding"], "tech": ["efficient-data"]},
   {"id": "cpp.dlib", "imports": ["dlib"], "name": "Dlib", "repo": "davisking/dlib", "tags": ["toolkit"], "tech": ["ml"]},
   {"id": "cpp.cpp-ad", "imports": ["cppad"], "name": "CppAD", "repo": "coin-or/CppAD", "tags": ["differentiation"], "tech": ["computational-science"]},
