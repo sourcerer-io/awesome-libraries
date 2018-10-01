@@ -111,8 +111,18 @@
   {"id": "py.python-jwt", "imports": ["python_jwt"], "name": "python-jwt", "repo": "davedoesdev/python-jwt", "tags": ["jwt"], "tech": ["internet"], "status": "awaiting-model"},
   {"id": "py.ply", "imports": ["ply"], "name": "PLY", "repo": "dabeaz/ply", "tags": ["lexing"], "tech": ["parsing"], "examples": ["http://www.dabeaz.com/ply/example.html"], "status": "awaiting-model"},
   {"id": "py.debtcollector", "imports": ["debtcollector"], "name": "debtcollector", "repo": "openstack/debtcollector", "tags": ["deprecation-patterns"], "tech": ["eng-tools"], "examples": ["https://docs.openstack.org/debtcollector/latest/user/usage.html"], "status": "awaiting-model"},
+
   {"id": "py.attrs", "imports": ["attr"], "name": "attrs", "repo": "python-attrs/attrs", "tags": ["better-classes"], "tech": ["eng-tools"], "status": "awaiting-model"},
   {"id": "py.bidict", "imports": ["bidict"], "name": "bidict", "repo": "jab/bidict", "tags": ["bidirectional-maps"], "tech": ["data-structures"], "status": "awaiting-model"},
   {"id": "py.box", "imports": ["box"], "name": "Box", "repo": "cdgriffith/Box", "tags": ["dictionaries"], "tech": ["data-structures"], "status": "awaiting-model"},
-  {"id": "py.dotted", "imports": ["dotted"], "name": "dotted", "repo": "carlosescri/DottedDict", "tags": ["dict-list"], "tech": ["data-structures"], "status": "awaiting-model"}
+  {"id": "py.dotted", "imports": ["dotted"], "name": "dotted", "repo": "carlosescri/DottedDict", "tags": ["dict-list"], "tech": ["data-structures"], "status": "awaiting-model"},
+
+  {"id": "py.beaker", "imports": ["beaker"], "name": "Beaker", "repo": "bbangert/beaker", "tags": ["sessions-caching"], "tech": ["python-web"], "status": "awaiting-model"},
+  {"id": "py.diskcache", "imports": ["diskcache"], "name": "DiskCache", "repo": "grantjenks/python-diskcache", "tags": ["django-caching"], "tech": ["python-web"], "status": "awaiting-model"},
+  {"id": "py.django-cache-machine", "imports": ["caching"], "name": "Cache Machine", "repo": "django-cache-machine/django-cache-machine", "tags": ["django-caching"], "tech": ["python-web"], "status": "awaiting-model"},
+  {"id": "py.cacheops", "imports": ["cacheops"], "name": "Cacheops", "repo": "Suor/django-cacheops", "tags": ["django-caching"], "tech": ["python-web"], "status": "awaiting-model"},
+  {"id": "py.dogpile", "imports": ["dogpile"], "name": "Dogpile", "repo": "https://bitbucket.org/zzzeek/dogpile.cache/", "tags": ["caching"], "tech": ["python-web"], "status": "awaiting-model"},
+  {"id": "py.hermes-cache", "imports": ["hermes"], "name": "HermesCache", "repo": "https://bitbucket.org/saaj/hermes", "tags": ["caching"], "tech": ["python-web"], "status": "awaiting-model"},
+  {"id": "py.johny-cache", "imports": ["johny"], "name": "Johny Cache", "repo": "jmoiron/johnny-cache", "tags": ["django-caching"], "tech": ["python-web"], "status": "awaiting-model"},
+  {"id": "py.pylibmc", "imports": ["pylibmc"], "name": "pyblibmc", "repo": "lericson/pylibmc", "tags": ["memcached-client"], "tech": ["python-web"], "status": "awaiting-model"}
 ]
