@@ -43,5 +43,6 @@
   {"id": "php.http-ful", "imports": ["\\HttpFul"], "name": "HttpFul", "repo": "nategood/httpful", "tags": ["http-client"], "tech": ["internet"]},
   {"id": "php.route", "imports": ["League\\Route"], "name": "Route", "repo": "thephpleague/route", "tags": ["routing"], "tech": ["php-web"]},
   {"id": "php.php-ffmpeg", "imports": ["FFMpeg"], "name": "PHP FFMpeg", "repo": "PHP-FFmpeg/PHP-FFmpeg", "tags": ["ffmpeg"], "tech": ["media"]},
-  {"id": "php.f3", "imports": ["\\Base"], "name": "FatFreeFramework", "repo": "bcosca/fatfree", "tags": ["micro-framework", "framework"], "tech": ["php-web"]} 
+  {"id": "php.f3", "imports": ["\\Base"], "name": "FatFreeFramework", "repo": "bcosca/fatfree", "tags": ["micro-framework", "framework"], "tech": ["php-web"]},
+  {"id": "php.cakephp", "imports": ["Cake"], "name": "CakePHP", "repo": "cakephp/cakephp", "tags": ["framework"], "tech": ["php-web"]}
 ]
