@@ -126,6 +126,7 @@
       "toolkit",
       "triggers",
       "views",
+      "windows-service",
       "xaml"
     ]
   },
@@ -152,8 +153,7 @@
       "sitemaps",
       "spam-blocker",
       "termination",
-      "validation",
-      "windows-service"
+      "validation"
     ]
   },
   "app-data": {
@@ -385,11 +385,6 @@
       "tree"
     ]
   },
-  "database": {
-    "tags": [
-      "key-value"
-    ]
-  },
   "diagnostics": {
     "tags": [
       "alarms",
@@ -459,6 +454,7 @@
   },
   "eng-tools": {
     "tags": [
+      "IL-rewrite",
       "acceptance",
       "assertions",
       "aws-mocking",
@@ -496,11 +492,6 @@
   "enterprise": {
     "tags": [
       "platform"
-    ]
-  },
-  "executable-manipulation": {
-    "tags": [
-      "IL-rewrite"
     ]
   },
   "faster-code": {
@@ -940,6 +931,7 @@
       "distributed-fs",
       "embedded",
       "in-memory",
+      "key-value",
       "linq-sql",
       "mobile",
       "mongodb",
