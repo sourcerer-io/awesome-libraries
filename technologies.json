@@ -152,7 +152,8 @@
       "sitemaps",
       "spam-blocker",
       "termination",
-      "validation"
+      "validation",
+      "windows-service"
     ]
   },
   "app-data": {
@@ -237,6 +238,7 @@
     "tags": [
       "cli-for-objects",
       "interpreter",
+      "process-runner",
       "progress-indicator",
       "readline"
     ]
@@ -383,6 +385,11 @@
       "tree"
     ]
   },
+  "database": {
+    "tags": [
+      "key-value"
+    ]
+  },
   "diagnostics": {
     "tags": [
       "alarms",
@@ -489,6 +496,11 @@
   "enterprise": {
     "tags": [
       "platform"
+    ]
+  },
+  "executable-manipulation": {
+    "tags": [
+      "IL-rewrite"
     ]
   },
   "faster-code": {
