@@ -217,6 +217,8 @@
   {"id": "java.pac4j", "imports": ["org.pac4j."], "name": "pac4j", "repo": "pac4j/pac4j", "tags": ["oauth"], "tech": ["java-web"]},
   {"id": "java.cqengine", "imports": ["com.googlecode.cqengine."], "name": "CQEngine", "repo": "npgall/cqengine", "tags": ["collection-queries"], "tech": ["app-data"]},
   {"id": "java.butter-knife", "imports": ["butterknife."], "name": "Butter Knife", "repo": "JakeWharton/butterknife", "tags": ["view-binding"], "tech": ["android-ui"]},
+  {"id": "java.crashlytics", "imports": ["com.crashlytics."], "name": "Crashlytics", "repo": "", "examples": ["sitepoint-editors/Crashlytics"], "tags": ["alarms", "tracing", "monitoring", "metrics"], "tech": ["diagnostics"]},
+  {"id": "java.room", "imports": ["androidx.room."], "name": "Room", "repo": "", "examples": ["googlesamples/android-architecture-components"], "tags": ["android-sql"], "tech": ["storage"]},
   {"id": "java.typesafe-config", "imports": ["com.typesafe.config."], "name": "Typesafe Config", "repo": "typesafehub/config", "tags": ["java-json"], "tech": ["configuration"]},
   {"id": "java.comsat", "imports": ["comsat."], "name": "COMSAT", "repo": "puniverse/comsat", "tags": ["apps"], "tech": ["java-web"]},
   {"id": "java.web-magic", "imports": ["us.codecraft.webmagic."], "name": "Web Magic", "repo": "code4craft/webmagic", "tags": ["web-crawler"], "tech": ["internet"]},
