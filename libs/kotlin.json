@@ -59,6 +59,6 @@
   {"id": "kt.kotlinpoet", "imports": ["com.squareup.kotlinpoet."], "name": "Anko", "repo": "square/kotlinpoet", "tags": ["code-generators"], "tech": ["eng-tools"]},
   {"id": "kt.koin", "imports": ["org.koin."], "name": "Koin", "repo": "InsertKoinIO/koin", "tags": ["injection"], "tech": ["app-arch"]},
   {"id": "kt.MvRx", "imports": ["com.airbnb.mvrx."], "name": "MvRx", "repo": "airbnb/MvRx", "tags": ["framework", "reactive"], "tech": ["app-arch"]},
-  {"id": "kt.Epoxy", "imports": ["com.airbnb.epoxy."], "name": "Epoxy", "repo": "airbnb/epoxy", "tags": ["framework", "reactive", "recycler-view"], "tech": ["android-ui"]},
+  {"id": "kt.Epoxy", "imports": ["com.airbnb.epoxy."], "name": "Epoxy", "repo": "airbnb/epoxy", "tags": ["recycler-view", "framework", "reactive"], "tech": ["android-ui"]},
   {"id": "kt.kodein-di", "imports": ["org.kodein.di."], "name": "Kodein-DI", "repo": "Kodein-Framework/Kodein-DI", "tags": ["injection"], "tech": ["app-arch"]}
 ]
