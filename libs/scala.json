@@ -1,5 +1,6 @@
 [
   {"id": "scala.cats", "imports": ["cats."], "name": "Cats", "repo": "typelevel/cats", "tags": ["monads"], "tech": "functional"},
   {"id": "scala.spire", "imports": ["spire."], "name": "Spire", "repo": "non/spire", "tags": ["numbers", "math"], "tech": "utils"},
-  {"id": "scala.shapeless", "imports": ["shapeless."], "name": "Shapeless", "repo": "milessabin/shapeless", "tags": ["types"], "tech": "utils"}
+  {"id": "scala.shapeless", "imports": ["shapeless."], "name": "Shapeless", "repo": "milessabin/shapeless", "tags": ["types"], "tech": "utils"},
+  ("id": "scala.circe", "imports": ["io.circe."], "name": "Circe", "repo": "circe/circe", "tags": ["json", "json-transformation"], "tech": "app-data"}
 ]
