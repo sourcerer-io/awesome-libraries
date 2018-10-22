@@ -126,6 +126,7 @@
       "toolkit",
       "triggers",
       "views",
+      "windows-service",
       "xaml"
     ]
   },
@@ -237,6 +238,7 @@
     "tags": [
       "cli-for-objects",
       "interpreter",
+      "process-runner",
       "progress-indicator",
       "readline"
     ]
@@ -452,6 +454,7 @@
   },
   "eng-tools": {
     "tags": [
+      "IL-rewrite",
       "acceptance",
       "assertions",
       "aws-mocking",
@@ -928,6 +931,7 @@
       "distributed-fs",
       "embedded",
       "in-memory",
+      "key-value",
       "linq-sql",
       "mobile",
       "mongodb",
