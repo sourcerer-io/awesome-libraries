@@ -5,7 +5,8 @@
   {"id": "scala.circe", "imports": ["io.circe."], "name": "Circe", "repo": "circe/circe", "tags": ["json", "json-transformation"], "tech": ["app-data"]},
   {"id": "scala.scalatest", "imports": ["org.scalatest."], "name": "ScalaTest", "repo": "scalatest/scalatest", "tags": ["unit-testing"], "tech": ["testing"]},
   {"id": "scala.play", "imports": ["play."], "name": "Play Framework", "repo": "playframework/playframework", "tags": ["framework"], "tech": ["scala-web"]},
-  {"id": "scala.akka-streams", "imports": ["akka.streams"], "name": "Akka Streams", "repo": "akka/akka", "tags": ["stream-processing"], "tech": ["app-arch"]},
+  {"id": "scala.akka-http", "imports": ["akka.http."], "name": "Akka HTTP", "repo": "akka/akka-http", "tags": ["framework"], "tech": ["scala-web"]},
+  {"id": "scala.akka-streams", "imports": ["akka.streams."], "name": "Akka Streams", "repo": "akka/akka", "tags": ["stream-processing"], "tech": ["app-arch"]},
   {"id": "scala.akka", "imports": ["akka."], "name": "Akka", "repo": "akka/akka", "tags": ["actor-model"], "tech": ["app-arch"]},
   {"id": "scala.slick", "imports": ["slick."], "name": "Slick", "repo": "slick/slick", "tags": ["orm"], "tech": ["storage"]}
 ]
