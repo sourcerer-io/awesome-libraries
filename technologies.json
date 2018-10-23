@@ -73,6 +73,7 @@
   },
   "app-arch": {
     "tags": [
+      "actor-model",
       "adr",
       "algebraic-types",
       "android",
@@ -898,6 +899,11 @@
       "view-components"
     ]
   },
+  "scala-web": {
+    "tags": [
+      "framework"
+    ]
+  },
   "security": {
     "tags": [
       "access-control",
@@ -1015,6 +1021,7 @@
       "http",
       "inflector",
       "lazy-eval",
+      "math",
       "misc",
       "numbers",
       "predicate-logic",
