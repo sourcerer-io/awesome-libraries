@@ -901,7 +901,7 @@
   },
   "scala-web": {
     "tags": [
-      "applications"
+      "framework"
     ]
   },
   "security": {
