@@ -3,5 +3,9 @@
   {"id": "scala.spire", "imports": ["spire."], "name": "Spire", "repo": "non/spire", "tags": ["numbers", "math"], "tech": "utils"},
   {"id": "scala.shapeless", "imports": ["shapeless."], "name": "Shapeless", "repo": "milessabin/shapeless", "tags": ["types"], "tech": "utils"},
   {"id": "scala.circe", "imports": ["io.circe."], "name": "Circe", "repo": "circe/circe", "tags": ["json", "json-transformation"], "tech": "app-data"},
-  {"id": "scala.scalatest", "imports": ["org.scalatest."], "name": "ScalaTest", "repo": "scalatest/scalatest", "tags": ["unit-testing"], "tech": "testing"}
+  {"id": "scala.scalatest", "imports": ["org.scalatest."], "name": "ScalaTest", "repo": "scalatest/scalatest", "tags": ["unit-testing"], "tech": "testing"},
+  {"id": "scala.play", "imports": ["play."], "name": "Play Framework", "repo": "playframework/playframework", "tags": ["applications"], "tech": ["scala-web"]},
+  {"id": "scala.akka-streams", "imports": ["akka.streams"], "name": "Akka Streams", "repo": "akka/akka", "tags": ["stream-processing"], "tech": ["app-arch"]},
+  {"id": "scala.akka", "imports": ["akka."], "name": "Akka", "repo": "akka/akka", "tags": ["actor-model"], "tech": ["app-arch"]},
+  {"id": "scala.slick", "imports": ["slick."], "name": "Slick", "repo": "slick/slick", "tags": ["orm"], "tech": ["storage"]}
 ]
