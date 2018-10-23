@@ -45,5 +45,5 @@
   {"id": "php.php-ffmpeg", "imports": ["FFMpeg"], "name": "PHP FFMpeg", "repo": "PHP-FFmpeg/PHP-FFmpeg", "tags": ["ffmpeg"], "tech": ["media"]},
   {"id": "php.f3", "imports": ["\\Base"], "name": "FatFreeFramework", "repo": "bcosca/fatfree", "tags": ["micro-framework", "framework"], "tech": ["php-web"]},
   {"id": "php.cakephp", "imports": ["Cake"], "name": "CakePHP", "repo": "cakephp/cakephp", "tags": ["framework"], "tech": ["php-web"]},
-  {"id": "php.robo", "imports": ["Robo"], "name": "Robo", "repo": "consolidation/Robo", "tags": ["build", "toolkit", "env-vars", "framework"], "tech": ["eng-tools", "cli", "utils"]}
+  {"id": "php.robo", "imports": ["Robo"], "name": "Robo", "repo": "consolidation/Robo", "tags": ["automation"], "tech": ["eng-tools", "cli", "utils"]}
 ]
