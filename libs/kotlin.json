@@ -58,5 +58,7 @@
   {"id": "kt.anko", "imports": ["org.jetbrains.anko."], "name": "Anko", "repo": "Kotlin/anko", "tags": ["toolkit"], "tech": ["android"], "status": "awaiting-model"},
   {"id": "kt.kotlinpoet", "imports": ["com.squareup.kotlinpoet."], "name": "Anko", "repo": "square/kotlinpoet", "tags": ["code-generators"], "tech": ["eng-tools"], "status": "awaiting-model"},
   {"id": "kt.koin", "imports": ["org.koin."], "name": "Koin", "repo": "InsertKoinIO/koin", "tags": ["injection"], "tech": ["app-arch"], "status": "awaiting-model"},
+  {"id": "kt.MvRx", "imports": ["com.airbnb.mvrx."], "name": "MvRx", "repo": "airbnb/MvRx", "tags": ["framework", "reactive"], "tech": ["app-arch"], "status": "awaiting-model"},
+  {"id": "kt.Epoxy", "imports": ["com.airbnb.epoxy."], "name": "Epoxy", "repo": "airbnb/epoxy", "tags": ["recycler-view", "framework", "reactive"], "tech": ["android-ui"], "status": "awaiting-model"},
   {"id": "kt.kodein-di", "imports": ["org.kodein.di."], "name": "Kodein-DI", "repo": "Kodein-Framework/Kodein-DI", "tags": ["injection"], "tech": ["app-arch"], "status": "awaiting-model"}
 ]

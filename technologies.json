@@ -73,6 +73,7 @@
   },
   "app-arch": {
     "tags": [
+      "actor-model",
       "adr",
       "algebraic-types",
       "android",
@@ -126,6 +127,7 @@
       "toolkit",
       "triggers",
       "views",
+      "windows-service",
       "xaml"
     ]
   },
@@ -237,6 +239,7 @@
     "tags": [
       "cli-for-objects",
       "interpreter",
+      "process-runner",
       "progress-indicator",
       "readline"
     ]
@@ -452,6 +455,7 @@
   },
   "eng-tools": {
     "tags": [
+      "IL-rewrite",
       "acceptance",
       "assertions",
       "aws-mocking",
@@ -895,6 +899,11 @@
       "view-components"
     ]
   },
+  "scala-web": {
+    "tags": [
+      "framework"
+    ]
+  },
   "security": {
     "tags": [
       "access-control",
@@ -928,6 +937,7 @@
       "distributed-fs",
       "embedded",
       "in-memory",
+      "key-value",
       "linq-sql",
       "mobile",
       "mongodb",
@@ -1011,6 +1021,7 @@
       "http",
       "inflector",
       "lazy-eval",
+      "math",
       "misc",
       "numbers",
       "predicate-logic",

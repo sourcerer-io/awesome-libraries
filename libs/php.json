@@ -43,5 +43,7 @@
   {"id": "php.http-ful", "imports": ["\\HttpFul"], "name": "HttpFul", "repo": "nategood/httpful", "tags": ["http-client"], "tech": ["internet"], "status": "model-ready"},
   {"id": "php.route", "imports": ["League\\Route"], "name": "Route", "repo": "thephpleague/route", "tags": ["routing"], "tech": ["php-web"], "status": "model-ready"},
   {"id": "php.php-ffmpeg", "imports": ["FFMpeg"], "name": "PHP FFMpeg", "repo": "PHP-FFmpeg/PHP-FFmpeg", "tags": ["ffmpeg"], "tech": ["media"], "status": "model-ready"},
-  {"id": "php.f3", "imports": ["\\Base"], "name": "FatFreeFramework", "repo": "bcosca/fatfree", "tags": ["micro-framework", "framework"], "tech": ["php-web"], "status": "awaiting-model"}
+  {"id": "php.f3", "imports": ["\\Base"], "name": "FatFreeFramework", "repo": "bcosca/fatfree", "tags": ["micro-framework", "framework"], "tech": ["php-web"], "status": "awaiting-model"},
+  {"id": "php.cakephp", "imports": ["Cake"], "name": "CakePHP", "repo": "cakephp/cakephp", "tags": ["framework"], "tech": ["php-web"], "status": "awaiting-model"},
+  {"id": "php.robo", "imports": ["Robo"], "name": "Robo", "repo": "consolidation/Robo", "tags": ["automation"], "tech": ["eng-tools", "cli", "utils"], "status": "awaiting-model"}
 ]
