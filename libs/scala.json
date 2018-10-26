@@ -6,7 +6,7 @@
   {"id": "scala.scalatest", "imports": ["org.scalatest."], "name": "ScalaTest", "repo": "scalatest/scalatest", "tags": ["unit-testing"], "tech": ["testing"], "status": "awaiting-model"},
   {"id": "scala.play", "imports": ["play."], "name": "Play Framework", "repo": "playframework/playframework", "tags": ["framework"], "tech": ["scala-web"], "status": "awaiting-model"},
   {"id": "scala.akka-http", "imports": ["akka.http."], "name": "Akka HTTP", "repo": "akka/akka-http", "tags": ["framework"], "tech": ["scala-web"], "status": "awaiting-model"},
-  {"id": "scala.akka-streams", "imports": ["akka.streams."], "name": "Akka Streams", "repo": "akka/akka/tree/master/akka-stream", "tags": ["stream-processing"], "tech": ["app-arch"], "status": "awaiting-model"},
-  {"id": "scala.akka", "imports": ["akka."], "name": "Akka", "repo": "akka/akka/tree/master/akka-actor", "tags": ["actor-model"], "tech": ["app-arch"], "status": "awaiting-model"},
+  {"id": "scala.akka-streams", "imports": ["akka.stream."], "name": "Akka Streams", "repo": "github.com/akka/akka/tree/master/akka-stream", "tags": ["stream-processing"], "tech": ["app-arch"], "status": "awaiting-model"},
+  {"id": "scala.akka", "imports": ["akka.actor.", "akka.event.", "akka.camel.", "akka.cluster."], "name": "Akka", "repo": "github.com/akka/akka/tree/master/akka-actor", "tags": ["actor-model"], "tech": ["app-arch"], "status": "awaiting-model"},
   {"id": "scala.slick", "imports": ["slick."], "name": "Slick", "repo": "slick/slick", "tags": ["orm"], "tech": ["storage"]}
 ]
