@@ -1,0 +1,4 @@
+ [ 
+  {"id": "dart.flutter", "imports": ["package:flutter/material.dart"], "name": "Flutter", "repo": "flutter/flutter", "tags": ["mobile-cross-ui"], "tech": ["android-ui","ios-ui"]},
+  {"id": "dart.rxdart", "imports": ["package:rxdart/rxdart.dart"], "name": "RxDart", "repo": "ReactiveX/rxdart", "tags": ["framework"], "tech": ["app-arch"]}
+ ]  
