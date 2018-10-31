@@ -458,6 +458,7 @@
       "IL-rewrite",
       "acceptance",
       "assertions",
+      "automation",
       "aws-mocking",
       "better-classes",
       "build",
@@ -795,6 +796,11 @@
     "tags": [
       "messaging",
       "push-notifications"
+    ]
+  },
+  "mobile-ui": {
+    "tags": [
+      "mobile-cross-ui"
     ]
   },
   "networking": {

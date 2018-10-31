@@ -1,0 +1,9 @@
+ [ 
+  {"id": "dart.flutter", "imports": ["package:flutter/material.dart"], "name": "Flutter", "repo": "flutter/flutter", "tags": ["mobile-cross-ui"], "tech": ["mobile-ui"]},
+  {"id": "dart.rxdart", "imports": ["package:rxdart/rxdart.dart"], "name": "RxDart", "repo": "ReactiveX/rxdart", "tags": ["reactive-framework"], "tech": ["app-arch"]},
+  {"id": "dart.uuid", "imports": ["package:uuid/uuid.dart"], "name": "Uuid", "repo": "Daegalus/dart-uuid", "tags": ["utils"], "tech": ["eng-tools"]},
+  {"id": "dart.event-bus", "imports": ["events.dart"], "name": "Event-bus", "repo": "marcojakob/dart-event-bus", "tags": ["utils"], "tech": ["eng-tools"]},
+  {"id": "dart.http", "imports": ["package:http/http.dart"], "name": "Http", "repo": "dart-lang/http", "tags": ["utils"], "tech": ["eng-tools"]},
+  {"id": "dart.redux", "imports": ["package:redux/redux.dart"], "name": "Redux", "repo": "johnpryan/redux.dart", "tags": ["state-flow-framework"], "tech": ["eng-tools"]}
+ ]
+ 
