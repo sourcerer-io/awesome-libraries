@@ -19,7 +19,6 @@
       "framework",
       "image-view",
       "menus",
-      "mobile-cross-ui",
       "paging",
       "pull-to-refresh",
       "reactive",
@@ -797,6 +796,11 @@
     "tags": [
       "messaging",
       "push-notifications"
+    ]
+  },
+  "mobile-ui": {
+    "tags": [
+      "mobile-cross-ui"
     ]
   },
   "networking": {
