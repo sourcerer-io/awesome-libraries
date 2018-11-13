@@ -42,5 +42,7 @@
   {"id": "plpgsql.tsm-system-time", "imports": ["tsm_system_time"], "name": "tsm_system_time", "repo": "postgres/postgres/tree/master/contrib/tsm_system_time", "tags": ["system-time"], "tech": ["utils"]},
   {"id": "plpgsql.unaccent", "imports": ["unaccent"], "name": "unaccent", "repo": "postgres/postgres/tree/master/contrib/unaccent", "tags": ["text-search"], "tech": ["computational-science"]},
   {"id": "plpgsql.uuid-ossp", "imports": ["uuid-ossp"], "name": "uuid-ossp", "repo": "postgres/postgres/tree/master/contrib/uuid-ossp", "tags": ["uuid"], "tech": ["utils"]},
-  {"id": "plpgsql.xml2", "imports": ["xml2"], "name": "xml2", "repo": "postgres/postgres/tree/master/contrib/xml2", "tags": ["xml"], "tech": ["app-data"]}
+  {"id": "plpgsql.xml2", "imports": ["xml2"], "name": "xml2", "repo": "postgres/postgres/tree/master/contrib/xml2", "tags": ["xml"], "tech": ["app-data"]},
+
+  {"id": "plpgsql.madlib", "imports": ["xml2"], "name": "xml2", "repo": "postgres/postgres/tree/master/contrib/xml2", "tags": ["xml"], "tech": ["app-data"]}
 ]
