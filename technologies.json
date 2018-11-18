@@ -486,9 +486,11 @@
       "project-templates",
       "python-formatting",
       "reflection",
+      "state-flow-framework",
       "timing",
       "type-info",
-      "unused-css"
+      "unused-css",
+      "utils"
     ]
   },
   "enterprise": {
