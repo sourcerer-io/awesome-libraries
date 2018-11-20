@@ -19,7 +19,7 @@
   {"id": "php.retrofit-php", "imports": ["Tebru\\Retrofit"], "name": "Retrofit PHP", "repo": "tebru/retrofit-php", "tags": ["rest-client"], "tech": ["internet"]},
   {"id": "php.faker", "imports": ["Faker"], "name": "Faker", "repo": "fzaninotto/Faker", "tags": ["fake-data"], "tech": ["eng-tools"]},
   {"id": "php.phalcon", "imports": ["Phalcon"], "name": "Phalcon", "repo": "phalcon/cphalcon", "tags": ["framework"], "tech": ["php-web"]},
-  {"id": "php.php-cs-fixer", "imports": ["PhpCsFixer"], "name": "PHP CS Fixer", "repo": "FriendsOfPHP/PHP-CS-Fixer", "tags": ["coding-standards", "linter", "fixer"], "tech": ["eng-tools", "cli", "utils"]},
+  {"id": "php.php-cs-fixer", "imports": ["PhpCsFixer"], "name": "PHP CS Fixer", "repo": "FriendsOfPHP/PHP-CS-Fixer", "tags": ["coding-standards", "cs", "linter", "fixer"], "tech": ["eng-tools", "cli", "utils"]},
   {"id": "php.php-spider", "imports": ["VDB\\Spider"], "name": "PHP-Spider", "repo": "mvdbos/php-spider", "tags": ["web-crawler"], "tech": ["internet"]},
   {"id": "php.goutte", "imports": ["Goutte"], "name": "Goutte", "repo": "FriendsOfPHP/Goutte", "tags": ["web-scraper"], "tech": ["internet"]},
   {"id": "php.league-flysystem", "imports": ["League\\Flysystem"], "name": "League Flysystem", "repo": "thephpleague/flysystem", "tags": ["filesystem"], "tech": ["app-data"]},
