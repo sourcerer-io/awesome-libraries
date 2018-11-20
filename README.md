@@ -22,7 +22,7 @@ If Sourcerer doesn't know about library you work with, consider [contributing](C
 
 ### My profile shows libraries I don't work with
 
-Sourcerer relies on statistical classifier to predict library for a code line, so mistakes are possible. Search for [open issues](issues) to see if anyone else has already reported the issue. Any information you can add, especially links to public repositories, is helpful.
+Sourcerer relies on statistical classifier to predict library for a code line, so mistakes are possible. Search for [open issues][issues] to see if anyone else has already reported the issue. Any information you can add, especially links to public repositories, is helpful.
 
 ### My repository has label of wrong technology
 

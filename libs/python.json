@@ -127,4 +127,5 @@
   {"id": "py.pylibmc", "imports": ["pylibmc"], "name": "pyblibmc", "repo": "lericson/pylibmc", "tags": ["memcached-client"], "tech": ["python-web"]},
   {"id": "py.test", "imports": ["pytest"], "name": "pytest", "repo": "pytest-dev/pytest", "tags": ["unit-testing"], "tech": ["testing"]},
   {"id": "py.connexion", "imports": ["connexion"], "name": "connexion", "repo": "zalando/connexion", "tags": ["micro-framework"], "tech": ["python-web"]}
+  {"id": "py.pyramid", "imports": ["pyramid"], "name": "pyramid", "repo": "Pylons/pyramid", "tags": ["micro-framework"], "tech": ["python-web"]}
 ]
