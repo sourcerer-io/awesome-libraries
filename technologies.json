@@ -90,6 +90,7 @@
       "core-utils",
       "cross-platform",
       "cross-platform-clib",
+      "db-bulk-load",
       "db-queries",
       "design-patterns",
       "dispatcher",
@@ -102,6 +103,7 @@
       "gpu",
       "gui",
       "high-performance",
+      "icu-collation",
       "injection",
       "inversion-of-control",
       "lambdas",
@@ -112,6 +114,7 @@
       "mvvm",
       "observable",
       "patterns",
+      "plpgsql-v8engine",
       "pubsub",
       "query-language",
       "reactive",
@@ -386,6 +389,11 @@
       "tree"
     ]
   },
+  "db-analysis": {
+    "tags": [
+      "db-analysis"
+    ]
+  },
   "diagnostics": {
     "tags": [
       "alarms",
@@ -471,6 +479,7 @@
       "css-processor",
       "db-analysis",
       "db-index-integrity",
+      "db-info",
       "debugger",
       "debugging",
       "dependency",
@@ -518,6 +527,11 @@
       "smart-pointer",
       "string-search",
       "variable-types"
+    ]
+  },
+  "fdw-jdbc": {
+    "tags": [
+      "interoperability"
     ]
   },
   "fintech": {
@@ -661,6 +675,7 @@
       "reactive-alamofire",
       "rest-client",
       "sms-gateway",
+      "totp",
       "urls",
       "web-crawler",
       "web-scraper",
@@ -675,6 +690,7 @@
       "cpp-lua",
       "cpp-php",
       "cpp-python",
+      "fwd-db2",
       "go-x86",
       "java-cpp",
       "java-native",
@@ -1025,17 +1041,22 @@
       "date-time",
       "dry",
       "dsl",
+      "email-type",
       "enums",
       "env-vars",
       "file-access",
       "formatter",
+      "hash-types",
       "helpers",
       "http",
       "inflector",
+      "json-type",
+      "json-xml-export-import",
       "lazy-eval",
       "math",
       "misc",
       "numbers",
+      "phone-type",
       "predicate-logic",
       "pretty-output",
       "promises",

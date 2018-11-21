@@ -43,6 +43,25 @@
   {"id": "plpgsql.unaccent", "imports": ["unaccent"], "name": "unaccent", "repo": "postgres/postgres/tree/master/contrib/unaccent", "tags": ["text-search"], "tech": ["computational-science"]},
   {"id": "plpgsql.uuid-ossp", "imports": ["uuid-ossp"], "name": "uuid-ossp", "repo": "postgres/postgres/tree/master/contrib/uuid-ossp", "tags": ["uuid"], "tech": ["utils"]},
   {"id": "plpgsql.xml2", "imports": ["xml2"], "name": "xml2", "repo": "postgres/postgres/tree/master/contrib/xml2", "tags": ["xml"], "tech": ["app-data"]},
-
-  {"id": "plpgsql.madlib", "imports": ["xml2"], "name": "xml2", "repo": "postgres/postgres/tree/master/contrib/xml2", "tags": ["xml"], "tech": ["app-data"]}
+  {"id": "pgnx.madlib", "imports": ["madlib"], "name": "madlib", "repo": "https://github.com/apache/madlib.git", "tags": ["db-analysis"], "tech": ["diagnostics"] },
+  {"id": "pgnx.hashtypes-aleksabl", "imports": ["hashtypes-aleksabl"], "name": "hashtypes-aleksabl", "repo": "http://github.com/aleksabl/hashtypes", "tags": ["hash-types"], "tech": ["utils"]},
+  {"id": "pgnx.zhparser", "imports": ["zhparser"], "name": "zhparser", "repo": "git://github.com/amutu/zhparser.git", "tags": ["text-search"], "tech": ["information-retrieval"]},
+  {"id": "pgnx.file-textarray-fdw", "imports": ["file_textarray_fdw"], "name": "file_textarray_fdw", "repo": "git://github.com/adunstan/file_text_array_fdw.git", "tags": ["csv"], "tech": ["app-data"]},
+  {"id": "pgnx.json-build", "imports": ["json_build"], "name": "json_build", "repo": "https://github.com/pgexperts/json_build.git", "tags": ["json"], "tech": ["app-data"]},
+  {"id": "pgnx.json-enhancements", "imports": ["json_enhancements"], "name": "json_enhancements", "repo": "https://bitbucket.org/IVC-Inc/json_enhancements.git", "tags": ["json"], "tech": ["app-data"]},
+  {"id": "pgnx.plv8", "imports": ["plv8"], "name": "plv8", "repo": "https://github.com/plv8/plv8", "tags": ["plpgsql-v8engine"], "tech": ["app-arch"]},
+  {"id": "pgnx.unnest-ordinality", "imports": ["unnest_ordinality"], "name": "unnest_ordinality", "repo": "https://github.com/pgexperts/unnest_ordinality.git", "tags": ["containers"], "tech": ["data-structures"]},
+  {"id": "pgnx.hashtypes", "imports": ["hashtypes"], "name": "hashtypes", "repo": "git://github.com/adjust/hashtypes.git", "tags": ["hash-types"], "tech": ["utils"]},
+  {"id": "pgnx.db-info", "imports": ["db_info"], "name": "db_info", "repo": "https://github.com/asotolongo/db_info.git", "tags": ["db-info"], "tech": ["eng-tools"]},
+  {"id": "pgnx.email", "imports": ["email"], "name": "email", "repo": "https://github.com/asotolongo/email.git", "tags": ["email-type"], "tech": ["utils"]},
+  {"id": "pgnx.json-utils", "imports": ["json_utils"], "name": "json_utils", "repo": "git://github.com/asotolongo/pg_json_utils.git", "tags": ["json-type"], "tech": ["utils"]},
+  {"id": "pgnx.jx-io", "imports": ["jx_io"], "name": "jx_io", "repo": "https://github.com/asotolongo/jx_io.git", "tags": ["json-xml-export-import"], "tech": ["utils"]},
+  {"id": "pgnx.pgsmtp", "imports": ["pgsmtp"], "name": "pgsmtp", "repo": "https://github.com/asotolongo/pgsmtp.git", "tags": ["email"], "tech": ["internet"]},
+  {"id": "pgnx.vacuum-utils", "imports": ["vacuum_utils"], "name": "vacuum_utils", "repo": "https://github.com/asotolongo/vacuum_utils.git", "tags": ["db-analysis"], "tech": ["db-analysis"]},
+  {"id": "pgnx.otp", "imports": ["otp"], "name": "otp", "repo": "https://github.com/asio/otp.git", "tags": ["totp"], "tech": ["internet"]},
+  {"id": "pgnx.jdbc-fdw", "imports": ["jdbc_fdw"], "name": "jdbc_fdw", "repo": "https://github.com/atris/JDBC_FDW.git", "tags": ["fdw", "jdbc", "foreign data wrapper"], "tech": ["fdw-jdbc"], "tags": ["interoperability"]},
+  {"id": "pgnx.pg-libphonenumber", "imports": ["pg_libphonenumber"], "name": "pg_libphonenumber", "repo": "git://github.com/blm768/pg-libphonenumber.git", "tags": ["phone-type"], "tech": ["utils"]},
+  {"id": "pgnx.db2-fdw", "imports": ["db2_fdw"], "name": "db2_fdw", "repo": "https://github.com/wolfgangbrandl/db2_fdw.git", "tags": ["fwd-db2"], "tech": ["interoperability"]},
+  {"id": "pgnx.pg-bulkload", "imports": ["pg_bulkload"], "name": "pg_bulkload", "repo": "https://github.com/ossc-db/pg_bulkload.git", "tags": ["db-bulk-load"], "tech": ["app-arch"]},
+  {"id": "pgnx.pg-collkey", "imports": ["pg_collkey"], "name": "pg_collkey", "repo": "git://github.com/ccutrer/pg_collkey.git", "tags": ["icu-collation"], "tech": ["app-arch"]}
 ]
