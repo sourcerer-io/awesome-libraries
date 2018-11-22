@@ -128,5 +128,5 @@
   {"id": "py.test", "imports": ["pytest"], "name": "pytest", "repo": "pytest-dev/pytest", "tags": ["unit-testing"], "tech": ["testing"]},
   {"id": "py.connexion", "imports": ["connexion"], "name": "connexion", "repo": "zalando/connexion", "tags": ["micro-framework"], "tech": ["python-web"]},
   {"id": "py.pyramid", "imports": ["pyramid"], "name": "pyramid", "repo": "Pylons/pyramid", "tags": ["micro-framework"], "tech": ["python-web"]},
-  {"id": "py.or-tools", "imports": ["or-tools"], "name": "or-tools", "repo": "google/or-tools", "tags": ["optimization"], "tech": ["Operations Research tools"], "examples": ["https://github.com/google/or-tools/blob/master/examples/python/knapsack.py"]}  
+  {"id": "py.or-tools", "imports": ["or-tools"], "name": "or-tools", "repo": "google/or-tools", "tags": ["operations-research"], "tech": ["computational-science"], "examples": ["https://github.com/google/or-tools/blob/master/examples/python/knapsack.py"]}  
 ]
