@@ -458,12 +458,15 @@
       "IL-rewrite",
       "acceptance",
       "assertions",
+      "automation",
       "aws-mocking",
       "better-classes",
       "build",
       "ci",
       "class-reloading",
       "code-generators",
+      "coding-standards",
+      "cs",
       "css-processing",
       "css-processor",
       "db-analysis",
@@ -473,9 +476,11 @@
       "dependency",
       "deprecation-patterns",
       "fake-data",
+      "fixer",
       "generate",
       "ios-debugging",
       "leak-detection",
+      "linter",
       "minification",
       "mutability",
       "parse-todo",
@@ -485,9 +490,11 @@
       "project-templates",
       "python-formatting",
       "reflection",
+      "state-flow-framework",
       "timing",
       "type-info",
-      "unused-css"
+      "unused-css",
+      "utils"
     ]
   },
   "enterprise": {
@@ -795,6 +802,11 @@
     "tags": [
       "messaging",
       "push-notifications"
+    ]
+  },
+  "mobile-ui": {
+    "tags": [
+      "mobile-cross-ui"
     ]
   },
   "networking": {

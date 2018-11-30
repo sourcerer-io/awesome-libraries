@@ -1,4 +1,4 @@
- [ 
+ [
   {"id": "dart.flutter", "imports": ["package:flutter/material.dart"], "name": "Flutter", "repo": "flutter/flutter", "tags": ["mobile-cross-ui"], "tech": ["mobile-ui"], "status": "model-ready"},
   {"id": "dart.rxdart", "imports": ["package:rxdart/rxdart.dart"], "name": "RxDart", "repo": "ReactiveX/rxdart", "tags": ["reactive-framework"], "tech": ["app-arch"], "status": "model-ready"},
   {"id": "dart.uuid", "imports": ["package:uuid/uuid.dart"], "name": "Uuid", "repo": "Daegalus/dart-uuid", "tags": ["utils"], "tech": ["eng-tools"], "status": "model-ready"},
