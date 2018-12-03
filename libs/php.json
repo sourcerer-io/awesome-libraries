@@ -19,7 +19,7 @@
   {"id": "php.retrofit-php", "imports": ["Tebru\\Retrofit"], "name": "Retrofit PHP", "repo": "tebru/retrofit-php", "tags": ["rest-client"], "tech": ["internet"], "status": "model-ready"},
   {"id": "php.faker", "imports": ["Faker"], "name": "Faker", "repo": "fzaninotto/Faker", "tags": ["fake-data"], "tech": ["eng-tools"], "status": "model-ready"},
   {"id": "php.phalcon", "imports": ["Phalcon"], "name": "Phalcon", "repo": "phalcon/cphalcon", "tags": ["framework"], "tech": ["php-web"], "status": "awaiting-model"},
-  {"id": "php.php-cs-fixer", "imports": ["PhpCsFixer"], "name": "PHP CS Fixer", "repo": "FriendsOfPHP/PHP-CS-Fixer", "tags": ["coding-standards", "cs", "linter", "fixer"], "tech": ["eng-tools", "cli", "utils"], "status": "awaiting-model"},
+  {"id": "php.php-cs-fixer", "imports": ["PhpCsFixer"], "name": "PHP CS Fixer", "repo": "FriendsOfPHP/PHP-CS-Fixer", "tags": ["coding-standards", "cs", "linter", "fixer"], "tech": ["eng-tools", "cli", "utils"], "status": "model-ready"},
   {"id": "php.php-spider", "imports": ["VDB\\Spider"], "name": "PHP-Spider", "repo": "mvdbos/php-spider", "tags": ["web-crawler"], "tech": ["internet"], "status": "model-ready"},
   {"id": "php.goutte", "imports": ["Goutte"], "name": "Goutte", "repo": "FriendsOfPHP/Goutte", "tags": ["web-scraper"], "tech": ["internet"], "status": "model-ready"},
   {"id": "php.league-flysystem", "imports": ["League\\Flysystem"], "name": "League Flysystem", "repo": "thephpleague/flysystem", "tags": ["filesystem"], "tech": ["app-data"], "status": "model-ready"},
@@ -28,7 +28,7 @@
   {"id": "php.radar-adr", "imports": ["Radar\\Adr"], "name": "Radar.Adr", "repo": "radarphp/Radar.Adr", "tags": ["adr"], "tech": ["app-arch"], "status": "model-ready"},
   {"id": "php.requests", "imports": ["Requests"], "name": "Requests", "repo": "rmccue/Requests", "tags": ["http-client"], "tech": ["internet"], "status": "model-ready"},
   {"id": "php.lex", "imports": ["Lex"], "name": "Lex", "repo": "pyrocms/lex", "tags": ["templates"], "tech": ["php-web"], "status": "model-ready"},
-  {"id": "php.aura", "imports": ["Aura"], "name": "Aura", "repo": "forcedotcom/aura", "tags": ["components"], "tech": ["app-arch"], "status": "awaiting-model"},
+  {"id": "php.aura", "imports": ["Aura"], "name": "Aura", "repo": "forcedotcom/aura", "tags": ["components"], "tech": ["app-arch"], "status": "model-ready"},
   {"id": "php.foil", "imports": ["Foil"], "name": "FOIL", "repo": "FoilPHP/Foil", "tags": ["templates"], "tech": ["php-web"], "status": "model-ready"},
   {"id": "php.slim", "imports": ["Slim"], "name": "Slim", "repo": "slimphp/Slim", "tags": ["micro-framework"], "tech": ["php-web"], "status": "model-ready"},
   {"id": "php.klein-php", "imports": ["\\Klein\\Klein"], "name": "Klein.php", "repo": "klein/klein.php", "tags": ["routing"], "tech": ["php-web"], "status": "model-ready"},
@@ -44,7 +44,7 @@
   {"id": "php.http-ful", "imports": ["\\HttpFul"], "name": "HttpFul", "repo": "nategood/httpful", "tags": ["http-client"], "tech": ["internet"], "status": "model-ready"},
   {"id": "php.route", "imports": ["League\\Route"], "name": "Route", "repo": "thephpleague/route", "tags": ["routing"], "tech": ["php-web"], "status": "model-ready"},
   {"id": "php.php-ffmpeg", "imports": ["FFMpeg"], "name": "PHP FFMpeg", "repo": "PHP-FFmpeg/PHP-FFmpeg", "tags": ["ffmpeg"], "tech": ["media"], "status": "model-ready"},
-  {"id": "php.f3", "imports": ["\\Base"], "name": "FatFreeFramework", "repo": "bcosca/fatfree", "tags": ["micro-framework", "framework"], "tech": ["php-web"], "status": "awaiting-model"},
-  {"id": "php.cakephp", "imports": ["Cake"], "name": "CakePHP", "repo": "cakephp/cakephp", "tags": ["framework"], "tech": ["php-web"], "status": "awaiting-model"},
-  {"id": "php.robo", "imports": ["Robo"], "name": "Robo", "repo": "consolidation/Robo", "tags": ["automation"], "tech": ["eng-tools", "cli", "utils"], "status": "awaiting-model"}
+  {"id": "php.f3", "imports": ["\\Base"], "name": "FatFreeFramework", "repo": "bcosca/fatfree", "tags": ["micro-framework", "framework"], "tech": ["php-web"], "status": "model-ready"},
+  {"id": "php.cakephp", "imports": ["Cake"], "name": "CakePHP", "repo": "cakephp/cakephp", "tags": ["framework"], "tech": ["php-web"], "status": "model-ready"},
+  {"id": "php.robo", "imports": ["Robo"], "name": "Robo", "repo": "consolidation/Robo", "tags": ["automation"], "tech": ["eng-tools", "cli", "utils"], "status": "model-ready"}
 ]
