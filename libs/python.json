@@ -112,10 +112,10 @@
   {"id": "py.ply", "imports": ["ply"], "name": "PLY", "repo": "dabeaz/ply", "tags": ["lexing"], "tech": ["parsing"], "examples": ["http://www.dabeaz.com/ply/example.html"], "status": "model-ready"},
   {"id": "py.debtcollector", "imports": ["debtcollector"], "name": "debtcollector", "repo": "openstack/debtcollector", "tags": ["deprecation-patterns"], "tech": ["eng-tools"], "examples": ["https://docs.openstack.org/debtcollector/latest/user/usage.html"], "status": "model-ready"},
 
-  {"id": "py.attrs", "imports": ["attr"], "name": "attrs", "repo": "python-attrs/attrs", "tags": ["better-classes"], "tech": ["eng-tools"], "status": "awaiting-model"},
-  {"id": "py.bidict", "imports": ["bidict"], "name": "bidict", "repo": "jab/bidict", "tags": ["bidirectional-maps"], "tech": ["data-structures"], "status": "awaiting-model"},
-  {"id": "py.box", "imports": ["box"], "name": "Box", "repo": "cdgriffith/Box", "tags": ["dictionaries"], "tech": ["data-structures"], "status": "awaiting-model"},
-  {"id": "py.dotted", "imports": ["dotted"], "name": "dotted", "repo": "carlosescri/DottedDict", "tags": ["dict-list"], "tech": ["data-structures"], "status": "awaiting-model"},
+  {"id": "py.attrs", "imports": ["attr"], "name": "attrs", "repo": "python-attrs/attrs", "tags": ["better-classes"], "tech": ["eng-tools"], "status": "model-ready"},
+  {"id": "py.bidict", "imports": ["bidict"], "name": "bidict", "repo": "jab/bidict", "tags": ["bidirectional-maps"], "tech": ["data-structures"], "status": "model-ready"},
+  {"id": "py.box", "imports": ["box"], "name": "Box", "repo": "cdgriffith/Box", "tags": ["dictionaries"], "tech": ["data-structures"], "status": "model-ready"},
+  {"id": "py.dotted", "imports": ["dotted"], "name": "dotted", "repo": "carlosescri/DottedDict", "tags": ["dict-list"], "tech": ["data-structures"], "status": "model-ready"},
 
   {"id": "py.beaker", "imports": ["beaker"], "name": "Beaker", "repo": "bbangert/beaker", "tags": ["sessions-caching"], "tech": ["python-web"], "status": "model-ready"},
   {"id": "py.diskcache", "imports": ["diskcache"], "name": "DiskCache", "repo": "grantjenks/python-diskcache", "tags": ["django-caching"], "tech": ["python-web"], "status": "model-ready"},
