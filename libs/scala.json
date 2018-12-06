@@ -1,12 +1,12 @@
 [
-  {"id": "scala.cats", "imports": ["cats."], "name": "Cats", "repo": "typelevel/cats", "tags": ["monads"], "tech": ["functional"]},
-  {"id": "scala.spire", "imports": ["spire."], "name": "Spire", "repo": "non/spire", "tags": ["numbers", "math"], "tech": ["utils"]},
-  {"id": "scala.shapeless", "imports": ["shapeless."], "name": "Shapeless", "repo": "milessabin/shapeless", "tags": ["types"], "tech": ["utils"]},
-  {"id": "scala.circe", "imports": ["io.circe."], "name": "Circe", "repo": "circe/circe", "tags": ["json", "json-transformation"], "tech": ["app-data"]},
-  {"id": "scala.scalatest", "imports": ["org.scalatest."], "name": "ScalaTest", "repo": "scalatest/scalatest", "tags": ["unit-testing"], "tech": ["testing"]},
-  {"id": "scala.play", "imports": ["play."], "name": "Play Framework", "repo": "playframework/playframework", "tags": ["framework"], "tech": ["scala-web"]},
-  {"id": "scala.akka-http", "imports": ["akka.http."], "name": "Akka HTTP", "repo": "akka/akka-http", "tags": ["framework"], "tech": ["scala-web"]},
-  {"id": "scala.akka-streams", "imports": ["akka.streams."], "name": "Akka Streams", "repo": "akka/akka/tree/master/akka-stream", "tags": ["stream-processing"], "tech": ["app-arch"]},
-  {"id": "scala.akka", "imports": ["akka."], "name": "Akka", "repo": "akka/akka/tree/master/akka-actor", "tags": ["actor-model"], "tech": ["app-arch"]},
+  {"id": "scala.cats", "imports": ["cats."], "name": "Cats", "repo": "typelevel/cats", "tags": ["monads"], "tech": ["functional"], "status": "model-ready"},
+  {"id": "scala.spire", "imports": ["spire."], "name": "Spire", "repo": "non/spire", "tags": ["numbers", "math"], "tech": ["utils"], "status": "model-ready"},
+  {"id": "scala.shapeless", "imports": ["shapeless."], "name": "Shapeless", "repo": "milessabin/shapeless", "tags": ["types"], "tech": ["utils"], "status": "model-ready"},
+  {"id": "scala.circe", "imports": ["io.circe."], "name": "Circe", "repo": "circe/circe", "tags": ["json", "json-transformation"], "tech": ["app-data"], "status": "model-ready"},
+  {"id": "scala.scalatest", "imports": ["org.scalatest."], "name": "ScalaTest", "repo": "scalatest/scalatest", "tags": ["unit-testing"], "tech": ["testing"], "status": "model-ready"},
+  {"id": "scala.play", "imports": ["play."], "name": "Play Framework", "repo": "playframework/playframework", "tags": ["framework"], "tech": ["scala-web"], "status": "model-ready"},
+  {"id": "scala.akka-http", "imports": ["akka.http."], "name": "Akka HTTP", "repo": "akka/akka-http", "tags": ["framework"], "tech": ["scala-web"], "status": "model-ready"},
+  {"id": "scala.akka-streams", "imports": ["akka.stream."], "name": "Akka Streams", "repo": "akka/akka/tree/master/akka-stream", "tags": ["stream-processing"], "tech": ["app-arch"], "status": "model-ready"},
+  {"id": "scala.akka", "imports": ["akka.actor.", "akka.event.", "akka.camel.", "akka.cluster."], "name": "Akka", "repo": "akka/akka/tree/master/akka-actor", "tags": ["actor-model"], "tech": ["app-arch"], "status": "model-ready"},
   {"id": "scala.slick", "imports": ["slick."], "name": "Slick", "repo": "slick/slick", "tags": ["orm"], "tech": ["storage"]}
 ]
