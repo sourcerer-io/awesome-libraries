@@ -306,6 +306,7 @@
       "multiprecision",
       "ndim-cubes",
       "numbers",
+      "operations-research",
       "optimization",
       "random",
       "real-time-dsp",
@@ -335,6 +336,14 @@
       "java-json",
       "properties",
       "ucl"
+    ]
+  },
+  "continuous-integration": {
+    "tags": [
+      "ci",
+      "circleci",
+      "continuous-integration",
+      "travis"
     ]
   },
   "cpp-web": {
