@@ -1,5 +1,5 @@
 [
   {"id": "ci.circleci", "imports": [".circleci/config.yml"], "name": "CircleCI", "repo": "CircleCI-Public/circleci-demo-go", "tags": ["ci","continuous-integration","circleci"], "tech": ["continuous-integration"], "status": "awaiting-model"},
-  {"id": "ci.travis", "imports": [".travis.yml"], "name": "Travis CI", "repo": "dmlc/xgboost", "tags": ["ci","continuous-integration","travis"], "tech": ["continuous-integration"], "status": "awaiting-model"},
-  {"id": "ci.gh-actons", "imports": [".github/main.workflow"], "name": "GitHub Actions", "repo": "pocoproject/poco", "tags": ["ci","continuous-integration"], "tech": ["continuous-integration"], "status": "awaiting-model"}
+  {"id": "ci.travis", "imports": [".travis.yml"], "name": "Travis CI", "tags": ["ci","continuous-integration","travis"], "tech": ["continuous-integration"], "status": "awaiting-model"},
+  {"id": "ci.gh-actons", "imports": [".github/main.workflow"], "name": "GitHub Actions", "tags": ["ci","continuous-integration"], "tech": ["continuous-integration"], "status": "awaiting-model"}
 ]
