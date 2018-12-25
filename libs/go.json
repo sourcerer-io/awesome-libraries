@@ -156,7 +156,7 @@
   {"id": "go.liquid", "imports": ["github.com/osteele/liquid"], "name": "Liquid", "repo": "osteele/liquid", "tags": ["templates"], "tech": ["go-web"], "status": "model-ready"},
   {"id": "go.generate", "imports": ["github.com/go-playground/generate"], "name": "generate", "repo": "go-playground/generate", "tags": ["generate"], "tech": ["eng-tools"], "status": "model-ready"},
   {"id": "go.yakvs", "imports": ["github.com/sci4me/yakvs"], "name": "YAKVS", "repo": "sci4me/yakvs", "tags": ["nosql"], "tech": ["storage"], "status": "model-ready"},
-  {"id": "go.go-debug", "imports": ["github.com/tj/go-debug"], "name": "go-debug", "repo": "tj/go-debug", "tags": ["logging"], "tech": ["diagnostics"], "status": "awaiting-model"},
+  {"id": "go.go-debug", "imports": ["github.com/tj/go-debug"], "name": "go-debug", "repo": "tj/go-debug", "tags": ["logging"], "tech": ["diagnostics"], "status": "invalid-repo"},
   {"id": "go.ace", "imports": ["github.com/yosssi/ace"], "name": "Ace", "repo": "yosssi/ace", "tags": ["templates"], "tech": ["go-web"], "status": "model-ready"},
   {"id": "go.mergo", "imports": ["github.com/imdario/mergo"], "name": "Mergo", "repo": "imdario/mergo", "tags": ["transformations"], "tech": ["app-data"], "status": "model-ready"},
   {"id": "go.algernon", "imports": ["github.com/xyproto/algernon"], "name": "Algernon", "repo": "xyproto/algernon", "tags": ["web-server"], "tech": ["go-web"], "status": "model-ready"},
