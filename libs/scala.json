@@ -11,5 +11,4 @@
   {"id": "scala.slick", "imports": ["slick."], "name": "Slick", "repo": "slick/slick", "tags": ["orm"], "tech": ["storage"]},
   {"id": "scala.json4s", "imports": ["org.json4s."], "name": "json4s", "repo": "json4s/json4s", "tags": ["json-parser"], "tech": ["app-data"], "status": "awaiting-model"},
   {"id": "scala.scalatra", "imports": ["org.scalatra."], "name": "Scalatra", "repo": "scalatra/scalatra", "tags": ["framework"], "tech": ["scala-web"], "status": "awaiting-model"}
-
 ]
