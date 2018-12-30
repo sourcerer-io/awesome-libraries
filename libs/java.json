@@ -247,5 +247,9 @@
   {"id": "java.storio", "imports": ["com.pushtorefresh.storio3."], "name": "StorIO", "repo": "pushtorefresh/storio", "tags": ["android-sql","reactive"], "tech": ["storage"], "status": "awaiting-model"},
   {"id": "java.sqlbrite", "imports": ["com.squareup.sqlbrite3."], "name": "SQL Brite", "repo": "square/sqlbrite", "tags": ["android-sql"], "tech": ["storage"], "status": "awaiting-model"},
   {"id": "java.toothpick", "imports": ["toothpick."], "name": "Toothpick", "repo": "stephanenicolas/toothpick", "tags": ["injection"], "tech": ["app-arch"], "status": "awaiting-model"},
-  {"id": "java.parceler", "imports": ["org.parceler."], "name": "Parceler", "repo": "johncarl81/parceler", "tags": ["android-serialization"], "tech": ["efficient-data"], "status": "awaiting-model"}
+  {"id": "java.parceler", "imports": ["org.parceler."], "name": "Parceler", "repo": "johncarl81/parceler", "tags": ["android-serialization"], "tech": ["efficient-data"], "status": "awaiting-model"},
+  {"id": "java.jpa", "imports": ["javax.persistence."], "name": "JPA", "repo": "eclipse-ee4j/jpa-api", "tags": ["orm"], "tech": ["storage"], "status": "awaiting-model"},
+  {"id": "java.javafx", "imports": ["javafx."], "name": "JavaFX", "repo": "javafxports/openjdk-jfx", "tags": ["gui"], "tech": ["gui"], "status": "awaiting-model"},
+  {"id": "java.swing", "imports": ["javax.swing."], "name": "Swing", "repo": "AdoptOpenJDK/openjdk-jdk11", "tags": ["toolkit"], "tech": ["gui"], "status": "awaiting-model"},
+  {"id": "java.slf4j", "imports": ["org.slf4j."], "name": "slf4j", "repo": "qos-ch/slf4j", "tags": ["logging"], "tech": ["diagnostics"], "status": "awaiting-model"}
 ]
