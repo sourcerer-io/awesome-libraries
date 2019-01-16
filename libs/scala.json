@@ -8,7 +8,7 @@
   {"id": "scala.akka-http", "imports": ["akka.http."], "name": "Akka HTTP", "repo": "akka/akka-http", "tags": ["framework"], "tech": ["scala-web"], "status": "model-ready"},
   {"id": "scala.akka-streams", "imports": ["akka.stream."], "name": "Akka Streams", "repo": "akka/akka/tree/master/akka-stream", "tags": ["stream-processing"], "tech": ["app-arch"], "status": "model-ready"},
   {"id": "scala.akka", "imports": ["akka.actor.", "akka.event.", "akka.camel.", "akka.cluster."], "name": "Akka", "repo": "akka/akka/tree/master/akka-actor", "tags": ["actor-model"], "tech": ["app-arch"], "status": "model-ready"},
-  {"id": "scala.slick", "imports": ["slick."], "name": "Slick", "repo": "slick/slick", "tags": ["orm"], "tech": ["storage"]},
+  {"id": "scala.slick", "imports": ["slick."], "name": "Slick", "repo": "slick/slick", "tags": ["orm"], "tech": ["storage"], "status": "model-ready"},
   {"id": "scala.json4s", "imports": ["org.json4s."], "name": "json4s", "repo": "json4s/json4s", "tags": ["json-parser"], "tech": ["app-data"], "status": "awaiting-model"},
   {"id": "scala.scalatra", "imports": ["org.scalatra."], "name": "Scalatra", "repo": "scalatra/scalatra", "tags": ["framework"], "tech": ["scala-web"], "status": "awaiting-model"}
 ]
