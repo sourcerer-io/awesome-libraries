@@ -1,0 +1,13 @@
+[
+  {"id": "cr.kemal", "imports": ["kemal"], "name": "kemal", "repo": "kemalcr/kemal", "tags": ["framework"], "tech": ["app-arch"], "status": "awaiting-model"},
+  {"id": "cr.amber", "imports": ["amber"], "name": "amber", "repo": "amberframework/amber", "tags": ["framework"], "tech": ["app-arch"], "status": "awaiting-model"},
+  {"id": "cr.lucky", "imports": ["lucky"], "name": "lucky", "repo": "luckyframework/lucky", "tags": ["framework"], "tech": ["app-arch"], "status": "awaiting-model"},
+  {"id": "cr.db", "imports": ["db"], "name": "crystal-db", "repo": "crystal-lang/crystal-db", "tags": ["db-api"], "tech": ["app-blocks"], "status": "awaiting-model"},
+  {"id": "cr.pg", "imports": ["pg"], "name": "crystal-pg", "repo": "will/crystal-pg", "tags": ["db-api"], "tech": ["app-blocks"], "status": "awaiting-model"},
+  {"id": "cr.mysql", "imports": ["mysql"], "name": "crystal-mysql", "repo": "crystal-lang/crystal-mysql", "tags": ["db-api"], "tech": ["app-blocks"], "status": "awaiting-model"},
+  {"id": "cr.sqlite", "imports": ["sqlite3"], "name": "crystal-sqlite3", "repo": "crystal-lang/crystal-sqlite3", "tags": ["db-api"], "tech": ["app-blocks"], "status": "awaiting-model"},
+  {"id": "cr.crecto", "imports": ["crecto"], "name": "crecto", "repo": "Crecto/crecto", "tags": ["db-api"], "tech": ["app-blocks"], "status": "awaiting-model"},
+  {"id": "cr.redis", "imports": ["redis"], "name": "redis", "repo": "stefanwille/crystal-redis", "tags": ["db-api"], "tech": ["app-blocks"], "status": "awaiting-model"},
+  {"id": "cr.jennifer", "imports": ["jennifer"], "name": "jennifer", "repo": "imdrasil/jennifer.cr", "tags": ["db-api"], "tech": ["app-blocks"], "status": "awaiting-model"},
+  {"id": "cr.crest", "imports": ["crest"], "name": "crest", "repo": "mamantoha/crest", "tags": ["http-client"], "tech": ["app-blocks"], "status": "awaiting-model"}
+]

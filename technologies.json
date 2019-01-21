@@ -134,6 +134,7 @@
   "app-blocks": {
     "tags": [
       "captcha",
+      "db-api",
       "db-link",
       "deamons",
       "django-admin",
@@ -142,6 +143,7 @@
       "excel",
       "flask-admin",
       "html-renderer",
+      "http-client",
       "license",
       "misc",
       "pdf-generator",
