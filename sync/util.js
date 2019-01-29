@@ -55,7 +55,7 @@ const checkURL = url => new Promise(resolve => {
     return;
   }
   const req = require(protocol).request(
-    options, res => resolve(res.statusCode != 404)
+    options, res => resolve(res.statusCode == 200)
   );
   req.on('error', () => resolve(false));
   req.end();
