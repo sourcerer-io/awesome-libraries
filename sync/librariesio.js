@@ -44,14 +44,17 @@ for (let i = 0; i < process.argv.length; i++) {
 if (!platform || !key || process.argv.some(a => (a == '-h' || a == '--help'))) {
   console.log(`Exctracts libraries from libraries.io for Sourcerer.`);
   console.log(
-    `Usage: node librariesio.js [ -k | --key <key> ] [ -p | --platform <platform> ][--debug]`
+`Usage: node librariesio.js [ -k | --key <key> ] [ -p | --platform <platform> ][--debug]
+Supported platforms (package managers):
+  Go\t'Go', https://go-search.org/`
   );
   return;
 }
 
 const lang = platforms[platform];
 if (!lang) {
-  throw new Error(`'${platform}' is not supported`);
+  console.log(`'${platform}' platform is not supported. Run |node librariesio.js| for currently supported platforms.`);
+  return;
 }
 
 const libFile = `${__dirname}/../libs/${lang}.json`;
