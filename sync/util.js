@@ -48,7 +48,10 @@ const request = (url) => {
 }
 
 const checkURL = url => new Promise(resolve => {
-  let options = new URL(url);
+  let options = null;
+  try { options = new URL(url); }
+  catch(e) { resolve(false); }
+
   let protocol = options.protocol.replace(':', '');
   if (protocol != 'http' && protocol != 'https') {
     resolve(false);
