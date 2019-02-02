@@ -67,7 +67,7 @@ try {
 catch(e) {
   throw new Error(`${libFile} is not valid JSON; ${e.toString()}`);
 }
-let libsByRepos = new Set(libs.map(l => l.repo));
+let libsByRepos = new Set(libs.map(l => l.repo.toLowerCase()));
 
 let outputCount = 0;
 const pages = [ 1, 2 ]; // 200 results should be enough for now
@@ -78,7 +78,7 @@ for (let page of pages) {
   let projects = await request(URL);
   for (let project of projects) {
     let repo = project.repository_url;
-    if (libsByRepos.has(repo)) {
+    if (libsByRepos.has(repo.toLowerCase())) {
       log(`  Skipping known lib: ${repo}`);
       continue;
     }
@@ -131,8 +131,9 @@ function log(msg)
 
 function json_output({ id_prefix, name, repo, tags, description, homepage })
 {
+  name = name.replace(/.+[/]/, ''); // strip path from name
   console.log(`${JSON.stringify({
-    name: `${id_prefix}.${name.replace('_', '-')}`,
+    id: `${id_prefix}.${name.replace('_', '-')}`,
     imports: [ name ],
     name,
     repo,
