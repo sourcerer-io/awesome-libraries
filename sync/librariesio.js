@@ -174,6 +174,7 @@ function log(msg)
 function json_output({ id_prefix, name, repo, tags, description, homepage })
 {
   name = name.replace(/.+[/]/, ''); // strip path from name
+  repo = repo.replace(/^.*github\.com\//, ''); // stip github.com from repo
   console.log(`${JSON.stringify({
     id: `${id_prefix}.${name.replace('_', '-')}`,
     imports: [ name ],
