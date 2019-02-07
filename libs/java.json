@@ -251,5 +251,6 @@
   {"id": "java.jpa", "imports": ["javax.persistence."], "name": "JPA", "repo": "eclipse-ee4j/jpa-api", "tags": ["orm"], "tech": ["storage"], "status": "model-ready"},
   {"id": "java.javafx", "imports": ["javafx."], "name": "JavaFX", "repo": "javafxports/openjdk-jfx", "tags": ["gui"], "tech": ["gui"], "status": "model-ready"},
   {"id": "java.swing", "imports": ["javax.swing."], "name": "Swing", "repo": "AdoptOpenJDK/openjdk-jdk11", "tags": ["toolkit"], "tech": ["gui"], "status": "insufficient-data"},
-  {"id": "java.slf4j", "imports": ["org.slf4j."], "name": "slf4j", "repo": "qos-ch/slf4j", "tags": ["logging"], "tech": ["diagnostics"], "status": "model-ready"}
+  {"id": "java.slf4j", "imports": ["org.slf4j."], "name": "slf4j", "repo": "qos-ch/slf4j", "tags": ["logging"], "tech": ["diagnostics"], "status": "awaiting-model"},
+  {"id": "java.google-reflections", "imports": ["org.reflections."], "name": "reflections", "repo": "http://github.com/ronmamo/reflections", "tags": ["introspection-reflection"], "tech": ["diagnostics"], "status": "awaiting-model"}
 ]
