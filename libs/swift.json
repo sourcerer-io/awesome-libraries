@@ -34,5 +34,7 @@
   {"id": "swift.snap-kit", "imports": ["SnapKit"], "name": "SnapKit", "repo": "SnapKit/SnapKit", "tags": ["auto-layout"], "tech": ["ios-ui"], "status": "model-ready"},
   {"id": "swift.object-mapper", "imports": ["ObjectMapper"], "name": "ObjectMapper", "repo": "Hearst-DD/ObjectMapper", "tags": ["json"], "tech": ["app-data"], "status": "model-ready"},
   {"id": "swift.sage", "imports": ["Sage"], "name": "Sage", "repo": "nvzqz/Sage", "tags": ["chess"], "tech": ["graphics-gaming"], "status": "model-ready"},
-  {"id": "swift.alamofire", "imports": ["Alamofire"], "name": "Alamofire", "repo": "Alamofire/Alamofire", "tags": ["http-client"], "tech": ["internet"], "status": "model-ready"}
+  {"id": "swift.alamofire", "imports": ["Alamofire"], "name": "Alamofire", "repo": "Alamofire/Alamofire", "tags": ["http-client"], "tech": ["internet"], "status": "model-ready"},
+  {"id": "swift.net-client", "imports": ["Net"], "name": "NetClient", "repo": "intelygenz/NetClient-iOS", "tags": ["http-client"], "tech": ["internet"], "status": "awaiting-model"},
+  {"id": "swift.kommander", "imports": ["Kommander"], "name": "Kommander", "repo": "intelygenz/Kommander-iOS", "tags": ["scheduler"], "tech": ["app-blocks"], "status": "awaiting-model"}
 ]
