@@ -70,5 +70,6 @@
   {"id": "js.rickshaw", "imports": ["rickshaw"], "name": "rickshaw", "repo": "shutterstock/rickshaw", "tags": ["visualization"], "tech": ["data-science"], "status": "model-ready"},
   {"id": "js.yaml", "imports": ["yaml"], "name": "yaml", "repo": "jeremyfa/yaml.js", "tags": ["json-yaml"], "tech": ["app-data"], "status": "model-ready"},
   {"id": "js.html5shiv", "imports": ["html5shiv"], "name": "html5shiv", "repo": "aFarkas/html5shiv", "tags": ["ie-html5"], "tech": ["javascript-web"], "status": "model-ready"},
-  {"id": "js.tether", "imports": ["tether"], "name": "tether", "repo": "HubSpot/tether", "tags": ["frontend-positioning"], "tech": ["javascript-web"], "status": "model-ready"}
+  {"id": "js.tether", "imports": ["tether"], "name": "tether", "repo": "HubSpot/tether", "tags": ["frontend-positioning"], "tech": ["javascript-web"], "status": "model-ready"},
+  {"id": "js.ant-design", "imports": ["antd"], "name": "ant-design", "repo": "ant-design/ant-design", "tags": ["react-components"], "tech": ["javascript-web"], "status": "awaiting-model"}
 ]
