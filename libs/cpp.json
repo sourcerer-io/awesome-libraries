@@ -1018,8 +1018,8 @@
   "imports": ["yorel/"], "examples": ["https://github.com/jll63/yomm2/tree/master/examples"], "status": "model-ready"},
   {"id": "cpp.stlport", "name": "STLport", "tech": ["app-arch"], "tags": ["cross-platform"], "repo": "https://sourceforge.net/p/stlport/code/ci/master/tree/",
   "imports": [], "examples": ["https://sourceforge.net/p/stlport/code/ci/master/tree/test/"], "status": "awaiting-model"},
-  {"id":"cpp.librdkafka","imports":["librdkafka/rdkafkacpp.h"],"name":"librdkafka","repo":"edenhill/librdkafka","tags":["streaming"],"tech":["app-arch"],"status":"awaiting-model"},
+  {"id":"cpp.librdkafka","imports":["librdkafka/rdkafkacpp.h"],"name":"librdkafka","repo":"edenhill/librdkafka","tags":["streaming"],"tech":["cloud"],"status":"awaiting-model"},
   {"id":"cs.azure-c-shared-utility","imports":["azure_c_shared_utility/"],"name":"Microsoft.Azure.C.SharedUtility","repo":"Azure/azure-c-shared-utility","tags":["toolkit"],"tech":["utils"],"status":"awaiting-model"},
   {"id":"cpp.libsodium","imports":["sodium.h"],"name":"libsodium","repo":"jedisct1/libsodium","tags":["cryptography"],"tech":["security"],"status":"awaiting-model"},
-  {"id":"cpp.libcurl","imports":["curl/curl.h"],"name":"libcurl","repo":"curl/curl","tags":["curl"],"tech":["utils"],"status":"awaiting-model"}
+  {"id":"cpp.libcurl","imports":["curl/curl.h"],"name":"libcurl","repo":"curl/curl","tags":["curl"],"tech":["internet"],"status":"awaiting-model"}
 ]
