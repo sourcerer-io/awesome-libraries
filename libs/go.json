@@ -221,5 +221,5 @@
   {"id": "go.golarm", "imports": ["github.com/msempere/golarm"], "name": "golarm", "repo": "msempere/golarm", "tags": ["alarms"], "tech": ["diagnostics"], "status": "model-ready"},
   {"id":"go.logrus","imports":["github.com/sirupsen/logrus"],"name":"logrus","repo":"Sirupsen/Logrus","tags":["logging"],"tech":["diagnostics"],"status":"awaiting-model"},
   {"id":"go.mux","imports":["mux"],"name":"mux","repo":"gorilla/mux","tags":["routing"],"tech":["go-web"],"status":"awaiting-model"},
-  {"id":"go.viper","imports":["github.com/spf13/viper"],"name":"viper","repo":"spf13/viper","tags":["configuration"],"tech":["utils"],"status":"awaiting-model"},
+  {"id":"go.viper","imports":["github.com/spf13/viper"],"name":"viper","repo":"spf13/viper","tags":["configuration"],"tech":["utils"],"status":"awaiting-model"}
 ]

@@ -26,7 +26,7 @@
   {"id": "cpp.imgui", "imports": ["imgui"], "name": "imgui", "repo": "ocornut/imgui", "tags": ["toolkit"], "tech": ["gui"], "status": "model-ready"},
   {"id": "cpp.libucl", "imports": ["ucl++"], "name": "LIBUCL", "repo": "vstakhov/libucl", "tags": ["ucl"], "tech": ["configuration"], "status": "model-ready"},
   {"id": "cpp.tensor-flow", "imports": ["tensorflow"], "name": "TensorFlow", "repo": "tensorflow/tensorflow", "tags": ["framework"], "tech": ["dl"], "status": "model-ready"},
-  
+
   {"id": "cpp.evolving-objects", "imports": ["eo", "ga.h", "es.h"], "name": "Evolving Objects", "repo": "http://eodev.sourceforge.net/", "tags": ["optimization", "ga"],
   "tech" : ["computational-science"], "examples": ["http://eodev.sourceforge.net/eo/tutorial/html/eoTutorial.html"], "status": "model-ready"},
   {"id": "cpp.frugally-deep", "name": "frugally-deep", "tech": ["dl"], "tags": ["keras-models"], "repo":"Dobiasd/frugally-deep",
@@ -41,7 +41,7 @@
   "imports": ["veles.h"], "examples": ["https://github.com/Samsung/veles/tree/master/libVeles/tests"], "status": "model-ready"},
   {"id": "cpp.kaldi", "name": "Kaldi", "tech": ["speech-recognition"], "tags": ["toolkit"], "repo": "kaldi-asr/kaldi",
   "imports": ["base/kaldi-common.h"], "examples": ["https://github.com/kaldi-asr/kaldi/tree/master/egs"], "status": "model-ready"},
-  
+
   {"id": "cpp.asio", "name": "Asio", "tech":["networking"], "tags":["async-io", "async-networking"], "repo": "chriskohlhoff/asio",
   "imports": ["asio.hpp"], "examples": ["https://github.com/chriskohlhoff/asio/tree/master/asio/src/examples"], "status": "model-ready"},
   {"id": "cpp.boost-asio", "name": "Boost.Asio", "tech":["networking"], "tags":["async-io", "async-networking"], "repo": "chriskohlhoff/asio",
@@ -79,7 +79,7 @@
   {"id": "cpp.minimp3", "name": "minimp3", "tech": ["audio"], "tags": ["codec"], "repo": "lieff/minimp3",
   "imports": ["minimp3.h"], "examples": ["https://github.com/lieff/minimp3/blob/master/minimp3_test.c"], "status": "model-ready"},
 
-  {"id": "cpp.libsequence", "name": "libsequence", "tech": ["computational-biology"], "tags": ["genetics", "analysis", "high-performance"], "repo": "molpopgen/libsequence", 
+  {"id": "cpp.libsequence", "name": "libsequence", "tech": ["computational-biology"], "tags": ["genetics", "analysis", "high-performance"], "repo": "molpopgen/libsequence",
   "imports": ["Sequence/"], "examples": ["https://github.com/molpopgen/libsequence/tree/master/examples"], "status": "model-ready"},
   {"id": "cpp.seqan", "name": "SeqAn", "tech": ["computational-biology"], "tags": ["high-performance"], "repo": "seqan/seqan",
   "imports": ["seqan/"], "examples": ["https://github.com/seqan/seqan/tree/master/demos"], "status": "model-ready"},
@@ -814,7 +814,7 @@
   "imports": ["theora/"], "examples": ["https://git.xiph.org/?p=theora.git;a=tree;f=examples;h=199cac127fd546d8a7ef61174a3caa40b5a0356f;hb=HEAD"], "status": "awaiting-model"},
   {"id": "cpp.vireo", "name": "Vireo", "tech": ["dl"], "tags": ["video-processing"], "repo": "twitter/vireo",
   "imports": ["vireo/"], "examples": ["https://github.com/twitter/vireo/tree/master/vireo/helloworld"], "status": "awaiting-model"},
-  
+
   {"id": "cpp.rabbit-vm", "name": "Rabbit VM", "tech": ["vm"], "tags": ["risc"], "repo": "rabbitvm/rabbit",
   "imports": ["rabbit_"], "examples": ["https://github.com/RabbitVM/rabbit/blob/master/rabbit.c"], "status": "awaiting-model"},
   {"id": "cpp.micropython", "name": "MicroPython", "tech": ["language"], "tags": ["embedded-python"], "repo": "micropython/micropython",
@@ -1017,5 +1017,9 @@
   {"id": "cpp.yomm2", "name": "YOMM2", "tech": ["app-arch"], "tags": ["multiple-dispatch"], "repo": "jll63/yomm2",
   "imports": ["yorel/"], "examples": ["https://github.com/jll63/yomm2/tree/master/examples"], "status": "model-ready"},
   {"id": "cpp.stlport", "name": "STLport", "tech": ["app-arch"], "tags": ["cross-platform"], "repo": "https://sourceforge.net/p/stlport/code/ci/master/tree/",
-  "imports": [], "examples": ["https://sourceforge.net/p/stlport/code/ci/master/tree/test/"], "status": "awaiting-model"}
+  "imports": [], "examples": ["https://sourceforge.net/p/stlport/code/ci/master/tree/test/"], "status": "awaiting-model"},
+  {"id":"cpp.librdkafka","imports":["librdkafka/rdkafkacpp.h"],"name":"librdkafka","repo":"edenhill/librdkafka","tags":["streaming"],"tech":["cloud"],"status":"awaiting-model"},
+  {"id":"cs.azure-c-shared-utility","imports":["azure_c_shared_utility/"],"name":"Microsoft.Azure.C.SharedUtility","repo":"Azure/azure-c-shared-utility","tags":["toolkit"],"tech":["utils"],"status":"awaiting-model"},
+  {"id":"cpp.libsodium","imports":["sodium.h"],"name":"libsodium","repo":"jedisct1/libsodium","tags":["cryptography"],"tech":["security"],"status":"awaiting-model"},
+  {"id":"cpp.libcurl","imports":["curl/curl.h"],"name":"libcurl","repo":"curl/curl","tags":["curl"],"tech":["internet"],"status":"awaiting-model"}
 ]

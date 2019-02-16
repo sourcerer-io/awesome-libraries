@@ -75,5 +75,6 @@
   {"id": "cs.fody", "imports": ["Fody"], "name": "Fody", "repo": "Fody/Fody", "tags": ["IL-rewrite"], "tech": ["eng-tools"], "status": "awaiting-model"},
   {"id": "cs.protobuf-net", "imports": ["ProtoBuf"], "name": "ProtoBuf.NET", "repo": "mgravell/protobuf-net", "tags": ["serialization"], "tech": ["efficient-data"], "status": "awaiting-model"},
   {"id": "cs.serilog", "imports": ["Serilog"], "name": "Serilog", "repo": "serilog/serilog", "tags": ["logging"], "tech": ["diagnostics"], "status": "awaiting-model"},
-  {"id": "cs.castle-windsor", "imports": ["Castle"], "name": "castle.windsor", "repo": "castleproject/Windsor", "tags": ["inversion-of-control"], "tech": ["app-arch"], "status": "model-ready"}
+  {"id": "cs.castle-windsor", "imports": ["Castle"], "name": "castle.windsor", "repo": "castleproject/Windsor", "tags": ["inversion-of-control"], "tech": ["app-arch"], "status": "model-ready"},
+  {"id":"cs.confluent-kafka-dotnet","imports":["Confluent.Kafka"],"name":"confluent-kafka-dotnet","repo":"confluentinc/confluent-kafka-dotnet","tags":["streaming"],"tech":["cloud"],"status":"awaiting-model" }
 ]
