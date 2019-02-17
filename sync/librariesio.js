@@ -210,8 +210,7 @@ let libsByRepos = new Set(libs.map(l => l.repo.toLowerCase()));
 let new_libs = [];
 let outputCount = 0;
 
-// 200 results should be enough for now.
-const pages = [ 1, 2 ];
+const pages = [ 1, 2 ]; // 200 results should be enough for now.
 for (let page of pages) {
   const URL =
   `https://libraries.io/api/search?platforms=${platform}&languages=${lang}&page=${page}&per_page=100&api_key=${key}`;
@@ -242,10 +241,8 @@ for (let page of pages) {
     }
 
     if (!debugMode) {
-      // Strip path from name.
-      name = name.replace(/.+[/]/, '');
-      // Strip github.com from repo.
-      repo = repo.replace(/^.*github\.com\//, '');
+      name = name.replace(/.+[/]/, ''); // Strip path from name.
+      repo = repo.replace(/^.*github\.com\//, ''); // Strip github.com from repo.
 
       new_libs.push({
         id: `${libinfo[lang].prefix}.${name.replace('_', '-')}`,
@@ -270,13 +267,11 @@ for (let page of pages) {
 }
 
 if (new_libs.length > 0) {
-  // Sort existing libs by tech.
   libs.sort(
     (a, b) => a.tech[0] < b.tech[0] && -1 || (a.tech[0] > b.tech[0] && 1 || 0)
-  );
+  ); // Sort existing libs by tech.
 
-  // Put new libs into the end.
-  Array.prototype.push.apply(libs, new_libs);
+  Array.prototype.push.apply(libs, new_libs); // Put new libs into the end.
 
   let content = `[${libs.map(v => ('\n  ' + JSON.stringify(v)))}
 ]
