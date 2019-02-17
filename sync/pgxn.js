@@ -1,4 +1,4 @@
-// Copyright 2019 Sourcerer Inc. All Rights Reserved.
+// Copyright 2019 Sourcerer Inc.
 // Author: Alexander Surkov (alex@sourcerer.io)
 
 (async function() {
