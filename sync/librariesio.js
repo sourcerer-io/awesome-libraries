@@ -1,4 +1,4 @@
-// Copyright 2019 Sourcerer Inc. All Rights Reserved.
+// Copyright 2019 Sourcerer Inc.
 // Author: Alexander Surkov (alex@sourcerer.io)
 
 (async function() {
@@ -12,6 +12,24 @@ const {
 } = require('./util.js');
 
 const platforms = {
+  'Cargo': {
+    langs: [
+      'Rust',
+    ],
+    homepage: 'https://crates.io/',
+  },
+  'CocoaPods': {
+    langs: [
+      'Objective-C',
+    ],
+    homepage: 'http://cocoapods.org/',
+  },
+  'CPAN': {
+    langs: [
+      'Perl',
+    ],
+    homepage: 'https://metacpan.org',
+  },
   'Go': {
     langs: [
       'Go',
@@ -25,20 +43,98 @@ const platforms = {
     ],
     homepage: 'https://www.nuget.org/',
   },
+  'NPM': {
+    langs: [
+      'JavaScript',
+    ],
+    homepage: 'https://www.npmjs.com',
+  },
+  'Maven': {
+    langs: [
+      'Java',
+    ],
+    homepage: 'http://maven.org',
+  },
+  'Packagist': {
+    langs: [
+      'PHP',
+    ],
+    homepage: 'https://packagist.org',
+  },
+  'PlatformIO': {
+    langs: [
+      'C++',
+    ],
+    homepage: 'http://platformio.org',
+  },
+  'Pypi': {
+    langs: [
+      'Python',
+    ],
+    homepage: 'https://pypi.org/',
+  },
+  'Rubygems': {
+    langs: [
+      'Ruby',
+    ],
+    homepage: 'https://rubygems.org',
+  },
+  'SwiftPM': {
+    langs: [
+      'Python',
+    ],
+    homepage: 'https://developer.apple.com/swift/',
+  },
 };
 
 const libinfo = {
-  'Go': {
-    file: 'go.json',
-    prefix: 'go',
-  },
   'C#': {
     file: 'csharp.json',
     prefix: 'cs',
   },
+  'C++': {
+    file: 'cpp.json',
+    prefix: 'cpp',
+  },
+  'Go': {
+    file: 'go.json',
+    prefix: 'go',
+  },
+  'Java=': {
+    file: 'javas.json',
+    prefix: 'java',
+  },
   'JavaScript': {
     file: 'javascript.json',
     prefix: 'js',
+  },
+  'Objective-C': {
+    file: 'objectivec.json',
+    prefix: 'objc',
+  },
+  'Perl': {
+    file: 'perl.json',
+    prefix: 'perl',
+  },
+  'PHP': {
+    file: 'php.json',
+    prefix: 'php',
+  },
+  'Python': {
+    file: 'python.json',
+    prefix: 'py',
+  },
+  'Ruby': {
+    file: 'ruby.json',
+    prefix: 'rb',
+  },
+  'Rust': {
+    file: 'rust.json',
+    prefix: 'rust',
+  },
+  'Swift': {
+    file: 'swift.json',
+    prefix: 'swift',
   },
 };
 
@@ -111,8 +207,10 @@ catch(e) {
 }
 let libsByRepos = new Set(libs.map(l => l.repo.toLowerCase()));
 
+let new_libs = [];
 let outputCount = 0;
-const pages = [ 1, 2 ]; // 200 results should be enough for now
+
+const pages = [ 1, 2 ]; // 200 results should be enough for now.
 for (let page of pages) {
   const URL =
   `https://libraries.io/api/search?platforms=${platform}&languages=${lang}&page=${page}&per_page=100&api_key=${key}`;
@@ -143,13 +241,17 @@ for (let page of pages) {
     }
 
     if (!debugMode) {
-      json_output({
-        id_prefix: libinfo[lang].prefix,
+      name = name.replace(/.+[/]/, ''); // Strip path from name.
+      repo = repo.replace(/^.*github\.com\//, ''); // Strip github.com from repo.
+
+      new_libs.push({
+        id: `${libinfo[lang].prefix}.${name.replace('_', '-')}`,
+        imports: [ name ],
         name,
         repo,
         tags,
-        description,
-        homepage
+        tech: [ description, homepage ].filter(v => !!v),
+        status: 'awaiting-model',
       });
     }
 
@@ -164,26 +266,25 @@ for (let page of pages) {
   }
 }
 
+if (new_libs.length > 0) {
+  libs.sort(
+    (a, b) => a.tech[0] < b.tech[0] && -1 || (a.tech[0] > b.tech[0] && 1 || 0)
+  ); // Sort existing libs by tech.
+
+  Array.prototype.push.apply(libs, new_libs); // Put new libs into the end.
+
+  let content = `[${libs.map(v => ('\n  ' + JSON.stringify(v)))}
+]
+`;
+  fs.writeFileSync(libFile, content, 'utf-8');
+  console.log(`${outputCount} libs were added into the end of libs/${libinfo[lang].file} file`);
+}
+
 function log(msg)
 {
   if (debugMode) {
     console.log(msg);
   }
-}
-
-function json_output({ id_prefix, name, repo, tags, description, homepage })
-{
-  name = name.replace(/.+[/]/, ''); // strip path from name
-  repo = repo.replace(/^.*github\.com\//, ''); // stip github.com from repo
-  console.log(`${JSON.stringify({
-    id: `${id_prefix}.${name.replace('_', '-')}`,
-    imports: [ name ],
-    name,
-    repo,
-    tags,
-    tech: [ description, homepage ].filter(v => !!v),
-    status: 'awaiting-model'
-  })},`);
 }
 
 }());
