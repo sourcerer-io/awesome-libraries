@@ -209,7 +209,9 @@ let libsByRepos = new Set(libs.map(l => l.repo.toLowerCase()));
 
 let new_libs = [];
 let outputCount = 0;
-const pages = [ 1, 2 ]; // 200 results should be enough for now
+
+// 200 results should be enough for now.
+const pages = [ 1, 2 ];
 for (let page of pages) {
   const URL =
   `https://libraries.io/api/search?platforms=${platform}&languages=${lang}&page=${page}&per_page=100&api_key=${key}`;
@@ -240,8 +242,11 @@ for (let page of pages) {
     }
 
     if (!debugMode) {
-      name = name.replace(/.+[/]/, ''); // strip path from name
-      repo = repo.replace(/^.*github\.com\//, ''); // stip github.com from repo
+      // Strip path from name.
+      name = name.replace(/.+[/]/, '');
+      // Strip github.com from repo.
+      repo = repo.replace(/^.*github\.com\//, '');
+
       new_libs.push({
         id: `${libinfo[lang].prefix}.${name.replace('_', '-')}`,
         imports: [ name ],
@@ -265,14 +270,15 @@ for (let page of pages) {
 }
 
 if (new_libs.length > 0) {
+  // Sort existing libs by tech.
   libs.sort(
     (a, b) => a.tech[0] < b.tech[0] && -1 || (a.tech[0] > b.tech[0] && 1 || 0)
-  ); // sort existing libs by tech
+  );
 
-  Array.prototype.push.apply(libs, new_libs); // put new libs into the end
+  // Put new libs into the end.
+  Array.prototype.push.apply(libs, new_libs);
 
-  let content = `[
-${libs.map(v => ('\n  ' + JSON.stringify(v)))}
+  let content = `[${libs.map(v => ('\n  ' + JSON.stringify(v)))}
 ]
 `;
   fs.writeFileSync(libFile, content, 'utf-8');
