@@ -100,8 +100,8 @@ const libinfo = {
     file: 'go.json',
     prefix: 'go',
   },
-  'Java=': {
-    file: 'javas.json',
+  'Java': {
+    file: 'java.json',
     prefix: 'java',
   },
   'JavaScript': {
@@ -207,7 +207,7 @@ catch(e) {
 }
 let libsByRepos = new Set(libs.map(l => l.repo.toLowerCase()));
 
-let new_libs = [];
+let newLibs = [];
 let outputCount = 0;
 
 const pages = [ 1, 2 ]; // 200 results should be enough for now.
@@ -217,7 +217,9 @@ for (let page of pages) {
 
   let projects = await request(URL);
   for (let project of projects) {
-    let repo = project.repository_url;
+    // Strip https://github.com/ from repo if any.
+    let repo = project.repository_url.replace(/^.*github\.com\//, '');
+
     if (libsByRepos.has(repo.toLowerCase())) {
       log(`  Skipping known lib: ${repo}`);
       continue;
@@ -242,9 +244,13 @@ for (let page of pages) {
 
     if (!debugMode) {
       name = name.replace(/.+[/]/, ''); // Strip path from name.
-      repo = repo.replace(/^.*github\.com\//, ''); // Strip github.com from repo.
 
-      new_libs.push({
+      // Skip exiting repos.
+      if (newLibs.find(l => l.repo == repo)) {
+        continue;
+      }
+
+      newLibs.push({
         id: `${libinfo[lang].prefix}.${name.replace('_', '-')}`,
         imports: [ name ],
         name,
@@ -266,18 +272,21 @@ for (let page of pages) {
   }
 }
 
-if (new_libs.length > 0) {
+if (newLibs.length > 0) {
   libs.sort(
     (a, b) => a.tech[0] < b.tech[0] && -1 || (a.tech[0] > b.tech[0] && 1 || 0)
   ); // Sort existing libs by tech.
 
-  Array.prototype.push.apply(libs, new_libs); // Put new libs into the end.
+  Array.prototype.push.apply(libs, newLibs); // Put new libs into the end.
 
   let content = `[${libs.map(v => ('\n  ' + JSON.stringify(v)))}
 ]
 `;
   fs.writeFileSync(libFile, content, 'utf-8');
   console.log(`${outputCount} libs were added into the end of libs/${libinfo[lang].file} file`);
+  for (let lib of newLibs) {
+    console.log(`  ${lib.id}`);
+  }
 }
 
 function log(msg)
