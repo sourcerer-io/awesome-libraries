@@ -217,6 +217,10 @@ for (let page of pages) {
 
   let projects = await request(URL);
   for (let project of projects) {
+    if (++outputCount >= limit) {
+      break;
+    }
+
     // Strip https://github.com/ from repo if any.
     let repo = project.repository_url.replace(/^.*github\.com\//, '');
 
@@ -260,10 +264,6 @@ for (let page of pages) {
         status: 'awaiting-model',
       });
     }
-
-    if (++outputCount >= limit) {
-      break;
-    }
   }
 
   if (outputCount >= limit) {
@@ -272,21 +272,37 @@ for (let page of pages) {
   }
 }
 
+libs.sort( // Sort libs by tech, id.
+  (a, b) => {
+    if (a.tech[0] < b.tech[0]) {
+      return -1;
+    }
+    if (a.tech[0] > b.tech[0]) {
+      return 1;
+    }
+    if (a.id < b.id) {
+      return -1;
+    }
+    if (a.id > b.id) {
+      return 1;
+    }
+    return 0;
+  }
+);
+
 if (newLibs.length > 0) {
-  libs.sort(
-    (a, b) => a.tech[0] < b.tech[0] && -1 || (a.tech[0] > b.tech[0] && 1 || 0)
-  ); // Sort existing libs by tech.
+  // Push new libs into the end.
+  Array.prototype.push.apply(libs, newLibs);
+}
 
-  Array.prototype.push.apply(libs, newLibs); // Put new libs into the end.
-
-  let content = `[${libs.map(v => ('\n  ' + JSON.stringify(v)))}
+let content = `[${libs.map(v => ('\n  ' + JSON.stringify(v)))}
 ]
 `;
-  fs.writeFileSync(libFile, content, 'utf-8');
-  console.log(`${outputCount} libs were added into the end of libs/${libinfo[lang].file} file`);
-  for (let lib of newLibs) {
-    console.log(`  ${lib.id}`);
-  }
+fs.writeFileSync(libFile, content, 'utf-8');
+
+console.log(`${outputCount} libs were added to libs/${libinfo[lang].file} file:`);
+for (let lib of newLibs) {
+  console.log(`  ${lib.id}`);
 }
 
 function log(msg)
