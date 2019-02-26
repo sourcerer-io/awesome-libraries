@@ -1,0 +1,6 @@
+[
+  {"id":"perl.Moo","imports":["Moo"],"name":"Moo","repo":"moose/Moo","tags":["oop"],"tech":["app-arch"],"status":"awaiting-model"},
+  {"id":"perl.Moose","imports":["Moose"],"name":"Moose","repo":"moose/Moose","tags":["oop"],"tech":["app-arch"],"status":"awaiting-model"},
+  {"id":"perl.Mojolicious","imports":["Mojolicious"],"name":"Mojolicious","repo":"mojolicious/mojo","tags":["framework"],"tech":["perl-web"],"status":"awaiting-model"},
+  {"id":"perl.Plack","imports":["Plack"],"name":"Plack","repo":"plack/plack","tags":["toolkit"],"tech":["perl-web"],"status":"awaiting-model"}
+]
