@@ -1,11 +1,11 @@
 [
-  {"id": "objc.fbshimmering", "imports": ["FBShimmering"], "name": "FBShimmering", "repo": "facebook/Shimmer", "tags": ["animation"], "tech": ["graphics-gaming"], "status": "model-ready"},
-  {"id": "objc.fmdb", "imports": ["FMDB"], "name": "FMDB", "repo": "ccgus/fmdb", "tags": ["sql"], "tech": ["storage"], "status": "model-ready"},
-  {"id": "objc.sdweb-image", "imports": ["SDWebImage"], "name": "SDWebImage", "repo": "rs/SDWebImage", "tags": ["download"], "tech": ["images"], "status": "model-ready"},
-  {"id": "objc.masonry", "imports": ["Masonry"], "name": "Masonry", "repo": "SnapKit/Masonry", "tags": ["layouts"], "tech": ["gui"], "status": "model-ready"},
-  {"id": "objc.afnetworking", "imports": ["AFNetworking"], "name": "AFNetworking", "repo": "AFNetworking/AFNetworking", "tags": ["framework"], "tech": ["networking"], "status": "model-ready"},
-  {"id": "objc.jsqmessages", "imports": ["JSQMessages"], "name": "JSQMessages", "repo": "jessesquires/JSQMessagesViewController", "tags": ["messages"], "tech": ["ios-ui"], "status": "model-ready"},
-  {"id": "objc.realm", "imports": ["Realm"], "name": "Realm", "repo": "realm/realm-cocoa", "tags": ["mobile"], "tech": ["storage"], "status": "model-ready"},
-  {"id": "objc.yykit", "imports": ["YYKit"], "name": "YYKit", "repo": "ibireme/YYKit", "tags": ["components"], "tech": ["app-arch"], "status": "model-ready"},
-  {"id": "objc.gpuimage", "imports": ["GPUImage"], "name": "GPUImage", "repo": "BradLarson/GPUImage", "tags": ["gpu-processing"], "tech": ["images"], "status": "model-ready"}
+  {"id":"objc.yykit","imports":["YYKit"],"name":"YYKit","repo":"ibireme/YYKit","tags":["components"],"tech":["app-arch"],"status":"model-ready"},
+  {"id":"objc.fbshimmering","imports":["FBShimmering"],"name":"FBShimmering","repo":"facebook/Shimmer","tags":["animation"],"tech":["graphics-gaming"],"status":"model-ready"},
+  {"id":"objc.masonry","imports":["Masonry"],"name":"Masonry","repo":"SnapKit/Masonry","tags":["layouts"],"tech":["gui"],"status":"model-ready"},
+  {"id":"objc.gpuimage","imports":["GPUImage"],"name":"GPUImage","repo":"BradLarson/GPUImage","tags":["gpu-processing"],"tech":["images"],"status":"model-ready"},
+  {"id":"objc.sdweb-image","imports":["SDWebImage"],"name":"SDWebImage","repo":"rs/SDWebImage","tags":["download"],"tech":["images"],"status":"model-ready"},
+  {"id":"objc.jsqmessages","imports":["JSQMessages"],"name":"JSQMessages","repo":"jessesquires/JSQMessagesViewController","tags":["messages"],"tech":["ios-ui"],"status":"model-ready"},
+  {"id":"objc.afnetworking","imports":["AFNetworking"],"name":"AFNetworking","repo":"AFNetworking/AFNetworking","tags":["framework"],"tech":["networking"],"status":"model-ready"},
+  {"id":"objc.fmdb","imports":["FMDB"],"name":"FMDB","repo":"ccgus/fmdb","tags":["sql"],"tech":["storage"],"status":"model-ready"},
+  {"id":"objc.realm","imports":["Realm"],"name":"Realm","repo":"realm/realm-cocoa","tags":["mobile"],"tech":["storage"],"status":"model-ready"}
 ]
