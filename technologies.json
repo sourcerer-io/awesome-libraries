@@ -111,6 +111,7 @@
       "multiple-dispatch",
       "mvvm",
       "observable",
+      "oop",
       "patterns",
       "pubsub",
       "query-language",
@@ -124,7 +125,6 @@
       "stl-candidates",
       "stl-extension",
       "stream-processing",
-      "streaming",
       "toolkit",
       "triggers",
       "views",
@@ -156,6 +156,7 @@
       "server-side",
       "sitemaps",
       "spam-blocker",
+      "sqlite-jdbc",
       "termination",
       "validation"
     ]
@@ -269,7 +270,8 @@
       "platform",
       "rpc",
       "serialization",
-      "service-discovery"
+      "service-discovery",
+      "streaming"
     ]
   },
   "code-processing": {
@@ -681,7 +683,6 @@
       "cpp-lua",
       "cpp-php",
       "cpp-python",
-      "csharp-boost",
       "go-x86",
       "java-cpp",
       "java-native",
@@ -760,6 +761,7 @@
       "ui-framework",
       "ui-library",
       "ui-widget",
+      "visualization",
       "web-requests"
     ]
   },
@@ -859,6 +861,12 @@
     "tags": [
       "serial-port",
       "usb"
+    ]
+  },
+  "perl-web": {
+    "tags": [
+      "framework",
+      "toolkit"
     ]
   },
   "php-web": {
@@ -1029,7 +1037,6 @@
       "compare",
       "configuration",
       "cpu",
-      "curl",
       "date-time",
       "dry",
       "dsl",
