@@ -208,7 +208,6 @@ catch(e) {
 let libsByRepos = new Set(libs.map(l => l.repo.toLowerCase()));
 
 let newLibs = [];
-let outputCount = 0;
 
 const pages = [ 1, 2 ]; // 200 results should be enough for now.
 for (let page of pages) {
@@ -217,12 +216,13 @@ for (let page of pages) {
 
   let projects = await request(URL);
   for (let project of projects) {
-    if (++outputCount >= limit) {
+    if (newLibs.length >= limit) {
       break;
     }
 
     // Strip https://github.com/ from repo if any.
-    let repo = project.repository_url.replace(/^.*github\.com\//, '');
+    let origRepo = project.repository_url.replace(/^.*github\.com\//, '');
+    let repo = repo.replace(/^.*github\.com\//, '');
 
     if (libsByRepos.has(repo.toLowerCase())) {
       log(`  Skipping known lib: ${repo}`);
@@ -240,36 +240,37 @@ for (let page of pages) {
     let tags = project.keywords;
     log(`  Tags: ${JSON.stringify(tags)}`);
 
-    log(`  Repo: ${repo}`);
-    if (!await checkURL(repo)) {
+    log(`  Repo: ${origRepo}`);
+    if (!await checkURL(origRepo)) {
       log(`  Skipping: repo not found`);
       continue;
     }
 
-    if (!debugMode) {
-      name = name.replace(/.+[/]/, ''); // Strip path from name.
+    name = name.replace(/.+[/]/, ''); // Strip path from name.
 
-      // Skip exiting repos.
-      if (newLibs.find(l => l.repo == repo)) {
-        continue;
-      }
+    // Ignore duplicating repos.
+    if (newLibs.find(l => l.repo == repo)) {
+      continue;
+    }
 
-      newLibs.push({
-        id: `${libinfo[lang].prefix}.${name.replace('_', '-')}`,
-        imports: [ name ],
-        name,
-        repo,
-        tags,
-        tech: [ description, homepage ].filter(v => !!v),
-        status: 'awaiting-model',
-      });
+    newLibs.push({
+      id: `${libinfo[lang].prefix}.${name.replace('_', '-')}`,
+      imports: [ name ],
+      name,
+      repo,
+      tags,
+      tech: [ description, homepage ].filter(v => !!v),
+      status: 'awaiting-model',
+    });
+
+    if (newLibs.length >= limit) {
+      break;
     }
   }
+}
 
-  if (outputCount >= limit) {
-    log(`${limit} fetched`);
-    break;
-  }
+if (debugMode) {
+  return;
 }
 
 libs.sort( // Sort libs by tech, id.
@@ -300,7 +301,7 @@ let content = `[${libs.map(v => ('\n  ' + JSON.stringify(v)))}
 `;
 fs.writeFileSync(libFile, content, 'utf-8');
 
-console.log(`${outputCount} libs were added to libs/${libinfo[lang].file} file:`);
+console.log(`${newLibs.length} libs were added to libs/${libinfo[lang].file} file:`);
 for (let lib of newLibs) {
   console.log(`  ${lib.id}`);
 }
