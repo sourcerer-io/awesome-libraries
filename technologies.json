@@ -157,6 +157,7 @@
       "sitemaps",
       "spam-blocker",
       "sqlite-jdbc",
+      "syntax-highlighting",
       "termination",
       "validation"
     ]
@@ -360,6 +361,7 @@
     "tags": [
       "astronomy",
       "data-analysis",
+      "deep-learning",
       "interactive-shell",
       "vcf-files",
       "visualization"
@@ -478,6 +480,7 @@
       "css-processor",
       "db-analysis",
       "db-index-integrity",
+      "db-migration",
       "debugger",
       "debugging",
       "dependency",
@@ -1009,6 +1012,7 @@
       "rest-http-testing",
       "specification-framework",
       "stubs-mocks",
+      "test-coverage",
       "test-reports",
       "testing",
       "throwaway-db",

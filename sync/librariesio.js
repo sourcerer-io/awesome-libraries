@@ -208,9 +208,7 @@ catch(e) {
 let libsByRepos = new Set(libs.map(l => l.repo.toLowerCase()));
 
 let newLibs = [];
-
-const pages = [ 1, 2 ]; // 200 results should be enough for now.
-for (let page of pages) {
+for (let page = 0; page < 2; page++) { // Each page is 100 results
   const URL =
   `https://libraries.io/api/search?platforms=${platform}&languages=${lang}&page=${page}&per_page=100&api_key=${key}`;
 
@@ -221,8 +219,8 @@ for (let page of pages) {
     }
 
     // Strip https://github.com/ from repo if any.
-    let origRepo = project.repository_url.replace(/^.*github\.com\//, '');
-    let repo = repo.replace(/^.*github\.com\//, '');
+    let origRepo = project.repository_url;
+    let repo = origRepo.replace(/^.*github\.com\//, '');
 
     if (libsByRepos.has(repo.toLowerCase())) {
       log(`  Skipping known lib: ${repo}`);
@@ -273,24 +271,6 @@ if (debugMode) {
   return;
 }
 
-libs.sort( // Sort libs by tech, id.
-  (a, b) => {
-    if (a.tech[0] < b.tech[0]) {
-      return -1;
-    }
-    if (a.tech[0] > b.tech[0]) {
-      return 1;
-    }
-    if (a.id < b.id) {
-      return -1;
-    }
-    if (a.id > b.id) {
-      return 1;
-    }
-    return 0;
-  }
-);
-
 if (newLibs.length > 0) {
   // Push new libs into the end.
   Array.prototype.push.apply(libs, newLibs);
@@ -305,6 +285,11 @@ console.log(`${newLibs.length} libs were added to libs/${libinfo[lang].file} fil
 for (let lib of newLibs) {
   console.log(`  ${lib.id}`);
 }
+console.log(`
+When libs are adjusted, please make sure to run
+  node technologies.js
+to update technologies.json and sort the libs`
+);
 
 function log(msg)
 {
