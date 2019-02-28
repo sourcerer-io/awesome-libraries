@@ -64,6 +64,7 @@
   {"id":"js.validate","imports":["validate"],"name":"validate","repo":"jquery-validation/jquery-validation","tags":["jquery-validation"],"tech":["javascript-web"],"status":"model-ready"},
   {"id":"js.vue","imports":["vue"],"name":"vue","repo":"vuejs/vue","tags":["ui-framework"],"tech":["javascript-web"],"status":"model-ready"},
   {"id":"js.vuex","imports":["vuex"],"name":"vuex","repo":"vuejs/vuex","tags":["state-management"],"tech":["javascript-web"],"status":"model-ready"},
+  {"id":"js.ml5","imports":["ml5"],"name":"ml5","repo":"ml5js/ml5-library","tags":["toolkit"],"tech":["ml"],"status":"awaiting-model"},
   {"id":"js.mongoose","imports":["mongoose"],"name":"mongoose","repo":"Automattic/mongoose","tags":["mongodb"],"tech":["storage"],"status":"model-ready"},
   {"id":"js.mysql","imports":["mysql"],"name":"mysql","repo":"mysqljs/mysql","tags":["sql"],"tech":["storage"],"status":"model-ready"},
   {"id":"js.redis","imports":["redis"],"name":"redis","repo":"NodeRedis/node_redis","tags":["nosql"],"tech":["storage"],"status":"model-ready"},
