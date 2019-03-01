@@ -208,8 +208,6 @@ catch(e) {
 let libsByRepos = new Set(libs.map(l => l.repo.toLowerCase()));
 
 let newLibs = [];
-let outputCount = 0;
-
 const pages = [ 1, 2 ]; // 200 results should be enough for now.
 for (let page of pages) {
   const URL =
@@ -217,12 +215,13 @@ for (let page of pages) {
 
   let projects = await request(URL);
   for (let project of projects) {
-    if (++outputCount >= limit) {
+    if (newLibs.length >= limit) {
       break;
     }
 
     // Strip https://github.com/ from repo if any.
-    let repo = project.repository_url.replace(/^.*github\.com\//, '');
+    let origRepo = project.repository_url;
+    let repo = origRepo.replace(/^.*github\.com\//, '');
 
     if (libsByRepos.has(repo.toLowerCase())) {
       log(`  Skipping known lib: ${repo}`);
@@ -240,55 +239,38 @@ for (let page of pages) {
     let tags = project.keywords;
     log(`  Tags: ${JSON.stringify(tags)}`);
 
-    log(`  Repo: ${repo}`);
-    if (!await checkURL(repo)) {
+    log(`  Repo: ${origRepo}`);
+    if (!await checkURL(origRepo)) {
       log(`  Skipping: repo not found`);
       continue;
     }
 
-    if (!debugMode) {
-      name = name.replace(/.+[/]/, ''); // Strip path from name.
+    name = name.replace(/.+[/]/, ''); // Strip path from name.
 
-      // Skip exiting repos.
-      if (newLibs.find(l => l.repo == repo)) {
-        continue;
-      }
-
-      newLibs.push({
-        id: `${libinfo[lang].prefix}.${name.replace('_', '-')}`,
-        imports: [ name ],
-        name,
-        repo,
-        tags,
-        tech: [ description, homepage ].filter(v => !!v),
-        status: 'awaiting-model',
-      });
+    // Ignore duplicating repos.
+    if (newLibs.find(l => l.repo == repo)) {
+      continue;
     }
-  }
 
-  if (outputCount >= limit) {
-    log(`${limit} fetched`);
-    break;
+    newLibs.push({
+      id: `${libinfo[lang].prefix}.${name.replace('_', '-')}`,
+      imports: [ name ],
+      name,
+      repo,
+      tags,
+      tech: [ description, homepage ].filter(v => !!v),
+      status: 'awaiting-model',
+    });
+
+    if (newLibs.length >= limit) {
+      break;
+    }
   }
 }
 
-libs.sort( // Sort libs by tech, id.
-  (a, b) => {
-    if (a.tech[0] < b.tech[0]) {
-      return -1;
-    }
-    if (a.tech[0] > b.tech[0]) {
-      return 1;
-    }
-    if (a.id < b.id) {
-      return -1;
-    }
-    if (a.id > b.id) {
-      return 1;
-    }
-    return 0;
-  }
-);
+if (debugMode) {
+  return;
+}
 
 if (newLibs.length > 0) {
   // Push new libs into the end.
@@ -300,10 +282,15 @@ let content = `[${libs.map(v => ('\n  ' + JSON.stringify(v)))}
 `;
 fs.writeFileSync(libFile, content, 'utf-8');
 
-console.log(`${outputCount} libs were added to libs/${libinfo[lang].file} file:`);
+console.log(`${newLibs.length} libs were added to libs/${libinfo[lang].file} file:`);
 for (let lib of newLibs) {
   console.log(`  ${lib.id}`);
 }
+console.log(`
+When libs are adjusted, please make sure to run
+  node technologies.js
+to update technologies.json and sort the libs`
+);
 
 function log(msg)
 {
