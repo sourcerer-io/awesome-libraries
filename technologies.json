@@ -1012,7 +1012,6 @@
       "rest-http-testing",
       "specification-framework",
       "stubs-mocks",
-      "test-coverage",
       "test-reports",
       "testing",
       "throwaway-db",

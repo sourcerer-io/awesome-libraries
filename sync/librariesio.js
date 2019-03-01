@@ -208,7 +208,8 @@ catch(e) {
 let libsByRepos = new Set(libs.map(l => l.repo.toLowerCase()));
 
 let newLibs = [];
-for (let page = 0; page < 2; page++) { // Each page is 100 results
+const pages = [ 1, 2 ]; // 200 results should be enough for now.
+for (let page of pages) {
   const URL =
   `https://libraries.io/api/search?platforms=${platform}&languages=${lang}&page=${page}&per_page=100&api_key=${key}`;
 
