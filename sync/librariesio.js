@@ -245,7 +245,10 @@ for (let page of pages) {
       continue;
     }
 
-    name = name.replace(/.+[/]/, ''); // Strip path from name.
+    // Strip path from name if any.
+    name = name.replace(/.+[/]/, '');
+    // Strip everything after :, which can be often seen for Maven libs
+    name = name.replace(/[:].+/, '');
 
     // Ignore duplicating repos.
     if (newLibs.find(l => l.repo == repo)) {
