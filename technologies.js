@@ -15,6 +15,9 @@ const dir = 'libs';
 
 let techs = new Map();
 
+let ids = new Set();
+let repos = new Set();
+
 let files = fs.readdirSync(dir);
 for (let filename of files) {
   let libFile = path.join(dir, filename);
@@ -35,6 +38,16 @@ for (let filename of files) {
     if (!Array.isArray(lib.tags) || lib.tags.length == 0) {
       throw new Error(`${filename}: no tags for ${lib.id}`);
     }
+
+    if (ids.has(lib.id.toLowerCase())) {
+      console.error(`${filename} file: '${lib.id}' library id duplication`);
+    }
+    ids.add(lib.id.toLowerCase());
+    if (ids.has(lib.repo.toLowerCase())) {
+      console.error(`${filename} file: '${lib.repo}' library repo duplication`);
+    }
+    repos.add(lib.repo.toLowerCase());
+
     let tech = lib.tech[0];
     if (!techs.has(tech)) {
       techs.set(tech, new Set());
