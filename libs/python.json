@@ -50,7 +50,6 @@
   {"id":"py.keras","imports":["keras"],"name":"keras","repo":"fchollet/keras","tags":["high-level-api"],"tech":["dl"],"status":"model-ready"},
   {"id":"py.lasagne","imports":["lasagne"],"name":"lasagne","repo":"Lasagne/Lasagne","tags":["theano"],"tech":["dl"],"status":"model-ready"},
   {"id":"py.magenta","imports":["magenta"],"name":"magenta","repo":"tensorflow/magenta","tags":["music"],"tech":["dl"],"status":"model-ready"},
-  {"id":"py.models","imports":["models"],"name":"models","repo":"tensorflow/models","tags":["models"],"tech":["dl"],"status":"model-ready"},
   {"id":"py.mxnet","imports":["mxnet"],"name":"mxnet","repo":"apache/incubator-mxnet","tags":["framework"],"tech":["dl"],"status":"model-ready"},
   {"id":"py.sonnet","imports":["sonnet"],"name":"sonnet","repo":"deepmind/sonnet","tags":["complex-nn"],"tech":["dl"],"status":"model-ready"},
   {"id":"py.tensorflow","imports":["tensorflow"],"name":"tensorflow","repo":"tensorflow/tensorflow","tags":["framework"],"tech":["dl"],"status":"model-ready"},
