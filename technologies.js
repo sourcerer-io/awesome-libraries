@@ -39,14 +39,17 @@ for (let filename of files) {
       throw new Error(`${filename}: no tags for ${lib.id}`);
     }
 
-    if (ids.has(lib.id.toLowerCase())) {
-      console.error(`${filename} file: '${lib.id}' library id duplication`);
+    let id = lib.id.toLowerCase();
+    if (ids.has(id)) {
+      console.error(`${filename} file: '${id}' library id duplication`);
     }
-    ids.add(lib.id.toLowerCase());
-    if (ids.has(lib.repo.toLowerCase())) {
-      console.error(`${filename} file: '${lib.repo}' library repo duplication`);
+    ids.add(id);
+
+    let repo = lib.repo.toLowerCase();
+    if (repos.has(repo)) {
+      console.error(`${filename} file: '${repo}' library repo duplication`);
     }
-    repos.add(lib.repo.toLowerCase());
+    repos.add(repo);
 
     let tech = lib.tech[0];
     if (!techs.has(tech)) {
