@@ -36,7 +36,6 @@ for (let filename of files) {
   for (let lib of libs) {
     if (!Array.isArray(lib.tech) || lib.tech.length == 0) {
       fail(`${filename}: no tech for ${lib.id}`);
-      return;
     }
     if (!Array.isArray(lib.tags) || lib.tags.length == 0) {
       fail(`${filename}: no tags for ${lib.id}`);
