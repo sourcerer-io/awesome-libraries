@@ -12,8 +12,6 @@
   {"id":"js.less","imports":["less"],"name":"less","repo":"less/less.js","tags":["css-processor"],"tech":["eng-tools"],"status":"model-ready"},
   {"id":"js.postcss","imports":["postcss"],"name":"postcss","repo":"postcss/postcss","tags":["css-processing"],"tech":["eng-tools"],"status":"model-ready"},
   {"id":"js.purify","imports":["purify"],"name":"purify","repo":"purifycss/purifycss","tags":["unused-css"],"tech":["eng-tools"],"status":"model-ready"},
-  {"id":"js.sass","imports":[],"name":"sass","repo":"sass/sass","tags":["css-processor"],"tech":["eng-tools"],"status":"awaiting-model"},
-  {"id":"js.scss","imports":[],"name":"scss","repo":"sass/sass","tags":["css-processor"],"tech":["eng-tools"],"status":"awaiting-model"},
   {"id":"js.immutable","imports":["immutable"],"name":"immutable","repo":"facebook/immutable-js","tags":["immutable-data"],"tech":["faster-code"],"status":"model-ready"},
   {"id":"js.three","imports":["three"],"name":"three","repo":"mrdoob/three.js","tags":["3d-library"],"tech":["graphics-gaming"],"status":"model-ready"},
   {"id":"js.smartcrop","imports":["smartcrop"],"name":"smartcrop","repo":"jwagner/smartcrop.js","tags":["cropping"],"tech":["images"],"status":"model-ready"},

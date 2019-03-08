@@ -120,7 +120,6 @@
   {"id":"py.sqlalchemy","imports":["sqlalchemy"],"name":"sqlalchemy","repo":"zzzeek/sqlalchemy","tags":["sql"],"tech":["storage"],"status":"model-ready"},
   {"id":"py.faker","imports":["faker"],"name":"faker","repo":"joke2k/faker","tags":["fake-data"],"tech":["testing"],"status":"model-ready"},
   {"id":"py.locust","imports":["locust"],"name":"locust","repo":"locustio/locust","tags":["load-testing"],"tech":["testing"],"status":"model-ready"},
-  {"id":"py.pytest","imports":["pytest"],"name":"pytest","repo":"pytest-dev/pytest","tags":["unit-testing"],"tech":["testing"],"status":"awaiting-model"},
   {"id":"py.test","imports":["pytest"],"name":"pytest","repo":"pytest-dev/pytest","tags":["unit-testing"],"tech":["testing"],"status":"model-ready"},
   {"id":"py.arrow","imports":["arrow"],"name":"arrow","repo":"crsmithdev/arrow","tags":["date-time"],"tech":["utils"],"status":"model-ready"},
   {"id":"py.gflags","imports":["gflags"],"name":"gflags","repo":"google/python-gflags","tags":["argument-parsing"],"tech":["utils"],"status":"model-ready"},

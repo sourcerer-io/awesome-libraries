@@ -15,11 +15,13 @@ const dir = 'libs';
 
 let techs = new Map();
 
-let ids = new Set();
-let repos = new Set();
+let failCnt = 0;
 
 let files = fs.readdirSync(dir);
 for (let filename of files) {
+  let ids = new Set();
+  let repos = new Map();
+
   let libFile = path.join(dir, filename);
   let content = fs.readFileSync(libFile, 'utf-8');
 
@@ -28,28 +30,39 @@ for (let filename of files) {
     libs = JSON.parse(content);
   }
   catch(e) {
-    throw new Error(`${filename} not valid JSON; ${e.toString()}`);
+    fail(`${filename} not valid JSON; ${e.toString()}`);
+    return;
   }
 
   for (let lib of libs) {
     if (!Array.isArray(lib.tech) || lib.tech.length == 0) {
-      throw new Error(`${filename}: no tech for ${lib.id}`);
+      fail(`${filename}: no tech for ${lib.id}`);
+      return;
     }
     if (!Array.isArray(lib.tags) || lib.tags.length == 0) {
-      throw new Error(`${filename}: no tags for ${lib.id}`);
+      fail(`${filename}: no tags for ${lib.id}`);
     }
 
     let id = lib.id.toLowerCase();
     if (ids.has(id)) {
-      console.error(`${filename} file: '${id}' library id duplication`);
+      fail(`${filename} file: '${id}' library id duplication`);
     }
     ids.add(id);
 
     let repo = lib.repo.toLowerCase();
-    if (repos.has(repo)) {
-      console.error(`${filename} file: '${repo}' library repo duplication`);
+    if (repo) {
+      if (repos.has(repo)) {
+        let repo_ids = repos.get(repo);
+        repo_ids.push(lib.id);
+        fail(
+          `${filename} file: '${repo}' repo duplication for ${repo_ids.map(i => `'${i}'`).join(', ')} libraries`
+        );
+      }
+      repos.set(repo, [ lib.id ]);
     }
-    repos.add(repo);
+    else if (!lib.examples || lib.examples.length == 0) {
+      fail(`${filename} file: '${lib.id}' lib has neither repo or examples provided`);
+    }
 
     let tech = lib.tech[0];
     if (!techs.has(tech)) {
@@ -98,6 +111,12 @@ let output = `${JSON.stringify(techs_json, null, '  ')}
 `;
 
 fs.writeFileSync(`technologies.json`, output);
-console.log(`SUCCESS: technologies.json was updated; libs were sorted by tech, id`);
+console.log(`\x1b[42mSUCCESS!\x1b[0m technologies.json was updated; libs were sorted`);
+
+function fail(msg)
+{
+  failCnt++;
+  console.error(`\x1b[41m\x1b[37m!Failed:\x1b[0m ${msg}`);
+}
 
 }());
