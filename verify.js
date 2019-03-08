@@ -5,7 +5,8 @@
   'use strict';
 
 /**
- * Generates technologies.json from library files located in 'libs' directory.
+ * Validates librariy files, located in 'libs' directory, and generates
+ * technologies.json.
  */
 
 const fs = require('fs');
@@ -14,8 +15,6 @@ const path = require('path');
 const dir = 'libs';
 
 let techs = new Map();
-
-let failCnt = 0;
 
 let files = fs.readdirSync(dir);
 for (let filename of files) {
@@ -115,7 +114,6 @@ console.log(`\x1b[42mSUCCESS!\x1b[0m technologies.json was updated; libs were so
 
 function fail(msg)
 {
-  failCnt++;
   console.error(`\x1b[41m\x1b[37m!Failed:\x1b[0m ${msg}`);
 }
 
