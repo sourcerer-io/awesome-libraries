@@ -19,7 +19,7 @@ Check out `libs` directory of this repository to find out whether your favorite 
 * A path to `examples` of library use (optional): This is optional, but if present it will make it much faster for library to appear in Sourcerer. We use examples to train our classifiers for library detection.
 * `status` of library in Sourcerer. Fill it with `awaiting-model`. When the library is in production, we will change it to `model-ready`.
 
-Run `node technologies.js` to update `technologies.json` file, which also will check whether the changes make valid JSON.
+Run `node verify.js` to validate and sort libs, and also to update `technologies.json` file.
 
 Open a pull request. Note, it will take us a couple of days after the pull requrest is merged to update classifiers for your libraries.
 
