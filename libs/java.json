@@ -31,6 +31,7 @@
   {"id":"java.reactive-x","imports":["io.reactivex."],"name":"ReactiveX","repo":"ReactiveX/RxJava","tags":["async-observable"],"tech":["app-arch"],"status":"model-ready"},
   {"id":"java.toothpick","imports":["toothpick."],"name":"Toothpick","repo":"stephanenicolas/toothpick","tags":["injection"],"tech":["app-arch"],"status":"model-ready"},
   {"id":"java.vert-x","imports":["io.vertx."],"name":"Vert.x","repo":"eclipse/vert.x","tags":["reactive"],"tech":["app-arch"],"status":"model-ready"},
+  {"id":"java.elasticsearch","imports":["org.elasticsearch"],"name":"Elasticsearch","repo":"elastic/elasticsearch","tags":["search-engine"],"tech":["app-blocks"],"status":"awaiting-model"},
   {"id":"java.flying-saucer","imports":["org.xhtmlrenderer."],"name":"Flying Saucer","repo":"flyingsaucerproject/flyingsaucer","tags":["html-renderer"],"tech":["app-blocks"],"status":"model-ready"},
   {"id":"java.quartz-scheduler","imports":["org.quartz."],"name":"Quartz Scheduler","repo":"quartz-scheduler/quartz","tags":["scheduler"],"tech":["app-blocks"],"status":"model-ready"},
   {"id":"java.xerial-sqlite-jdbc","imports":["org.xerial"],"name":"SQLite JDBC Driver","repo":"https://bitbucket.org/xerial/sqlite-jdbc","tags":["sqlite-jdbc"],"tech":["app-blocks"],"status":"awaiting-model"},
@@ -178,6 +179,7 @@
   {"id":"java.blade","imports":["com.blade."],"name":"Blade","repo":"biezhi/blade","tags":["framework"],"tech":["java-web"],"status":"model-ready"},
   {"id":"java.comsat","imports":["comsat."],"name":"COMSAT","repo":"puniverse/comsat","tags":["apps"],"tech":["java-web"],"status":"model-ready"},
   {"id":"java.java-jwt","imports":["io.jsonwebtoken."],"name":"Java JWT","repo":"jwtk/jjwt","tags":["jwt"],"tech":["java-web"],"status":"model-ready"},
+  {"id":"java.jsoup","imports":["org.jsoup"],"name":"jsoup","repo":"jhy/jsoup","tags":["html-parser"],"tech":["java-web"],"status":"awaiting-model"},
   {"id":"java.pac4j","imports":["org.pac4j."],"name":"pac4j","repo":"pac4j/pac4j","tags":["oauth"],"tech":["java-web"],"status":"model-ready"},
   {"id":"java.rest-express","imports":["org.restexpress."],"name":"RestExpress","repo":"RestExpress/RestExpress","tags":["rest"],"tech":["java-web"],"status":"model-ready"},
   {"id":"java.rest-li","imports":["com.linkedin.restli."],"name":"Rest.li","repo":"linkedin/rest.li","tags":["rest-json"],"tech":["java-web"],"status":"model-ready"},
@@ -211,6 +213,7 @@
   {"id":"java.jpa","imports":["javax.persistence."],"name":"JPA","repo":"eclipse-ee4j/jpa-api","tags":["orm"],"tech":["storage"],"status":"model-ready"},
   {"id":"java.maria-db4j","imports":["ch.vorburger.mariadb4j."],"name":"MariaDB4j","repo":"vorburger/MariaDB4j","tags":["sql"],"tech":["storage"],"status":"model-ready"},
   {"id":"java.minio","imports":["io.minio."],"name":"Minio","repo":"minio/minio-java","tags":["s3"],"tech":["storage"],"status":"model-ready"},
+  {"id":"java.mongodb","imports":["org.mongodb"],"name":"mongo-java-driver","repo":"mongodb/mongo-java-driver","tags":["mongodb"],"tech":["storage"],"status":"awaiting-model"},
   {"id":"java.mysql","imports":["com.mysql.cj"],"name":"MySQL Connector/J","repo":"mysql/mysql-connector-j","tags":["mysql"],"tech":["storage"],"status":"awaiting-model"},
   {"id":"java.realm","imports":["io.realm."],"name":"Realm","repo":"realm/realm-java","tags":["sql"],"tech":["storage"],"status":"model-ready"},
   {"id":"java.redis","imports":["redis.clients.jedis."],"name":"Redis","repo":"xetorthio/jedis","tags":["nosql"],"tech":["storage"],"status":"model-ready"},
@@ -259,8 +262,5 @@
   {"id":"java.three-ten","imports":["org.threeten.bp."],"name":"ThreeTen","repo":"ThreeTen/threetenbp","tags":["date-time"],"tech":["utils"],"status":"model-ready"},
   {"id":"java.time4-j","imports":["net.time4j."],"name":"Time4J","repo":"MenoData/Time4J","tags":["date-time"],"tech":["utils"],"status":"model-ready"},
   {"id":"java.underscore-java","imports":["com.github.underscore."],"name":"underscore-java","repo":"javadev/underscore-java","tags":["toolkit"],"tech":["utils"],"status":"model-ready"},
-  {"id":"java.verbal-expressions","imports":["ru.lanwen.verbalregex."],"name":"VerbalExpressions","repo":"VerbalExpressions/JavaVerbalExpressions","tags":["regex"],"tech":["utils"],"status":"model-ready"},
-  {"id":"java.elasticsearch","imports":["org.elasticsearch"],"name":"Elasticsearch","repo":"elastic/elasticsearch","tags":["search-engine"],"tech":["app-blocks"],"status":"awaiting-model"},
-  {"id":"java.jsoup","imports":["org.jsoup"],"name":"jsoup","repo":"jhy/jsoup","tags":["html-parser"],"tech":["java-web"],"status":"awaiting-model"},
-  {"id":"java.mongodb","imports":["org.mongodb"],"name":"mongo-java-driver","repo":"mongodb/mongo-java-driver","tags":["mongodb"],"tech":["storage"],"status":"awaiting-model"}
+  {"id":"java.verbal-expressions","imports":["ru.lanwen.verbalregex."],"name":"VerbalExpressions","repo":"VerbalExpressions/JavaVerbalExpressions","tags":["regex"],"tech":["utils"],"status":"model-ready"}
 ]
