@@ -34,5 +34,5 @@
   {"id":"rb.dry-inflector","imports":["dry/inflector"],"name":"dry-inflector","repo":"dry-rb/dry-inflector","tags":["inflector"],"tech":["utils"],"status":"model-ready"},
   {"id":"rb.dry-logic","imports":["dry/logic"],"name":"dry-logic","repo":"dry-rb/dry-logic","tags":["predicate-logic"],"tech":["utils"],"status":"model-ready"},
   {"id":"rb.dry-types","imports":["dry-types"],"name":"dry-types","repo":"dry-rb/dry-types","tags":["types"],"tech":["utils"],"status":"model-ready"},
-  {"id":"rb.hanami","imports":[""],"name":"halnami","repo":"hanami/hanami","tags":["framework"],"tech":["ruby-web"],"status":"awaiting-model"}
+  {"id":"rb.hanami","imports":[""],"name":"hanami","repo":"hanami/hanami","tags":["framework"],"tech":["ruby-web"],"status":"awaiting-model"}
 ]
