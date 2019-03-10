@@ -259,5 +259,8 @@
   {"id":"java.three-ten","imports":["org.threeten.bp."],"name":"ThreeTen","repo":"ThreeTen/threetenbp","tags":["date-time"],"tech":["utils"],"status":"model-ready"},
   {"id":"java.time4-j","imports":["net.time4j."],"name":"Time4J","repo":"MenoData/Time4J","tags":["date-time"],"tech":["utils"],"status":"model-ready"},
   {"id":"java.underscore-java","imports":["com.github.underscore."],"name":"underscore-java","repo":"javadev/underscore-java","tags":["toolkit"],"tech":["utils"],"status":"model-ready"},
-  {"id":"java.verbal-expressions","imports":["ru.lanwen.verbalregex."],"name":"VerbalExpressions","repo":"VerbalExpressions/JavaVerbalExpressions","tags":["regex"],"tech":["utils"],"status":"model-ready"}
+  {"id":"java.verbal-expressions","imports":["ru.lanwen.verbalregex."],"name":"VerbalExpressions","repo":"VerbalExpressions/JavaVerbalExpressions","tags":["regex"],"tech":["utils"],"status":"model-ready"},
+  {"id":"java.elasticsearch","imports":["org.elasticsearch"],"name":"Elasticsearch","repo":"elastic/elasticsearch","tags":["search-engine"],"tech":["app-blocks"],"status":"awaiting-model"},
+  {"id":"java.jsoup","imports":["org.jsoup"],"name":"jsoup","repo":"jhy/jsoup","tags":["html-parser"],"tech":["java-web"],"status":"awaiting-model"},
+  {"id":"java.mongodb","imports":["org.mongodb"],"name":"mongo-java-driver","repo":"mongodb/mongo-java-driver","tags":["mongodb"],"tech":["storage"],"status":"awaiting-model"}
 ]
