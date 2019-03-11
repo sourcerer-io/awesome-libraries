@@ -291,7 +291,7 @@ for (let lib of newLibs) {
   console.log(`  ${lib.id}`);
 }
 console.log(`
-When libs are adjusted, please make sure to run
+When changing libs, please make sure to run
   node verify.js
 to validate and sort libraries and also update technologies.json`
 );
