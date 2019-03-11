@@ -221,7 +221,8 @@ for (let page of pages) {
 
     // Strip https://github.com/ from repo if any.
     let origRepo = project.repository_url;
-    let repo = origRepo.replace(/^.*github\.com\//, '');
+    let repo = origRepo.replace(/^.*github\.com\//, '').
+      replace(/\/$/, ''); // Stip trailing '/' if any
 
     if (libsByRepos.has(repo.toLowerCase())) {
       log(`  Skipping known lib: ${repo}`);
@@ -290,9 +291,9 @@ for (let lib of newLibs) {
   console.log(`  ${lib.id}`);
 }
 console.log(`
-When libs are adjusted, please make sure to run
-  node technologies.js
-to update technologies.json and sort the libs`
+When changing libs, please make sure to run
+  node verify.js
+to validate and sort libraries and also update technologies.json`
 );
 
 function log(msg)
