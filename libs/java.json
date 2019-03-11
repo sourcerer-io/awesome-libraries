@@ -262,5 +262,9 @@
   {"id":"java.three-ten","imports":["org.threeten.bp."],"name":"ThreeTen","repo":"ThreeTen/threetenbp","tags":["date-time"],"tech":["utils"],"status":"model-ready"},
   {"id":"java.time4-j","imports":["net.time4j."],"name":"Time4J","repo":"MenoData/Time4J","tags":["date-time"],"tech":["utils"],"status":"model-ready"},
   {"id":"java.underscore-java","imports":["com.github.underscore."],"name":"underscore-java","repo":"javadev/underscore-java","tags":["toolkit"],"tech":["utils"],"status":"model-ready"},
-  {"id":"java.verbal-expressions","imports":["ru.lanwen.verbalregex."],"name":"VerbalExpressions","repo":"VerbalExpressions/JavaVerbalExpressions","tags":["regex"],"tech":["utils"],"status":"model-ready"}
+  {"id":"java.verbal-expressions","imports":["ru.lanwen.verbalregex."],"name":"VerbalExpressions","repo":"VerbalExpressions/JavaVerbalExpressions","tags":["regex"],"tech":["utils"],"status":"model-ready"},
+  {"id":"java.jackson-annotations","imports":["com.fasterxml.jackson.annotation"],"name":"jackson-annotations","repo":"FasterXML/jackson-annotations","tags":["json"],"tech":["app-data"],"status":"awaiting-model"},
+  {"id":"java.clojure","imports":["org.clojure"],"name":"clojure","repo":"clojure/clojure","tags":["clojure"],"tech":["language"],"status":"awaiting-model"},
+  {"id":"java.liferay-portal","imports":["com.liferay.portal"],"name":"Liferay Portal","repo":"liferay/liferay-portal","tags":["platform"],"tech":["enterprise"],"status":"awaiting-model"},
+  {"id":"java.jackson-datatype","imports":["com.fasterxml.jackson.datatype"],"name":"jackson-datatype","repo":"FasterXML/jackson-datatype-jsr310","tags":["json"],"tech":["app-data"],"status":"awaiting-model"}
 ]
