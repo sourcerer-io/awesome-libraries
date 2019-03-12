@@ -205,7 +205,11 @@ try {
 catch(e) {
   throw new Error(`${libFile} is not valid JSON; ${e.toString()}`);
 }
-let libsByRepos = new Set(libs.map(l => l.repo.toLowerCase()));
+
+let knownRepos = new Set(libs.map(l => l.repo.toLowerCase()));
+let ignoreRepos = new Set(
+  require(`${__dirname}/ignore-repos.js`).map(r => r.toLowerCase())
+);
 
 let newLibs = [];
 const pages = [ 1, 2 ]; // 200 results should be enough for now.
@@ -224,7 +228,8 @@ for (let page of pages) {
     let repo = origRepo.replace(/^.*github\.com\//, '').
       replace(/\/$/, ''); // Stip trailing '/' if any
 
-    if (libsByRepos.has(repo.toLowerCase())) {
+    if (knownRepos.has(repo.toLowerCase()) ||
+        ignoreRepos.has(repo.toLowerCase())) {
       log(`  Skipping known lib: ${repo}`);
       continue;
     }
@@ -248,8 +253,13 @@ for (let page of pages) {
 
     // Strip path from name if any.
     name = name.replace(/.+[/]/, '');
-    // Strip everything after :, which can be often seen for Maven libs
+    // [Maven] Strip everything after :, which can be often seen for Maven libs.
     name = name.replace(/[:].+/, '');
+
+    let imports = [ name ];
+
+    // [Maven] Strip 'org.' and 'com.' from Maven libs.
+    name = name.replace(/^(org\.|com\.)/, '');
 
     // Ignore duplicating repos.
     if (newLibs.find(l => l.repo == repo)) {
@@ -258,7 +268,7 @@ for (let page of pages) {
 
     newLibs.push({
       id: `${libinfo[lang].prefix}.${name.replace('_', '-')}`,
-      imports: [ name ],
+      imports,
       name,
       repo,
       tags,
