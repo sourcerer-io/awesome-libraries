@@ -128,5 +128,7 @@
   {"id":"py.gflags","imports":["gflags"],"name":"gflags","repo":"google/python-gflags","tags":["argument-parsing"],"tech":["utils"],"status":"model-ready"},
   {"id":"py.gooey","imports":["gooey"],"name":"gooey","repo":"chriskiehl/Gooey","tags":["cli2gui"],"tech":["utils"],"status":"model-ready"},
   {"id":"py.psutil","imports":["psutil"],"name":"psutil","repo":"giampaolo/psutil","tags":["system"],"tech":["utils"],"status":"awaiting-model"},
-  {"id":"py.python-dateutil","imports":["dateutil"],"name":"dateutil","repo":"dateutil/dateutil","tags":["date-time"],"tech":["utils"],"status":"awaiting-model"}
+  {"id":"py.python-dateutil","imports":["dateutil"],"name":"dateutil","repo":"dateutil/dateutil","tags":["date-time"],"tech":["utils"],"status":"awaiting-model"},
+  {"id":"py.dynaconf","imports":["dynaconf"],"name":"dynaconf","repo":"rochacbruno/dynaconf","tags":["config"],"tech":["utils"],"status":"model-ready"},
+  {"id":"py.flasgger","imports":["flasgger"],"name":"flasgger","repo":"rochacbruno/flasgger","tags":["api"],"tech":["python-web"],"status":"model-ready"}
 ]
