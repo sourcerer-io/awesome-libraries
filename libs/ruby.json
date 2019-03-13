@@ -23,6 +23,7 @@
   {"id":"rb.apotomo","imports":["apotomo"],"name":"Apotomo","repo":"apotonick/apotomo","tags":["rails-components"],"tech":["ruby-web"],"status":"model-ready"},
   {"id":"rb.cells","imports":["cells"],"name":"Cells","repo":"trailblazer/cells","tags":["view-components"],"tech":["ruby-web"],"status":"model-ready"},
   {"id":"rb.decent-exposure","imports":["decent_exposure"],"name":"Decent Exposure","repo":"hashrocket/decent_exposure","tags":["controller-interfaces"],"tech":["ruby-web"],"status":"model-ready"},
+  {"id":"rb.hanami","imports":[""],"name":"hanami","repo":"hanami/hanami","tags":["framework"],"tech":["ruby-web"],"status":"awaiting-model"},
   {"id":"rb.mustache","imports":["mustache"],"name":"mustache","repo":"mustache/mustache","tags":["templates"],"tech":["ruby-web"],"status":"model-ready"},
   {"id":"rb.rails","imports":[""],"name":"rails","repo":"rails/rails","tags":["framework"],"tech":["ruby-web"],"status":"model-ready"},
   {"id":"rb.mocha","imports":["mocha"],"name":"mocha","repo":"freerange/mocha","tags":["mocks-stubs"],"tech":["testing"],"status":"model-ready"},
@@ -33,6 +34,5 @@
   {"id":"rb.dry-equalizer","imports":["dry-equalizer"],"name":"dry-equalizer","repo":"dry-rb/dry-equalizer","tags":["compare"],"tech":["utils"],"status":"model-ready"},
   {"id":"rb.dry-inflector","imports":["dry/inflector"],"name":"dry-inflector","repo":"dry-rb/dry-inflector","tags":["inflector"],"tech":["utils"],"status":"model-ready"},
   {"id":"rb.dry-logic","imports":["dry/logic"],"name":"dry-logic","repo":"dry-rb/dry-logic","tags":["predicate-logic"],"tech":["utils"],"status":"model-ready"},
-  {"id":"rb.dry-types","imports":["dry-types"],"name":"dry-types","repo":"dry-rb/dry-types","tags":["types"],"tech":["utils"],"status":"model-ready"},
-  {"id":"rb.hanami","imports":[""],"name":"hanami","repo":"hanami/hanami","tags":["framework"],"tech":["ruby-web"],"status":"awaiting-model"}
+  {"id":"rb.dry-types","imports":["dry-types"],"name":"dry-types","repo":"dry-rb/dry-types","tags":["types"],"tech":["utils"],"status":"model-ready"}
 ]

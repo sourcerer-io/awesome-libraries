@@ -42,8 +42,10 @@
   {"id":"java.gson","imports":["com.google.gson."],"name":"Gson","repo":"google/gson","tags":["json"],"tech":["app-data"],"status":"model-ready"},
   {"id":"java.hikari-json","imports":["com.zaxxer.hikari.json."],"name":"HikariJSON","repo":"brettwooldridge/HikariJSON","tags":["json-parser"],"tech":["app-data"],"status":"model-ready"},
   {"id":"java.jackson","imports":["org.zalando.jackson.datatype.money."],"name":"Jackson","repo":"zalando/jackson-datatype-money","tags":["money"],"tech":["app-data"],"status":"model-ready"},
+  {"id":"java.jackson-annotations","imports":["com.fasterxml.jackson.annotation"],"name":"jackson-annotations","repo":"FasterXML/jackson-annotations","tags":["json"],"tech":["app-data"],"status":"awaiting-model"},
   {"id":"java.jackson-core","imports":["com.fasterxml.jackson.core"],"name":"Jackson","repo":"FasterXML/jackson-core","tags":["json"],"tech":["app-data"],"status":"awaiting-model"},
   {"id":"java.jackson-databind","imports":["com.fasterxml.jackson.databind"],"name":"Jackson Databinding","repo":"FasterXML/jackson-databind","tags":["json"],"tech":["app-data"],"status":"awaiting-model"},
+  {"id":"java.jackson-datatype","imports":["com.fasterxml.jackson.datatype"],"name":"jackson-datatype","repo":"FasterXML/jackson-datatype-jsr310","tags":["json"],"tech":["app-data"],"status":"awaiting-model"},
   {"id":"java.jayway-json-path","imports":["com.jayway.jsonpath."],"name":"Jayway JsonPath","repo":"jayway/JsonPath","tags":["json-xpath"],"tech":["app-data"],"status":"model-ready"},
   {"id":"java.jmapper","imports":["com.googlecode.jmapper."],"name":"JMapper","repo":"jmapper-framework/jmapper-core","tags":["mapping"],"tech":["app-data"],"status":"model-ready"},
   {"id":"java.json","imports":["com.bazaarvoice.jolt."],"name":"Json","repo":"bazaarvoice/jolt","tags":["json-transformation"],"tech":["app-data"],"status":"model-ready"},
@@ -137,6 +139,7 @@
   {"id":"java.spring-source","imports":["org.springsource."],"name":"SpringSource","repo":"spring-projects/spring-loaded","tags":["class-reloading"],"tech":["eng-tools"],"status":"model-ready"},
   {"id":"java.stetho","imports":["com.facebook.stetho."],"name":"Stetho","repo":"facebook/stetho","tags":["debugging"],"tech":["eng-tools"],"status":"model-ready"},
   {"id":"java.type-tools","imports":["net.jodah.typetools."],"name":"TypeTools","repo":"jhalterman/typetools","tags":["type-info"],"tech":["eng-tools"],"status":"model-ready"},
+  {"id":"java.liferay-portal","imports":["com.liferay.portal"],"name":"Liferay Portal","repo":"liferay/liferay-portal","tags":["platform"],"tech":["enterprise"],"status":"awaiting-model"},
   {"id":"java.orienteer","imports":["org.orienteer."],"name":"Orienteer","repo":"OrienteerBAP/Orienteer","tags":["platform"],"tech":["enterprise"],"status":"model-ready"},
   {"id":"java.alibaba-druid","imports":["com.alibaba.druid."],"name":"Alibaba Druid","repo":"alibaba/druid","tags":["connection-pool"],"tech":["faster-code"],"status":"model-ready"},
   {"id":"java.caffeine","imports":["com.github.benmanes.caffeine."],"name":"Caffeine","repo":"ben-manes/caffeine","tags":["caching"],"tech":["faster-code"],"status":"model-ready"},
@@ -262,8 +265,5 @@
   {"id":"java.three-ten","imports":["org.threeten.bp."],"name":"ThreeTen","repo":"ThreeTen/threetenbp","tags":["date-time"],"tech":["utils"],"status":"model-ready"},
   {"id":"java.time4-j","imports":["net.time4j."],"name":"Time4J","repo":"MenoData/Time4J","tags":["date-time"],"tech":["utils"],"status":"model-ready"},
   {"id":"java.underscore-java","imports":["com.github.underscore."],"name":"underscore-java","repo":"javadev/underscore-java","tags":["toolkit"],"tech":["utils"],"status":"model-ready"},
-  {"id":"java.verbal-expressions","imports":["ru.lanwen.verbalregex."],"name":"VerbalExpressions","repo":"VerbalExpressions/JavaVerbalExpressions","tags":["regex"],"tech":["utils"],"status":"model-ready"},
-  {"id":"java.jackson-annotations","imports":["com.fasterxml.jackson.annotation"],"name":"jackson-annotations","repo":"FasterXML/jackson-annotations","tags":["json"],"tech":["app-data"],"status":"awaiting-model"},
-  {"id":"java.liferay-portal","imports":["com.liferay.portal"],"name":"Liferay Portal","repo":"liferay/liferay-portal","tags":["platform"],"tech":["enterprise"],"status":"awaiting-model"},
-  {"id":"java.jackson-datatype","imports":["com.fasterxml.jackson.datatype"],"name":"jackson-datatype","repo":"FasterXML/jackson-datatype-jsr310","tags":["json"],"tech":["app-data"],"status":"awaiting-model"}
+  {"id":"java.verbal-expressions","imports":["ru.lanwen.verbalregex."],"name":"VerbalExpressions","repo":"VerbalExpressions/JavaVerbalExpressions","tags":["regex"],"tech":["utils"],"status":"model-ready"}
 ]

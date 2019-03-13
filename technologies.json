@@ -887,6 +887,7 @@
       "caching",
       "django-caching",
       "django-rest",
+      "flask-openapi",
       "framework",
       "memcached-client",
       "micro-framework",
