@@ -6,6 +6,8 @@ module.exports = [
   "http://cglib.cvs.sourceforge.net/cglib", // java.cglib, cglib/cglib
   "AlibabaTech/fastjson", // java.fastjson, alibaba/fastjson
   "clojure/clojure", // not a library
+  "tokuhirom/Minilla", // not a library, perl tool
+  "miyagawa/Dist-Milla", // not a library, perl tool
 ];
 
 }());
