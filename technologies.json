@@ -190,7 +190,8 @@
       "transformations",
       "validation",
       "xml",
-      "xml-parser"
+      "xml-parser",
+      "yaml-parser"
     ]
   },
   "audio": {
