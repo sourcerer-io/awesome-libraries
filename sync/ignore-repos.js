@@ -8,6 +8,8 @@ module.exports = [
   "clojure/clojure", // not a library
   "tokuhirom/Minilla", // not a library, perl tool
   "miyagawa/Dist-Milla", // not a library, perl tool
+  "sphinx-doc/sphinx", // a python tool
+  "pypa/setuptools", // a python tool
 ];
 
 }());
