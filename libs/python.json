@@ -133,5 +133,10 @@
   {"id":"py.gflags","imports":["gflags"],"name":"gflags","repo":"google/python-gflags","tags":["argument-parsing"],"tech":["utils"],"status":"model-ready"},
   {"id":"py.gooey","imports":["gooey"],"name":"gooey","repo":"chriskiehl/Gooey","tags":["cli2gui"],"tech":["utils"],"status":"model-ready"},
   {"id":"py.psutil","imports":["psutil"],"name":"psutil","repo":"giampaolo/psutil","tags":["system"],"tech":["utils"],"status":"awaiting-model"},
-  {"id":"py.python-dateutil","imports":["dateutil"],"name":"dateutil","repo":"dateutil/dateutil","tags":["date-time"],"tech":["utils"],"status":"awaiting-model"}
+  {"id":"py.python-dateutil","imports":["dateutil"],"name":"dateutil","repo":"dateutil/dateutil","tags":["date-time"],"tech":["utils"],"status":"awaiting-model"},
+  {"id":"py.tqdm","imports":["tqdm"],"name":"tqdm","repo":"tqdm/tqdm","tags":["process-runner"],"tech":["cli"],"status":"awaiting-model"},
+  {"id":"py.paramiko","imports":["paramiko"],"name":"paramiko","repo":"paramiko/paramiko","tags":["ssh-lib"],"tech":["networking"],"status":"awaiting-model"},
+  {"id":"py.marshmallow","imports":["marshmallow"],"name":"marshmallow","repo":"marshmallow-code/marshmallow","tags":["serialization"],"tech":["storage"],"status":"awaiting-model"},
+  {"id":"py.nose","imports":["nose"],"name":"nose","repo":"nose-devs/nose","tags":["unit-testing"],"tech":["testing"],"status":"awaiting-model"},
+  {"id":"py.pymysql","imports":["pymysql"],"name":"PyMySQL","repo":"PyMySQL/PyMySQL","tags":["mysql"],"tech":["storage"],"status":"awaiting-model"}
 ]
