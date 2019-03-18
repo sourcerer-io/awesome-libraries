@@ -2,5 +2,8 @@
   {"id":"perl.Moo","imports":["Moo"],"name":"Moo","repo":"moose/Moo","tags":["oop"],"tech":["app-arch"],"status":"awaiting-model"},
   {"id":"perl.Moose","imports":["Moose"],"name":"Moose","repo":"moose/Moose","tags":["oop"],"tech":["app-arch"],"status":"awaiting-model"},
   {"id":"perl.Mojolicious","imports":["Mojolicious"],"name":"Mojolicious","repo":"mojolicious/mojo","tags":["framework"],"tech":["perl-web"],"status":"awaiting-model"},
-  {"id":"perl.Plack","imports":["Plack"],"name":"Plack","repo":"plack/plack","tags":["toolkit"],"tech":["perl-web"],"status":"awaiting-model"}
+  {"id":"perl.Plack","imports":["Plack"],"name":"Plack","repo":"plack/plack","tags":["toolkit"],"tech":["perl-web"],"status":"awaiting-model"},
+  {"id":"perl.URI","imports":["URI"],"name":"URI","repo":"libwww-perl/URI","tags":["urls"],"tech":["internet"],"status":"awaiting-model"},
+  {"id":"perl.DateTime","imports":["DateTime"],"name":"DateTime","repo":"houseabsolute/DateTime.pm","tags":["date-time"],"tech":["utils"],"status":"awaiting-model"},
+  {"id":"perl.YAML","imports":["YAML"],"name":"YAML","repo":"ingydotnet/yaml-pm","tags":["yaml"],"tech":["app-data"],"status":"awaiting-model"}
 ]
