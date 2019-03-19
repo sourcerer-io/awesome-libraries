@@ -58,7 +58,7 @@
   {"id":"cs.textmagic-rest","imports":["TextmagicRest"],"name":"TextmagicRest","repo":"textmagic/textmagic-rest-csharp","tags":["sms-gateway"],"tech":["internet"],"status":"model-ready"},
   {"id":"cs.accord-net","imports":["Accord"],"name":"Accord.NET","repo":"accord-net/framework","tags":["framework"],"tech":["ml"],"status":"model-ready"},
   {"id":"cs.push-sharp","imports":["PushSharp"],"name":"PushSharp","repo":"Redth/PushSharp","tags":["push-notifications"],"tech":["mobile"],"status":"model-ready"},
-  {"id":"cs.ssh-net","imports":["Renci.SshNet"],"name":"SSH.NET","repo":"sshnet/SSH.NET","tags":["ssh-lib"],"tech":["networking"],"status":"model-ready"},
+  {"id":"cs.ssh-net","imports":["Renci.SshNet"],"name":"SSH.NET","repo":"sshnet/SSH.NET","tags":["ssh"],"tech":["networking"],"status":"model-ready"},
   {"id":"cs.polly","imports":["Polly"],"name":"Polly","repo":"App-vNext/Polly","tags":["resilience"],"tech":["reliable-code"],"status":"model-ready"},
   {"id":"cs.dapper","imports":["Dapper"],"name":"Dapper","repo":"StackExchange/Dapper","tags":["orm"],"tech":["storage"],"status":"model-ready"},
   {"id":"cs.ef-core","imports":["Microsoft.EntityFrameworkCore"],"name":"EF Core","repo":"aspnet/EntityFrameworkCore","tags":["orm"],"tech":["storage"],"status":"model-ready"},

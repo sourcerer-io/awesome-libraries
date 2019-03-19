@@ -186,6 +186,7 @@
       "properties",
       "rails-csv",
       "reactive",
+      "serialization",
       "streams",
       "transformations",
       "validation",
@@ -247,6 +248,7 @@
       "cli-for-objects",
       "interpreter",
       "process-runner",
+      "progress-bar",
       "progress-indicator",
       "readline"
     ]
@@ -837,7 +839,7 @@
       "multithreaded",
       "p2p-streaming",
       "sockets",
-      "ssh-lib",
+      "ssh",
       "toolkit",
       "udp",
       "vpn",
