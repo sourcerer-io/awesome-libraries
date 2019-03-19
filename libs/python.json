@@ -119,7 +119,7 @@
   {"id":"py.pylibmc","imports":["pylibmc"],"name":"pyblibmc","repo":"lericson/pylibmc","tags":["memcached-client"],"tech":["python-web"],"status":"model-ready"},
   {"id":"py.pyramid","imports":["pyramid"],"name":"pyramid","repo":"Pylons/pyramid","tags":["micro-framework"],"tech":["python-web"],"status":"model-ready"},
   {"id":"py.python-social-auth","imports":["social","social_"],"name":"Python Social Auth","repo":"python-social-auth/social-core","tags":["oauth"],"tech":["python-web"],"status":"model-ready"},
-  {"id":"py.rest-framework","imports":["rest_framework"],"name":"rest_fframework","repo":"encode/django-rest-framework","tags":["django-rest"],"tech":["python-web"],"status":"model-ready"},
+  {"id":"py.rest-framework","imports":["rest_framework"],"name":"rest_framework","repo":"encode/django-rest-framework","tags":["django-rest"],"tech":["python-web"],"status":"model-ready"},
   {"id":"py.sanic","imports":["sanic"],"name":"sanic","repo":"channelcat/sanic","tags":["micro-framework"],"tech":["python-web"],"status":"model-ready"},
   {"id":"py.tornado","imports":["tornado"],"name":"tornado","repo":"tornadoweb/tornado","tags":["async-framework"],"tech":["python-web"],"status":"model-ready"},
   {"id":"py.web","imports":["web"],"name":"web","repo":"webpy/webpy","tags":["framework"],"tech":["python-web"],"status":"model-ready"},
