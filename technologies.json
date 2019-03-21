@@ -169,6 +169,7 @@
       "copying",
       "core-data",
       "csv",
+      "data-processing",
       "dsl-schema",
       "filesystem",
       "formats",
@@ -192,6 +193,7 @@
       "validation",
       "xml",
       "xml-parser",
+      "yaml",
       "yaml-parser"
     ]
   },
