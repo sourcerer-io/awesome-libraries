@@ -4,7 +4,7 @@
   {"id":"perl.Catmandu","imports":["Catmandu"],"name":"Catmandu","repo":"LibreCat/Catmandu","tags":["data-processing"],"tech":["app-data"],"status":"awaiting-model"},
   {"id":"perl.YAML","imports":["YAML"],"name":"YAML","repo":"ingydotnet/yaml-pm","tags":["yaml"],"tech":["app-data"],"status":"awaiting-model"},
   {"id":"perl.URI","imports":["URI"],"name":"URI","repo":"libwww-perl/URI","tags":["urls"],"tech":["internet"],"status":"awaiting-model"},
-  {"id":"perl.Dancer","imports":["Dancer"],"name":"Dancer","repo":"PerlDancer/Dancer","tags":["framework"],"tech":["perl-web"],"status":"awaiting-model"},
+  {"id":"perl.Dancer","imports":["Dancer"],"name":"Dancer","repo":"PerlDancer/Dancer","tags":["micro-framework"],"tech":["perl-web"],"status":"awaiting-model"},
   {"id":"perl.Dancer2","imports":["Dancer2"],"name":"Dancer2","repo":"PerlDancer/Dancer2","tags":["framework"],"tech":["perl-web"],"status":"awaiting-model"},
   {"id":"perl.Mojolicious","imports":["Mojolicious"],"name":"Mojolicious","repo":"mojolicious/mojo","tags":["framework"],"tech":["perl-web"],"status":"awaiting-model"},
   {"id":"perl.Plack","imports":["Plack"],"name":"Plack","repo":"plack/plack","tags":["toolkit"],"tech":["perl-web"],"status":"awaiting-model"},
