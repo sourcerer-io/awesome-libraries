@@ -972,6 +972,7 @@
       "concurrency",
       "distributed-fs",
       "embedded",
+      "graph-database",
       "in-memory",
       "key-value",
       "linq-sql",

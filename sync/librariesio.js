@@ -267,7 +267,7 @@ for (let page of pages) {
     }
 
     newLibs.push({
-      id: `${libinfo[lang].prefix}.${name.replace('_', '-')}`,
+      id: `${libinfo[lang].prefix}.${name.toLowerCase().replace('_', '-')}`,
       imports,
       name,
       repo,
