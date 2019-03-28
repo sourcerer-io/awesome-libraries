@@ -1,14 +1,19 @@
 [
   {"id":"perl.Moo","imports":["Moo"],"name":"Moo","repo":"moose/Moo","tags":["oop"],"tech":["app-arch"],"status":"awaiting-model"},
   {"id":"perl.Moose","imports":["Moose"],"name":"Moose","repo":"moose/Moose","tags":["oop"],"tech":["app-arch"],"status":"awaiting-model"},
+  {"id":"perl.mouse","imports":["Mouse"],"name":"Mouse","repo":"gfx/p5-Mouse","tags":["oop"],"tech":["app-arch"],"status":"awaiting-model"},
   {"id":"perl.Catmandu","imports":["Catmandu"],"name":"Catmandu","repo":"LibreCat/Catmandu","tags":["data-processing"],"tech":["app-data"],"status":"awaiting-model"},
   {"id":"perl.YAML","imports":["YAML"],"name":"YAML","repo":"ingydotnet/yaml-pm","tags":["yaml"],"tech":["app-data"],"status":"awaiting-model"},
   {"id":"perl.URI","imports":["URI"],"name":"URI","repo":"libwww-perl/URI","tags":["urls"],"tech":["internet"],"status":"awaiting-model"},
+  {"id":"perl.furl","imports":["Furl"],"name":"Furl","repo":"tokuhirom/Furl","tags":["http-client"],"tech":["internet"],"status":"awaiting-model"},
   {"id":"perl.Dancer","imports":["Dancer"],"name":"Dancer","repo":"PerlDancer/Dancer","tags":["micro-framework"],"tech":["perl-web"],"status":"awaiting-model"},
   {"id":"perl.Dancer2","imports":["Dancer2"],"name":"Dancer2","repo":"PerlDancer/Dancer2","tags":["framework"],"tech":["perl-web"],"status":"awaiting-model"},
   {"id":"perl.Mojolicious","imports":["Mojolicious"],"name":"Mojolicious","repo":"mojolicious/mojo","tags":["framework"],"tech":["perl-web"],"status":"awaiting-model"},
   {"id":"perl.Plack","imports":["Plack"],"name":"Plack","repo":"plack/plack","tags":["toolkit"],"tech":["perl-web"],"status":"awaiting-model"},
+  {"id":"perl.www-mechanize","imports":["WWW:Mechanize"],"name":"WWW-Mechanize","repo":"libwww-perl/WWW-Mechanize","tags":["web-browser"],"tech":["perl-web"],"status":"awaiting-model"},
+  {"id":"perl.autodie","imports":["autodie"],"name":"autodie","repo":"pjf/autodie","tags":["throw-on-failure"],"tech":["reliable-code"],"status":"awaiting-model"},
   {"id":"perl.MongoDB","imports":["Mongos"],"name":"MongoDB","repo":"mongodb/mongo-perl-driver","tags":["mongodb"],"tech":["storage"],"status":"awaiting-model"},
   {"id":"perl.Test2","imports":["Test2"],"name":"Test2","repo":"Test-More/test-more","tags":["framework"],"tech":["testing"],"status":"awaiting-model"},
+  {"id":"perl.test-pod","imports":["Test::Pod"],"name":"Test-Pod","repo":"perl-pod/test-pod","tags":["doc-validation"],"tech":["testing"],"status":"awaiting-model"},
   {"id":"perl.DateTime","imports":["DateTime"],"name":"DateTime","repo":"houseabsolute/DateTime.pm","tags":["date-time"],"tech":["utils"],"status":"awaiting-model"}
 ]
