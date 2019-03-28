@@ -874,6 +874,7 @@
   "perl-web": {
     "tags": [
       "framework",
+      "micro-framework",
       "toolkit"
     ]
   },
@@ -891,16 +892,19 @@
       "auth-toolkit",
       "caching",
       "django-caching",
+      "django-extensions",
       "django-rest",
       "flask-openapi",
       "framework",
       "memcached-client",
       "micro-framework",
+      "networking-engine",
       "oauth",
       "oauth-openid",
       "serverless",
       "sessions-caching",
-      "templates"
+      "templates",
+      "wsgi"
     ]
   },
   "reliable-code": {
