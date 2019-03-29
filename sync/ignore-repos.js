@@ -10,6 +10,8 @@ module.exports = [
   "miyagawa/Dist-Milla", // not a library, perl tool
   "sphinx-doc/sphinx", // a python tool
   "pypa/setuptools", // a python tool
+  "https://svn.apache.org/repos/asf/xerces/java", // already supported at different repo, see java.xerces
+  "checkstyle/checkstyle", // java linting tool
 ];
 
 }());
