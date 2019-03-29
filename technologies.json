@@ -734,6 +734,7 @@
       "jwt",
       "oauth",
       "rest",
+      "rest-framework",
       "rest-json"
     ]
   },
@@ -874,6 +875,7 @@
   "perl-web": {
     "tags": [
       "framework",
+      "micro-framework",
       "toolkit"
     ]
   },
