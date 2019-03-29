@@ -876,7 +876,8 @@
     "tags": [
       "framework",
       "micro-framework",
-      "toolkit"
+      "toolkit",
+      "web-browser"
     ]
   },
   "php-web": {
@@ -913,6 +914,7 @@
       "circuit-breaker",
       "fault-tolerance",
       "resilience",
+      "throw-on-failure",
       "unsafe-functions"
     ]
   },
@@ -1007,6 +1009,7 @@
       "c-testing",
       "concolic-testing",
       "concurrency-testing",
+      "doc-validation",
       "fake-data",
       "fake-functions",
       "fake-objects",
