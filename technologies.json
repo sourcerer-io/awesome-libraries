@@ -431,6 +431,11 @@
       "video-processing"
     ]
   },
+  "documentation": {
+    "tags": [
+      "spring-data-rest"
+    ]
+  },
   "dotnet-web": {
     "tags": [
       "components",
@@ -735,7 +740,8 @@
       "oauth",
       "rest",
       "rest-framework",
-      "rest-json"
+      "rest-json",
+      "spring-security"
     ]
   },
   "javascript-web": {
@@ -1015,6 +1021,7 @@
       "fake-objects",
       "framework",
       "functional-testing",
+      "http-server-mocks",
       "junit-data",
       "junit-runner",
       "load-testing",

@@ -12,6 +12,7 @@ module.exports = [
   "pypa/setuptools", // a python tool
   "https://svn.apache.org/repos/asf/xerces/java", // already supported at different repo, see java.xerces
   "checkstyle/checkstyle", // java linting tool
+  "/apache/groovy", // programming language
 ];
 
 }());
