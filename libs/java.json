@@ -183,7 +183,7 @@
   {"id":"java.physical-web","imports":["org.physical_web"],"name":"Physical Web","repo":"google/physical-web","tags":["object-discovery"],"tech":["iot"],"status":"model-ready"},
   {"id":"java.blade","imports":["com.blade."],"name":"Blade","repo":"biezhi/blade","tags":["framework"],"tech":["java-web"],"status":"model-ready"},
   {"id":"java.comsat","imports":["comsat."],"name":"COMSAT","repo":"puniverse/comsat","tags":["apps"],"tech":["java-web"],"status":"model-ready"},
-  {"id":"java.dropwizard","imports":["io.dropwizard"],"name":"Dropwizard","repo":"dropwizard/dropwizard","tags":["framework"],"tech":["java-web"],"status":"awaiting-model"},
+  {"id":"java.dropwizard","imports":["io.dropwizard"],"name":"Dropwizard","repo":"dropwizard/dropwizard","tags":["rest-framework"],"tech":["java-web"],"status":"awaiting-model"},
   {"id":"java.java-jwt","imports":["io.jsonwebtoken."],"name":"Java JWT","repo":"jwtk/jjwt","tags":["jwt"],"tech":["java-web"],"status":"model-ready"},
   {"id":"java.jsoup","imports":["org.jsoup"],"name":"jsoup","repo":"jhy/jsoup","tags":["html-parser"],"tech":["java-web"],"status":"awaiting-model"},
   {"id":"java.pac4j","imports":["org.pac4j."],"name":"pac4j","repo":"pac4j/pac4j","tags":["oauth"],"tech":["java-web"],"status":"model-ready"},
