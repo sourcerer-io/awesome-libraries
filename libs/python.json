@@ -95,6 +95,7 @@
   {"id":"py.sklearn","imports":["sklearn"],"name":"sklearn","repo":"scikit-learn/scikit-learn","tags":["toolkit"],"tech":["ml"],"status":"model-ready"},
   {"id":"py.xgboost","imports":["xgboost"],"name":"xgboost","repo":"dmlc/xgboost","tags":["gradient-boost"],"tech":["ml"],"status":"model-ready"},
   {"id":"py.paramiko","imports":["paramiko"],"name":"paramiko","repo":"paramiko/paramiko","tags":["ssh"],"tech":["networking"],"status":"awaiting-model"},
+  {"id":"py.flair","imports":["flair"],"name":"flair","repo":"zalandoresearch/flair","tags":["extraction","embeddings"],"tech":["nlp","ml"],"status":"awaiting-model"},
   {"id":"py.jieba","imports":["jieba"],"name":"jieba","repo":"fxsjy/jieba","tags":["chinese"],"tech":["nlp"],"status":"model-ready"},
   {"id":"py.nltk","imports":["nltk"],"name":"nltk","repo":"nltk/nltk","tags":["toolkit"],"tech":["nlp"],"status":"model-ready"},
   {"id":"py.pattern","imports":["pattern"],"name":"pattern","repo":"clips/pattern","tags":["web-mining"],"tech":["nlp","scraping"],"status":"model-ready"},
