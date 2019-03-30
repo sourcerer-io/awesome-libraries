@@ -1076,6 +1076,7 @@
       "quasi-quoting",
       "regex",
       "semantic-versions",
+      "stdinout",
       "string",
       "string-distance",
       "strings",
