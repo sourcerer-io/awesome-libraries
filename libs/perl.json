@@ -5,7 +5,7 @@
   {"id":"perl.Catmandu","imports":["Catmandu"],"name":"Catmandu","repo":"LibreCat/Catmandu","tags":["data-processing"],"tech":["app-data"],"status":"awaiting-model"},
   {"id":"perl.YAML","imports":["YAML"],"name":"YAML","repo":"ingydotnet/yaml-pm","tags":["yaml"],"tech":["app-data"],"status":"awaiting-model"},
   {"id":"perl.URI","imports":["URI"],"name":"URI","repo":"libwww-perl/URI","tags":["urls"],"tech":["internet"],"status":"awaiting-model"},
-  {"id":"perl.cgi","imports":["CGI"],"name":"CGI","repo":"leejo/CGI.pm","tags":["http"],"tech":["internet"],"status":"awaiting-model"},
+  {"id":"perl.cgi","imports":["CGI"],"name":"CGI","repo":"leejo/CGI.pm","tags":["cgi"],"tech":["internet"],"status":"awaiting-model"},
   {"id":"perl.furl","imports":["Furl"],"name":"Furl","repo":"tokuhirom/Furl","tags":["http-client"],"tech":["internet"],"status":"awaiting-model"},
   {"id":"perl.Dancer","imports":["Dancer"],"name":"Dancer","repo":"PerlDancer/Dancer","tags":["micro-framework"],"tech":["perl-web"],"status":"awaiting-model"},
   {"id":"perl.Dancer2","imports":["Dancer2"],"name":"Dancer2","repo":"PerlDancer/Dancer2","tags":["framework"],"tech":["perl-web"],"status":"awaiting-model"},
@@ -18,6 +18,6 @@
   {"id":"perl.Test2","imports":["Test2"],"name":"Test2","repo":"Test-More/test-more","tags":["framework"],"tech":["testing"],"status":"awaiting-model"},
   {"id":"perl.test-pod","imports":["Test::Pod"],"name":"Test-Pod","repo":"perl-pod/test-pod","tags":["doc-validation"],"tech":["testing"],"status":"awaiting-model"},
   {"id":"perl.datetime","imports":["DateTime"],"name":"DateTime","repo":"houseabsolute/DateTime.pm","tags":["date-time"],"tech":["utils"],"status":"awaiting-model"},
-  {"id":"perl.capture-tiny","imports":["Capture::Tiny"],"name":"Capture-Tiny","repo":"dagolden/Capture-Tiny","tags":["stdinout"],"tech":["utils"],"status":"awaiting-model"},
+  {"id":"perl.capture-tiny","imports":["Capture::Tiny"],"name":"Capture-Tiny","repo":"dagolden/Capture-Tiny","tags":["capture-stdout"],"tech":["utils"],"status":"awaiting-model"},
   {"id":"perl.type-tiny","imports":["Type::Tiny"],"name":"Type-Tiny","repo":"tobyink/p5-type-tiny","tags":["types"],"tech":["utils"],"status":"awaiting-model"}
 ]
