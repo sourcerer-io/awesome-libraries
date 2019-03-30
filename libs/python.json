@@ -78,7 +78,7 @@
   {"id":"py.kivy","imports":["kivy"],"name":"kivy","repo":"kivy/kivy","tags":["framework"],"tech":["gui"],"status":"model-ready"},
   {"id":"py.pil","imports":["PIL"],"name":"PIL","repo":"python-pillow/Pillow","tags":["manipulation"],"tech":["images"],"status":"model-ready"},
   {"id":"py.aiohttp","imports":["aiohttp"],"name":"aiohttp","repo":"aio-libs/aiohttp","tags":["http-framework"],"tech":["internet"],"status":"awaiting-model"},
-  {"id":"py.cherrypy","imports":["CherryPy"],"name":"CherryPy","repo":"cherrypy/cherrypy","tags":["http-server"],"tech":["internet"],"status":"awaiting-model"},
+  {"id":"py.cherrypy","imports":["CherryPy"],"name":"CherryPy","repo":"cherrypy/cherrypy","tags":["http-framework"],"tech":["internet"],"status":"awaiting-model"},
   {"id":"py.gunicorn","imports":["Gunicorn"],"name":"gunicorn","repo":"benoitc/gunicorn","tags":["http-server"],"tech":["internet"],"status":"awaiting-model"},
   {"id":"py.jose","imports":["jose"],"name":"jose","repo":"demonware/jose","tags":["jws-jwe"],"tech":["internet"],"status":"model-ready"},
   {"id":"py.newspaper","imports":["newspaper"],"name":"newspaper","repo":"codelucas/newspaper","tags":["web-scraper"],"tech":["internet"],"status":"model-ready"},
