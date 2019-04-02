@@ -125,7 +125,6 @@
       "stl-candidates",
       "stl-extension",
       "stream-processing",
-      "template-engine",
       "toolkit",
       "triggers",
       "views",
@@ -743,7 +742,8 @@
       "rest",
       "rest-framework",
       "rest-json",
-      "spring-security"
+      "spring-security",
+      "template-engine"
     ]
   },
   "javascript-web": {
@@ -914,7 +914,6 @@
       "serverless",
       "sessions-caching",
       "templates",
-      "unicode-slugs",
       "wsgi"
     ]
   },
@@ -1094,6 +1093,7 @@
       "system-time",
       "toolkit",
       "types",
+      "unicode-slugs",
       "uuid",
       "version-library"
     ]
