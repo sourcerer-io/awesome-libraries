@@ -30,7 +30,7 @@
   {"id":"java.otto","imports":["com.squareup.otto."],"name":"Otto","repo":"square/otto","tags":["android-eventbus"],"tech":["app-arch"],"status":"model-ready"},
   {"id":"java.reactive-streams","imports":["org.reactivestreams."],"name":"Reactive Streams","repo":"reactive-streams/reactive-streams-jvm","tags":["stream-processing"],"tech":["app-arch"],"status":"model-ready"},
   {"id":"java.reactive-x","imports":["io.reactivex."],"name":"ReactiveX","repo":"ReactiveX/RxJava","tags":["async-observable"],"tech":["app-arch"],"status":"model-ready"},
-  {"id":"java.thymeleaf","imports":["org.thymeleaf"],"name":"thymeleaf","repo":"thymeleaf/thymeleaf","tags":["template-engine"],"tech":["app-arch"],"status":"awaiting-model"},
+  {"id":"java.thymeleaf","imports":["org.thymeleaf"],"name":"thymeleaf","repo":"thymeleaf/thymeleaf","tags":["template-engine"],"tech":["java-web"],"status":"awaiting-model"},
   {"id":"java.toothpick","imports":["toothpick."],"name":"Toothpick","repo":"stephanenicolas/toothpick","tags":["injection"],"tech":["app-arch"],"status":"model-ready"},
   {"id":"java.vert-x","imports":["io.vertx."],"name":"Vert.x","repo":"eclipse/vert.x","tags":["reactive"],"tech":["app-arch"],"status":"model-ready"},
   {"id":"java.elasticsearch","imports":["org.elasticsearch"],"name":"Elasticsearch","repo":"elastic/elasticsearch","tags":["search-engine"],"tech":["app-blocks"],"status":"awaiting-model"},
