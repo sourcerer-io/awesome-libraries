@@ -389,6 +389,7 @@
       "hashmap",
       "high-performance",
       "intervals",
+      "iterables",
       "large-objects",
       "list",
       "ltree",
@@ -912,6 +913,7 @@
       "serverless",
       "sessions-caching",
       "templates",
+      "unicode-slugs",
       "wsgi"
     ]
   },

@@ -14,6 +14,8 @@ module.exports = [
   "https://svn.apache.org/repos/asf/xerces/java", // already supported at different repo, see java.xerces
   "checkstyle/checkstyle", // java linting tool
   "/apache/groovy", // programming language
+  "ytdl-org/youtube-dl", // python command-line tool
+  "pytest-dev/pytest-cov", // plugin for pytest
 ];
 
 }());
