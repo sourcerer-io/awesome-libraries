@@ -212,17 +212,20 @@ let ignoreRepos = new Set(
 );
 
 let newLibs = [];
-const pages = [ 1, 2 ]; // 200 results should be enough for now.
-for (let page of pages) {
+for (let page = 0; ; page++) {
+  if (newLibs.length >= limit) {
+    break;
+  }
+
   const URL =
   `https://libraries.io/api/search?platforms=${platform}&languages=${lang}&page=${page}&per_page=100&api_key=${key}`;
 
   let projects = await request(URL);
-  for (let project of projects) {
-    if (newLibs.length >= limit) {
-      break;
-    }
+  if (!projects || projects.length == 0) {
+    break;
+  }
 
+  for (let project of projects) {
     // Strip https://github.com/ from repo if any.
     let origRepo = project.repository_url;
     let repo = origRepo.replace(/^.*github\.com\//, '').

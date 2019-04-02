@@ -278,7 +278,8 @@
       "rpc",
       "serialization",
       "service-discovery",
-      "streaming"
+      "streaming",
+      "web-framework"
     ]
   },
   "code-processing": {
@@ -432,11 +433,6 @@
       "video-processing"
     ]
   },
-  "documentation": {
-    "tags": [
-      "spring-data-rest"
-    ]
-  },
   "dotnet-web": {
     "tags": [
       "components",
@@ -495,6 +491,7 @@
       "debugging",
       "dependency",
       "deprecation-patterns",
+      "documentation",
       "fake-data",
       "fixer",
       "generate",
@@ -662,6 +659,7 @@
     "tags": [
       "async-web",
       "bittorrent",
+      "cgi",
       "curl",
       "curl-wrapper",
       "email",
@@ -674,6 +672,7 @@
       "http-server",
       "http2",
       "json-api",
+      "json-web-token",
       "jws",
       "jws-jwe",
       "jwt",
@@ -701,6 +700,7 @@
       "java-native",
       "kotlin-spring",
       "multi-language",
+      "mybatis-spring",
       "rust-c",
       "rust-memrchr",
       "rust-winapi",
@@ -742,7 +742,8 @@
       "rest",
       "rest-framework",
       "rest-json",
-      "spring-security"
+      "spring-security",
+      "template-engine"
     ]
   },
   "javascript-web": {
@@ -913,7 +914,6 @@
       "serverless",
       "sessions-caching",
       "templates",
-      "unicode-slugs",
       "wsgi"
     ]
   },
@@ -1061,6 +1061,7 @@
       "argument-parsing",
       "backporting",
       "bitflags",
+      "capture-stdout",
       "cli2gui",
       "compare",
       "configuration",
@@ -1085,7 +1086,6 @@
       "quasi-quoting",
       "regex",
       "semantic-versions",
-      "stdinout",
       "string",
       "string-distance",
       "strings",
@@ -1093,6 +1093,7 @@
       "system-time",
       "toolkit",
       "types",
+      "unicode-slugs",
       "uuid",
       "version-library"
     ]
