@@ -989,6 +989,7 @@
       "embedded",
       "graph-database",
       "in-memory",
+      "jdbc-pooling",
       "key-value",
       "linq-sql",
       "mobile",
