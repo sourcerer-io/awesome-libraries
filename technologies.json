@@ -701,6 +701,7 @@
       "kotlin-spring",
       "multi-language",
       "mybatis-spring",
+      "perl-c",
       "rust-c",
       "rust-memrchr",
       "rust-winapi",
