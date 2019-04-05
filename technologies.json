@@ -702,6 +702,7 @@
       "multi-language",
       "mybatis-spring",
       "perl-c",
+      "python2-python3",
       "rust-c",
       "rust-memrchr",
       "rust-winapi",
@@ -870,6 +871,7 @@
   "parsing": {
     "tags": [
       "ast-analysis",
+      "grammars",
       "java",
       "lexing",
       "parsing"
@@ -1082,6 +1084,7 @@
       "math",
       "misc",
       "numbers",
+      "platform-dirs",
       "predicate-logic",
       "pretty-output",
       "promises",
