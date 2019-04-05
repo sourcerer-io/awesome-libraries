@@ -935,6 +935,7 @@
   "robotics": {
     "tags": [
       "autonomous-marine",
+      "hardware",
       "kinematics",
       "mobile-robotics",
       "os",
