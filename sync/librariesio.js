@@ -226,8 +226,13 @@ for (let page = 0; ; page++) {
   }
 
   for (let project of projects) {
-    // Strip https://github.com/ from repo if any.
     let origRepo = project.repository_url;
+    if (!origRepo) {
+      log(`  Skipping no repo lib: ${project.name}`);
+      continue;
+    }
+
+    // Strip https://github.com/ from repo if any.
     let repo = origRepo.replace(/^.*github\.com\//, '').
       replace(/\/$/, ''); // Stip trailing '/' if any
 

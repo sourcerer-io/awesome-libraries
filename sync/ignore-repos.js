@@ -16,6 +16,7 @@ module.exports = [
   "ytdl-org/youtube-dl", // python command-line tool
   "pytest-dev/pytest-cov", // plugin for pytest
   "apache/groovy", // programming language
+  "jazzband/django-debug-toolbar", // python tool for Django
 ];
 
 }());
