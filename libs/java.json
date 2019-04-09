@@ -109,7 +109,7 @@
   {"id":"java.cglib","imports":["net.sf.cglib."],"name":"cglib","repo":"cglib/cglib","tags":["byte-code"],"tech":["diagnostics"],"status":"model-ready"},
   {"id":"java.ch.qos.logback","imports":["org.slf4j"],"name":"logback","repo":"qos-ch/logback","tags":["logging"],"tech":["diagnostics"],"status":"awaiting-model"},
   {"id":"java.crashlytics","imports":["com.crashlytics."],"name":"Crashlytics","repo":"","examples":["sitepoint-editors/Crashlytics","Nekromancer/ScoreKeeper","Nekromancer/HabitsTracker"],"tags":["alarms","tracing","monitoring","metrics"],"tech":["diagnostics"],"status":"awaiting-model"},
-  {"id":"java.google-reflections","imports":["org.reflections."],"name":"reflections","repo":"http://github.com/ronmamo/reflections","tags":["introspection-reflection"],"tech":["diagnostics"],"status":"awaiting-model"},
+  {"id":"java.google-reflections","imports":["org.reflections."],"name":"reflections","repo":"ronmamo/reflections","tags":["introspection-reflection"],"tech":["diagnostics"],"status":"awaiting-model"},
   {"id":"java.java-melody","imports":["net.bull.javamelody."],"name":"JavaMelody","repo":"javamelody/javamelody","tags":["monitoring"],"tech":["diagnostics"],"status":"model-ready"},
   {"id":"java.jmxtrans","imports":["com.googlecode.jmxtrans."],"name":"jmxtrans","repo":"jmxtrans/jmxtrans","tags":["monitoring"],"tech":["diagnostics"],"status":"model-ready"},
   {"id":"java.log4j2","imports":["org.apache.logging.log4j."],"name":"Log4j2","repo":"apache/logging-log4j2","tags":["logging"],"tech":["diagnostics"],"status":"awaiting-model"},

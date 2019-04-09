@@ -5,7 +5,7 @@
   {"id":"perl.Catmandu","imports":["Catmandu"],"name":"Catmandu","repo":"LibreCat/Catmandu","tags":["data-processing"],"tech":["app-data"],"status":"awaiting-model"},
   {"id":"perl.YAML","imports":["YAML"],"name":"YAML","repo":"ingydotnet/yaml-pm","tags":["yaml"],"tech":["app-data"],"status":"awaiting-model"},
   {"id":"perl.xml-libxml","imports":["XML::LibXML"],"name":"XML-LibXML","repo":"shlomif/perl-XML-LibXML","tags":["xml"],"tech":["app-data"],"status":"awaiting-model"},
-  {"id":"perl.list-moreutils","imports":["List::MoreUtils"],"name":"List-MoreUtils","repo":" perl5-utils/List-MoreUtils","tags":["list"],"tech":["data-structures"],"status":"awaiting-model"},
+  {"id":"perl.list-moreutils","imports":["List::MoreUtils"],"name":"List-MoreUtils","repo":"perl5-utils/List-MoreUtils","tags":["list"],"tech":["data-structures"],"status":"awaiting-model"},
   {"id":"perl.URI","imports":["URI"],"name":"URI","repo":"libwww-perl/URI","tags":["urls"],"tech":["internet"],"status":"awaiting-model"},
   {"id":"perl.cgi","imports":["CGI"],"name":"CGI","repo":"leejo/CGI.pm","tags":["cgi"],"tech":["internet"],"status":"awaiting-model"},
   {"id":"perl.furl","imports":["Furl"],"name":"Furl","repo":"tokuhirom/Furl","tags":["http-client"],"tech":["internet"],"status":"awaiting-model"},

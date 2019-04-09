@@ -62,6 +62,13 @@ for (let filename of files) {
       fail(`${filename} file: '${lib.id}' lib has neither repo or examples provided`);
     }
 
+    if (/\s/.test(repo)) {
+      fail(`${filename} file: '${repo}' repo path has unexpected characters`);
+    }
+    if (repo.includes('github.com')) {
+      fail(`${filename} file: '${repo}' repo invalid path format, github.com hosted repos need relative paths`);
+    }
+
     let tech = lib.tech[0];
     if (!techs.has(tech)) {
       techs.set(tech, new Set());
