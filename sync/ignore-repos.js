@@ -17,6 +17,8 @@ module.exports = [
   "pytest-dev/pytest-cov", // plugin for pytest
   "apache/groovy", // programming language
   "jazzband/django-debug-toolbar", // python tool for Django
+  "miyagawa/cpanminus", // perl tool
+  "yanick/git-cpan-patch", // perl tool
 ];
 
 }());

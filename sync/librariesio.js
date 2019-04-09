@@ -181,16 +181,17 @@ Supported platforms (package managers) and languages:`);
   return;
 }
 
-if (!platforms[platform]) {
+const platformInfo = platforms[platform];
+if (!platformInfo) {
   console.log(`'${platform}' platform is not supported. Run |node librariesio.js| for currently supported platforms and languages.`);
   return;
 }
 
 if (!lang) {
-  lang = platforms[platform].langs[0];
+  lang = platformInfo.langs[0];
 }
 
-if (!platforms[platform].langs.includes(lang)) {
+if (!platformInfo.langs.includes(lang)) {
   console.log(`'${lang}' language is not supported. Run |node librariesio.js| for currently supported platforms and languages.`);
   return;
 }
@@ -264,7 +265,8 @@ for (let page = 0; ; page++) {
     // [Maven] Strip everything after :, which can be often seen for Maven libs.
     name = name.replace(/[:].+/, '');
 
-    let imports = [ name ];
+    let guess_import = platform == 'CPAN' ? name.replace('-', '::') : name;
+    let imports = [ guess_import ];
 
     // [Maven] Strip 'org.' and 'com.' from Maven libs.
     name = name.replace(/^(org\.|com\.)/, '');

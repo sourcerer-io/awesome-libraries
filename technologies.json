@@ -277,6 +277,7 @@
       "platform",
       "rpc",
       "serialization",
+      "server-orchestration",
       "service-discovery",
       "streaming",
       "web-framework"
@@ -1022,6 +1023,7 @@
       "c-testing",
       "concolic-testing",
       "concurrency-testing",
+      "deep-comparison",
       "doc-validation",
       "fake-data",
       "fake-functions",
@@ -1063,6 +1065,7 @@
   },
   "utils": {
     "tags": [
+      "POD-parsing",
       "argument-parsing",
       "backporting",
       "bitflags",
