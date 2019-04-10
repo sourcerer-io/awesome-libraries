@@ -279,6 +279,7 @@
       "serialization",
       "server-orchestration",
       "service-discovery",
+      "spring-boot-admin",
       "streaming",
       "web-framework"
     ]
