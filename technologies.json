@@ -703,6 +703,7 @@
       "multi-language",
       "mybatis-spring",
       "perl-c",
+      "perl-otherlangs",
       "python2-python3",
       "rust-c",
       "rust-memrchr",
@@ -927,6 +928,7 @@
       "fault-tolerance",
       "resilience",
       "throw-on-failure",
+      "trycatch",
       "unsafe-functions"
     ]
   },
@@ -1040,6 +1042,8 @@
       "mocks",
       "mocks-stubs",
       "nodejs-testing",
+      "perl-testing",
+      "prerequisites",
       "raml",
       "rest-http-testing",
       "specification-framework",
