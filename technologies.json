@@ -172,6 +172,7 @@
       "csv",
       "data-processing",
       "dsl-schema",
+      "elasticsearch",
       "filesystem",
       "formats",
       "json",
@@ -192,6 +193,7 @@
       "streams",
       "transformations",
       "validation",
+      "xlsx-files",
       "xml",
       "xml-parser",
       "yaml",
@@ -919,6 +921,7 @@
       "micro-framework",
       "networking-engine",
       "oauth",
+      "oauth-client",
       "oauth-openid",
       "serverless",
       "sessions-caching",
@@ -1011,7 +1014,8 @@
       "reactive",
       "s3",
       "sql",
-      "sql-client"
+      "sql-client",
+      "sql-parser"
     ]
   },
   "swift-web": {
