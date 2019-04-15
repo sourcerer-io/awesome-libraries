@@ -87,7 +87,7 @@
   {"id":"java.rest-ql-core","imports":["restql.core."],"name":"restQL-Core","repo":"B2W-BIT/restQL-core-java","tags":["microservices"],"tech":["cloud"],"status":"awaiting-model"},
   {"id":"java.ribbon","imports":["com.netflix.ribbon."],"name":"Ribbon","repo":"Netflix/ribbon","tags":["rpc"],"tech":["cloud"],"status":"model-ready"},
   {"id":"java.spark","imports":["spark"],"name":"Spark","repo":"perwendel/spark","tags":["cluster-computing"],"tech":["cloud"],"status":"model-ready"},
-  {"id":"java.spotify","imports":["com.spotify"],"name":"Docker client","repo":"spotify/docker-client","tags":["docker"],"tech":["cloud"],"status":"awaiting-model"},
+  {"id":"java.spotify","imports":["com.spotify.docker"],"name":"Docker client","repo":"spotify/docker-client","tags":["docker"],"tech":["cloud"],"status":"awaiting-model"},
   {"id":"java.zero-mq","imports":["zmq."],"name":"ZeroMQ","repo":"zeromq/jeromq","tags":["message-queue"],"tech":["cloud"],"status":"model-ready"},
   {"id":"java.zuul","imports":["com.netflix.zuul."],"name":"Zuul","repo":"Netflix/zuul","tags":["edge-service"],"tech":["cloud"],"status":"model-ready"},
   {"id":"java.erdos-graph","imports":["com.hendrix.erdos."],"name":"Erdos-Graph","repo":"Erdos-Graph-Framework/Erdos","tags":["graphs"],"tech":["computational-science"],"status":"model-ready"},
