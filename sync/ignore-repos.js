@@ -19,6 +19,7 @@ module.exports = [
   "jazzband/django-debug-toolbar", // python tool for Django
   "miyagawa/cpanminus", // perl tool
   "yanick/git-cpan-patch", // perl tool
+  "purplefox/vert.x", // java project has moved to eclipse-vertx/vert.x
 ];
 
 }());
