@@ -148,7 +148,7 @@
   {"id":"py.pymysql","imports":["pymysql"],"name":"PyMySQL","repo":"PyMySQL/PyMySQL","tags":["mysql"],"tech":["storage"],"status":"awaiting-model"},
   {"id":"py.redis","imports":["redis"],"name":"redis","repo":"andymccurdy/redis-py","tags":["nosql"],"tech":["storage"],"status":"model-ready"},
   {"id":"py.sqlalchemy","imports":["sqlalchemy"],"name":"sqlalchemy","repo":"zzzeek/sqlalchemy","tags":["sql"],"tech":["storage"],"status":"model-ready"},
-  {"id":"py.sqlparse","imports":["sqlparse"],"name":"sqlparse","repo":"andialbrecht/sqlparse","tags":["sql-parser"],"tech":["storage"],"status":"awaiting-model"},
+  {"id":"py.sqlparse","imports":["sqlparse"],"name":"sqlparse","repo":"andialbrecht/sqlparse","tags":["sql-parser"],"tech":["parser"],"status":"awaiting-model"},
   {"id":"py.faker","imports":["faker"],"name":"faker","repo":"joke2k/faker","tags":["fake-data"],"tech":["testing"],"status":"model-ready"},
   {"id":"py.locust","imports":["locust"],"name":"locust","repo":"locustio/locust","tags":["load-testing"],"tech":["testing"],"status":"model-ready"},
   {"id":"py.nose","imports":["nose"],"name":"nose","repo":"nose-devs/nose","tags":["unit-testing"],"tech":["testing"],"status":"awaiting-model"},
