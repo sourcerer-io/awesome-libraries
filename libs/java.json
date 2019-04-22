@@ -33,7 +33,7 @@
   {"id":"java.reactive-x","imports":["io.reactivex."],"name":"ReactiveX","repo":"ReactiveX/RxJava","tags":["async-observable"],"tech":["app-arch"],"status":"model-ready"},
   {"id":"java.toothpick","imports":["toothpick."],"name":"Toothpick","repo":"stephanenicolas/toothpick","tags":["injection"],"tech":["app-arch"],"status":"model-ready"},
   {"id":"java.vert-x","imports":["io.vertx."],"name":"Vert.x","repo":"eclipse/vert.x","tags":["reactive"],"tech":["app-arch"],"status":"model-ready"},
-  {"id":"java.android-iconics","imports":["com.mikepenz.iconics"],"name":"Android-Iconics","repo":"mikepenz/Android-Iconics","tags":["iconics"],"tech":["app-blocks"],"status":"awaiting-model"},
+  {"id":"java.android-iconics","imports":["com.mikepenz.iconics"],"name":"Android-Iconics","repo":"mikepenz/Android-Iconics","tags":["icons"],"tech":["app-blocks"],"status":"awaiting-model"},
   {"id":"java.elasticsearch","imports":["org.elasticsearch"],"name":"Elasticsearch","repo":"elastic/elasticsearch","tags":["search-engine"],"tech":["app-blocks"],"status":"awaiting-model"},
   {"id":"java.flying-saucer","imports":["org.xhtmlrenderer."],"name":"Flying Saucer","repo":"flyingsaucerproject/flyingsaucer","tags":["html-renderer"],"tech":["app-blocks"],"status":"model-ready"},
   {"id":"java.quartz-scheduler","imports":["org.quartz."],"name":"Quartz Scheduler","repo":"quartz-scheduler/quartz","tags":["scheduler"],"tech":["app-blocks"],"status":"model-ready"},
