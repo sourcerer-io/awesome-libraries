@@ -703,6 +703,7 @@
       "cpp-php",
       "cpp-python",
       "go-x86",
+      "inline-langs",
       "java-cpp",
       "java-native",
       "kotlin-spring",
@@ -935,6 +936,7 @@
       "fault-tolerance",
       "resilience",
       "throw-on-failure",
+      "try-catch",
       "unsafe-functions"
     ]
   },
@@ -1031,6 +1033,7 @@
       "async-testing",
       "bdd-testing",
       "c-testing",
+      "compile-synopsis",
       "concolic-testing",
       "concurrency-testing",
       "deep-comparison",
@@ -1050,6 +1053,8 @@
       "mocks",
       "mocks-stubs",
       "nodejs-testing",
+      "perl-testing",
+      "prerequisites",
       "raml",
       "rest-http-testing",
       "specification-framework",
