@@ -169,7 +169,7 @@
   {"id":"cpp.frugally-deep","name":"frugally-deep","tech":["dl"],"tags":["keras-models"],"repo":"Dobiasd/frugally-deep","imports":["fdeep/fdeep.hpp"],"examples":["https://github.com/Dobiasd/frugally-deep/tree/master/test"],"status":"model-ready"},
   {"id":"cpp.minerva","name":"Minerva","tech":["dl"],"tags":["multi-gpu"],"repo":"dmlc/minerva","imports":["minerva.h"],"examples":["https://github.com/dmlc/minerva/tree/master/apps"],"status":"model-ready"},
   {"id":"cpp.rnnlib","name":"RNNLIB","tech":["dl"],"tags":["rnn"],"repo":"szcom/rnnlib","imports":["rnnlib/src/"],"examples":["https://github.com/szcom/rnnlib/blob/master/src/Main.cpp","https://github.com/szcom/rnnlib/tree/master/examples"],"status":"model-ready"},
-  {"id":"cpp.tensor-flow","imports":["tensorflow"],"name":"TensorFlow","repo":"tensorflow/tensorflow","tags":["framework"],"tech":["dl"],"status":"model-ready"},
+  {"id":"cpp.tensorflow","imports":["tensorflow"],"name":"TensorFlow","repo":"tensorflow/tensorflow","tags":["framework"],"tech":["dl"],"status":"model-ready"},
   {"id":"cpp.tiny-dnn","name":"tiny-dnn","tech":["dl"],"tags":["framework"],"repo":"tiny-dnn/tiny-dnn","imports":["tiny_dnn/tiny_dnn.h"],"examples":["https://github.com/tiny-dnn/tiny-dnn/tree/master/examples"],"status":"model-ready"},
   {"id":"cpp.veles","name":"veles","tech":["dl"],"tags":["framework"],"repo":"Samsung/veles","imports":["veles.h"],"examples":["https://github.com/Samsung/veles/tree/master/libVeles/tests"],"status":"model-ready"},
   {"id":"cpp.vireo","name":"Vireo","tech":["dl"],"tags":["video-processing"],"repo":"twitter/vireo","imports":["vireo/"],"examples":["https://github.com/twitter/vireo/tree/master/vireo/helloworld"],"status":"awaiting-model"},
