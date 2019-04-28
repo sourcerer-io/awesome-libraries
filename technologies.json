@@ -145,8 +145,9 @@
       "flask-admin",
       "html-renderer",
       "http-client",
-      "iconics",
+      "icons",
       "license",
+      "micro-frameworks",
       "misc",
       "pdf-generator",
       "pdf-reader",
@@ -690,6 +691,7 @@
       "sms-gateway",
       "urls",
       "web-crawler",
+      "web-driver",
       "web-scraper",
       "web-server"
     ]
@@ -883,7 +885,8 @@
       "grammars",
       "java",
       "lexing",
-      "parsing"
+      "parsing",
+      "sql-parser"
     ]
   },
   "peripheral": {
@@ -973,6 +976,7 @@
   "security": {
     "tags": [
       "access-control",
+      "access-management",
       "auth-attempt-delay",
       "cryptography",
       "oauth-client",
@@ -1016,8 +1020,7 @@
       "reactive",
       "s3",
       "sql",
-      "sql-client",
-      "sql-parser"
+      "sql-client"
     ]
   },
   "swift-web": {
