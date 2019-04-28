@@ -145,7 +145,7 @@
       "flask-admin",
       "html-renderer",
       "http-client",
-      "iconics",
+      "icons",
       "license",
       "misc",
       "pdf-generator",
@@ -196,6 +196,7 @@
       "xlsx-files",
       "xml",
       "xml-parser",
+      "xml-via-json",
       "yaml",
       "yaml-parser"
     ]
@@ -664,6 +665,7 @@
   },
   "internet": {
     "tags": [
+      "RESTful",
       "async-web",
       "bittorrent",
       "cgi",
@@ -883,7 +885,8 @@
       "grammars",
       "java",
       "lexing",
-      "parsing"
+      "parsing",
+      "sql-parser"
     ]
   },
   "peripheral": {
@@ -918,6 +921,7 @@
       "django-rest",
       "flask-openapi",
       "framework",
+      "http-client",
       "memcached-client",
       "micro-framework",
       "networking-engine",
@@ -1002,6 +1006,7 @@
       "concurrency",
       "distributed-fs",
       "embedded",
+      "flask-sqlalchemy",
       "graph-database",
       "in-memory",
       "jdbc-pooling",
@@ -1016,8 +1021,7 @@
       "reactive",
       "s3",
       "sql",
-      "sql-client",
-      "sql-parser"
+      "sql-client"
     ]
   },
   "swift-web": {
