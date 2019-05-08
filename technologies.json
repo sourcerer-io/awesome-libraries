@@ -145,7 +145,7 @@
       "flask-admin",
       "html-renderer",
       "http-client",
-      "iconics",
+      "icons",
       "license",
       "misc",
       "pdf-generator",
@@ -196,6 +196,7 @@
       "xlsx-files",
       "xml",
       "xml-parser",
+      "xml-via-json",
       "yaml",
       "yaml-parser"
     ]
@@ -883,7 +884,8 @@
       "grammars",
       "java",
       "lexing",
-      "parsing"
+      "parsing",
+      "sql-parser"
     ]
   },
   "peripheral": {
@@ -910,6 +912,7 @@
   },
   "python-web": {
     "tags": [
+      "RESTful",
       "async-framework",
       "auth-toolkit",
       "caching",
@@ -1002,6 +1005,7 @@
       "concurrency",
       "distributed-fs",
       "embedded",
+      "flask-sqlalchemy",
       "graph-database",
       "in-memory",
       "jdbc-pooling",
@@ -1016,8 +1020,7 @@
       "reactive",
       "s3",
       "sql",
-      "sql-client",
-      "sql-parser"
+      "sql-client"
     ]
   },
   "swift-web": {
