@@ -691,6 +691,7 @@
       "sms-gateway",
       "urls",
       "web-crawler",
+      "web-driver",
       "web-scraper",
       "web-server"
     ]
@@ -976,6 +977,7 @@
   "security": {
     "tags": [
       "access-control",
+      "access-management",
       "auth-attempt-delay",
       "cryptography",
       "oauth-client",
@@ -1104,6 +1106,7 @@
       "inflector",
       "lazy-eval",
       "math",
+      "micro-frameworks",
       "misc",
       "numbers",
       "platform-dirs",
