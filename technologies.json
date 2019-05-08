@@ -665,7 +665,6 @@
   },
   "internet": {
     "tags": [
-      "RESTful",
       "async-web",
       "bittorrent",
       "cgi",
@@ -913,6 +912,7 @@
   },
   "python-web": {
     "tags": [
+      "RESTful",
       "async-framework",
       "auth-toolkit",
       "caching",
@@ -921,7 +921,6 @@
       "django-rest",
       "flask-openapi",
       "framework",
-      "http-client",
       "memcached-client",
       "micro-framework",
       "networking-engine",
