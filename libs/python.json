@@ -54,7 +54,7 @@
   {"id":"py.face-recognition","imports":["face_recognition"],"name":"face_recognition","repo":"ageitgey/face_recognition","tags":["face-recognition"],"tech":["computer-vision"],"status":"model-ready"},
   {"id":"py.opencv","imports":["cv","cv2"],"name":"opencv","repo":"opencv/opencv","tags":["cv"],"tech":["computer-vision"],"status":"model-ready"},
   {"id":"py.bokeh","imports":["bokeh"],"name":"bokeh","repo":"bokeh/bokeh","tags":["visualization"],"tech":["data-science"],"status":"model-ready"},
-  {"id":"py.ipython","imports":["IPython"],"name":"IPython","repo":"ipython/ipython","tags":["interactive-shell"],"tech":["data-science"],"status":"model-ready"},
+  {"id":"py.ipython","imports":["IPython"],"name":"IPython","repo":"ipython/ipython","tags":["interactive-shell"],"tech":["data-science"],"status":"awaiting-model"},
   {"id":"py.matplotlib","imports":["matplotlib"],"name":"matplotlib","repo":"matplotlib/matplotlib","tags":["visualization"],"tech":["data-science"],"status":"model-ready"},
   {"id":"py.pandas","imports":["pandas"],"name":"pandas","repo":"pandas-dev/pandas","tags":["data-analysis"],"tech":["data-science"],"status":"model-ready"},
   {"id":"py.bidict","imports":["bidict"],"name":"bidict","repo":"jab/bidict","tags":["bidirectional-maps"],"tech":["data-structures"],"status":"model-ready"},
