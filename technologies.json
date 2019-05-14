@@ -261,6 +261,7 @@
   },
   "cloud": {
     "tags": [
+      "alibaba-client",
       "api",
       "aws",
       "aws-transcoder",
@@ -754,6 +755,7 @@
       "oauth",
       "rest",
       "rest-framework",
+      "rest-jaxrs",
       "rest-json",
       "spring-security",
       "template-engine"
