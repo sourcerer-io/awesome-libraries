@@ -256,6 +256,7 @@
       "process-runner",
       "progress-bar",
       "progress-indicator",
+      "python-bash-completion",
       "readline"
     ]
   },
@@ -1040,6 +1041,7 @@
       "async-testing",
       "bdd-testing",
       "c-testing",
+      "code-coverage",
       "compile-synopsis",
       "concolic-testing",
       "concurrency-testing",

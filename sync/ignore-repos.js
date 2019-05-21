@@ -21,6 +21,7 @@ module.exports = [
   "yanick/git-cpan-patch", // perl tool
   "purplefox/vert.x", // java project has moved to eclipse-vertx/vert.x
   "groovy/groovy-core", // moved to apache/groovy
+  "tox-dev/tox", // cli tool
 ];
 
 }());
