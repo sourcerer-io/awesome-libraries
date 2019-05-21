@@ -28,7 +28,7 @@
   {"id":"java.io.vertx","imports":["io.vertx"],"name":"io.vertx","repo":"eclipse-vertx/vert.x","tags":["reactive"],"tech":["app-arch"],"status":"awaiting-model"},
   {"id":"java.j-ool","imports":["org.jooq.lambda."],"name":"jOOL","repo":"jOOQ/jOOL","tags":["lambdas"],"tech":["app-arch"],"status":"model-ready"},
   {"id":"java.jinq","imports":["org.jinq."],"name":"Jinq","repo":"my2iu/Jinq","tags":["db-queries"],"tech":["app-arch"],"status":"model-ready"},
-  {"id":"java.net.bytebuddy","imports":["net.bytebuddy"],"name":"Byte Buddy","repo":"raphw/byte-buddy","tags":["run-time"],"tech":["app-arch"],"status":"awaiting-model"},
+  {"id":"java.net.bytebuddy","imports":["net.bytebuddy"],"name":"Byte Buddy","repo":"raphw/byte-buddy","tags":["runtime-code-gen"],"tech":["app-arch"],"status":"awaiting-model"},
   {"id":"java.otto","imports":["com.squareup.otto."],"name":"Otto","repo":"square/otto","tags":["android-eventbus"],"tech":["app-arch"],"status":"model-ready"},
   {"id":"java.reactive-streams","imports":["org.reactivestreams."],"name":"Reactive Streams","repo":"reactive-streams/reactive-streams-jvm","tags":["stream-processing"],"tech":["app-arch"],"status":"model-ready"},
   {"id":"java.reactive-x","imports":["io.reactivex."],"name":"ReactiveX","repo":"ReactiveX/RxJava","tags":["async-observable"],"tech":["app-arch"],"status":"model-ready"},
