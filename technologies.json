@@ -256,11 +256,13 @@
       "process-runner",
       "progress-bar",
       "progress-indicator",
+      "python-bash-completion",
       "readline"
     ]
   },
   "cloud": {
     "tags": [
+      "alibaba-client",
       "api",
       "aws",
       "aws-transcoder",
@@ -755,6 +757,7 @@
       "oauth",
       "rest",
       "rest-framework",
+      "rest-jaxrs",
       "rest-json",
       "spring-security",
       "template-engine"
@@ -1040,6 +1043,7 @@
       "async-testing",
       "bdd-testing",
       "c-testing",
+      "code-coverage",
       "compile-synopsis",
       "concolic-testing",
       "concurrency-testing",

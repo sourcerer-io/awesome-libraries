@@ -22,6 +22,8 @@ module.exports = [
   "purplefox/vert.x", // java project has moved to eclipse-vertx/vert.x
   "perl-carton/carton", // perl dependency manager
   "pjcj/Devel--Cover", // perl coverage metrics tool
+  "groovy/groovy-core", // moved to apache/groovy
+  "tox-dev/tox", // cli tool
 ];
 
 }());
