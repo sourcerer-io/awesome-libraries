@@ -266,6 +266,7 @@
       "alibaba-client",
       "api",
       "aws",
+      "aws-cloudformation",
       "aws-transcoder",
       "client-server",
       "cluster-computing",
