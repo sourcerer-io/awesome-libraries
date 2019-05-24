@@ -295,6 +295,7 @@
       "git",
       "github-api",
       "mercurial",
+      "perl",
       "vcs"
     ]
   },
@@ -995,6 +996,7 @@
   },
   "software-distribution": {
     "tags": [
+      "CPAN",
       "executable-jar"
     ]
   },
