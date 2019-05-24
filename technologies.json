@@ -297,7 +297,6 @@
       "git",
       "github-api",
       "mercurial",
-      "perl",
       "vcs"
     ]
   },
@@ -356,8 +355,10 @@
   "configuration": {
     "tags": [
       "annotations",
+      "check-versions",
       "distributed",
       "java-json",
+      "min-versions",
       "properties",
       "ucl"
     ]
@@ -894,6 +895,7 @@
       "java",
       "lexing",
       "parsing",
+      "perl-parsing",
       "sql-parser"
     ]
   },
@@ -1072,7 +1074,9 @@
       "prerequisites",
       "raml",
       "rest-http-testing",
+      "software-distribution",
       "specification-framework",
+      "spelling",
       "stubs-mocks",
       "test-reports",
       "testing",
@@ -1105,6 +1109,7 @@
       "configuration",
       "cpu",
       "date-time",
+      "dir-subtrees",
       "dry",
       "dsl",
       "enums",
