@@ -118,6 +118,7 @@
       "reactive",
       "reactive-framework",
       "run-time",
+      "runtime-code-gen",
       "signal-slots",
       "spi",
       "state-machines",
@@ -292,6 +293,7 @@
   },
   "code-processing": {
     "tags": [
+      "auditing-diff-framework",
       "git",
       "github-api",
       "mercurial",
@@ -635,6 +637,7 @@
       "library",
       "multi-platform-opengl",
       "qt-plots",
+      "syntax-highlighting",
       "toolkit",
       "widgets",
       "windows"
@@ -691,6 +694,7 @@
       "oauth",
       "reactive-alamofire",
       "rest-client",
+      "rss-atom-feeds",
       "sms-gateway",
       "urls",
       "web-crawler",
@@ -1124,6 +1128,7 @@
       "semantic-versions",
       "string",
       "string-distance",
+      "string-template",
       "strings",
       "system",
       "system-time",
