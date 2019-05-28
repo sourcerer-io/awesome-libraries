@@ -268,8 +268,16 @@ for (let page = 0; ; page++) {
     let guess_import = platform == 'CPAN' ? name.replace('-', '::') : name;
     let imports = [ guess_import ];
 
-    // [Maven] Strip 'org.' and 'com.' from Maven libs.
-    name = name.replace(/^(org\.|com\.)/, '');
+    switch (platform) {
+      case 'Maven': // Strip 'org.' and 'com.'
+        name = name.replace(/^(org\.|com\.)/, '');
+        break;
+      case 'CPAN':
+        name = name.replace('::', '-');
+        break;
+      default:
+        break;
+    }
 
     // Ignore duplicating repos.
     if (newLibs.find(l => l.repo == repo)) {

@@ -28,6 +28,7 @@ module.exports = [
   "PyCQA/pylint", // python lintin tool,
   "docker/compose", // docker composer tool
   "pmuir/cdi", // spec
+  "gugod/App-perlbrew", // perl installation tool
 ];
 
 }());
