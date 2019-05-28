@@ -24,6 +24,9 @@ module.exports = [
   "pjcj/Devel--Cover", // perl coverage metrics tool
   "groovy/groovy-core", // moved to apache/groovy
   "tox-dev/tox", // cli tool
+  "pypa/virtualenv", // virtual python environment tool
+  "PyCQA/pylint", // python lintin tool,
+  "docker/compose", // docker composer tool
   "pmuir/cdi", // spec
 ];
 
