@@ -24,6 +24,7 @@ module.exports = [
   "pjcj/Devel--Cover", // perl coverage metrics tool
   "groovy/groovy-core", // moved to apache/groovy
   "tox-dev/tox", // cli tool
+  "pmuir/cdi", // spec
 ];
 
 }());
