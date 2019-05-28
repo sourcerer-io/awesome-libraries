@@ -80,7 +80,7 @@
   {"id":"py.debtcollector","imports":["debtcollector"],"name":"debtcollector","repo":"openstack/debtcollector","tags":["deprecation-patterns"],"tech":["eng-tools"],"examples":["https://docs.openstack.org/debtcollector/latest/user/usage.html"],"status":"model-ready"},
   {"id":"py.fblldbbase","imports":["fblldbbase"],"name":"fblldbbase","repo":"facebook/chisel","tags":["ios-debugging"],"tech":["eng-tools"],"status":"model-ready"},
   {"id":"py.localstack","imports":["localstack"],"name":"localstack","repo":"localstack/localstack","tags":["aws-mocking"],"tech":["eng-tools"],"status":"model-ready"},
-  {"id":"py.moto","imports":["moto"],"name":"Moto - Mock AWS Services","repo":"spulec/moto","tags":["aws-mocking"],"tech":["eng-tools"],"status":"awaiting-model"},
+  {"id":"py.moto","imports":["moto"],"name":"Moto","repo":"spulec/moto","tags":["aws-mocking"],"tech":["eng-tools"],"status":"awaiting-model"},
   {"id":"py.yapf","imports":["yapf"],"name":"yapf","repo":"google/yapf","tags":["python-formatting"],"tech":["eng-tools"],"status":"model-ready"},
   {"id":"py.gevent","imports":["gevent"],"name":"gevent","repo":"gevent/gevent","tags":["concurrency"],"tech":["faster-code"],"status":"awaiting-model"},
   {"id":"py.scoop","imports":["scoop"],"name":"SCOOP","repo":"soravux/scoop","tags":["concurrent-ops"],"tech":["faster-code"],"status":"model-ready"},
