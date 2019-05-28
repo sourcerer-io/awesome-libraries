@@ -27,6 +27,7 @@ module.exports = [
   "pypa/virtualenv", // virtual python environment tool
   "PyCQA/pylint", // python lintin tool,
   "docker/compose", // docker composer tool
+  "pmuir/cdi", // spec
 ];
 
 }());
