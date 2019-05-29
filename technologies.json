@@ -67,6 +67,7 @@
       "twitter",
       "unsplash",
       "webhooks",
+      "wechat",
       "xkcd",
       "zooz"
     ]
@@ -104,6 +105,7 @@
       "high-performance",
       "injection",
       "inversion-of-control",
+      "job-queue",
       "lambdas",
       "low-memory-stl",
       "misc",
@@ -909,6 +911,7 @@
   },
   "perl-web": {
     "tags": [
+      "PSGI-server",
       "framework",
       "micro-framework",
       "toolkit",
@@ -1034,6 +1037,7 @@
       "nosql",
       "orm",
       "reactive",
+      "redis",
       "s3",
       "sql",
       "sql-client"
