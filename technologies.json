@@ -631,6 +631,7 @@
     "tags": [
       "3d-widgets",
       "c-gui",
+      "charting",
       "cross-platform",
       "cross-platform-cpp-gui",
       "framework",
@@ -915,7 +916,8 @@
       "framework",
       "micro-framework",
       "toolkit",
-      "web-browser"
+      "web-browser",
+      "web-scraping"
     ]
   },
   "php-web": {
@@ -1008,6 +1010,7 @@
   "software-distribution": {
     "tags": [
       "CPAN",
+      "CPAN-parser",
       "executable-jar"
     ]
   },
@@ -1018,9 +1021,11 @@
   },
   "storage": {
     "tags": [
+      "DBI-wrapper",
       "android-sql",
       "array",
       "concurrency",
+      "db-manipulation",
       "distributed-fs",
       "embedded",
       "flask-sqlalchemy",
