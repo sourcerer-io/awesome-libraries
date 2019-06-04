@@ -256,6 +256,7 @@
   "cli": {
     "tags": [
       "cli-for-objects",
+      "console-component",
       "interpreter",
       "process-runner",
       "progress-bar",
@@ -429,6 +430,7 @@
       "introspection-reflection",
       "jvm-control",
       "logging",
+      "logging-interface",
       "metrics",
       "monitoring",
       "tracing"
