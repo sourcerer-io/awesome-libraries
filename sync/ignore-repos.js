@@ -29,6 +29,7 @@ module.exports = [
   "docker/compose", // docker composer tool
   "pmuir/cdi", // spec
   "gugod/App-perlbrew", // perl installation tool
+  "babel/babel", // js compiler
 ];
 
 }());
