@@ -7,6 +7,7 @@
   "android": {
     "tags": [
       "hotfix",
+      "lifecycle",
       "permissions",
       "toolkit",
       "utils"
@@ -14,6 +15,9 @@
   },
   "android-ui": {
     "tags": [
+      "android-animation",
+      "avatar-widget",
+      "complex-screens",
       "custom-fonts",
       "dialogs",
       "framework",
@@ -137,7 +141,6 @@
   },
   "app-blocks": {
     "tags": [
-      "avatar-widget",
       "captcha",
       "db-api",
       "db-link",
@@ -414,7 +417,6 @@
       "mem-map-queue",
       "point-cloud",
       "queues",
-      "sequences-lifecycle",
       "stack",
       "tree"
     ]
@@ -599,11 +601,9 @@
       "3d-engine",
       "3d-library",
       "3d-toolkit",
-      "android-animation",
       "android-charts",
       "android-effects",
       "android-images",
-      "android-screens",
       "animation",
       "chess",
       "creative-coding",
