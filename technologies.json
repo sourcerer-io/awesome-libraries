@@ -7,6 +7,7 @@
   "android": {
     "tags": [
       "hotfix",
+      "lifecycle",
       "permissions",
       "toolkit",
       "utils"
@@ -14,6 +15,9 @@
   },
   "android-ui": {
     "tags": [
+      "android-animation",
+      "avatar-widget",
+      "complex-screens",
       "custom-fonts",
       "dialogs",
       "framework",
@@ -760,6 +764,7 @@
     "tags": [
       "applications",
       "apps",
+      "cas-server",
       "framework",
       "html-parser",
       "jwt",
