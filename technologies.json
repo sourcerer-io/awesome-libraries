@@ -383,6 +383,7 @@
   "data-science": {
     "tags": [
       "astronomy",
+      "charting",
       "data-analysis",
       "interactive-shell",
       "vcf-files",
@@ -631,7 +632,6 @@
     "tags": [
       "3d-widgets",
       "c-gui",
-      "charting",
       "cross-platform",
       "cross-platform-cpp-gui",
       "framework",
