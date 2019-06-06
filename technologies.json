@@ -7,6 +7,7 @@
   "android": {
     "tags": [
       "hotfix",
+      "lifecycle",
       "permissions",
       "toolkit",
       "utils"
@@ -14,6 +15,9 @@
   },
   "android-ui": {
     "tags": [
+      "android-animation",
+      "avatar-widget",
+      "complex-screens",
       "custom-fonts",
       "dialogs",
       "framework",
@@ -257,6 +261,7 @@
   "cli": {
     "tags": [
       "cli-for-objects",
+      "console-component",
       "interpreter",
       "process-runner",
       "progress-bar",
@@ -384,6 +389,7 @@
   "data-science": {
     "tags": [
       "astronomy",
+      "charting",
       "data-analysis",
       "interactive-shell",
       "vcf-files",
@@ -430,6 +436,7 @@
       "introspection-reflection",
       "jvm-control",
       "logging",
+      "logging-interface",
       "metrics",
       "monitoring",
       "tracing"
@@ -763,6 +770,7 @@
     "tags": [
       "applications",
       "apps",
+      "cas-server",
       "framework",
       "html-parser",
       "jwt",
@@ -918,7 +926,8 @@
       "framework",
       "micro-framework",
       "toolkit",
-      "web-browser"
+      "web-browser",
+      "web-scraping"
     ]
   },
   "php-web": {
@@ -1011,6 +1020,7 @@
   "software-distribution": {
     "tags": [
       "CPAN",
+      "CPAN-parser",
       "executable-jar"
     ]
   },
@@ -1021,9 +1031,11 @@
   },
   "storage": {
     "tags": [
+      "DBI-wrapper",
       "android-sql",
       "array",
       "concurrency",
+      "db-manipulation",
       "distributed-fs",
       "embedded",
       "flask-sqlalchemy",

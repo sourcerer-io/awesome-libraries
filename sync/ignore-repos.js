@@ -30,6 +30,7 @@ module.exports = [
   "pmuir/cdi", // spec
   "gugod/App-perlbrew", // perl installation tool
   "babel/babel", // js compiler
+  "zzzeek/sqlalchemy", // clone of sqlalchemy/sqlalchemy
 ];
 
 }());
