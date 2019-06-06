@@ -161,7 +161,6 @@
   {"id":"py.pymysql","imports":["pymysql"],"name":"PyMySQL","repo":"PyMySQL/PyMySQL","tags":["mysql"],"tech":["storage"],"status":"awaiting-model"},
   {"id":"py.redis","imports":["redis"],"name":"redis","repo":"andymccurdy/redis-py","tags":["nosql"],"tech":["storage"],"status":"model-ready"},
   {"id":"py.sqlalchemy","imports":["sqlalchemy"],"name":"SQLAlchemy","repo":"sqlalchemy/sqlalchemy","tags":["sql"],"tech":["storage"],"status":"awaiting-model"},
-  {"id":"py.sqlalchemy-zzzeek","imports":["sqlalchemy"],"name":"SQLAlchemy","repo":"zzzeek/sqlalchemy","tags":["sql"],"tech":["storage"],"status":"model-ready"},
   {"id":"py.coverage","imports":["coverage"],"name":"Coverage.py","repo":"nedbat/coveragepy","tags":["code-coverage"],"tech":["testing"],"status":"awaiting-model"},
   {"id":"py.faker","imports":["faker"],"name":"faker","repo":"joke2k/faker","tags":["fake-data"],"tech":["testing"],"status":"model-ready"},
   {"id":"py.locust","imports":["locust"],"name":"locust","repo":"locustio/locust","tags":["load-testing"],"tech":["testing"],"status":"model-ready"},
