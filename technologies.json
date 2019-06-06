@@ -387,6 +387,7 @@
   "data-science": {
     "tags": [
       "astronomy",
+      "charting",
       "data-analysis",
       "interactive-shell",
       "vcf-files",
@@ -920,7 +921,8 @@
       "framework",
       "micro-framework",
       "toolkit",
-      "web-browser"
+      "web-browser",
+      "web-scraping"
     ]
   },
   "php-web": {
@@ -1013,6 +1015,7 @@
   "software-distribution": {
     "tags": [
       "CPAN",
+      "CPAN-parser",
       "executable-jar"
     ]
   },
@@ -1023,9 +1026,11 @@
   },
   "storage": {
     "tags": [
+      "DBI-wrapper",
       "android-sql",
       "array",
       "concurrency",
+      "db-manipulation",
       "distributed-fs",
       "embedded",
       "flask-sqlalchemy",
