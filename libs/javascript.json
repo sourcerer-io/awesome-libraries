@@ -2,7 +2,7 @@
   {"id":"js.async","imports":["async"],"name":"async","repo":"caolan/async","tags":["async"],"tech":["app-arch"],"status":"model-ready"},
   {"id":"js.graphql","imports":["graphql"],"name":"graphql","repo":"graphql/graphql-js","tags":["query-language"],"tech":["app-arch"],"status":"model-ready"},
   {"id":"js.react-native","imports":["react-native"],"name":"react-native","repo":"facebook/react-native","tags":["framework"],"tech":["app-arch"],"status":"model-ready"},
-  {"id":"js.webpack","imports":[],"name":"webpack","repo":"webpack/webpack","tags":["module-bundler"],"tech":["app-arch"],"status":"awaiting-model"},
+  {"id":"js.webpack","imports":[],"name":"webpack","repo":"webpack/webpack","tags":["module-bundler"],"tech":["software-distribution"],"status":"awaiting-model"},
   {"id":"js.pdf","imports":["pdf"],"name":"pdf","repo":"mozilla/pdf.js","tags":["pdf-reader"],"tech":["app-blocks"],"status":"model-ready"},
   {"id":"js.normalizr","imports":["normalizr"],"name":"normalizr","repo":"paularmstrong/normalizr","tags":["transformations"],"tech":["app-data"],"status":"model-ready"},
   {"id":"js.yaml","imports":["yaml"],"name":"yaml","repo":"jeremyfa/yaml.js","tags":["json-yaml"],"tech":["app-data"],"status":"model-ready"},
