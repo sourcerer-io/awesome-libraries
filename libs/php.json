@@ -5,6 +5,9 @@
   {"id":"php.gaufrette","imports":["Gaufrette"],"name":"Gaufrette","repo":"KnpLabs/Gaufrette","tags":["filesystem"],"tech":["app-data"],"status":"model-ready"},
   {"id":"php.hoa-mime","imports":["Hoa\\Mime"],"name":"Hoa Mime","repo":"hoaproject/Mime","tags":["mime-types"],"tech":["app-data"],"status":"model-ready"},
   {"id":"php.league-flysystem","imports":["League\\Flysystem"],"name":"League Flysystem","repo":"thephpleague/flysystem","tags":["filesystem"],"tech":["app-data"],"status":"model-ready"},
+  {"id":"php.console","imports":["Symfony"],"name":"Console Component","repo":"symfony/console","tags":["console-component"],"tech":["cli"],"status":"awaiting-model"},
+  {"id":"php.monolog","imports":["Monolog"],"name":"Monolog","repo":"Seldaek/monolog","tags":["logging"],"tech":["diagnostics"],"status":"awaiting-model"},
+  {"id":"php.psrlog","imports":["Psr"],"name":"PSR Log","repo":"php-fig/log","tags":["logging-interface"],"tech":["diagnostics"],"status":"awaiting-model"},
   {"id":"php.image-optimizer","imports":["\\ImageOptimizer"],"name":"Image Optimizer","repo":"psliwa/image-optimizer","tags":["compression"],"tech":["efficient-data"],"status":"model-ready"},
   {"id":"php.streamer","imports":["Streamer"],"name":"Streamer","repo":"fzaninotto/Streamer","tags":["io-streams"],"tech":["efficient-data"],"status":"model-ready"},
   {"id":"php.unified-archive","imports":["UnifiedArchive"],"name":"UnifiedArchive","repo":"wapmorgan/UnifiedArchive","tags":["compression"],"tech":["efficient-data"],"status":"model-ready"},
@@ -46,5 +49,7 @@
   {"id":"php.smarty-3","imports":["Smarty"],"name":"Smarty 3","repo":"smarty-php/smarty","tags":["templates"],"tech":["php-web"],"status":"model-ready"},
   {"id":"php.symfony","imports":["Symfony"],"name":"Symfony","repo":"symfony/symfony","tags":["framework"],"tech":["php-web"],"status":"model-ready"},
   {"id":"php.twig","imports":["Twig"],"name":"Twig","repo":"twigphp/Twig","tags":["templates"],"tech":["php-web"],"status":"model-ready"},
-  {"id":"php.yii-2","imports":["Yii"],"name":"Yii 2","repo":"yiisoft/yii2","tags":["framework"],"tech":["php-web"],"status":"model-ready"}
+  {"id":"php.yii-2","imports":["Yii"],"name":"Yii 2","repo":"yiisoft/yii2","tags":["framework"],"tech":["php-web"],"status":"model-ready"},
+  {"id":"php.mockery","imports":["Mockery"],"name":"Mockery","repo":"mockery/mockery","tags":["mocking"],"tech":["testing"],"status":"awaiting-model"},
+  {"id":"php.phpunit","imports":["PHPUnit"],"name":"PHPUnit","repo":"sebastianbergmann/phpunit","tags":["unit-testing"],"tech":["testing"],"status":"awaiting-model"}
 ]
