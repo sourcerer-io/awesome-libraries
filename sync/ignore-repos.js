@@ -31,6 +31,7 @@ module.exports = [
   "gugod/App-perlbrew", // perl installation tool
   "babel/babel", // js compiler
   "zzzeek/sqlalchemy", // clone of sqlalchemy/sqlalchemy
+  "squizlabs/PHP_CodeSniffer", // PHP validation tool
 ];
 
 }());
