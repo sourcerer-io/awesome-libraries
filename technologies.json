@@ -113,7 +113,6 @@
       "lambdas",
       "low-memory-stl",
       "misc",
-      "module-bundler",
       "multi-gpu",
       "multiple-dispatch",
       "mvvm",
@@ -205,6 +204,7 @@
       "xlsx-files",
       "xml",
       "xml-parser",
+      "xml-serialization",
       "xml-via-json",
       "yaml",
       "yaml-parser"
@@ -367,6 +367,7 @@
       "annotations",
       "check-versions",
       "distributed",
+      "java-HOCON",
       "java-json",
       "min-versions",
       "properties",
@@ -773,8 +774,10 @@
       "cas-server",
       "framework",
       "html-parser",
+      "http-client",
       "jwt",
       "oauth",
+      "openapi-specification",
       "rest",
       "rest-framework",
       "rest-jaxrs",
@@ -1021,7 +1024,8 @@
     "tags": [
       "CPAN",
       "CPAN-parser",
-      "executable-jar"
+      "executable-jar",
+      "module-bundler"
     ]
   },
   "speech-recognition": {
@@ -1089,6 +1093,7 @@
       "matchers",
       "mobile-testing",
       "mocking",
+      "mocking-framework",
       "mocks",
       "mocks-stubs",
       "nodejs-testing",
