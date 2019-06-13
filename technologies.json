@@ -113,7 +113,6 @@
       "lambdas",
       "low-memory-stl",
       "misc",
-      "module-bundler",
       "multi-gpu",
       "multiple-dispatch",
       "mvvm",
@@ -1021,7 +1020,8 @@
     "tags": [
       "CPAN",
       "CPAN-parser",
-      "executable-jar"
+      "executable-jar",
+      "module-bundler"
     ]
   },
   "speech-recognition": {

@@ -29,7 +29,9 @@
   {"id":"php.requests","imports":["Requests"],"name":"Requests","repo":"rmccue/Requests","tags":["http-client"],"tech":["internet"],"status":"model-ready"},
   {"id":"php.retrofit-php","imports":["Tebru\\Retrofit"],"name":"Retrofit PHP","repo":"tebru/retrofit-php","tags":["rest-client"],"tech":["internet"],"status":"model-ready"},
   {"id":"php.php-ffmpeg","imports":["FFMpeg"],"name":"PHP FFMpeg","repo":"PHP-FFmpeg/PHP-FFmpeg","tags":["ffmpeg"],"tech":["media"],"status":"model-ready"},
+  {"id":"php.apigility","imports":["ZF\\Apigility"],"name":"Apigility","repo":"zfcampus/zf-apigility-skeleton","tags":["framework"],"tech":["php-web"],"status":"awaiting-model"},
   {"id":"php.cakephp","imports":["Cake"],"name":"CakePHP","repo":"cakephp/cakephp","tags":["framework"],"tech":["php-web"],"status":"model-ready"},
+  {"id":"php.expressive","imports":["Zend\\Expressive"],"name":"Expressive","repo":"zendframework/zend-expressive-skeleton","tags":["micro-framework"],"tech":["php-web"],"status":"awaiting-model"},
   {"id":"php.f3","imports":["\\Base"],"name":"FatFreeFramework","repo":"bcosca/fatfree","tags":["micro-framework","framework"],"tech":["php-web"],"status":"model-ready"},
   {"id":"php.fast-route","imports":["FastRoute"],"name":"FastRoute","repo":"nikic/FastRoute","tags":["routing"],"tech":["php-web"],"status":"model-ready"},
   {"id":"php.foil","imports":["Foil"],"name":"FOIL","repo":"FoilPHP/Foil","tags":["templates"],"tech":["php-web"],"status":"model-ready"},
@@ -50,6 +52,7 @@
   {"id":"php.symfony","imports":["Symfony"],"name":"Symfony","repo":"symfony/symfony","tags":["framework"],"tech":["php-web"],"status":"model-ready"},
   {"id":"php.twig","imports":["Twig"],"name":"Twig","repo":"twigphp/Twig","tags":["templates"],"tech":["php-web"],"status":"model-ready"},
   {"id":"php.yii-2","imports":["Yii"],"name":"Yii 2","repo":"yiisoft/yii2","tags":["framework"],"tech":["php-web"],"status":"model-ready"},
+  {"id":"php.zendframework","imports":["Zend\\Mvc"],"name":"Zend Framework","repo":"zendframework/ZendSkeletonApplication","tags":["framework"],"tech":["php-web"],"status":"awaiting-model"},
   {"id":"php.mockery","imports":["Mockery"],"name":"Mockery","repo":"mockery/mockery","tags":["mocking"],"tech":["testing"],"status":"awaiting-model"},
   {"id":"php.phpunit","imports":["PHPUnit"],"name":"PHPUnit","repo":"sebastianbergmann/phpunit","tags":["unit-testing"],"tech":["testing"],"status":"awaiting-model"}
 ]
