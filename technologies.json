@@ -261,6 +261,7 @@
   "cli": {
     "tags": [
       "cli-for-objects",
+      "colour-terminal",
       "console-component",
       "interpreter",
       "process-runner",
@@ -286,8 +287,10 @@
       "edge-service",
       "event-broker",
       "gcloud",
+      "google-API-protocols",
       "job-queue",
       "json-rpc",
+      "kubernetes-client",
       "load-balancing",
       "message-queue",
       "microservices",
@@ -532,6 +535,7 @@
       "project-templates",
       "python-formatting",
       "reflection",
+      "sort-imports",
       "state-flow-framework",
       "streaming-build",
       "timing",
@@ -720,6 +724,7 @@
   },
   "interoperability": {
     "tags": [
+      "celery-django",
       "conventions",
       "cpp-csharp",
       "cpp-javascript",
