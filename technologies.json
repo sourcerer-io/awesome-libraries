@@ -112,6 +112,7 @@
       "job-queue",
       "lambdas",
       "low-memory-stl",
+      "micro-objects",
       "misc",
       "multi-gpu",
       "multiple-dispatch",
@@ -119,6 +120,7 @@
       "observable",
       "oop",
       "patterns",
+      "promises",
       "pubsub",
       "query-language",
       "reactive",
@@ -260,6 +262,7 @@
   "cli": {
     "tags": [
       "cli-for-objects",
+      "cli-framework",
       "console-component",
       "interpreter",
       "node-program",
@@ -483,6 +486,7 @@
       "android-serialization",
       "compression",
       "encoding",
+      "io",
       "io-streams",
       "object-mapper",
       "serialization"
