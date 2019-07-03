@@ -9,7 +9,7 @@
   {"id":"perl.Catmandu","imports":["Catmandu"],"name":"Catmandu","repo":"LibreCat/Catmandu","tags":["data-processing"],"tech":["app-data"],"status":"model-ready"},
   {"id":"perl.YAML","imports":["YAML"],"name":"YAML","repo":"ingydotnet/yaml-pm","tags":["yaml"],"tech":["app-data"],"status":"model-ready"},
   {"id":"perl.xml-libxml","imports":["XML::LibXML"],"name":"XML-LibXML","repo":"shlomif/perl-XML-LibXML","tags":["xml"],"tech":["app-data"],"status":"model-ready"},
-  {"id":"perl.app-cmd","imports":["App::Cmd"],"name":"App-Cmd","repo":"rjbs/App-Cmd","tags":["cli-framework"],"tech":["cli","https://github.com/rjbs/App-Cmd"],"status":"awaiting-model"},
+  {"id":"perl.app-cmd","imports":["App::Cmd"],"name":"App-Cmd","repo":"rjbs/App-Cmd","tags":["cli-framework"],"tech":["cli"],"status":"awaiting-model"},
   {"id":"perl.rex","imports":["Rex"],"name":"Rex","repo":"RexOps/Rex","tags":["server-orchestration"],"tech":["cloud"],"status":"model-ready"},
   {"id":"perl.test-minimumversion","imports":["Test::MinimumVersion"],"name":"Test-MinimumVersion","repo":"karenetheridge/Dist-Zilla-Plugin-Test-MinimumVersion","tags":["min-versions"],"tech":["configuration"],"status":"awaiting-model"},
   {"id":"perl.test-version","imports":["Test::Version"],"name":"Test-Version","repo":"plicease/test-version","tags":["check-versions"],"tech":["configuration"],"status":"awaiting-model"},
