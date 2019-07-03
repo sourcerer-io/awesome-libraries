@@ -32,6 +32,7 @@ module.exports = [
   "babel/babel", // js compiler
   "zzzeek/sqlalchemy", // clone of sqlalchemy/sqlalchemy
   "squizlabs/PHP_CodeSniffer", // PHP validation tool
+  "timbunce/devel-nytprof", // perl profiler
 ];
 
 }());

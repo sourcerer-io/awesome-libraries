@@ -112,14 +112,15 @@
       "job-queue",
       "lambdas",
       "low-memory-stl",
+      "micro-objects",
       "misc",
-      "module-bundler",
       "multi-gpu",
       "multiple-dispatch",
       "mvvm",
       "observable",
       "oop",
       "patterns",
+      "promises",
       "pubsub",
       "query-language",
       "reactive",
@@ -261,13 +262,16 @@
   "cli": {
     "tags": [
       "cli-for-objects",
+      "cli-framework",
       "console-component",
       "interpreter",
+      "node-program",
       "process-runner",
       "progress-bar",
       "progress-indicator",
       "python-bash-completion",
-      "readline"
+      "readline",
+      "terminal-styling"
     ]
   },
   "cloud": {
@@ -482,6 +486,7 @@
       "android-serialization",
       "compression",
       "encoding",
+      "io",
       "io-streams",
       "object-mapper",
       "serialization"
@@ -517,6 +522,7 @@
       "dependency",
       "deprecation-patterns",
       "documentation",
+      "eslint",
       "fake-data",
       "fixer",
       "generate",
@@ -731,6 +737,7 @@
       "inline-langs",
       "java-cpp",
       "java-native",
+      "js-transpiler",
       "kotlin-spring",
       "multi-language",
       "mybatis-mapper",
@@ -1022,7 +1029,8 @@
     "tags": [
       "CPAN",
       "CPAN-parser",
-      "executable-jar"
+      "executable-jar",
+      "module-bundler"
     ]
   },
   "speech-recognition": {
@@ -1093,6 +1101,7 @@
       "mocking",
       "mocks",
       "mocks-stubs",
+      "multi-browser-testing",
       "nodejs-testing",
       "painless-js-testing",
       "perl-testing",
