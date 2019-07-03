@@ -111,7 +111,7 @@
   {"id":"java.jetcd","imports":["com.justinsb.etcd."],"name":"jetcd","repo":"justinsb/jetcd","tags":["distributed"],"tech":["configuration"],"status":"model-ready"},
   {"id":"java.kaconf","imports":["info.macias.kaconf."],"name":"KAConf","repo":"mariomac/kaconf","tags":["annotations"],"tech":["configuration"],"status":"model-ready"},
   {"id":"java.owner","imports":["org.aeonbits.owner."],"name":"OWNER","repo":"lviggiano/owner","tags":["properties"],"tech":["configuration"],"status":"model-ready"},
-  {"id":"java.typesafe","imports":["com.typesafe"],"name":"typesafe","repo":"lightbend/config","tags":["java-HOCON"],"tech":["configuration","https://github.com/lightbend/config"],"status":"awaiting-model"},
+  {"id":"java.typesafe","imports":["com.typesafe"],"name":"typesafe","repo":"lightbend/config","tags":["java-HOCON"],"tech":["configuration"],"status":"awaiting-model"},
   {"id":"java.typesafe-config","imports":["com.typesafe.config."],"name":"Typesafe Config","repo":"typesafehub/config","tags":["java-json"],"tech":["configuration"],"status":"model-ready"},
   {"id":"java.dex","imports":["com.dexvis.dex."],"name":"Dex","repo":"PatMartin/Dex","tags":["visualization"],"tech":["data-science"],"status":"model-ready"},
   {"id":"java.gephi","imports":["org.gephi."],"name":"Gephi","repo":"gephi/gephi","tags":["visualization"],"tech":["data-science"],"status":"awaiting-model"},
