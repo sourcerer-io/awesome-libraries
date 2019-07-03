@@ -113,7 +113,6 @@
       "lambdas",
       "low-memory-stl",
       "misc",
-      "module-bundler",
       "multi-gpu",
       "multiple-dispatch",
       "mvvm",
@@ -263,11 +262,13 @@
       "cli-for-objects",
       "console-component",
       "interpreter",
+      "node-program",
       "process-runner",
       "progress-bar",
       "progress-indicator",
       "python-bash-completion",
-      "readline"
+      "readline",
+      "terminal-styling"
     ]
   },
   "cloud": {
@@ -517,6 +518,7 @@
       "dependency",
       "deprecation-patterns",
       "documentation",
+      "eslint",
       "fake-data",
       "fixer",
       "generate",
@@ -730,6 +732,7 @@
       "inline-langs",
       "java-cpp",
       "java-native",
+      "js-transpiler",
       "kotlin-spring",
       "multi-language",
       "mybatis-mapper",
@@ -1021,7 +1024,8 @@
     "tags": [
       "CPAN",
       "CPAN-parser",
-      "executable-jar"
+      "executable-jar",
+      "module-bundler"
     ]
   },
   "speech-recognition": {
@@ -1091,6 +1095,7 @@
       "mocking",
       "mocks",
       "mocks-stubs",
+      "multi-browser-testing",
       "nodejs-testing",
       "painless-js-testing",
       "perl-testing",
