@@ -112,14 +112,15 @@
       "job-queue",
       "lambdas",
       "low-memory-stl",
+      "micro-objects",
       "misc",
-      "module-bundler",
       "multi-gpu",
       "multiple-dispatch",
       "mvvm",
       "observable",
       "oop",
       "patterns",
+      "promises",
       "pubsub",
       "query-language",
       "reactive",
@@ -205,6 +206,7 @@
       "xlsx-files",
       "xml",
       "xml-parser",
+      "xml-serialization",
       "xml-via-json",
       "yaml",
       "yaml-parser"
@@ -261,14 +263,17 @@
   "cli": {
     "tags": [
       "cli-for-objects",
+      "cli-framework",
       "color-terminal",
       "console-component",
       "interpreter",
+      "node-program",
       "process-runner",
       "progress-bar",
       "progress-indicator",
       "python-bash-completion",
-      "readline"
+      "readline",
+      "terminal-styling"
     ]
   },
   "cloud": {
@@ -369,6 +374,7 @@
       "annotations",
       "check-versions",
       "distributed",
+      "java-HOCON",
       "java-json",
       "min-versions",
       "properties",
@@ -484,6 +490,7 @@
       "android-serialization",
       "compression",
       "encoding",
+      "io",
       "io-streams",
       "object-mapper",
       "serialization"
@@ -519,6 +526,7 @@
       "dependency",
       "deprecation-patterns",
       "documentation",
+      "eslint",
       "fake-data",
       "fixer",
       "generate",
@@ -700,6 +708,7 @@
       "http-client",
       "http-framework",
       "http-json",
+      "http-messages",
       "http-parser",
       "http-server",
       "http2",
@@ -733,6 +742,7 @@
       "inline-langs",
       "java-cpp",
       "java-native",
+      "js-transpiler",
       "kotlin-spring",
       "multi-language",
       "mybatis-mapper",
@@ -776,8 +786,10 @@
       "cas-server",
       "framework",
       "html-parser",
+      "http-client",
       "jwt",
       "oauth",
+      "openapi-specification",
       "rest",
       "rest-framework",
       "rest-jaxrs",
@@ -1024,7 +1036,8 @@
     "tags": [
       "CPAN",
       "CPAN-parser",
-      "executable-jar"
+      "executable-jar",
+      "module-bundler"
     ]
   },
   "speech-recognition": {
@@ -1038,6 +1051,7 @@
       "android-sql",
       "array",
       "concurrency",
+      "db-abstraction-layer",
       "db-manipulation",
       "distributed-fs",
       "embedded",
@@ -1097,8 +1111,10 @@
       "matchers",
       "mobile-testing",
       "mocking",
+      "mocking-framework",
       "mocks",
       "mocks-stubs",
+      "multi-browser-testing",
       "nodejs-testing",
       "painless-js-testing",
       "perl-testing",

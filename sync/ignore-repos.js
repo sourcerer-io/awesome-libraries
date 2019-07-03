@@ -32,6 +32,8 @@ module.exports = [
   "babel/babel", // js compiler
   "zzzeek/sqlalchemy", // clone of sqlalchemy/sqlalchemy
   "googleapis/googleapis", // python library, classifiers don't work on protocol buffers, see pull #130
+  "squizlabs/PHP_CodeSniffer", // PHP validation tool
+  "timbunce/devel-nytprof", // perl profiler
 ];
 
 }());
