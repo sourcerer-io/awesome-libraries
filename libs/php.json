@@ -5,6 +5,7 @@
   {"id":"php.gaufrette","imports":["Gaufrette"],"name":"Gaufrette","repo":"KnpLabs/Gaufrette","tags":["filesystem"],"tech":["app-data"],"status":"model-ready"},
   {"id":"php.hoa-mime","imports":["Hoa\\Mime"],"name":"Hoa Mime","repo":"hoaproject/Mime","tags":["mime-types"],"tech":["app-data"],"status":"model-ready"},
   {"id":"php.league-flysystem","imports":["League\\Flysystem"],"name":"League Flysystem","repo":"thephpleague/flysystem","tags":["filesystem"],"tech":["app-data"],"status":"model-ready"},
+  {"id":"php.yaml","imports":["Symfony\\Component\\Yaml"],"name":"Yaml Component","repo":"symfony/yaml","tags":["yaml"],"tech":["app-data"],"status":"awaiting-model"},
   {"id":"php.console","imports":["Symfony"],"name":"Console Component","repo":"symfony/console","tags":["console-component"],"tech":["cli"],"status":"awaiting-model"},
   {"id":"php.monolog","imports":["Monolog"],"name":"Monolog","repo":"Seldaek/monolog","tags":["logging"],"tech":["diagnostics"],"status":"awaiting-model"},
   {"id":"php.psrlog","imports":["Psr"],"name":"PSR Log","repo":"php-fig/log","tags":["logging-interface"],"tech":["diagnostics"],"status":"awaiting-model"},
@@ -23,6 +24,7 @@
   {"id":"php.embed","imports":["Embed"],"name":"Embed","repo":"oscarotero/Embed","tags":["web-scraper"],"tech":["internet"],"status":"model-ready"},
   {"id":"php.goutte","imports":["Goutte"],"name":"Goutte","repo":"FriendsOfPHP/Goutte","tags":["web-scraper"],"tech":["internet"],"status":"model-ready"},
   {"id":"php.guzzle","imports":["\\GuzzleHttp"],"name":"Guzzle","repo":"guzzle/guzzle","tags":["http-client"],"tech":["internet"],"status":"model-ready"},
+  {"id":"php.http-foundation","imports":["Symfony\\Component\\HttpFoundation"],"name":"HttpFoundation Component","repo":"symfony/http-foundation","tags":["http-messages"],"tech":["internet"],"status":"awaiting-model"},
   {"id":"php.http-ful","imports":["\\HttpFul"],"name":"HttpFul","repo":"nategood/httpful","tags":["http-client"],"tech":["internet"],"status":"model-ready"},
   {"id":"php.php-spider","imports":["VDB\\Spider"],"name":"PHP-Spider","repo":"mvdbos/php-spider","tags":["web-crawler"],"tech":["internet"],"status":"model-ready"},
   {"id":"php.phpspider","imports":["phpspider"],"name":"phpspider","repo":"owner888/phpspider","tags":["web-crawler"],"tech":["internet"],"status":"model-ready"},
@@ -53,6 +55,8 @@
   {"id":"php.twig","imports":["Twig"],"name":"Twig","repo":"twigphp/Twig","tags":["templates"],"tech":["php-web"],"status":"model-ready"},
   {"id":"php.yii-2","imports":["Yii"],"name":"Yii 2","repo":"yiisoft/yii2","tags":["framework"],"tech":["php-web"],"status":"model-ready"},
   {"id":"php.zendframework","imports":["Zend\\Mvc"],"name":"Zend Framework","repo":"zendframework/ZendSkeletonApplication","tags":["framework"],"tech":["php-web"],"status":"awaiting-model"},
+  {"id":"php.dbal","imports":[],"name":"Doctrine DBAL","repo":"doctrine/dbal","tags":["db-abstraction-layer"],"tech":["storage"],"status":"awaiting-model"},
   {"id":"php.mockery","imports":["Mockery"],"name":"Mockery","repo":"mockery/mockery","tags":["mocking"],"tech":["testing"],"status":"awaiting-model"},
-  {"id":"php.phpunit","imports":["PHPUnit"],"name":"PHPUnit","repo":"sebastianbergmann/phpunit","tags":["unit-testing"],"tech":["testing"],"status":"awaiting-model"}
+  {"id":"php.phpunit","imports":["PHPUnit"],"name":"PHPUnit","repo":"sebastianbergmann/phpunit","tags":["unit-testing"],"tech":["testing"],"status":"awaiting-model"},
+  {"id":"php.carbon","imports":["Carbon"],"name":"Carbon","repo":"briannesbitt/Carbon","tags":["date-time"],"tech":["utils"],"status":"awaiting-model"}
 ]

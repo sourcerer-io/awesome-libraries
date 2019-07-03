@@ -112,6 +112,7 @@
       "job-queue",
       "lambdas",
       "low-memory-stl",
+      "micro-objects",
       "misc",
       "multi-gpu",
       "multiple-dispatch",
@@ -119,6 +120,7 @@
       "observable",
       "oop",
       "patterns",
+      "promises",
       "pubsub",
       "query-language",
       "reactive",
@@ -260,13 +262,16 @@
   "cli": {
     "tags": [
       "cli-for-objects",
+      "cli-framework",
       "console-component",
       "interpreter",
+      "node-program",
       "process-runner",
       "progress-bar",
       "progress-indicator",
       "python-bash-completion",
-      "readline"
+      "readline",
+      "terminal-styling"
     ]
   },
   "cloud": {
@@ -481,6 +486,7 @@
       "android-serialization",
       "compression",
       "encoding",
+      "io",
       "io-streams",
       "object-mapper",
       "serialization"
@@ -516,6 +522,7 @@
       "dependency",
       "deprecation-patterns",
       "documentation",
+      "eslint",
       "fake-data",
       "fixer",
       "generate",
@@ -696,6 +703,7 @@
       "http-client",
       "http-framework",
       "http-json",
+      "http-messages",
       "http-parser",
       "http-server",
       "http2",
@@ -729,6 +737,7 @@
       "inline-langs",
       "java-cpp",
       "java-native",
+      "js-transpiler",
       "kotlin-spring",
       "multi-language",
       "mybatis-mapper",
@@ -1035,6 +1044,7 @@
       "android-sql",
       "array",
       "concurrency",
+      "db-abstraction-layer",
       "db-manipulation",
       "distributed-fs",
       "embedded",
@@ -1091,6 +1101,7 @@
       "mocking",
       "mocks",
       "mocks-stubs",
+      "multi-browser-testing",
       "nodejs-testing",
       "painless-js-testing",
       "perl-testing",
