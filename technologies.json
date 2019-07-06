@@ -264,6 +264,7 @@
     "tags": [
       "cli-for-objects",
       "cli-framework",
+      "color-terminal",
       "console-component",
       "interpreter",
       "node-program",
@@ -293,6 +294,7 @@
       "gcloud",
       "job-queue",
       "json-rpc",
+      "kubernetes-client",
       "load-balancing",
       "message-queue",
       "microservices",
@@ -540,6 +542,7 @@
       "project-templates",
       "python-formatting",
       "reflection",
+      "sort-imports",
       "state-flow-framework",
       "streaming-build",
       "timing",
@@ -1076,6 +1079,11 @@
     "tags": [
       "framework",
       "templates"
+    ]
+  },
+  "task-queue": {
+    "tags": [
+      "celery-django"
     ]
   },
   "testing": {
