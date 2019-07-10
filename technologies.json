@@ -593,6 +593,7 @@
       "android-maps",
       "geo-coords",
       "geohashing",
+      "geolocation",
       "geospatial",
       "google-maps",
       "openstreetmap"
