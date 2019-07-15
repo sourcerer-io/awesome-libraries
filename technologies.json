@@ -184,6 +184,7 @@
       "elasticsearch",
       "filesystem",
       "formats",
+      "jackson-java8",
       "joda-mapping",
       "json",
       "json-core-data",
@@ -317,6 +318,11 @@
       "vcs"
     ]
   },
+  "compilers": {
+    "tags": [
+      "in-memory-java-compiler"
+    ]
+  },
   "computational-biology": {
     "tags": [
       "analysis",
@@ -399,6 +405,7 @@
       "astronomy",
       "charting",
       "data-analysis",
+      "histogram",
       "interactive-shell",
       "vcf-files",
       "visualization"
@@ -788,6 +795,7 @@
       "framework",
       "html-parser",
       "http-client",
+      "httplib",
       "jwt",
       "oauth",
       "openapi-specification",

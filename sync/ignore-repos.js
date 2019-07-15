@@ -34,6 +34,7 @@ module.exports = [
   "googleapis/googleapis", // python library, classifiers don't work on protocol buffers, see pull #130
   "squizlabs/PHP_CodeSniffer", // PHP validation tool
   "timbunce/devel-nytprof", // perl profiler
+  "jayway/awaitility", // redirects to awaitility/awaitility
 ];
 
 }());
