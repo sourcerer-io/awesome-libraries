@@ -67,7 +67,7 @@
   {"id":"js.riot","imports":["riot"],"name":"riot","repo":"riot/riot","tags":["ui-framework"],"tech":["javascript-web"],"status":"model-ready"},
   {"id":"js.rx-lite","imports":["rx"],"name":"rx.lite","repo":"Reactive-Extensions/RxJS","tags":["reactive"],"tech":["javascript-web"],"status":"model-ready"},
   {"id":"js.socketio","imports":["socketio"],"name":"socketio","repo":"socketio/socket.io","tags":["networking"],"tech":["javascript-web"],"status":"model-ready"},
-  {"id":"js.svelte","imports":["svelte"],"name":"svelte","repo":"sveltejs/svelte","tags":["ui-framework"],"tech":["javascript-web"],"status":"model-ready"},
+  {"id":"js.svelte","imports":["svelte"],"name":"svelte","repo":"sveltejs/svelte","tags":["ui-framework"],"tech":["javascript-web"],"status":"awaiting-model"},
   {"id":"js.tether","imports":["tether"],"name":"tether","repo":"HubSpot/tether","tags":["frontend-positioning"],"tech":["javascript-web"],"status":"model-ready"},
   {"id":"js.uglify","imports":["uglify"],"name":"uglify","repo":"mishoo/UglifyJS","tags":["nodejs-parser"],"tech":["javascript-web"],"status":"model-ready"},
   {"id":"js.validate","imports":["validate"],"name":"validate","repo":"jquery-validation/jquery-validation","tags":["jquery-validation"],"tech":["javascript-web"],"status":"model-ready"},
