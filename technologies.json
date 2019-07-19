@@ -144,6 +144,7 @@
   "app-blocks": {
     "tags": [
       "captcha",
+      "cron-scheduling",
       "db-api",
       "db-link",
       "deamons",
@@ -970,7 +971,9 @@
       "caching",
       "django-caching",
       "django-extensions",
+      "django-queryset-filter",
       "django-rest",
+      "django-utils",
       "flask-openapi",
       "framework",
       "memcached-client",
@@ -1165,6 +1168,7 @@
       "configuration",
       "cpu",
       "date-time",
+      "datetime",
       "dir-subtrees",
       "dry",
       "dsl",
