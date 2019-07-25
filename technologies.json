@@ -985,6 +985,7 @@
       "serverless",
       "sessions-caching",
       "templates",
+      "websocket",
       "wsgi"
     ]
   },
