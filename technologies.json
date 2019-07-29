@@ -144,6 +144,7 @@
   "app-blocks": {
     "tags": [
       "captcha",
+      "cron-scheduling",
       "db-api",
       "db-link",
       "deamons",
@@ -551,6 +552,7 @@
       "python-formatting",
       "reflection",
       "sort-imports",
+      "sqlalchemy-db-migration",
       "state-flow-framework",
       "streaming-build",
       "timing",
@@ -972,7 +974,9 @@
       "caching",
       "django-caching",
       "django-extensions",
+      "django-queryset-filter",
       "django-rest",
+      "django-utils",
       "flask-openapi",
       "framework",
       "memcached-client",
@@ -984,6 +988,7 @@
       "serverless",
       "sessions-caching",
       "templates",
+      "websocket",
       "wsgi"
     ]
   },
@@ -1146,6 +1151,7 @@
   },
   "text": {
     "tags": [
+      "encoding-detection",
       "internationalization",
       "unicode",
       "utf8"
@@ -1169,12 +1175,14 @@
       "configuration",
       "cpu",
       "date-time",
+      "datetime",
       "dir-subtrees",
       "dry",
       "dsl",
       "enums",
       "env-vars",
       "file-access",
+      "filesystem",
       "formatter",
       "helpers",
       "http",

@@ -36,6 +36,7 @@ module.exports = [
   "timbunce/devel-nytprof", // perl profiler
   "jayway/awaitility", // redirects to awaitility/awaitility
   "apache/maven", // project management tool
+  "pypa/twine", // python PyPI publishing utility
 ];
 
 }());
