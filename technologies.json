@@ -321,7 +321,8 @@
   },
   "compilers": {
     "tags": [
-      "in-memory-java-compiler"
+      "in-memory-java-compiler",
+      "java-bytecode"
     ]
   },
   "computational-biology": {
@@ -935,6 +936,7 @@
       "grammars",
       "java",
       "lexing",
+      "markdown-processor",
       "parsing",
       "perl-parsing",
       "sql-parser"
@@ -1124,6 +1126,7 @@
       "load-testing",
       "matchers",
       "mobile-testing",
+      "mock-objects",
       "mocking",
       "mocking-framework",
       "mocks",
@@ -1166,6 +1169,7 @@
       "backporting",
       "bitflags",
       "capture-stdout",
+      "classes-collection",
       "cli2gui",
       "compare",
       "configuration",
