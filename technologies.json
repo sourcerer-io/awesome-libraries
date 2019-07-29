@@ -551,6 +551,7 @@
       "python-formatting",
       "reflection",
       "sort-imports",
+      "sqlalchemy-db-migration",
       "state-flow-framework",
       "streaming-build",
       "timing",
@@ -1147,6 +1148,7 @@
   },
   "text": {
     "tags": [
+      "encoding-detection",
       "internationalization",
       "unicode",
       "utf8"
@@ -1176,6 +1178,7 @@
       "enums",
       "env-vars",
       "file-access",
+      "filesystem",
       "formatter",
       "helpers",
       "http",
