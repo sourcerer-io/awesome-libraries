@@ -84,7 +84,7 @@
   {"id":"py.cookiecutter","imports":["cookiecutter"],"name":"cookiecutter","repo":"audreyr/cookiecutter","tags":["project-templates"],"tech":["eng-tools"],"status":"model-ready"},
   {"id":"py.debtcollector","imports":["debtcollector"],"name":"debtcollector","repo":"openstack/debtcollector","tags":["deprecation-patterns"],"tech":["eng-tools"],"examples":["https://docs.openstack.org/debtcollector/latest/user/usage.html"],"status":"model-ready"},
   {"id":"py.fblldbbase","imports":["fblldbbase"],"name":"fblldbbase","repo":"facebook/chisel","tags":["ios-debugging"],"tech":["eng-tools"],"status":"model-ready"},
-  {"id":"py.flask-migrate","imports":["flask_migrate"],"name":"Flask-Migrate","repo":"miguelgrinberg/flask-migrate","tags":["sqlalchemy-db-migration"],"tech":["eng-tools"],"status":"awaiting-model"},
+  {"id":"py.flask-migrate","imports":["flask_migrate"],"name":"Flask-Migrate","repo":"miguelgrinberg/flask-migrate","tags":["sqlalchemy-db-migration"],"tech":["storage"],"status":"awaiting-model"},
   {"id":"py.isort","imports":["isort"],"name":"Isort","repo":"timothycrosley/isort","tags":["sort-imports"],"tech":["eng-tools"],"status":"awaiting-model"},
   {"id":"py.localstack","imports":["localstack"],"name":"localstack","repo":"localstack/localstack","tags":["aws-mocking"],"tech":["eng-tools"],"status":"model-ready"},
   {"id":"py.moto","imports":["moto"],"name":"Moto","repo":"spulec/moto","tags":["aws-mocking"],"tech":["eng-tools"],"status":"awaiting-model"},
