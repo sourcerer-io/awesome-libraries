@@ -552,7 +552,6 @@
       "python-formatting",
       "reflection",
       "sort-imports",
-      "sqlalchemy-db-migration",
       "state-flow-framework",
       "streaming-build",
       "timing",
@@ -733,6 +732,7 @@
       "reactive-alamofire",
       "rest-client",
       "rss-atom-feeds",
+      "rss-parser",
       "sms-gateway",
       "urls",
       "web-crawler",
@@ -969,6 +969,7 @@
   "python-web": {
     "tags": [
       "RESTful",
+      "WSGI-server",
       "async-framework",
       "auth-toolkit",
       "caching",
@@ -1034,6 +1035,8 @@
   },
   "security": {
     "tags": [
+      "ECDSA-cryptography",
+      "OpenSSL-wrapper",
       "access-control",
       "access-management",
       "auth-attempt-delay",
@@ -1088,7 +1091,8 @@
       "redis",
       "s3",
       "sql",
-      "sql-client"
+      "sql-client",
+      "sqlalchemy-db-migration"
     ]
   },
   "swift-web": {
