@@ -265,6 +265,7 @@
   },
   "cli": {
     "tags": [
+      "ASCII-tables",
       "cli-for-objects",
       "cli-framework",
       "color-terminal",
@@ -513,7 +514,6 @@
   },
   "eng-tools": {
     "tags": [
-      "ASCII-tables",
       "IL-rewrite",
       "acceptance",
       "assertions",
