@@ -120,6 +120,7 @@
       "observable",
       "oop",
       "patterns",
+      "plugin-system",
       "promises",
       "pubsub",
       "query-language",
@@ -512,6 +513,7 @@
   },
   "eng-tools": {
     "tags": [
+      "ASCII-tables",
       "IL-rewrite",
       "acceptance",
       "assertions",
@@ -873,6 +875,11 @@
       "toolkit",
       "video-codec",
       "video4linux"
+    ]
+  },
+  "metaprogramming": {
+    "tags": [
+      "decorators"
     ]
   },
   "ml": {
