@@ -120,6 +120,7 @@
       "observable",
       "oop",
       "patterns",
+      "plugin-system",
       "promises",
       "pubsub",
       "query-language",
@@ -264,6 +265,7 @@
   },
   "cli": {
     "tags": [
+      "ASCII-tables",
       "cli-for-objects",
       "cli-framework",
       "color-terminal",
@@ -873,6 +875,11 @@
       "toolkit",
       "video-codec",
       "video4linux"
+    ]
+  },
+  "metaprogramming": {
+    "tags": [
+      "decorators"
     ]
   },
   "ml": {
