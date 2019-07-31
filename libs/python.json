@@ -5,6 +5,7 @@
   {"id":"py.pluggy","imports":["pluggy"],"name":"pluggy","repo":"pytest-dev/pluggy","tags":["plugin-system"],"tech":["app-arch"],"status":"awaiting-model"},
   {"id":"py.pypattyrn","imports":["pypattyrn"],"name":"PyPattyrn","repo":"tylerlaberge/PyPattyrn","tags":["patterns"],"tech":["app-arch"],"status":"model-ready"},
   {"id":"py.python-patterns","imports":["behavioral","creational","dft","fundamental","other","structural"],"name":"python-patterns","repo":"faif/python-patterns","tags":["patterns"],"tech":["app-arch"],"status":"model-ready"},
+  {"id":"py.salt","imports":["salt"],"name":"salt","repo":"saltstack/salt","tags":["infrastructure-management"],"tech":["app-arch"],"status":"awaiting-model"},
   {"id":"py.Pygments","imports":["pygments"],"name":"Pygments","repo":"https://bitbucket.org/birkenfeld/pygments-main","tags":["syntax-highlighting"],"tech":["app-blocks"],"status":"awaiting-model"},
   {"id":"py.apscheduler","imports":["apscheduler"],"name":"APScheduler","repo":"agronholm/apscheduler","tags":["cron-scheduling"],"tech":["app-blocks"],"status":"awaiting-model"},
   {"id":"py.django-grappelli","imports":["grappelli"],"name":"Django Grappelli","repo":"sehmaschine/django-grappelli","tags":["django-admin"],"tech":["app-blocks"],"status":"model-ready"},
@@ -35,6 +36,7 @@
   {"id":"py.airflow","imports":["airflow"],"name":"airflow","repo":"apache/incubator-airflow","tags":["pipelines"],"tech":["big-data"],"status":"model-ready"},
   {"id":"py.luigi","imports":["luigi"],"name":"luigi","repo":"spotify/luigi","tags":["map-reduce"],"tech":["big-data"],"status":"model-ready"},
   {"id":"py.itchat","imports":["itchat"],"name":"itchat","repo":"littlecodersh/ItChat","tags":["messenger"],"tech":["chat-ux"],"status":"model-ready"},
+  {"id":"py.python-telegram-bot","imports":["telegram"],"name":"python-telegram-bot","repo":"python-telegram-bot/python-telegram-bot","tags":["telegram-bot"],"tech":["chat-ux"],"status":"awaiting-model"},
   {"id":"py.slackclient","imports":["slack"],"name":"slackclient","repo":"slackapi/python-slackclient","tags":["slack"],"tech":["chat-ux"],"status":"awaiting-model"},
   {"id":"py.yowsup","imports":["yowsup"],"name":"yowsup","repo":"tgalal/yowsup","tags":["whatsapp"],"tech":["chat-ux"],"status":"model-ready"},
   {"id":"py.argcomplete","imports":["argcomplete"],"name":"argcomplete","repo":"kislyuk/argcomplete","tags":["python-bash-completion"],"tech":["cli"],"status":"awaiting-model"},
@@ -91,6 +93,7 @@
   {"id":"py.localstack","imports":["localstack"],"name":"localstack","repo":"localstack/localstack","tags":["aws-mocking"],"tech":["eng-tools"],"status":"model-ready"},
   {"id":"py.moto","imports":["moto"],"name":"Moto","repo":"spulec/moto","tags":["aws-mocking"],"tech":["eng-tools"],"status":"awaiting-model"},
   {"id":"py.yapf","imports":["yapf"],"name":"yapf","repo":"google/yapf","tags":["python-formatting"],"tech":["eng-tools"],"status":"model-ready"},
+  {"id":"py.futures","imports":["concurrent.futures"],"name":"futures","repo":"agronholm/pythonfutures","tags":["async-programming"],"tech":["faster-code"],"status":"awaiting-model"},
   {"id":"py.gevent","imports":["gevent"],"name":"gevent","repo":"gevent/gevent","tags":["concurrency"],"tech":["faster-code"],"status":"awaiting-model"},
   {"id":"py.scoop","imports":["scoop"],"name":"SCOOP","repo":"soravux/scoop","tags":["concurrent-ops"],"tech":["faster-code"],"status":"model-ready"},
   {"id":"py.zipline","imports":["zipline"],"name":"zipline","repo":"quantopian/zipline","tags":["algo-trading"],"tech":["fintech"],"status":"model-ready"},
@@ -199,5 +202,6 @@
   {"id":"py.pendulum","imports":["pendulum"],"name":"pendulum","repo":"sdispater/pendulum","tags":["datetime"],"tech":["utils"],"status":"awaiting-model"},
   {"id":"py.psutil","imports":["psutil"],"name":"psutil","repo":"giampaolo/psutil","tags":["system"],"tech":["utils"],"status":"awaiting-model"},
   {"id":"py.python-dateutil","imports":["dateutil"],"name":"dateutil","repo":"dateutil/dateutil","tags":["date-time"],"tech":["utils"],"status":"awaiting-model"},
-  {"id":"py.python-slugify","imports":["slugify"],"name":"Slugify","repo":"un33k/python-slugify","tags":["unicode-slugs"],"tech":["utils"],"status":"awaiting-model"}
+  {"id":"py.python-slugify","imports":["slugify"],"name":"Slugify","repo":"un33k/python-slugify","tags":["unicode-slugs"],"tech":["utils"],"status":"awaiting-model"},
+  {"id":"py.supervisor","imports":["xmlrpclib"],"name":"supervisor","repo":"Supervisor/supervisor","tags":["process-control"],"tech":["utils"],"status":"awaiting-model"}
 ]

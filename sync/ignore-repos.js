@@ -37,6 +37,7 @@ module.exports = [
   "jayway/awaitility", // redirects to awaitility/awaitility
   "apache/maven", // project management tool
   "pypa/twine", // python PyPI publishing utility
+  "pypa/pipenv", // python dev workflow tool
 ];
 
 }());

@@ -107,6 +107,7 @@
       "gpu",
       "gui",
       "high-performance",
+      "infrastructure-management",
       "injection",
       "inversion-of-control",
       "job-queue",
@@ -258,6 +259,7 @@
       "slack",
       "snap",
       "telegram",
+      "telegram-bot",
       "vk-bots",
       "wechat",
       "whatsapp"
@@ -1206,6 +1208,7 @@
       "platform-dirs",
       "predicate-logic",
       "pretty-output",
+      "process-control",
       "promises",
       "quasi-quoting",
       "regex",
