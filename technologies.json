@@ -445,6 +445,9 @@
       "tree"
     ]
   },
+  "devops": {
+    "tags": []
+  },
   "diagnostics": {
     "tags": [
       "alarms",

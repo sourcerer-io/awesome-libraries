@@ -1,0 +1,10 @@
+[
+  {"id":"devops.circleci","name":"CircleCI","tech":["devops"],"tags":[],"repo":""},
+  {"id":"devops.docker","name":"Docker","tech":["devops"],"tags":[],"repo":""},
+  {"id":"devops.drone","name":"Drone","tech":["devops"],"tags":[],"repo":""},
+  {"id":"devops.github-actions","name":"GitHub Actions","tech":["devops"],"tags":[],"repo":""},
+  {"id":"devops.gitlab-ci","name":"Gitlab CI","tech":["devops"],"tags":[],"repo":""},
+  {"id":"devops.jenkins","name":"Jenkins","tech":["devops"],"tags":[],"repo":""},
+  {"id":"devops.k8s","name":"Kubernetes","tech":["devops"],"tags":[],"repo":""},
+  {"id":"devops.travis","name":"Travis CI","tech":["devops"],"tags":[],"repo":""}
+]

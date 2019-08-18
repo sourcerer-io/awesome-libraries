@@ -37,7 +37,7 @@ for (let filename of files) {
     if (!Array.isArray(lib.tech) || lib.tech.length == 0) {
       fail(`${filename}: no tech for ${lib.id}`);
     }
-    if (!Array.isArray(lib.tags) || lib.tags.length == 0) {
+    if (!filename.startsWith('devops') && (!Array.isArray(lib.tags) || lib.tags.length == 0)) {
       fail(`${filename}: no tags for ${lib.id}`);
     }
 
@@ -58,7 +58,7 @@ for (let filename of files) {
       }
       repos.set(repo, [ lib.id ]);
     }
-    else if (!lib.examples || lib.examples.length == 0) {
+    else if (!filename.startsWith('devops') && (!lib.examples || lib.examples.length == 0)) {
       fail(`${filename} file: '${lib.id}' lib has neither repo or examples provided`);
     }
 
