@@ -446,7 +446,9 @@
     ]
   },
   "devops": {
-    "tags": []
+    "tags": [
+      "devops"
+    ]
   },
   "diagnostics": {
     "tags": [
