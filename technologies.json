@@ -245,7 +245,8 @@
   },
   "blockchain": {
     "tags": [
-      "bitcoin-lib"
+      "bitcoin-lib",
+      "ethereum"
     ]
   },
   "chat-ux": {
@@ -463,6 +464,7 @@
       "logging-interface",
       "metrics",
       "monitoring",
+      "structured-logging",
       "tracing"
     ]
   },

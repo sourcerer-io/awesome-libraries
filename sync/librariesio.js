@@ -227,15 +227,18 @@ for (let page = 0; ; page++) {
   }
 
   for (let project of projects) {
-    let origRepo = project.repository_url;
-    if (!origRepo) {
+    let repoUrl = project.repository_url;
+    if (!repoUrl) {
       log(`  Skipping no repo lib: ${project.name}`);
       continue;
     }
 
-    // Strip https://github.com/ from repo if any.
-    let repo = origRepo.replace(/^.*github\.com\//, '').
+    // Strip protocol from repo url.
+    let origRepo = repoUrl.replace(/^https?:\/\//, '').
       replace(/\/$/, ''); // Stip trailing '/' if any
+
+    // Strip github.com/ from repo if any.
+    let repo = origRepo.replace(/^github\.com\//, '');
 
     if (knownRepos.has(repo.toLowerCase()) ||
         ignoreRepos.has(repo.toLowerCase())) {
@@ -254,8 +257,8 @@ for (let page = 0; ; page++) {
     let tags = project.keywords;
     log(`  Tags: ${JSON.stringify(tags)}`);
 
-    log(`  Repo: ${origRepo}`);
-    if (!await checkURL(origRepo)) {
+    log(`  Repo: ${repoUrl}`);
+    if (!await checkURL(repoUrl)) {
       log(`  Skipping: repo not found`);
       continue;
     }
@@ -265,16 +268,22 @@ for (let page = 0; ; page++) {
     // [Maven] Strip everything after :, which can be often seen for Maven libs.
     name = name.replace(/[:].+/, '');
 
-    let guess_import = platform == 'CPAN' ? name.replace('-', '::') : name;
-    let imports = [ guess_import ];
+    let imports = [ name ];
 
     switch (platform) {
+      case 'CPAN':
+        name = name.replace('::', '-');
+        imports = [ name.replace('-', '::') ];
+        break;
+
+      case 'Go':
+        imports = [ origRepo.toLowerCase() ];
+        break;
+
       case 'Maven': // Strip 'org.' and 'com.'
         name = name.replace(/^(org\.|com\.)/, '');
         break;
-      case 'CPAN':
-        name = name.replace('::', '-');
-        break;
+
       default:
         break;
     }
