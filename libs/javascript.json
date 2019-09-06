@@ -59,6 +59,7 @@
   {"id":"js.passport","imports":["passport"],"name":"passport","repo":"jaredhanson/passport","tags":["nodejs-auth"],"tech":["javascript-web"],"status":"model-ready"},
   {"id":"js.pjax","imports":["pjax"],"name":"pjax","repo":"defunkt/jquery-pjax","tags":["jquery-ajax"],"tech":["javascript-web"],"status":"model-ready"},
   {"id":"js.pug","imports":["pug"],"name":"pug","repo":"pugjs/pug","tags":["templates"],"tech":["javascript-web"],"status":"model-ready"},
+  {"id":"js.quasar","imports":[],"name":"Quasar","repo":"quasarframework/quasar","tags":["ui-framework"],"tech":["javascript-web"],"status":"model-ready"},
   {"id":"js.react","imports":["react"],"name":"react","repo":"facebook/react","tags":["ui-framework"],"tech":["javascript-web"],"status":"model-ready"},
   {"id":"js.react-bootstrap","imports":["react-bootstrap"],"name":"react-bootstrap","repo":"react-bootstrap/react-bootstrap","tags":["react-ui"],"tech":["javascript-web"],"status":"model-ready"},
   {"id":"js.react-redux","imports":["react-redux"],"name":"react-redux","repo":"reactjs/react-redux","tags":["state-management"],"tech":["javascript-web"],"status":"model-ready"},
