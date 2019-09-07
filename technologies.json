@@ -129,6 +129,7 @@
       "reactive-framework",
       "run-time",
       "runtime-code-gen",
+      "service-infrastucture",
       "signal-slots",
       "spi",
       "state-machines",
@@ -1093,12 +1094,14 @@
       "in-memory",
       "jdbc-pooling",
       "key-value",
+      "key-value-db",
       "linq-sql",
       "mariadb",
       "mobile",
       "mongodb",
       "mybatis-pagination",
       "mysql",
+      "mysql-driver",
       "nosql",
       "orm",
       "reactive",
@@ -1106,7 +1109,8 @@
       "s3",
       "sql",
       "sql-client",
-      "sqlalchemy-db-migration"
+      "sqlalchemy-db-migration",
+      "time-series-db"
     ]
   },
   "swift-web": {
