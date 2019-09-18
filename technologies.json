@@ -297,9 +297,11 @@
       "distributed-apps",
       "distributed-kernel",
       "docker",
+      "docker-distribution",
       "edge-service",
       "event-broker",
       "gcloud",
+      "infrastructure-as-code",
       "job-queue",
       "json-rpc",
       "kubernetes-client",
@@ -431,6 +433,7 @@
       "concurrency",
       "containers",
       "cuda",
+      "data-structures",
       "dict-list",
       "dictionaries",
       "hashmap",
@@ -627,6 +630,7 @@
       "rest",
       "rest-json",
       "routing",
+      "selector-strings",
       "templates",
       "web-server"
     ]
@@ -1128,6 +1132,7 @@
     "tags": [
       "architecture-rules",
       "assertions",
+      "assertions-mocking",
       "async-testing",
       "bdd-testing",
       "c-testing",
