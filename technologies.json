@@ -214,6 +214,7 @@
       "xml-serialization",
       "xml-via-json",
       "yaml",
+      "yaml-marshaling",
       "yaml-parser"
     ]
   },
@@ -391,10 +392,12 @@
       "annotations",
       "check-versions",
       "distributed",
+      "ini-parser",
       "java-HOCON",
       "java-json",
       "min-versions",
       "properties",
+      "toml-parsing",
       "ucl"
     ]
   },
@@ -1181,6 +1184,7 @@
   "text": {
     "tags": [
       "encoding-detection",
+      "i18n-l10n",
       "internationalization",
       "unicode",
       "utf8"
@@ -1229,6 +1233,7 @@
       "quasi-quoting",
       "regex",
       "semantic-versions",
+      "sftp",
       "string",
       "string-distance",
       "string-template",
