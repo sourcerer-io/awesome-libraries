@@ -123,7 +123,6 @@
       "patterns",
       "plugin-system",
       "promises",
-      "protocol-buffers",
       "pubsub",
       "query-language",
       "reactive",
