@@ -217,7 +217,9 @@ let cache = {};
 try {
   cache = JSON.parse(fs.readFileSync(cacheFile, 'utf-8'));
 }
-catch(e) { }
+catch(e) {
+  console.log(`Failed to load a cache file. Will be create a new one.`);
+}
 
 let page = cache.page && cache.page + 1 || 1; // pagination starts from 1
 let brokenLinks = new Set(cache.brokenLinks || []);
