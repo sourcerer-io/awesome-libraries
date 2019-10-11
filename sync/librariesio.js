@@ -212,12 +212,25 @@ let ignoreRepos = new Set(
   require(`${__dirname}/ignore-repos.js`).map(r => r.toLowerCase())
 );
 
+const cacheFile = `${__dirname}/cache/librariesio${platform}${lang}.json`;
+let cache = {};
+try {
+  cache = JSON.parse(fs.readFileSync(cacheFile, 'utf-8'));
+}
+catch(e) {
+  console.log(`Failed to load a cache file. Will be create a new one.`);
+}
+
+let page = cache.page && cache.page + 1 || 1; // pagination starts from 1
+let brokenLinks = new Set(cache.brokenLinks || []);
+
 let newLibs = [];
-for (let page = 0; ; page++) {
+do {
   if (newLibs.length >= limit) {
     break;
   }
 
+  console.log(`Fetching page ${page}`);
   const URL =
   `https://libraries.io/api/search?platforms=${platform}&languages=${lang}&page=${page}&per_page=100&api_key=${key}`;
 
@@ -241,7 +254,8 @@ for (let page = 0; ; page++) {
     let repo = origRepo.replace(/^github\.com\//, '');
 
     if (knownRepos.has(repo.toLowerCase()) ||
-        ignoreRepos.has(repo.toLowerCase())) {
+        ignoreRepos.has(repo.toLowerCase()) ||
+        brokenLinks.has(repo.toLowerCase())) {
       log(`  Skipping known lib: ${repo}`);
       continue;
     }
@@ -259,7 +273,8 @@ for (let page = 0; ; page++) {
 
     log(`  Repo: ${repoUrl}`);
     if (!await checkURL(repoUrl)) {
-      log(`  Skipping: repo not found`);
+      log(`  Repo link is broken`);
+      brokenLinks.add(repo);
       continue;
     }
 
@@ -307,7 +322,15 @@ for (let page = 0; ; page++) {
       break;
     }
   }
-}
+
+  // Update the cache while iterating. It allows us to restart from the last
+  // traversed page if something unexpected happens (for example network error).
+  fs.writeFileSync(cacheFile, JSON.stringify({
+    page,
+    brokenLinks: Array.from(brokenLinks.values()),
+  }, null, 2));
+  page++;
+} while (true);
 
 if (debugMode) {
   return;
