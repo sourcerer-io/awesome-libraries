@@ -38,6 +38,7 @@ module.exports = [
   "apache/maven", // project management tool
   "pypa/twine", // python PyPI publishing utility
   "pypa/pipenv", // python dev workflow tool
+  "hashicorp/packer" // an image tool written in Go
 ];
 
 }());
