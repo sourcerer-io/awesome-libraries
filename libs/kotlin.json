@@ -60,5 +60,10 @@
   {"id":"kt.kspec","imports":["io.polymorphicpanda.kspec"],"name":"KSpec","repo":"raniejade/kspec","tags":["specification-framework"],"tech":["testing"],"status":"model-ready"},
   {"id":"kt.mock-k","imports":["io.mockk"],"name":"MockK","repo":"oleksiyp/mockk","tags":["mocking"],"tech":["testing"],"status":"model-ready"},
   {"id":"kt.mockito-kotlin","imports":["com.nhaarman.mockito_kotlin"],"name":"Mockito-Kotlin","repo":"nhaarman/mockito-kotlin","tags":["unit-testing"],"tech":["testing"],"status":"model-ready"},
-  {"id":"kt.spek","imports":["org.spekframework.spek2"],"name":"Spek","repo":"jetbrains/spek","tags":["specification-framework"],"tech":["testing"],"status":"model-ready"}
+  {"id":"kt.spek","imports":["org.spekframework.spek2"],"name":"Spek","repo":"jetbrains/spek","tags":["specification-framework"],"tech":["testing"],"status":"model-ready"},
+  {"id":"kt.kakao","imports":["com.agoda.kakao"],"name":"Kakao","repo":"agoda-com/Kakao","tags":["mobile-testing"],"tech":["testing"],"status":"model-ready"},
+  {"id":"kt.kaspresso","imports":["com.kaspersky.kaspresso"],"name":"Kaspresso","repo":"KasperskyLab/Kaspresso","tags":["mobile-testing"],"tech":["testing"],"status":"model-ready"},
+  {"id":"kt.klock","imports":["com.soywiz.klock"],"name":"klock","repo":"korlibs/klock","tags":["date-time"],"tech":["utils"],"status":"model-ready"},
+  {"id":"kt.scarlet","imports":["com.tinder.scarlet"],"name":"Scarlet","repo":"Tinder/Scarlet","tags":["websocket"],"tech":["networking"],"status":"model-ready"},
+  {"id":"kt.coil","imports":["coil"],"name":"coil","repo":"coil-kt/coil","tags":["android-images"],"tech":["graphics-gaming"],"status":"model-ready"}
 ]
