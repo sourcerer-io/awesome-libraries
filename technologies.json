@@ -271,6 +271,7 @@
   "cli": {
     "tags": [
       "ASCII-tables",
+      "cli-apps",
       "cli-for-objects",
       "cli-framework",
       "color-terminal",
@@ -1068,6 +1069,7 @@
       "cryptography",
       "oauth-client",
       "password-strength",
+      "secrets-management",
       "self-protection",
       "ssl",
       "store-passwords",
