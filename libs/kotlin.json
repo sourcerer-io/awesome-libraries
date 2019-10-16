@@ -27,7 +27,7 @@
   {"id":"kt.konsent","imports":["com.oneeyedmen.konsent"],"name":"Konsent","repo":"dmcg/konsent","tags":["acceptance"],"tech":["eng-tools"],"status":"model-ready"},
   {"id":"kt.kotlinpoet","imports":["com.squareup.kotlinpoet."],"name":"Anko","repo":"square/kotlinpoet","tags":["code-generators"],"tech":["eng-tools"],"status":"awaiting-model"},
   {"id":"kt.advent-kt","imports":["com.github.vassilibykov.adventkt"],"name":"AdventKT","repo":"vassilibykov/AdventKT","tags":["text-adventures"],"tech":["graphics-gaming"],"status":"model-ready"},
-  {"id":"kt.coil","imports":["coil"],"name":"coil","repo":"coil-kt/coil","tags":["android-images"],"tech":["graphics-gaming"],"status":"model-ready"},
+  {"id":"kt.coil","imports":["coil"],"name":"coil","repo":"coil-kt/coil","tags":["android-images"],"tech":["graphics-gaming"],"status":"awaiting-model"},
   {"id":"kt.fxgl","imports":["com.almasb.fxgl"],"name":"FXGL","repo":"AlmasB/FXGL","tags":["engine"],"tech":["graphics-gaming"],"status":"model-ready"},
   {"id":"kt.ovr","imports":["ovr"],"name":"ovr","repo":"kotlin-graphics/ovr","tags":["opengl"],"tech":["graphics-gaming"],"status":"model-ready"},
   {"id":"kt.imgui","imports":["imgui"],"name":"imgui","repo":"kotlin-graphics/imgui","tags":["toolkit"],"tech":["gui"],"status":"model-ready"},
@@ -48,7 +48,7 @@
   {"id":"kt.vaadin","imports":["com.vaadin"],"name":"Vaadin","repo":"mvysny/vaadin-on-kotlin","tags":["framework"],"tech":["kotlin-web"],"status":"model-ready"},
   {"id":"kt.wasabi","imports":["org.wasabifx.wasabi"],"name":"Wasabi","repo":"wasabifx/wasabi","tags":["http-framework"],"tech":["kotlin-web"],"status":"model-ready"},
   {"id":"kt.yested","imports":["net.yested"],"name":"Yested","repo":"jean79/yested","tags":["single-page"],"tech":["kotlin-web"],"status":"model-ready"},
-  {"id":"kt.scarlet","imports":["com.tinder.scarlet"],"name":"Scarlet","repo":"Tinder/Scarlet","tags":["websocket"],"tech":["networking"],"status":"model-ready"},
+  {"id":"kt.scarlet","imports":["com.tinder.scarlet"],"name":"Scarlet","repo":"Tinder/Scarlet","tags":["websocket"],"tech":["networking"],"status":"awaiting-model"},
   {"id":"kt.exposed","imports":["org.jetbrains.exposed"],"name":"Exposed","repo":"jetbrains/Exposed","tags":["sql"],"tech":["storage"],"status":"model-ready"},
   {"id":"kt.kotli-query","imports":["kotliquery"],"name":"KotliQuery","repo":"seratch/kotliquery","tags":["sql"],"tech":["storage"],"status":"model-ready"},
   {"id":"kt.kotlin-no-sql","imports":["kotlinx.nosql"],"name":"Kotlin NoSQL","repo":"cheptsov/kotlin-nosql","tags":["nosql"],"tech":["storage"],"status":"model-ready"},
@@ -58,12 +58,12 @@
   {"id":"kt.map-db","imports":["org.mapdb"],"name":"MapDB","repo":"jankotek/mapdb","tags":["embedded"],"tech":["storage"],"status":"model-ready"},
   {"id":"kt.sqldelight","imports":["com.squareup.sqldelight"],"name":"SQLDelight","repo":"square/sqldelight","tags":["sql"],"tech":["storage"],"status":"model-ready"},
   {"id":"kt.ham-krest","imports":["com.natpryce.hamkrest"],"name":"HamKrest","repo":"npryce/hamkrest","tags":["matchers"],"tech":["testing"],"status":"model-ready"},
-  {"id":"kt.kakao","imports":["com.agoda.kakao"],"name":"Kakao","repo":"agoda-com/Kakao","tags":["mobile-testing"],"tech":["testing"],"status":"model-ready"},
-  {"id":"kt.kaspresso","imports":["com.kaspersky.kaspresso"],"name":"Kaspresso","repo":"KasperskyLab/Kaspresso","tags":["mobile-testing"],"tech":["testing"],"status":"model-ready"},
+  {"id":"kt.kakao","imports":["com.agoda.kakao"],"name":"Kakao","repo":"agoda-com/Kakao","tags":["mobile-testing"],"tech":["testing"],"status":"awaiting-model"},
+  {"id":"kt.kaspresso","imports":["com.kaspersky.kaspresso"],"name":"Kaspresso","repo":"KasperskyLab/Kaspresso","tags":["mobile-testing"],"tech":["testing"],"status":"awaiting-model"},
   {"id":"kt.kotlin-test","imports":["io.kotlintest"],"name":"KotlinTest","repo":"kotlintest/kotlintest","tags":["framework"],"tech":["testing"],"status":"model-ready"},
   {"id":"kt.kspec","imports":["io.polymorphicpanda.kspec"],"name":"KSpec","repo":"raniejade/kspec","tags":["specification-framework"],"tech":["testing"],"status":"model-ready"},
   {"id":"kt.mock-k","imports":["io.mockk"],"name":"MockK","repo":"oleksiyp/mockk","tags":["mocking"],"tech":["testing"],"status":"model-ready"},
   {"id":"kt.mockito-kotlin","imports":["com.nhaarman.mockito_kotlin"],"name":"Mockito-Kotlin","repo":"nhaarman/mockito-kotlin","tags":["unit-testing"],"tech":["testing"],"status":"model-ready"},
   {"id":"kt.spek","imports":["org.spekframework.spek2"],"name":"Spek","repo":"jetbrains/spek","tags":["specification-framework"],"tech":["testing"],"status":"model-ready"},
-  {"id":"kt.klock","imports":["com.soywiz.klock"],"name":"klock","repo":"korlibs/klock","tags":["date-time"],"tech":["utils"],"status":"model-ready"}
+  {"id":"kt.klock","imports":["com.soywiz.klock"],"name":"klock","repo":"korlibs/klock","tags":["date-time"],"tech":["utils"],"status":"awaiting-model"}
 ]
