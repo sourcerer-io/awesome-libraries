@@ -206,6 +206,7 @@
       "reactive",
       "serialization",
       "streams",
+      "text-transformations",
       "transformations",
       "validation",
       "xlsx-files",
@@ -630,6 +631,7 @@
     "tags": [
       "framework",
       "go-php",
+      "gzip-middleware",
       "livereload",
       "local-web-server",
       "rest",
@@ -695,6 +697,7 @@
       "qt-plots",
       "syntax-highlighting",
       "toolkit",
+      "unix-terminals",
       "widgets",
       "windows"
     ]
@@ -1116,6 +1119,7 @@
       "mysql-driver",
       "nosql",
       "orm",
+      "persistent-key-value",
       "reactive",
       "redis",
       "s3",
