@@ -284,7 +284,8 @@
       "progress-indicator",
       "python-bash-completion",
       "readline",
-      "terminal-styling"
+      "terminal-styling",
+      "unix-terminals"
     ]
   },
   "cloud": {
@@ -697,7 +698,6 @@
       "qt-plots",
       "syntax-highlighting",
       "toolkit",
-      "unix-terminals",
       "widgets",
       "windows"
     ]
