@@ -1,5 +1,5 @@
 {
-  "page": 25,
+  "page": 26,
   "brokenLinks": [
     "k8s.io/kubernetes",
     "k8s.io/kubernetes/pkg/apis/apps/v1alpha1",
@@ -2120,6 +2120,11 @@
     "coreos/rkt/api/v1alpha",
     "stretchr/testify/require",
     "stretchr/testify/mock",
-    "nats-io/gnatsd"
+    "nats-io/gnatsd",
+    "onsi/gomega/matchers",
+    "nicksnyder/go-i18n/i18n/bundle",
+    "nicksnyder/go-i18n/i18n",
+    "nicksnyder/go-i18n/i18n/language",
+    "nicksnyder/go-i18n/i18n/translation"
   ]
 }

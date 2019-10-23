@@ -206,6 +206,7 @@
       "reactive",
       "serialization",
       "streams",
+      "text-transformations",
       "transformations",
       "validation",
       "xlsx-files",
@@ -283,7 +284,8 @@
       "progress-indicator",
       "python-bash-completion",
       "readline",
-      "terminal-styling"
+      "terminal-styling",
+      "unix-terminals"
     ]
   },
   "cloud": {
@@ -630,6 +632,7 @@
     "tags": [
       "framework",
       "go-php",
+      "gzip-middleware",
       "livereload",
       "local-web-server",
       "rest",
@@ -1116,6 +1119,7 @@
       "mysql-driver",
       "nosql",
       "orm",
+      "persistent-key-value",
       "reactive",
       "redis",
       "s3",
