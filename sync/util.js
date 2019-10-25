@@ -33,7 +33,12 @@ const request = (url) => {
         stream.push(chunk);
       });
       res.on('end', () => {
-        resolve(JSON.parse(Buffer.from(stream.read()), res));
+        try {
+          resolve(JSON.parse(Buffer.from(stream.read()), res));
+        }
+        catch(e) {
+          reject(e);
+        }
       });
     });
     req.on('error', (e) => {

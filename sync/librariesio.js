@@ -204,7 +204,8 @@ try {
   libs = JSON.parse(libContent);
 }
 catch(e) {
-  throw new Error(`${libFile} is not valid JSON; ${e.toString()}`);
+  console.error(`${libFile} is not valid JSON; ${e.toString()}`);
+  process.exit();
 }
 
 let knownRepos = new Set(libs.map(l => l.repo.toLowerCase()));
@@ -230,13 +231,20 @@ do {
     break;
   }
 
-  console.log(`Fetching page ${page}`);
   const URL =
   `https://libraries.io/api/search?platforms=${platform}&languages=${lang}&page=${page}&per_page=100&api_key=${key}`;
 
-  let projects = await request(URL);
+  let projects = null;
+  try {
+    projects = await request(URL);
+  }
+  catch(e) {
+    console.error(e);
+  }
+
   if (!projects || projects.length == 0) {
-    break;
+    console.error(`Failed to retrieve data from ${URL}`);
+    process.exit();
   }
 
   for (let project of projects) {
@@ -273,8 +281,7 @@ do {
 
     log(`  Repo: ${repoUrl}`);
     if (!await checkURL(repoUrl)) {
-      log(`  Repo link is broken`);
-      brokenLinks.add(repo);
+      brokenLinks.add(repo.toLowerCase());
       continue;
     }
 
@@ -323,14 +330,26 @@ do {
     }
   }
 
-  // Update the cache while iterating. It allows us to restart from the last
-  // traversed page if something unexpected happens (for example network error).
+  console.log(`Page ${page} fetched. Total libs count: ${newLibs.length}`);
+
+  // Update the cache while iterating. It allows us to skip URL checks we did
+  // in previous runs, in case if we have to rerun the process (for example in
+  // case of network error).
+  // Do not update last traversed page for now. If the process was terminated,
+  // then it will be restarted from last good page and will repick all the libs
+  // mined before the termination.
   fs.writeFileSync(cacheFile, JSON.stringify({
-    page,
+    page: cache.page || 0,
     brokenLinks: Array.from(brokenLinks.values()),
   }, null, 2));
   page++;
 } while (true);
+
+// Update last good page in the cache.
+fs.writeFileSync(cacheFile, JSON.stringify({
+  page,
+  brokenLinks: Array.from(brokenLinks.values()),
+}, null, 2));
 
 if (debugMode) {
   return;
