@@ -1122,6 +1122,7 @@
       "persistent-key-value",
       "reactive",
       "redis",
+      "redis-client",
       "s3",
       "sql",
       "sql-client",
