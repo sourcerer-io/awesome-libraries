@@ -281,6 +281,7 @@ do {
 
     log(`  Repo: ${repoUrl}`);
     if (!await checkURL(repoUrl)) {
+      log(`  Repo link is broken`);
       brokenLinks.add(repo.toLowerCase());
       continue;
     }
