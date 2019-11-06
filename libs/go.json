@@ -213,6 +213,7 @@
   {"id":"go.resty","imports":["github.com/go-resty/resty"],"name":"Resty","repo":"go-resty/resty","tags":["http-client"],"tech":["internet"],"status":"model-ready"},
   {"id":"go.sftp","imports":["github.com/pkg/sftp"],"name":"sftp","repo":"pkg/sftp","tags":["sftp"],"tech":["internet"],"status":"awaiting-model"},
   {"id":"go.sling","imports":["github.com/dghubble/sling"],"name":"Sling","repo":"dghubble/sling","tags":["http-client"],"tech":["internet"],"status":"model-ready"},
+  {"id":"go.vegeta","imports":["github.com/tsenart/vegeta/lib"],"name":"vegeta","repo":"tsenart/vegeta","tags":["http-load-testing"],"tech":["internet"],"status":"awaiting-model"},
   {"id":"go.intrinsic","imports":["github.com/mengzhuo/intrinsic"],"name":"intrinsic","repo":"mengzhuo/intrinsic","tags":["go-x86"],"tech":["interoperability"],"status":"model-ready"},
   {"id":"go.astisub","imports":["github.com/asticode/go-astisub"],"name":"astisub","repo":"asticode/go-astisub","tags":["subtitles"],"tech":["media"],"status":"model-ready"},
   {"id":"go.goav","imports":["github.com/giorgisio/goav"],"name":"goav","repo":"giorgisio/goav","tags":["ffmpeg"],"tech":["media"],"status":"model-ready"},

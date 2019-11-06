@@ -741,6 +741,7 @@
       "http-client",
       "http-framework",
       "http-json",
+      "http-load-testing",
       "http-messages",
       "http-parser",
       "http-server",

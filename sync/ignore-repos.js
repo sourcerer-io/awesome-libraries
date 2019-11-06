@@ -40,6 +40,10 @@ module.exports = [
   "pypa/pipenv", // python dev workflow tool
   "hashicorp/packer", // an image tool written in Go
   "go.uber.org/zap", // dupe of github repo
+  "gohugoio/hugo", // CMS written in Go
+  "containous/traefik", // edge router in Go
+  "pingcap/tidb", // tidb
+  "cockroachdb/cockroach", // sql database
 ];
 
 }());
