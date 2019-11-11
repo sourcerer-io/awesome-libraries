@@ -44,6 +44,7 @@ module.exports = [
   "containous/traefik", // edge router in Go
   "pingcap/tidb", // tidb
   "cockroachdb/cockroach", // sql database
+  "rancher/k3s", // kubernetes tool
 ];
 
 }());
