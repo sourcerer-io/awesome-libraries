@@ -310,7 +310,6 @@
       "job-queue",
       "json-rpc",
       "kafka-client",
-      "kubernetes",
       "kubernetes-client",
       "load-balancing",
       "message-queue",

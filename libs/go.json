@@ -105,7 +105,6 @@
   {"id":"go.google-gloud-api","imports":["github.com/GoogleCloudPlatform/gcloud-golang"],"name":"Google Gloud API","repo":"GoogleCloudPlatform/gcloud-golang","tags":["gcloud"],"tech":["cloud"],"status":"model-ready"},
   {"id":"go.grpc","imports":["google.golang.org/grpc"],"name":"grpc","repo":"grpc/grpc-go","tags":["microservices"],"tech":["cloud"],"status":"model-ready"},
   {"id":"go.grpc-gateway","imports":["github.com/grpc-ecosystem/grpc-gateway"],"name":"grpc-gateway","repo":"grpc-ecosystem/grpc-gateway","tags":["microservices"],"tech":["cloud"],"status":"model-ready"},
-  {"id":"go.k3s","imports":["github.com/rancher/k3s"],"name":"k3s","repo":"rancher/k3s","tags":["kubernetes"],"tech":["cloud"],"status":"awaiting-model"},
   {"id":"go.kit","imports":["github.com/go-kit/kit"],"name":"Go kit","repo":"go-kit/kit","tags":["microservices"],"tech":["cloud"],"status":"awaiting-model"},
   {"id":"go.megos","imports":["github.com/andygrunwald/megos"],"name":"megos","repo":"andygrunwald/megos","tags":["distributed-kernel"],"tech":["cloud"],"status":"model-ready"},
   {"id":"go.microservice","imports":["github.com/claygod/microservice"],"name":"microservice","repo":"claygod/microservice","tags":["microservices"],"tech":["cloud"],"status":"model-ready"},
