@@ -45,6 +45,8 @@ module.exports = [
   "pingcap/tidb", // tidb
   "cockroachdb/cockroach", // sql database
   "rancher/k3s", // kubernetes tool
+  "cloudson/gitql", // git query tool
+  "go-swagger/go-swagger", // swaggger tool
 ];
 
 }());
