@@ -147,6 +147,7 @@
   "app-blocks": {
     "tags": [
       "captcha",
+      "cron",
       "cron-scheduling",
       "db-api",
       "db-link",
@@ -186,6 +187,7 @@
       "data-processing",
       "dsl-schema",
       "elasticsearch",
+      "elasticsearch-client",
       "filesystem",
       "formats",
       "jackson-java8",
@@ -1150,6 +1152,7 @@
       "assertions",
       "assertions-mocking",
       "async-testing",
+      "bdd-framework",
       "bdd-testing",
       "c-testing",
       "code-coverage",
