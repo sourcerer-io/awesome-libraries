@@ -47,6 +47,9 @@ module.exports = [
   "rancher/k3s", // kubernetes tool
   "cloudson/gitql", // git query tool
   "go-swagger/go-swagger", // swaggger tool
+  /^gohugoio\/hugo\/compare/, // not repos
+  "https://github.com/v2ray/v2ray-core", // network tools
+  "github.com/coreybutler/nvm-windows", // node tool
 ];
 
 }());

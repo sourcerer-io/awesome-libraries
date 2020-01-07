@@ -209,9 +209,15 @@ catch(e) {
 }
 
 let knownRepos = new Set(libs.map(l => l.repo.toLowerCase()));
-let ignoreRepos = new Set(
-  require(`${__dirname}/ignore-repos.js`).map(r => r.toLowerCase())
+
+const ignoreRepoRules = require(`${__dirname}/ignore-repos.js`);
+const ignoreRepos = new Set(
+  ignoreRepoRules.
+    filter(r => typeof r == 'string').
+    map(r => r.toLowerCase())
 );
+const ignoreRepoREs = ignoreRepoRules.
+  filter(r => r instanceof RegExp);
 
 const cacheFile = `${__dirname}/cache/librariesio${platform}${lang}.json`;
 let cache = {};
@@ -261,9 +267,11 @@ do {
     // Strip github.com/ from repo if any.
     let repo = origRepo.replace(/^github\.com\//, '');
 
-    if (knownRepos.has(repo.toLowerCase()) ||
-        ignoreRepos.has(repo.toLowerCase()) ||
-        brokenLinks.has(repo.toLowerCase())) {
+    let lc_repo = repo.toLowerCase();
+    if (knownRepos.has(lc_repo) ||
+        brokenLinks.has(lc_repo) ||
+        ignoreRepos.has(lc_repo) ||
+        ignoreRepoREs.some(r => r.test(lc_repo))) {
       log(`  Skipping known lib: ${repo}`);
       continue;
     }
@@ -282,7 +290,7 @@ do {
     log(`  Repo: ${repoUrl}`);
     if (!await checkURL(repoUrl)) {
       log(`  Repo link is broken`);
-      brokenLinks.add(repo.toLowerCase());
+      brokenLinks.add(lc_repo);
       continue;
     }
 

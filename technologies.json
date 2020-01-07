@@ -640,6 +640,7 @@
       "framework",
       "go-php",
       "gzip-middleware",
+      "http-router",
       "livereload",
       "local-web-server",
       "modular-webapps",
