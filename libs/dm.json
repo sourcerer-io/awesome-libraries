@@ -1,0 +1,5 @@
+[
+  {"name":"Byond Mapping","id":"dm.byond-mapping","tech":["app-data"],"tags":["mapping"],"repo":"","imports":[""],"examples":"https://github.com/tgstation/tgstation","status":"awaiting-model"},
+  {"name":"Byond Sprites","id":"dm.byond-sprites","tech":["graphics-gaming"],"tags":["2d-graphics"],"repo":"","imports":[""],"examples":"https://github.com/tgstation/tgstation","status":"awaiting-model"},
+  {"name":"Byond","id":"dm.byond","tech":["app-arch"],"tags":["oop"],"repo":"","imports":[""],"examples":"https://github.com/tgstation/tgstation","status":"awaiting-model"}
+]
