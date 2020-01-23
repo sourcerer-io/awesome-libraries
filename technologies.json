@@ -1069,6 +1069,7 @@
   },
   "scala-web": {
     "tags": [
+      "auth",
       "framework"
     ]
   },
@@ -1116,6 +1117,7 @@
       "embedded",
       "flask-sqlalchemy",
       "graph-database",
+      "graphql",
       "in-memory",
       "jdbc-pooling",
       "key-value",
