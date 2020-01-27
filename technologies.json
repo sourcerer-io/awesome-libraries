@@ -1033,6 +1033,7 @@
       "sessions-caching",
       "templates",
       "websocket",
+      "web-scraping",
       "wsgi"
     ]
   },
