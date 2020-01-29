@@ -204,5 +204,6 @@
   {"id":"py.python-dateutil","imports":["dateutil"],"name":"dateutil","repo":"dateutil/dateutil","tags":["date-time"],"tech":["utils"],"status":"model-ready"},
   {"id":"py.python-slugify","imports":["slugify"],"name":"Slugify","repo":"un33k/python-slugify","tags":["unicode-slugs"],"tech":["utils"],"status":"model-ready"},
   {"id":"py.supervisor","imports":["xmlrpclib"],"name":"supervisor","repo":"Supervisor/supervisor","tags":["process-control"],"tech":["utils"],"status":"awaiting-model"},
-  {"id":"py.selenium","imports":["selenium"],"name":"Selenium","repo":"SeleniumHQ/selenium","tags":["web-scraping", "web-automation"],"tech":["python-web"],"status":"awaiting-model"}
+  {"id":"py.selenium","imports":["selenium"],"name":"Selenium","repo":"SeleniumHQ/selenium","tags":["web-scraping", "web-automation"],"tech":["python-web"],"status":"awaiting-model", "examples":["https://github.com/chiedo/python-selenium-starter/"]},
+  {"id":"py.beautifulsoup","imports":["bs4", "BeautifulSoup"],"name":"BeautifulSoup","repo":"https://code.launchpad.net/beautifulsoup","tags":["web-scraping", "web-automation"],"tech":["python-web"],"status":"awaiting-model", "examples":["https://github.com/raazgupta/Beautiful-Soup-Example/blob/master/google-news-query.py", "https://github.com/datasciencedojo/tutorials/blob/master/Web%20Scraping%20with%20Python%20and%20BeautifulSoup/Web%20Scraping%20with%20Python%20and%20Beautiful%20Soup.py"]}
 ]
