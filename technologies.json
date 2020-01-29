@@ -1032,8 +1032,9 @@
       "serverless",
       "sessions-caching",
       "templates",
-      "websocket",
+      "web-automation",
       "web-scraping",
+      "websocket",
       "wsgi"
     ]
   },
