@@ -1,0 +1,60 @@
+// Copyright 2018 Sourcerer Inc.
+// Author: Alexander Surkov (alex@sourcerer.io)
+
+(function() {
+  'use strict';
+
+// According to https://githut.info/ (Jan 2020).
+window.topLangs = [
+  'JavaScript',
+  'Java',
+  'Python',
+  'CSS',
+  'PHP',
+  'Ruby',
+  'C++',
+  'C',
+  'Shell',
+  'C#',
+  'Objective-C',
+  'R',
+  'VimL',
+  'Go',
+  'Perl',
+  'CoffeeScript',
+  'TeX',
+  'Swift',
+  'Scala',
+  'Emacs Lisp',
+  'Haskell',
+  'Lua',
+  'Clojure',
+  'Matlab',
+  'Arduino',
+  'Groovy',
+  'Puppet',
+  'Rust',
+  'PowerShell',
+  'Erlang',
+  'Visual Basic',
+  'Processing',
+  'Assembly',
+  'TypeScript',
+  'XSLT',
+  'ActionScript',
+  'ASP',
+  'OCaml',
+  'D',
+  'Scheme',
+  'Dart',
+  'Common Lisp',
+  'Julia',
+  'F#',
+  'Elixir',
+  'FORTRAN',
+  'Haxe',
+  'Racket',
+  'Logos',
+];
+
+}());
