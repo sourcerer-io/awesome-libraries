@@ -13,8 +13,6 @@ window.onload = () => {
       map(v => ([ v, 0 ]))
   );
 
-  console.log(window.libStats);
-
   // Sort langs to match top langs order.
   let stats = window.libStats.
     sort((a, b) => {
@@ -28,8 +26,6 @@ window.onload = () => {
       }
       return a_i - b_i;
     });
-
-  console.log(stats);
 
   let labels = stats.map(v => v[0]);
   let values = stats.map(v => v[1]);
