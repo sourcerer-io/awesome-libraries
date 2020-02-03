@@ -36,7 +36,6 @@ window.onload = () => {
     x: labels,
     y: values,
     type: 'bar',
-    name: 'Langs ordered by popularity',
   }];
   let layout = {
     title: 'Sourcerer libraries coverage<br>Languages are ordered by popularity',
