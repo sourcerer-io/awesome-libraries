@@ -4,7 +4,7 @@ Hi there! We welcome contributions to Libraries to improve Sourcerer and help it
 
 ## Adding a library
 
-We try only to add libraries once they have some usage. We prefer libraries to be in use in hundreds of repositories before supporting them in Sourcerer. You can also refer to [coverage chart](tools/coverage/index.html) to see what languages need more support.
+We try only to add libraries once they have some usage. We prefer libraries to be in use in hundreds of repositories before supporting them in Sourcerer. You can also refer to [coverage chart](https://raw.githack.com/sourcerer-io/awesome-libraries/master/tools/coverage/index.html) to see what languages need more support.
 
 To add support for a new library:
 
