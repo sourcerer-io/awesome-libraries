@@ -36,11 +36,17 @@ window.onload = () => {
     x: labels,
     y: values,
     type: 'bar',
+    orientation: 'v',
   }];
   let layout = {
     title: 'Sourcerer libraries coverage<br>Languages are ordered by popularity',
+    autosize: true,
   };
-  Plotly.newPlot('chart', data, layout);
+  let config = {
+    responsive: true,
+    fillFrame: true,
+  };
+  Plotly.newPlot('chart', data, layout, config);
 
 }
 
