@@ -33,7 +33,7 @@ window.libStats = [
   ],
   [
     "JavaScript",
-    107
+    108
   ],
   [
     "Kotlin",
@@ -57,7 +57,7 @@ window.libStats = [
   ],
   [
     "Python",
-    205
+    207
   ],
   [
     "Ruby",
@@ -73,7 +73,7 @@ window.libStats = [
   ],
   [
     "Swift",
-    38
+    39
   ]
 ];
 
