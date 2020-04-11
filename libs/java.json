@@ -68,7 +68,7 @@
   {"id":"java.jsonld-java","imports":["com.github.jsonldjava."],"name":"JSONLD-Java","repo":"jsonld-java/jsonld-java","tags":["formats"],"tech":["app-data"],"status":"model-ready"},
   {"id":"java.logan-square","imports":["com.bluelinelabs.logansquare."],"name":"LoganSquare","repo":"bluelinelabs/LoganSquare","tags":["json-parser"],"tech":["app-data"],"status":"model-ready"},
   {"id":"java.map-struct","imports":["org.mapstruct."],"name":"MapStruct","repo":"mapstruct/mapstruct","tags":["mapping"],"tech":["app-data"],"status":"model-ready"},
-  {"id":"java.model-mapper","imports":["org.modelmapper."],"name":"ModelMapper","repo":"jhalterman/modelmapper","tags":["mapping"],"tech":["app-data"],"status":"model-ready"},
+  {"id":"java.model-mapper","imports":["org.modelmapper."],"name":"ModelMapper","repo":"modelmapper/modelmapper","tags":["mapping"],"tech":["app-data"],"status":"model-ready"},
   {"id":"java.moshi","imports":["com.squareup.moshi."],"name":"Moshi","repo":"square/moshi","tags":["json"],"tech":["app-data"],"status":"model-ready"},
   {"id":"java.orika","imports":["ma.glasnost.orika."],"name":"Orika","repo":"orika-mapper/orika","tags":["mapping"],"tech":["app-data"],"status":"model-ready"},
   {"id":"java.protonpack","imports":["com.codepoetics.protonpack."],"name":"protonpack","repo":"poetix/protonpack","tags":["streams"],"tech":["app-data"],"status":"model-ready"},
