@@ -29,7 +29,7 @@ window.libStats = [
   ],
   [
     "Java",
-    336
+    337
   ],
   [
     "JavaScript",
@@ -45,7 +45,7 @@ window.libStats = [
   ],
   [
     "Perl",
-    56
+    57
   ],
   [
     "PHP",
