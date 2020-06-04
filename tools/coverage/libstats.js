@@ -69,7 +69,7 @@ window.libStats = [
   ],
   [
     "Scala",
-    15
+    16
   ],
   [
     "Swift",
