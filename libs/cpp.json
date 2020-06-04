@@ -168,7 +168,7 @@
   {"id":"cpp.cpp-torch","name":"cpp-torch","tech":["dl"],"tags":["torch-wrapper"],"repo":"tuotuoxp/cpp-torch","imports":["cpptorch.h"],"examples":["https://github.com/tuotuoxp/cpp-torch/tree/master/example"],"status":"model-ready"},
   {"id":"cpp.frugally-deep","name":"frugally-deep","tech":["dl"],"tags":["keras-models"],"repo":"Dobiasd/frugally-deep","imports":["fdeep/fdeep.hpp"],"examples":["https://github.com/Dobiasd/frugally-deep/tree/master/test"],"status":"model-ready"},
   {"id":"cpp.minerva","name":"Minerva","tech":["dl"],"tags":["multi-gpu"],"repo":"dmlc/minerva","imports":["minerva.h"],"examples":["https://github.com/dmlc/minerva/tree/master/apps"],"status":"model-ready"},
-  {"id":"cpp.mxnet","imports":["mxnet"],"name":"MXNet","repo":"apache/incubator-mxnet","tags":["framework"],"tech":["dl"],"status":"awaiting-model"},
+  {"id":"cpp.mxnet","imports":["mxnet"],"name":"mxnet","repo":"apache/incubator-mxnet","tags":["framework"],"tech":["dl"],"status":"awaiting-model"},
   {"id":"cpp.rnnlib","name":"RNNLIB","tech":["dl"],"tags":["rnn"],"repo":"szcom/rnnlib","imports":["rnnlib/src/"],"examples":["https://github.com/szcom/rnnlib/blob/master/src/Main.cpp","https://github.com/szcom/rnnlib/tree/master/examples"],"status":"model-ready"},
   {"id":"cpp.tensorflow","imports":["tensorflow"],"name":"TensorFlow","repo":"tensorflow/tensorflow","tags":["framework"],"tech":["dl"],"status":"model-ready"},
   {"id":"cpp.tiny-dnn","name":"tiny-dnn","tech":["dl"],"tags":["framework"],"repo":"tiny-dnn/tiny-dnn","imports":["tiny_dnn/tiny_dnn.h"],"examples":["https://github.com/tiny-dnn/tiny-dnn/tree/master/examples"],"status":"model-ready"},
