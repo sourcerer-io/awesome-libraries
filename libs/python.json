@@ -205,5 +205,6 @@
   {"id":"py.psutil","imports":["psutil"],"name":"psutil","repo":"giampaolo/psutil","tags":["system"],"tech":["utils"],"status":"model-ready"},
   {"id":"py.python-dateutil","imports":["dateutil"],"name":"dateutil","repo":"dateutil/dateutil","tags":["date-time"],"tech":["utils"],"status":"model-ready"},
   {"id":"py.python-slugify","imports":["slugify"],"name":"Slugify","repo":"un33k/python-slugify","tags":["unicode-slugs"],"tech":["utils"],"status":"model-ready"},
-  {"id":"py.supervisor","imports":["xmlrpclib"],"name":"supervisor","repo":"Supervisor/supervisor","tags":["process-control"],"tech":["utils"],"status":"awaiting-model"}
+  {"id":"py.supervisor","imports":["xmlrpclib"],"name":"supervisor","repo":"Supervisor/supervisor","tags":["process-control"],"tech":["utils"],"status":"awaiting-model"},
+  {"id":"py.RPi-GPIO", "imports":["RPi.GPIO"],"name":"RPi.GPIO","repo":"","tags":["automation"],"tech":["iot"],"examples":["https://github.com/nosix/raspberry-gpio-emulator"],"status":"awaiting-model"}
 ]
