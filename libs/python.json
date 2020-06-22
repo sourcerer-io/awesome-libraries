@@ -118,6 +118,8 @@
   {"id":"py.scrapy","imports":["scrapy"],"name":"scrapy","repo":"scrapy/scrapy","tags":["web-crawler"],"tech":["internet"],"status":"model-ready"},
   {"id":"py.urllib3","imports":["urllib3"],"name":"urllib3","repo":"urllib3/urllib3","tags":["http-client"],"tech":["internet"],"status":"model-ready"},
   {"id":"py.six","imports":["six"],"name":"Six","repo":"benjaminp/six","tags":["python2-python3"],"tech":["interoperability"],"status":"model-ready"},
+  {"id":"py.RPi-GPIO","imports":["RPi.GPIO"],"name":"RPi.GPIO","repo":"","tags":["automation"],"tech":["iot"],"examples":["https://github.com/nosix/raspberry-gpio-emulator"],"status":"awaiting-model"},
+  {"id":"py.gpiozero","imports":["gpiozero"],"name":"gpiozero","repo":"gpiozero/gpiozero","tags":["automation"],"tech":["iot"],"status":"awaiting-model"},
   {"id":"py.homeassistant","imports":["homeassistant"],"name":"homeassistant","repo":"home-assistant/home-assistant","tags":["automation"],"tech":["iot"],"status":"model-ready"},
   {"id":"py.m3u8","imports":["m3u8"],"name":"m3u8","repo":"globocom/m3u8","tags":["m3u8-files"],"tech":["media"],"status":"model-ready"},
   {"id":"py.decorator","imports":["decorator"],"name":"decorator","repo":"micheles/decorator","tags":["decorators"],"tech":["metaprogramming"],"status":"awaiting-model"},
@@ -205,6 +207,5 @@
   {"id":"py.psutil","imports":["psutil"],"name":"psutil","repo":"giampaolo/psutil","tags":["system"],"tech":["utils"],"status":"model-ready"},
   {"id":"py.python-dateutil","imports":["dateutil"],"name":"dateutil","repo":"dateutil/dateutil","tags":["date-time"],"tech":["utils"],"status":"model-ready"},
   {"id":"py.python-slugify","imports":["slugify"],"name":"Slugify","repo":"un33k/python-slugify","tags":["unicode-slugs"],"tech":["utils"],"status":"model-ready"},
-  {"id":"py.supervisor","imports":["xmlrpclib"],"name":"supervisor","repo":"Supervisor/supervisor","tags":["process-control"],"tech":["utils"],"status":"awaiting-model"},
-  {"id":"py.RPi-GPIO", "imports":["RPi.GPIO"],"name":"RPi.GPIO","repo":"","tags":["automation"],"tech":["iot"],"examples":["https://github.com/nosix/raspberry-gpio-emulator"],"status":"awaiting-model"}
+  {"id":"py.supervisor","imports":["xmlrpclib"],"name":"supervisor","repo":"Supervisor/supervisor","tags":["process-control"],"tech":["utils"],"status":"awaiting-model"}
 ]

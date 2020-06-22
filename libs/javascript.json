@@ -105,6 +105,6 @@
   {"id":"js.moment","imports":["moment"],"name":"moment","repo":"moment/moment","tags":["date-time"],"tech":["utils"],"status":"model-ready"},
   {"id":"js.node-datetime","imports":["node-datime"],"name":"node-datetime","repo":"voltrue2/node-datetime","tags":["date-time"],"tech":["utils"],"status":"model-ready"},
   {"id":"js.q","imports":["q"],"name":"q","repo":"kriskowal/q","tags":["promises"],"tech":["utils"],"status":"model-ready"},
-  {"id":"js.underscore","imports":["underscore"],"name":"underscore","repo":"jashkenas/underscore","tags":["toolkit"],"tech":["utils"],"status":"model-ready"},
-  {"id":"js.ramda","imports":["ramda"],"name":"ramda","repo":"ramda/ramda","tags":["toolkit"],"tech":["utils","functional"],"status":"awaiting-model"}
+  {"id":"js.ramda","imports":["ramda"],"name":"ramda","repo":"ramda/ramda","tags":["toolkit"],"tech":["utils","functional"],"status":"awaiting-model"},
+  {"id":"js.underscore","imports":["underscore"],"name":"underscore","repo":"jashkenas/underscore","tags":["toolkit"],"tech":["utils"],"status":"model-ready"}
 ]
