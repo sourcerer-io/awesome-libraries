@@ -468,5 +468,7 @@
   {"id":"cpp.strtk","name":"strtk","tech":["utils"],"tags":["strings"],"repo":"ArashPartow/strtk","imports":["strtk.hpp"],"examples":["https://github.com/ArashPartow/strtk"],"status":"model-ready"},
   {"id":"cpp.tclap","name":"TCLAP","tech":["utils"],"tags":["argument-parsing"],"repo":"http://tclap.sourceforge.net/","imports":["tclap/CmdLine.h"],"examples":["https://github.com/eile/tclap/tree/master/examples"],"status":"model-ready"},
   {"id":"cpp.rabbit-vm","name":"Rabbit VM","tech":["vm"],"tags":["risc"],"repo":"rabbitvm/rabbit","imports":["rabbit_"],"examples":["https://github.com/RabbitVM/rabbit/blob/master/rabbit.c"],"status":"awaiting-model"},
-  {"id":"cpp.tinyvm","name":"TinyVM","tech":["vm"],"tags":["low-memory"],"repo":"jakogut/tinyvm","imports":["tvm.h"],"examples":["https://github.com/jakogut/tinyvm/tree/master/tdb"],"status":"model-ready"}
+  {"id":"cpp.tinyvm","name":"TinyVM","tech":["vm"],"tags":["low-memory"],"repo":"jakogut/tinyvm","imports":["tvm.h"],"examples":["https://github.com/jakogut/tinyvm/tree/master/tdb"],"status":"model-ready"},
+  {"id":"cpp.gtsam","name":"GTSAM","tech":["robotics"],"tags":["optimization"],"repo":"borglab/gtsam","imports":["gtsam/"],"examples":["https://github.com/borglab/gtsam/tree/develop/examples"],"status":"awaiting-model"},
+  {"id":"cpp.sesync","name":"SE-Sync","tech":["computational-science"],"tags":["optimization"],"repo":"david-m-rosen/SE-Sync","imports":["SESync/"],"examples":["https://github.com/david-m-rosen/SE-Sync/tree/master/C%2B%2B/examples"],"status":"awaiting-model"}
 ]
