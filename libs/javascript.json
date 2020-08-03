@@ -40,6 +40,7 @@
   {"id":"js.fetch","imports":["fetch "],"name":"fetch","repo":"github/fetch","tags":["web-requests"],"tech":["javascript-web"],"status":"model-ready"},
   {"id":"js.flux","imports":["flux"],"name":"flux","repo":"facebook/flux","tags":["ui-framework"],"tech":["javascript-web"],"status":"model-ready"},
   {"id":"js.fullpage","imports":["fullpage"],"name":"fullpage","repo":"alvarotrigo/fullPage.js","tags":["ui"],"tech":["javascript-web"],"status":"model-ready"},
+  {"id":"js.gridsome","imports":["gridsome"],"name":"gridsome","repo":"gridsome/gridsome","tags":["jamstack","vue-framework"],"tech":["javascript-web"],"status":"awaiting-model"},
   {"id":"js.handlebars","imports":["handlebars"],"name":"handlebars","repo":"wycats/handlebars.js","tags":["templates"],"tech":["javascript-web"],"status":"model-ready"},
   {"id":"js.html5shiv","imports":["html5shiv"],"name":"html5shiv","repo":"aFarkas/html5shiv","tags":["ie-html5"],"tech":["javascript-web"],"status":"model-ready"},
   {"id":"js.http-proxy","imports":["http-proxy"],"name":"http-proxy","repo":"nodejitsu/node-http-proxy","tags":["nodejs-proxy"],"tech":["javascript-web"],"status":"model-ready"},
