@@ -57,6 +57,7 @@
   {"id":"js.modernizr","imports":["modernizr"],"name":"modernizr","repo":"Modernizr/Modernizr","tags":["html5-css3"],"tech":["javascript-web"],"status":"model-ready"},
   {"id":"js.mustache","imports":["mustache"],"name":"mustache","repo":"janl/mustache.js","tags":["templates"],"tech":["javascript-web"],"status":"model-ready"},
   {"id":"js.ng-file-upload","imports":["ng-file-upload"],"name":"ng-file-upload","repo":"danialfarid/ng-file-upload","tags":["angular-widget"],"tech":["javascript-web"],"status":"model-ready"},
+  {"id":"js.nuxt-vue","imports":["nuxt","nuxt-js","nuxtjs"],"name":"NuxtJs","repo":"nuxt/nuxt.js","tags":["vue-framework","ui-framework"],"tech":["javascript-web"],"status":"awaiting-model"},
   {"id":"js.p5","imports":["p5"],"name":"p5.js","repo":"processing/p5.js","tags":["visualization"],"tech":["javascript-web"],"status":"model-ready"},
   {"id":"js.passport","imports":["passport"],"name":"passport","repo":"jaredhanson/passport","tags":["nodejs-auth"],"tech":["javascript-web"],"status":"model-ready"},
   {"id":"js.pjax","imports":["pjax"],"name":"pjax","repo":"defunkt/jquery-pjax","tags":["jquery-ajax"],"tech":["javascript-web"],"status":"model-ready"},

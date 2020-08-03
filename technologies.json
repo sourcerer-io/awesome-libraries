@@ -881,6 +881,7 @@
       "ui-library",
       "ui-widget",
       "visualization",
+      "vue-framework",
       "web-requests"
     ]
   },
