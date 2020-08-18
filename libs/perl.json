@@ -15,6 +15,7 @@
   {"id":"perl.test-version","imports":["Test::Version"],"name":"Test-Version","repo":"plicease/test-version","tags":["check-versions"],"tech":["configuration"],"status":"awaiting-model"},
   {"id":"perl.chart-clicker","imports":["Chart::Clicker"],"name":"Chart-Clicker","repo":"gphat/chart-clicker","tags":["charting"],"tech":["data-science"],"status":"awaiting-model"},
   {"id":"perl.list-moreutils","imports":["List::MoreUtils"],"name":"List-MoreUtils","repo":"perl5-utils/List-MoreUtils","tags":["list"],"tech":["data-structures"],"status":"model-ready"},
+  {"id":"perl.mxnet","imports":["AI::MXNet"],"name":"mxnet","repo":"apache/incubator-mxnet","tags":["framework"],"tech":["dl"],"status":"awaiting-model"},
   {"id":"perl.io-all","imports":["IO::All"],"name":"IO::All","repo":"ingydotnet/io-all-pm","tags":["io"],"tech":["efficient-data"],"status":"awaiting-model"},
   {"id":"perl.URI","imports":["URI"],"name":"URI","repo":"libwww-perl/URI","tags":["urls"],"tech":["internet"],"status":"model-ready"},
   {"id":"perl.cgi","imports":["CGI"],"name":"CGI","repo":"leejo/CGI.pm","tags":["cgi"],"tech":["internet"],"status":"model-ready"},

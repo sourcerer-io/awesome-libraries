@@ -3,6 +3,7 @@
   {"id":"scala.akka-streams","imports":["akka.stream."],"name":"Akka Streams","repo":"akka/akka/tree/master/akka-stream","tags":["stream-processing"],"tech":["app-arch"],"status":"model-ready"},
   {"id":"scala.circe","imports":["io.circe."],"name":"Circe","repo":"circe/circe","tags":["json","json-transformation"],"tech":["app-data"],"status":"model-ready"},
   {"id":"scala.json4s","imports":["org.json4s."],"name":"json4s","repo":"json4s/json4s","tags":["json-parser"],"tech":["app-data"],"status":"model-ready"},
+  {"id":"scala.mxnet","imports":["org.apache.mxnet"],"name":"mxnet","repo":"apache/incubator-mxnet","tags":["framework"],"tech":["dl"],"status":"awaiting-model"},
   {"id":"scala.cats","imports":["cats."],"name":"Cats","repo":"typelevel/cats","tags":["monads"],"tech":["functional"],"status":"model-ready"},
   {"id":"scala.akka-http","imports":["akka.http."],"name":"Akka HTTP","repo":"akka/akka-http","tags":["framework"],"tech":["scala-web"],"status":"model-ready"},
   {"id":"scala.play","imports":["play."],"name":"Play Framework","repo":"playframework/playframework","tags":["framework"],"tech":["scala-web"],"status":"model-ready"},
