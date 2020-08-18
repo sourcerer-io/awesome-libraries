@@ -5,7 +5,7 @@
 window.libStats = [
   [
     "C++",
-    470
+    469
   ],
   [
     "Crystal",
@@ -29,11 +29,11 @@ window.libStats = [
   ],
   [
     "Java",
-    337
+    336
   ],
   [
     "JavaScript",
-    108
+    107
   ],
   [
     "Kotlin",
@@ -45,7 +45,7 @@ window.libStats = [
   ],
   [
     "Perl",
-    57
+    56
   ],
   [
     "PHP",
@@ -57,7 +57,7 @@ window.libStats = [
   ],
   [
     "Python",
-    209
+    205
   ],
   [
     "Ruby",
@@ -69,7 +69,7 @@ window.libStats = [
   ],
   [
     "Scala",
-    16
+    15
   ],
   [
     "Swift",
