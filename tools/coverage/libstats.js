@@ -33,7 +33,7 @@ window.libStats = [
   ],
   [
     "JavaScript",
-    108
+    109
   ],
   [
     "Kotlin",

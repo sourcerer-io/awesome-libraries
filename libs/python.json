@@ -151,7 +151,7 @@
   {"id":"py.django-oauth-toolkit","imports":["oauth2_provider"],"name":"Django OAuth Toolkit","repo":"jazzband/django-oauth-toolkit","tags":["oauth"],"tech":["python-web"],"status":"model-ready"},
   {"id":"py.dogpile","imports":["dogpile"],"name":"Dogpile","repo":"https://bitbucket.org/zzzeek/dogpile.cache/","tags":["caching"],"tech":["python-web"],"status":"awaiting-model"},
   {"id":"py.flasgger","imports":["flasgger"],"name":"flasgger","repo":"rochacbruno/flasgger","tags":["flask-openapi"],"tech":["python-web"],"status":"model-ready"},
-  {"id":"py.flask","imports":["flask", "Flask"],"name":"flask","repo":"pallets/flask","tags":["micro-framework"],"tech":["python-web"],"status":"model-ready"},
+  {"id":"py.flask","imports":["flask","Flask"],"name":"flask","repo":"pallets/flask","tags":["micro-framework"],"tech":["python-web"],"status":"model-ready"},
   {"id":"py.flask-oauthlib","imports":["flask_oauthlib"],"name":"Flask-OAuthlib","repo":"lepture/flask-oauthlib","tags":["oauth"],"tech":["python-web"],"status":"model-ready"},
   {"id":"py.flask-restful","imports":["flask_restful"],"name":"Flask-RESTful","repo":"flask-restful/flask-restful","tags":["RESTful"],"tech":["python-web"],"status":"model-ready"},
   {"id":"py.hermes-cache","imports":["hermes"],"name":"HermesCache","repo":"https://bitbucket.org/saaj/hermes","tags":["caching"],"tech":["python-web"],"status":"awaiting-model"},

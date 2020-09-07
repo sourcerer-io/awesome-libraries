@@ -20,6 +20,7 @@
   {"id":"js.purify","imports":["purify"],"name":"purify","repo":"purifycss/purifycss","tags":["unused-css"],"tech":["eng-tools"],"status":"model-ready"},
   {"id":"js.immutable","imports":["immutable"],"name":"immutable","repo":"facebook/immutable-js","tags":["immutable-data"],"tech":["faster-code"],"status":"model-ready"},
   {"id":"js.maxmind","imports":["maxmind"],"name":"maxmind","repo":"runk/node-maxmind","tags":["geolocation"],"tech":["geo-maps"],"status":"awaiting-model"},
+  {"id":"js.phaser","imports":["phaser"],"name":"phaser","repo":"photonstorm/phaser","tags":["game-framework"],"tech":["graphics-gaming"],"examples":"photonstorm/phaser3-examples","status":"awaiting-model"},
   {"id":"js.three","imports":["three"],"name":"three","repo":"mrdoob/three.js","tags":["3d-library"],"tech":["graphics-gaming"],"status":"model-ready"},
   {"id":"js.smartcrop","imports":["smartcrop"],"name":"smartcrop","repo":"jwagner/smartcrop.js","tags":["cropping"],"tech":["images"],"status":"model-ready"},
   {"id":"js.axios","imports":["axios"],"name":"axios","repo":"mzabriskie/axios","tags":["http-client"],"tech":["internet"],"status":"model-ready"},
