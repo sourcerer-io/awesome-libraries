@@ -370,6 +370,7 @@
       "geometry",
       "graph-visualization",
       "graphs",
+      "graphs, graph-visualization",
       "integers",
       "linear-algebra",
       "math",
