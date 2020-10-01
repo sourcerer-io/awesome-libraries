@@ -65,5 +65,6 @@
   {"id":"kt.mock-k","imports":["io.mockk"],"name":"MockK","repo":"oleksiyp/mockk","tags":["mocking"],"tech":["testing"],"status":"model-ready"},
   {"id":"kt.mockito-kotlin","imports":["com.nhaarman.mockito_kotlin"],"name":"Mockito-Kotlin","repo":"nhaarman/mockito-kotlin","tags":["unit-testing"],"tech":["testing"],"status":"model-ready"},
   {"id":"kt.spek","imports":["org.spekframework.spek2"],"name":"Spek","repo":"jetbrains/spek","tags":["specification-framework"],"tech":["testing"],"status":"model-ready"},
-  {"id":"kt.klock","imports":["com.soywiz.klock"],"name":"klock","repo":"korlibs/klock","tags":["date-time"],"tech":["utils"],"status":"model-ready"}
+  {"id":"kt.klock","imports":["com.soywiz.klock"],"name":"klock","repo":"korlibs/klock","tags":["date-time"],"tech":["utils"],"status":"model-ready"},
+  {"id":"kt.kotlinx-datetime","imports":["kotlinx.datetime"],"name":"kotlinx-datetime","repo":"Kotlin/kotlinx-datetime","tags":["date-time"],"tech":["utils"],"status":"awaiting-model"}
 ]
