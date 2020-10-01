@@ -33,7 +33,7 @@
   {"id":"swift.vpnon-kit","imports":["VPNOnKit"],"name":"VPNOnKit","repo":"lexrus/VPNOn","tags":["vpn"],"tech":["networking"],"status":"model-ready"},
   {"id":"swift.heimdallr","imports":["heimdallr"],"name":"heimdallr","repo":"trivago/Heimdallr.swift","tags":["oauth-client"],"tech":["security"],"status":"model-ready"},
   {"id":"swift.oauth2","imports":["oauth2"],"name":"oauth2","repo":"p2/OAuth2","tags":["oauth-client"],"tech":["security"],"status":"model-ready"},
-  {"id":"swift.secure-property-storage","imports":["Storage","Inject","Keychain","Singleton","UserDefault"],"name":"SecurePropertyStorage","repo":"alexruperez/SecurePropertyStorage","tags":["properties","cryptography","store-passwords"],"tech":["security"],"status":"model-ready"},
+  {"id":"swift.secure-property-storage","imports":["Storage","Inject","Keychain","Singleton","UserDefault"],"name":"SecurePropertyStorage","repo":"alexruperez/SecurePropertyStorage","tags":["properties","cryptography","store-passwords"],"tech":["security"],"status":"awaiting-model"},
   {"id":"swift.swift-gen-kit","imports":["SwiftGenKit"],"name":"SwiftGenKit","repo":"SwiftGen/SwiftGen","tags":["templates"],"tech":["swift-web"],"status":"model-ready"},
   {"id":"swift.vapor","imports":["Vapor"],"name":"Vapor","repo":"vapor/vapor","tags":["framework"],"tech":["swift-web"],"status":"model-ready"},
   {"id":"swift.quick","imports":["Quick"],"name":"Quick","repo":"Quick/Quick","tags":["framework"],"tech":["testing"],"status":"model-ready"},
