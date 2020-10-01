@@ -73,7 +73,7 @@ window.libStats = [
   ],
   [
     "Swift",
-    38
+    39
   ]
 ];
 

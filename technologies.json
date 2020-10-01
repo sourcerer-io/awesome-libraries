@@ -1089,6 +1089,7 @@
       "cryptography",
       "oauth-client",
       "password-strength",
+      "properties",
       "secrets-management",
       "self-protection",
       "ssl",
