@@ -180,6 +180,7 @@
   },
   "app-data": {
     "tags": [
+      "api-partial-response",
       "collection-queries",
       "copying",
       "core-data",

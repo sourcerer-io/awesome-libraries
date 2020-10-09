@@ -71,6 +71,7 @@
   {"id":"java.model-mapper","imports":["org.modelmapper."],"name":"ModelMapper","repo":"modelmapper/modelmapper","tags":["mapping"],"tech":["app-data"],"status":"model-ready"},
   {"id":"java.moshi","imports":["com.squareup.moshi."],"name":"Moshi","repo":"square/moshi","tags":["json"],"tech":["app-data"],"status":"model-ready"},
   {"id":"java.orika","imports":["ma.glasnost.orika."],"name":"Orika","repo":"orika-mapper/orika","tags":["mapping"],"tech":["app-data"],"status":"model-ready"},
+  {"id":"java.partialize","imports":["com.zero_x_baadf00d.partialize."],"name":"Partialize","repo":"thibaultmeyer/partialize","tags":["api-partial-response"],"tech":["app-data"],"status":"awaiting-model"},
   {"id":"java.protonpack","imports":["com.codepoetics.protonpack."],"name":"protonpack","repo":"poetix/protonpack","tags":["streams"],"tech":["app-data"],"status":"model-ready"},
   {"id":"java.selma","imports":["fr.xebia.extras.selma."],"name":"Selma","repo":"xebia-france/selma","tags":["mapping"],"tech":["app-data"],"status":"model-ready"},
   {"id":"java.simple-flat-mapper","imports":["org.simpleflatmapper."],"name":"Simple Flat Mapper","repo":"arnaudroger/SimpleFlatMapper","tags":["transformations"],"tech":["app-data"],"status":"model-ready"},
