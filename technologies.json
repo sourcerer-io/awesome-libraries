@@ -493,6 +493,7 @@
   "dl": {
     "tags": [
       "alpha-go",
+      "callbacks",
       "complex-nn",
       "framework",
       "high-level-api",
