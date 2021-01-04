@@ -93,6 +93,7 @@
   {"id":"py.isort","imports":["isort"],"name":"Isort","repo":"timothycrosley/isort","tags":["sort-imports"],"tech":["eng-tools"],"status":"model-ready"},
   {"id":"py.localstack","imports":["localstack"],"name":"localstack","repo":"localstack/localstack","tags":["aws-mocking"],"tech":["eng-tools"],"status":"model-ready"},
   {"id":"py.moto","imports":["moto"],"name":"Moto","repo":"spulec/moto","tags":["aws-mocking"],"tech":["eng-tools"],"status":"model-ready"},
+  {"id":"py.pyforest","imports":["pyforest"],"name":"pyforest","repo":"8080labs/pyforest","tags":["utils"],"tech":["eng-tools"],"status":"awaiting-model"},
   {"id":"py.yapf","imports":["yapf"],"name":"yapf","repo":"google/yapf","tags":["python-formatting"],"tech":["eng-tools"],"status":"model-ready"},
   {"id":"py.futures","imports":["concurrent.futures"],"name":"futures","repo":"agronholm/pythonfutures","tags":["async-programming"],"tech":["faster-code"],"status":"awaiting-model"},
   {"id":"py.gevent","imports":["gevent"],"name":"gevent","repo":"gevent/gevent","tags":["concurrency"],"tech":["faster-code"],"status":"model-ready"},
