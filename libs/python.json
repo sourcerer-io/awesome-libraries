@@ -68,6 +68,7 @@
   {"id":"py.ipython","imports":["IPython"],"name":"IPython","repo":"ipython/ipython","tags":["interactive-shell"],"tech":["data-science"],"status":"awaiting-model"},
   {"id":"py.matplotlib","imports":["matplotlib"],"name":"matplotlib","repo":"matplotlib/matplotlib","tags":["visualization"],"tech":["data-science"],"status":"model-ready"},
   {"id":"py.pandas","imports":["pandas"],"name":"pandas","repo":"pandas-dev/pandas","tags":["data-analysis"],"tech":["data-science"],"status":"model-ready"},
+  {"id":"py.plotly","imports":["plotly"],"name":"plotly","repo":"plotly/plotly.py","tags":["visualization"],"tech":["data-science"],"status":"awaiting-model"},
   {"id":"py.bidict","imports":["bidict"],"name":"bidict","repo":"jab/bidict","tags":["bidirectional-maps"],"tech":["data-structures"],"status":"model-ready"},
   {"id":"py.box","imports":["box"],"name":"Box","repo":"cdgriffith/Box","tags":["dictionaries"],"tech":["data-structures"],"status":"model-ready"},
   {"id":"py.cachetools","imports":["cachetools"],"name":"cachetools","repo":"tkem/cachetools","tags":["collections"],"tech":["data-structures"],"status":"awaiting-model"},
