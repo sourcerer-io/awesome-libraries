@@ -28,6 +28,7 @@
   {"id":"py.dejavu","imports":["dejavu"],"name":"dejavu","repo":"worldveil/dejavu","tags":["audio-recognition"],"tech":["audio"],"status":"model-ready"},
   {"id":"py.eyed3","imports":["eyed3"],"name":"eyeD3","repo":"nicfit/eyeD3","tags":["id3-tags"],"tech":["audio"],"status":"model-ready"},
   {"id":"py.id3reader","imports":["id3reader"],"name":"id3reader","repo":"teragonaudio/id3reader","tags":["id3-tags"],"tech":["audio"],"status":"insufficient-data"},
+  {"id":"py.librosa","imports":["librosa"],"name":"librosa","repo":"librosa/librosa","tags":["audio-synthesis"],"tech":["audio"],"status":"awaiting-model"},
   {"id":"py.mingus","imports":["mingus"],"name":"mingus","repo":"bspaans/python-mingus","tags":["music-toolkit"],"tech":["audio"],"status":"model-ready"},
   {"id":"py.mutagen","imports":["mutagen"],"name":"mutagen","repo":"quodlibet/mutagen","tags":["metadata"],"tech":["audio"],"status":"model-ready"},
   {"id":"py.pydub","imports":["pydub"],"name":"Pydub","repo":"jiaaro/pydub","tags":["toolkit"],"tech":["audio"],"status":"model-ready"},
